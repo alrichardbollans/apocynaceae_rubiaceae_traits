@@ -3,8 +3,6 @@ import os
 import pandas as pd
 from automatchnames import get_accepted_info_from_names_in_column
 from pkg_resources import resource_filename
-from taxa_lists import get_all_taxa
-from typing import List
 
 _inputs_path = resource_filename(__name__, 'inputs')
 
