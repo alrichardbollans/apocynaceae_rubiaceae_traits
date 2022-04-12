@@ -6,6 +6,8 @@
 #*.png
 *.secrets
 *collaborators.txt
+/manually_collected_data/*
+/parse_main_trait_table/*
 
 ### Pycharm
 .idea/
@@ -159,10 +161,7 @@ docs/
 # translation temp files
 po/*~
 
-/poison_vars/outputs/*
-/poison_vars/inputs/*
-/climate_vars/inputs/*
+
 # Large files (added with "find * -size +100M | cat >> .gitignore")
-taxa_lists/outputs/wcvp_all_taxa.csv
-taxa_lists/inputs/wcvp_v7_dec_2021.txt
-name_matching_cleaning/matching data/manual_match.csv
+/climate_vars/inputs/*
+
