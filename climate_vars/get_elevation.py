@@ -1,17 +1,13 @@
 import os
-
 import numpy as np
 import pandas as pd
-
 from tqdm import tqdm
 
-from climate_vars import spec_occurence_input, climate_temp_outputs_path
-
 tqdm.pandas()
-
 import requests
-from pkg_resources import resource_filename
 from pygbif import occurrences as occ
+
+from climate_vars import spec_occurence_input, climate_temp_outputs_path
 
 spec_elevations_csv = os.path.join(climate_temp_outputs_path, 'cleaned_species_occurences_w_elevation.csv')
 elevation_batch_dir = os.path.join(climate_temp_outputs_path, 'elevation_batches')
@@ -89,7 +85,7 @@ def main():
     ## Add elevation
     clean_occ_df = pd.read_csv(spec_occurence_input,
                                usecols=['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'gbifID'])
-    batch_append_elevation(clean_occ_df,start_from=44)
+    batch_append_elevation(clean_occ_df, start_from=44)
 
 
 if __name__ == '__main__':
