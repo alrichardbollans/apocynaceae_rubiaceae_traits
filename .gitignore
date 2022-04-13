@@ -7,7 +7,7 @@
 *.secrets
 *collaborators.txt
 /manually_collected_data/*
-/parse_main_trait_table/*
+/manually_collected_data/*
 
 ### Pycharm
 .idea/

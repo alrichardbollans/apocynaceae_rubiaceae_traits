@@ -10,7 +10,7 @@ setup(
     # Needed to actually package something
     packages=find_packages(include=['alkaloid_vars', 'climate_vars','common_name_vars',
                                     'manually_collected_data', 'morphological_vars',
-                                    'metabolite_vars', 'medicinal_usage_vars', 'parse_main_trait_table',
+                                    'metabolite_vars', 'medicinal_usage_vars',
                                     'wikipedia_vars']),
     # *strongly* suggested for sharing
     version='0.1',

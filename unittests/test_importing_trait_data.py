@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 from automatchnames import get_genus_from_full_name
 
-from parse_main_trait_table import clean_activities, ordinal_encode, clean_alkaloids
+from manually_collected_data import clean_activities, ordinal_encode, clean_alkaloids
 
 
 class Test(unittest.TestCase):
