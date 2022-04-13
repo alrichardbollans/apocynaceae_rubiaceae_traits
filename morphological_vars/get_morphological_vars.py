@@ -4,9 +4,9 @@ import pandas as pd
 from pkg_resources import resource_filename
 
 ### Inputs
+from manually_collected_data import manual_morph_data_output
 from morphological_vars import temp_outputs_path, try_spine_temp_output_accepted_csv, try_hair_temp_output_accepted_csv, \
-    manual_data_accepted_clean_temp_output, try_no_spine_temp_output_accepted_csv, prepare_manually_collected_data, \
-    prepare_try_data
+    try_no_spine_temp_output_accepted_csv, prepare_try_data
 from cleaning import compile_hits
 from powo_searches import search_powo, create_presence_absence_data
 
@@ -24,6 +24,7 @@ coloured_latex_output_csv = os.path.join(output_path, 'coloured_latex.csv')
 left_corollas_latex_output_csv = os.path.join(output_path, 'left_corollas.csv')
 right_corollas_latex_output_csv = os.path.join(output_path, 'right_corollas.csv')
 habits_output_csv = os.path.join(output_path, 'habits.csv')
+
 
 # TODO: Output citations of specific datasets
 
@@ -43,7 +44,7 @@ def get_powo_hairs_and_spines():
 
 def output_compiled_data():
     # Manually collected data
-    acc_manual_data = pd.read_csv(manual_data_accepted_clean_temp_output)
+    acc_manual_data = pd.read_csv(manual_morph_data_output)
     # Spines
     powo_spine_hits = pd.read_csv(spine_powo_search_temp_output_accepted_csv)
 
@@ -81,7 +82,7 @@ def output_compiled_data():
     manual_no_spines_hits = manual_no_spines_hits[~manual_no_spines_hits["Accepted_Name"].isin(taxa_with_spines)]
     try_no_spine_hits = try_no_spine_hits[~try_no_spine_hits["Accepted_Name"].isin(taxa_with_spines)]
 
-    compile_hits([powo_absence_spine_hits, manual_no_spines_hits,try_no_spine_hits], no_spines_output_csv)
+    compile_hits([powo_absence_spine_hits, manual_no_spines_hits, try_no_spine_hits], no_spines_output_csv)
 
     # Hairs
     powo_hair_hits = pd.read_csv(hairs_powo_search_temp_output_accepted_csv)
@@ -120,14 +121,14 @@ def output_compiled_data():
     habits = habits.rename(columns={'habit': 'Habit'})
     habits.to_csv(habits_output_csv)
 
+
 def main():
     if not os.path.isdir(temp_outputs_path):
         os.mkdir(temp_outputs_path)
     if not os.path.isdir(output_path):
         os.mkdir(output_path)
-    get_powo_hairs_and_spines()
-    prepare_manually_collected_data()
-    prepare_try_data()
+    # get_powo_hairs_and_spines()
+    # prepare_try_data()
     output_compiled_data()
 
 
