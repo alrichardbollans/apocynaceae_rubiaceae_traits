@@ -27,7 +27,7 @@ def get_median_df():
     print(clim_occ_df.columns)
     dfs = []
     for c in ['CHELSA_bio1_1981.2010_V.2.1', 'CHELSA_bio12_1981.2010_V.2.1',
-              'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean']:
+              'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean', 'CHELSA_kg2_1981.2010_V.2.1']:
         avg = pd.DataFrame(clim_occ_df.groupby([clim_occ_df['fullname']])[c].median())
 
         dfs.append(avg)
@@ -37,9 +37,11 @@ def get_median_df():
     merged = pd.merge(dfs[0], dfs[1], on='fullname')
     merged = pd.merge(merged, dfs[2], on='fullname')
     merged = pd.merge(merged, dfs[3], on='fullname')
+    merged = pd.merge(merged, dfs[4], on='fullname')
     merged.rename(columns={'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
                            'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
-                           'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph'}, inplace=True)
+                           'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',
+                           'CHELSA_kg2_1981.2010_V.2.1': 'koppen_geiger2'}, inplace=True)
     merged['fullname'] = merged.index
     acc_merged = get_accepted_info_from_names_in_column(merged, 'fullname',
                                                         families_of_interest=['Apocynaceae', 'Rubiaceae'])

@@ -3,3 +3,6 @@ Cleaned occurence data come from the R package TDWG from Ian Ondo.
 CHELSA (Climatoglogies 1981-2010)
 
 SOILGRIDS
+
+Peel, M.C., Finlayson, B.L., McMahon, T.A., 2007. Updated world map of the Ko¨ppen-Geiger climate classiﬁcation.
+Hydrol. Earth Syst. Sci. 12.

@@ -21,5 +21,6 @@ species_df<-append_var_to_df(species_df,'CHELSA_bio1_1981-2010_V.2.1.tif')
 species_df<-append_var_to_df(species_df,'CHELSA_bio12_1981-2010_V.2.1.tif')
 species_df<-append_var_to_df(species_df,'nitrogen_0-5cm_mean.tif')
 species_df<-append_var_to_df(species_df,'phh2o_0-5cm_mean.tif')
+species_df<-append_var_to_df(species_df,'CHELSA_kg2_1981-2010_V.2.1.tif')
 write.csv(species_df, file.path('temp_outputs','species_with_clim_vars.csv'))
 
