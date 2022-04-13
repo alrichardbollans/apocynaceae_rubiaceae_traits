@@ -1,8 +1,11 @@
 import os
 
+import numpy as np
 import pandas as pd
 from automatchnames import get_accepted_info_from_names_in_column
 from pkg_resources import resource_filename
+
+from climate_vars import recompile_batches
 
 _inputs_path = resource_filename(__name__, 'inputs')
 
@@ -23,6 +26,7 @@ def get_median_df():
     # This still has the possible issue of being biased towards where people take samples
 
     clim_occ_df = pd.read_csv(os.path.join(_temp_outputs_path, 'species_with_clim_vars.csv'))
+
     print(clim_occ_df.head())
     print(clim_occ_df.columns)
     dfs = []
@@ -38,6 +42,13 @@ def get_median_df():
     merged = pd.merge(merged, dfs[2], on='fullname')
     merged = pd.merge(merged, dfs[3], on='fullname')
     merged = pd.merge(merged, dfs[4], on='fullname')
+
+    elevation_df = recompile_batches()
+    avg_elevations = pd.DataFrame(elevation_df.groupby([clim_occ_df['fullname']])['elevation'].median())
+
+    merged['elevation'] = np.nan
+    merged.update(avg_elevations)
+
     merged.rename(columns={'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
                            'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
                            'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',

@@ -57,7 +57,7 @@ def recompile_batches() -> pd.DataFrame:
     batch_files = os.listdir(elevation_batch_dir)
     csv_files = [f for f in batch_files if f.endswith('.csv')]
     for csv_file in csv_files:
-        collect_dfs.append(pd.read_csv(csv_file,
+        collect_dfs.append(pd.read_csv(os.path.join(elevation_batch_dir,csv_file),
                                        usecols=['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'gbifID',
                                                 'elevation']))
     recompiled_df = pd.concat(collect_dfs)
@@ -86,7 +86,6 @@ def main():
     clean_occ_df = pd.read_csv(spec_occurence_input,
                                usecols=['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'gbifID'])
     batch_append_elevation(clean_occ_df, start_from=44)
-
 
 if __name__ == '__main__':
     main()
