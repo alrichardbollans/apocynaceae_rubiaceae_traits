@@ -7,6 +7,8 @@ from automatchnames import get_accepted_info_from_names_in_column
 from powo_searches import search_powo
 
 ### Inputs
+from manually_collected_data import encoded_traits_csv
+
 _inputs_path = resource_filename(__name__, 'inputs')
 _initial_MPNS_csv = os.path.join(_inputs_path, 'MPNS V11 subset Apocynaceae + Rubiaceae.csv')
 
@@ -17,6 +19,7 @@ _powo_search_medicinal_temp_output_accepted_csv = os.path.join(_temp_outputs_pat
 _cleaned_MPNS_accepted_csv = os.path.join(_temp_outputs_path, 'MPNS Data_accepted.csv')
 
 _powo_search_malarial_temp_output_accepted_csv = os.path.join(_temp_outputs_path, 'powo_malarial_accepted.csv')
+_manual_hit_antimal_temp_output = os.path.join(_temp_outputs_path, '_manual_hit_antimal_temp_output.csv')
 
 ### Outputs
 _output_path = resource_filename(__name__, 'outputs')
@@ -62,7 +65,14 @@ def get_powo_antimalarial_usage():
                 families_of_interest=['Rubiaceae', 'Apocynaceae'],
                 filters=['species', 'infraspecies']
                 )
-
+def get_manual_hits():
+    trait_table = pd.read_csv(encoded_traits_csv)
+    antimal_hits = trait_table[trait_table['History_Antimalarial'] == 1]
+    antimal_hits = antimal_hits[[
+        'History_Antimalarial', 'Accepted_Name', 'Accepted_Species', 'Accepted_Species_ID', 'Accepted_ID', 'Accepted_Rank',
+        'Family']]
+    antimal_hits['Source'] = 'Manual'
+    antimal_hits.to_csv(_manual_hit_antimal_temp_output)
 
 def main():
     if not os.path.isdir(_temp_outputs_path):
@@ -72,13 +82,19 @@ def main():
 
     get_powo_medicinal_usage()
     prepare_MPNS_common_names(families_of_interest=['Apocynaceae', 'Rubiaceae'])
+
     powo_medicinal_hits = pd.read_csv(_powo_search_medicinal_temp_output_accepted_csv)
     mpns_medicinal_hits = pd.read_csv(_cleaned_MPNS_accepted_csv)
+
+
+
     compile_hits([powo_medicinal_hits, mpns_medicinal_hits], output_medicinal_csv)
 
     get_powo_antimalarial_usage()
     powo_antimalarial_hits = pd.read_csv(_powo_search_malarial_temp_output_accepted_csv)
-    compile_hits([powo_antimalarial_hits], output_malarial_csv)
+    get_manual_hits()
+    manual_antimal_hits = pd.read_csv(_manual_hit_antimal_temp_output)
+    compile_hits([powo_antimalarial_hits,manual_antimal_hits], output_malarial_csv)
 
 
 if __name__ == '__main__':
