@@ -33,7 +33,8 @@ def get_median_df():
     for c in ['CHELSA_bio1_1981.2010_V.2.1', 'CHELSA_bio12_1981.2010_V.2.1',
               'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean', 'CHELSA_kg2_1981.2010_V.2.1']:
         avg = pd.DataFrame(clim_occ_df.groupby([clim_occ_df['fullname']])[c].median())
-
+        if c=='CHELSA_kg2_1981.2010_V.2.1':
+            avg = avg.round()
         dfs.append(avg)
 
     for df in dfs:
