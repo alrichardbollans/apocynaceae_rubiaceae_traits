@@ -1,7 +1,6 @@
 import unittest
 
 import numpy as np
-import pandas as pd
 from automatchnames import get_genus_from_full_name
 
 from parse_main_trait_table import clean_activities, ordinal_encode, clean_alkaloids
