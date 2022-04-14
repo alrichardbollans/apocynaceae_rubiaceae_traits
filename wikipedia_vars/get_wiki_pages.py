@@ -1,10 +1,11 @@
 import os
 
+import pandas as pd
 from pkg_resources import resource_filename
 
 import wikipedia_searches
 ### Inputs
-from taxa_lists.get_taxa_from_wcvp import get_all_taxa
+from taxa_lists import get_all_taxa
 
 ### Outputs
 _output_path = resource_filename(__name__, 'outputs')
@@ -22,7 +23,8 @@ def main():
 
     species_list = taxa["taxon_name"].values
 
-    # wikipedia_searches.make_wiki_hit_df(species_list, output_wiki_csv)
+    wikipedia_searches.make_wiki_hit_df(species_list, output_wiki_csv, force_new_search=True)
+    # taxa_to_recheck = pd.read_csv(os.path.join(_output_path,'taxa_to_recheck.csv'))
     wikipedia_searches.make_pageview_df(species_list,output_wiki_views_csv)
 
 
