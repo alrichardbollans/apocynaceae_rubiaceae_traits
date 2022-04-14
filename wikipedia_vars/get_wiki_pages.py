@@ -9,6 +9,7 @@ from taxa_lists.get_taxa_from_wcvp import get_all_taxa
 ### Outputs
 _output_path = resource_filename(__name__, 'outputs')
 output_wiki_csv = os.path.join(_output_path, 'list_plants_with_wiki_pages.csv')
+output_wiki_views_csv = os.path.join(_output_path, 'taxa_wiki_views.csv')
 more_checked_taxa_csv = os.path.join(_output_path, 'initially_missed_taxa.csv')
 
 
@@ -21,7 +22,8 @@ def main():
 
     species_list = taxa["taxon_name"].values
 
-    wikipedia_searches.make_wiki_hit_df(species_list, output_wiki_csv)
+    # wikipedia_searches.make_wiki_hit_df(species_list, output_wiki_csv)
+    wikipedia_searches.make_pageview_df(species_list,output_wiki_views_csv)
 
 
 if __name__ == '__main__':
