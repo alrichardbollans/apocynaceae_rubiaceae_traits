@@ -6,8 +6,8 @@
 #*.png
 *.secrets
 *collaborators.txt
-/manually_collected_data/*
-/manually_collected_data/*
+#/manually_collected_data/*
+#/manually_collected_data/*
 
 ### Pycharm
 .idea/
