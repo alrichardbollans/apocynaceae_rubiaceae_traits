@@ -16,7 +16,7 @@ is on the list *DOES NOT* mean that it is not dangerous/poisonous/toxic.
 ## Installation
 
 Run:
-`pip install git+https://github.com/alrichardbollans/apocynaceae_rubiaceae_traits.git#egg=apocynaceae_rubiaceae_traits`
+`pip install git+https://github.com/alrichardbollans/apocynaceae_rubiaceae_traits.git#egg=apocynaceaerubiaceaetraits`
 
 ### Requirements
 
