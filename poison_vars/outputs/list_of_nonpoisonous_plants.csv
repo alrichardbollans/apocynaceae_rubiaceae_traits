@@ -1,0 +1,769 @@
+,Accepted_ID,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_Rank,Sources
+0,30049036-2,Abelia,nan,nan,Genus,CPCS::
+1,608603-1,Abeliophyllum distichum,Abeliophyllum distichum,608603-1,Species,CPCS::
+2,1084057-2,Abies balsamea,Abies balsamea,1084057-2,Species,CPCS::
+3,325655-2,Abies,nan,nan,Genus,CPCS::
+4,326889-2,Abronia fragrans,Abronia fragrans,326889-2,Species,CPCS::
+6,326868-2,Abronia,nan,nan,Genus,CPCS::
+7,1044174-2,Abutilon theophrasti,Abutilon theophrasti,1044174-2,Species,CPCS::
+9,344-1,Acanthus,nan,nan,Genus,CPCS::
+13,781462-1,Acer pseudoplatanus,Acer pseudoplatanus,781462-1,Species,CPCS::
+14,328248-2,Acer,nan,nan,Genus,CPCS::
+15,16884-1,Achimenes,nan,nan,Genus,CPCS::
+16,60472666-2,Actinidia polygama,Actinidia polygama,60472666-2,Species,CPCS::
+17,325030-2,Adiantum capillus-veneris,Adiantum capillus-veneris,325030-2,Species,CPCS::CliniTox
+19,17012580-1,Adiantum raddianum,Adiantum raddianum,17012580-1,Species,CPCS::
+21,328345-2,Aechmea,nan,nan,Genus,CPCS:UCANR:
+23,216612-2,Quesnelia marmorata,Quesnelia marmorata,216612-2,Species,CPCS::
+25,5849-2,Aegopodium podagraria,Aegopodium podagraria,5849-2,Species,CPCS::
+28,331325-2,Aeschynanthus,nan,nan,Genus,CPCS:UCANR:
+32,84081-1,Aglaonema modestum,Aglaonema modestum,84081-1,Species,CPCS::
+33,2671-1,Aglaonema,nan,nan,Genus,CPCS::
+37,444664-1,Ajuga reptans,Ajuga reptans,444664-1,Species,CPCS:UCANR:
+38,20646-1,Ajuga,nan,nan,Genus,CPCS::
+39,30017224-2,Albizia,nan,nan,Genus,CPCS::
+40,473275-1,Albizia julibrissin,Albizia julibrissin,473275-1,Species,CPCS:UCANR:
+42,795340-1,Alpinia mutica,Alpinia mutica,795340-1,Species,CPCS::
+43,795347-1,Alpinia nutans,Alpinia nutans,795347-1,Species,CPCS::
+46,327196-2,Alternanthera,nan,nan,Genus,CPCS::
+47,558713-1,Alcea rosea,Alcea rosea,558713-1,Species,CPCS::CliniTox
+49,60433920-2,Alyssum,nan,nan,Genus,CPCS:UCANR:
+52,14549-2,Anredera cordifolia,Anredera cordifolia,14549-2,Species,CPCS::
+53,15860-2,Antigonon leptopus,Antigonon leptopus,15860-2,Species,CPCS::
+60,799180-1,Antirrhinum majus,Antirrhinum majus,799180-1,Species,CPCS::
+61,30000831-2,Aphelandra,nan,nan,Genus,CPCS::
+64,315544-2,Aphelandra squarrosa,Aphelandra squarrosa,315544-2,Species,CPCS:UCANR:CliniTox
+65,322566-2,Mesembryanthemum cordifolium,Mesembryanthemum cordifolium,322566-2,Species,CPCS:UCANR:CliniTox
+69,325954-2,Aquilegia,nan,nan,Genus,CPCS::
+70,60455476-2,Araucaria cunninghamii,Araucaria cunninghamii,60455476-2,Species,CPCS::
+71,676669-1,Araucaria heterophylla,Araucaria heterophylla,676669-1,Species,CPCS:UCANR:CliniTox
+73,30008667-2,Arbutus,nan,nan,Genus,CPCS::
+74,326526-1,Arbutus unedo,Arbutus unedo,326526-1,Species,CPCS:UCANR:
+77,30024713-2,Arctostaphylos tomentosa,Arctostaphylos tomentosa,30024713-2,Species,CPCS::
+78,327477-2,Ardisia,nan,nan,Genus,CPCS::
+80,328329-2,Nidularium,nan,nan,Genus,CPCS::
+83,19054-2,Ariocarpus fissuratus,Ariocarpus fissuratus,19054-2,Species,CPCS::
+87,331370-2,Aronia,nan,nan,Genus,CPCS::
+88,531072-1,Asparagus densiflorus,Asparagus densiflorus,531072-1,Species,CPCS::CliniTox
+96,531312-1,Asparagus setaceus,Asparagus setaceus,531312-1,Species,CPCS::
+97,328226-2,Asplenium,nan,nan,Genus,CPCS::
+102,531586-1,Aspidistra elatior,Aspidistra elatior,531586-1,Species,CPCS:UCANR:CliniTox
+103,24019-1,Aspidistra,nan,nan,Genus,CPCS::
+105,17040420-1,Asplenium bulbiferum,Asplenium bulbiferum,17040420-1,Species,CPCS::
+106,17048040-1,Asplenium nidus,Asplenium nidus,17048040-1,Species,CPCS:UCANR:CliniTox
+108,790289-1,Astilbe japonica,Astilbe japonica,790289-1,Species,CPCS::
+110,128907-1,Astrophytum asterias,Astrophytum asterias,128907-1,Species,CPCS::
+111,30001394-2,Astrophytum,nan,nan,Genus,CPCS::
+113,271451-1,Aucuba japonica,Aucuba japonica,271451-1,Species,CPCS::
+115,17056910-1,Azolla caroliniana,Azolla caroliniana,17056910-1,Species,CPCS::
+117,331385-2,Barbarea,nan,nan,Genus,CPCS::
+118,29455-2,Barbarea vulgaris,Barbarea vulgaris,29455-2,Species,CPCS::
+119,531735-1,Beaucarnea recurvata,Beaucarnea recurvata,531735-1,Species,CPCS:UCANR:
+120,315561-2,Begonia coccinea,Begonia coccinea,315561-2,Species,CPCS::
+121,104769-1,Begonia goegoensis,Begonia goegoensis,104769-1,Species,CPCS::
+122,105573-1,Begonia rex,Begonia rex,105573-1,Species,CPCS::
+123,77228835-1,Bergenia crassifolia var. crassifolia,Bergenia crassifolia,790361-1,Variety,CPCS::
+125,328387-2,Betula,nan,nan,Genus,CPCS::
+126,30006865-2,Billbergia,nan,nan,Genus,CPCS:UCANR:
+130,745109-1,Bouvardia ternifolia,Bouvardia ternifolia,745109-1,Species,CPCS::
+131,38633-1,Brachychiton,nan,nan,Genus,CPCS::
+132,77213393-1,Heptapleurum actinophyllum,Heptapleurum actinophyllum,77213393-1,Species,CPCS::
+142,279435-1,Brassica oleracea,Brassica oleracea,279435-1,Species,CPCS::
+146,30043511-2,Brassica,nan,nan,Genus,CPCS::
+147,340073-1,Breynia disticha,Breynia disticha,340073-1,Species,CPCS::
+148,393293-1,Briza maxima,Briza maxima,393293-1,Species,CPCS::
+149,36836-2,Bromelia balansae,Bromelia balansae,36836-2,Species,CPCS::
+150,545734-1,Buddleja davidii,Buddleja davidii,545734-1,Species,CPCS:UCANR:
+152,665387-1,Calamus rotang,Calamus rotang,665387-1,Species,CPCS::
+153,60458829-2,Goeppertia argyraea,Goeppertia argyraea,60458829-2,Species,CPCS::
+154,60461041-2,Goeppertia makoyana,Goeppertia makoyana,60461041-2,Species,CPCS::
+157,30001411-2,Calathea,nan,nan,Genus,CPCS:UCANR:
+160,796810-1,Goeppertia zebrina,Goeppertia zebrina,796810-1,Species,CPCS::
+161,331444-2,Calceolaria,nan,nan,Genus,CPCS:UCANR:
+162,187894-1,Calendula officinalis,Calendula officinalis,187894-1,Species,CPCS::CliniTox
+164,30120329-2,Calendula,nan,nan,Genus,CPCS::
+165,42149-2,Calliandra eriophylla,Calliandra eriophylla,42149-2,Species,CPCS::
+166,319128-2,Callicarpa americana,Callicarpa americana,319128-2,Species,CPCS::
+168,30044566-2,Callicarpa,nan,nan,Genus,CPCS::
+169,329860-2,Callisia,nan,nan,Genus,CPCS::
+171,188023-1,Callistephus chinensis,Callistephus chinensis,188023-1,Species,CPCS:UCANR:CliniTox
+173,30008714-2,Calochortus,nan,nan,Genus,CPCS::
+175,331163-2,Camassia,nan,nan,Genus,CPCS::
+176,828524-1,Camellia japonica,Camellia japonica,828524-1,Species,CPCS:UCANR:CliniTox
+178,30027807-2,Campanula,nan,nan,Genus,CPCS:UCANR:
+182,77208084-1,Canna × hybrida,Canna × hybrida,77208084-1,Species,CPCS:UCANR:
+183,782206-1,Cardiospermum halicacabum,Cardiospermum halicacabum,782206-1,Species,CPCS::CliniTox
+185,328405-2,Carpobrotus,nan,nan,Genus,CPCS:UCANR:
+186,324467-2,Carthamus tinctorius,Carthamus tinctorius,324467-2,Species,CPCS::
+187,331465-2,Carya,nan,nan,Genus,CPCS::
+190,41221-1,Caryopteris,nan,nan,Genus,CPCS::
+191,771774-1,Casimiroa edulis,Casimiroa edulis,771774-1,Species,CPCS::
+192,30004045-2,Castanea,nan,nan,Genus,CPCS::
+194,325881-2,Castilleja,nan,nan,Genus,CPCS::
+196,30022327-2,Catalpa,nan,nan,Genus,CPCS::
+197,28960-1,Cattleya,nan,nan,Genus,CPCS:UCANR:
+198,327360-2,Celosia,nan,nan,Genus,CPCS:UCANR:
+201,850999-1,Celtis australis,Celtis australis,850999-1,Species,CPCS::
+202,851171-1,Celtis sinensis,Celtis sinensis,851171-1,Species,CPCS::
+203,30002308-2,Celtis,nan,nan,Genus,CPCS::
+204,190310-1,Centaurea cyanus,Centaurea cyanus,190310-1,Species,CPCS:UCANR:
+207,860141-1,Valeriana rubra,Valeriana rubra,860141-1,Species,CPCS::
+208,51897-2,Centrosema virginianum,Centrosema virginianum,51897-2,Species,CPCS::
+209,485647-1,Ceratonia siliqua,Ceratonia siliqua,485647-1,Species,CPCS:UCANR:
+213,512248-1,Parkinsonia microphylla,Parkinsonia microphylla,512248-1,Species,CPCS::
+214,316243-2,Cercis canadensis,Cercis canadensis,316243-2,Species,CPCS::
+215,95848-1,Ceropegia woodii,Ceropegia woodii,95848-1,Species,CPCS:UCANR:CliniTox
+227,331479-2,Chaenomeles,nan,nan,Genus,CPCS::
+228,54865-2,Chamaedorea elegans,Chamaedorea elegans,54865-2,Species,CPCS::CliniTox
+232,331165-2,Chamaedorea,nan,nan,Genus,CPCS::
+233,532810-1,Chlorophytum comosum,Chlorophytum comosum,532810-1,Species,CPCS:UCANR:CliniTox
+236,771812-1,Choisya ternata,Choisya ternata,771812-1,Species,CPCS::
+237,985360-1,Dypsis lutescens,Dypsis lutescens,985360-1,Species,CPCS:UCANR:
+241,17376040-1,Cibotium,nan,nan,Genus,CPCS::
+242,17069580-1,Cibotium schiedei,Cibotium schiedei,17069580-1,Species,CPCS::
+243,869840-1,Cissus discolor,Cissus discolor,869840-1,Species,CPCS::
+246,325875-2,Cissus,nan,nan,Genus,CPCS::
+247,30101376-2,Cistus,nan,nan,Genus,CPCS:UCANR:
+248,59701-2,Clarkia amoena,Clarkia amoena,59701-2,Species,CPCS::
+250,30001602-2,Clarkia,nan,nan,Genus,CPCS::
+254,30009982-2,Cleome,nan,nan,Genus,CPCS::
+256,30002447-2,Clerodendrum,nan,nan,Genus,CPCS::
+259,22037-1,Clianthus,nan,nan,Genus,CPCS::
+260,30082120-2,Clintonia borealis,Clintonia borealis,30082120-2,Species,CPCS::
+261,533180-1,Clintonia uniflora,Clintonia uniflora,533180-1,Species,CPCS::
+262,62339-2,Coccothrinax alta,Coccothrinax alta,62339-2,Species,CPCS::
+263,62341-2,Coccothrinax argentata,Coccothrinax argentata,62341-2,Species,CPCS::
+264,30310531-2,Coccothrinax argentea,Coccothrinax argentea,30310531-2,Species,CPCS::
+266,666033-1,Coccothrinax crinita,Coccothrinax crinita,666033-1,Species,CPCS::
+267,20765-1,Coleus,nan,nan,Genus,CPCS::
+268,533544-1,Cordyline australis,Cordyline australis,533544-1,Species,CPCS::CliniTox
+272,24159-1,Cordyline,nan,nan,Genus,CPCS::
+277,533580-1,Cordyline fruticosa,Cordyline fruticosa,533580-1,Species,CPCS:UCANR:
+284,65779-2,Coreopsis californica,Coreopsis californica,65779-2,Species,CPCS::
+285,271519-1,Cornus canadensis,Cornus canadensis,271519-1,Species,CPCS::
+286,271574-1,Cornus florida,Cornus florida,271574-1,Species,CPCS::
+287,66154-2,Cornus nuttallii,Cornus nuttallii,66154-2,Species,CPCS::
+289,66317-2,Cortaderia selloana,Cortaderia selloana,66317-2,Species,CPCS::
+290,8410-1,Cosmos,nan,nan,Genus,CPCS::
+291,30173577-2,Cotinus,nan,nan,Genus,CPCS::
+292,273350-1,Crassula ovata,Crassula ovata,273350-1,Species,CPCS::CliniTox
+295,273461-1,Crassula rupestris,Crassula rupestris,273461-1,Species,CPCS::
+301,30014394-2,Crassula,nan,nan,Genus,CPCS::
+303,60436254-2,Crataegus,nan,nan,Genus,CPCS:UCANR:
+307,20293-1,Crocus,nan,nan,Genus,CPCS::
+309,492-1,Crossandra,nan,nan,Genus,CPCS::
+311,77176911-1,Cryptanthus lacerdae,Cryptanthus lacerdae,77176911-1,Species,CPCS::
+312,122644-1,Cryptanthus zonatus,Cryptanthus zonatus,122644-1,Species,CPCS::
+313,553043-1,Cuphea hyssopifolia,Cuphea hyssopifolia,553043-1,Species,CPCS::
+316,30000193-2,Cuphea,nan,nan,Genus,CPCS::
+317,261974-1,Cupressus sempervirens,Cupressus sempervirens,261974-1,Species,CPCS::
+318,77105360-1,Cyanotis beddomei,Cyanotis beddomei,77105360-1,Species,CPCS::
+319,724549-1,Cydonia oblonga,Cydonia oblonga,724549-1,Species,CPCS::
+320,330383-2,Cymbidium,nan,nan,Genus,CPCS::
+321,30401855-2,Cynanchum,nan,nan,Genus,CPCS::
+323,306169-2,Solanum betaceum,Solanum betaceum,306169-2,Species,CPCS::
+324,331182-2,Cyrtanthus,nan,nan,Genus,CPCS::
+325,325940-2,Dahlia,nan,nan,Genus,CPCS:UCANR:
+326,76771-2,Darlingtonia californica,Darlingtonia californica,76771-2,Species,CPCS::
+328,17078300-1,Davallia canariensis,Davallia canariensis,17078300-1,Species,CPCS::
+329,17564870-1,Davallia solida var. fejeensis,Davallia solida,17080730-1,Variety,CPCS::
+332,533875-1,Dichelostemma congestum,Dichelostemma congestum,533875-1,Species,CPCS::
+334,331187-2,Dietes,nan,nan,Genus,CPCS::
+336,157385-3,Dimorphotheca pluvialis,Dimorphotheca pluvialis,157385-3,Species,CPCS::
+338,361617-1,Dinteranthus vanzylii,Dinteranthus vanzylii,361617-1,Species,CPCS::
+339,361618-1,Dinteranthus wilmotianus,Dinteranthus wilmotianus,361618-1,Species,CPCS::
+340,317936-1,Dioscorea elephantipes,Dioscorea elephantipes,317936-1,Species,CPCS::
+341,772468-1,Diosma hirsuta,Diosma hirsuta,772468-1,Species,CPCS::
+342,77141945-1,Amphilophium buccinatorium,Amphilophium buccinatorium,77141945-1,Species,CPCS::
+343,77131172-1,Plerandra elegantissima,Plerandra elegantissima,77131172-1,Species,CPCS:UCANR:CliniTox
+355,533623-1,Cordyline obtecta,Cordyline obtecta,533623-1,Species,CPCS::
+358,534207-1,Dracaena fragrans,Dracaena fragrans,534207-1,Species,CPCS::
+364,534171-1,Dracaena draco,Dracaena draco,534171-1,Species,CPCS::
+365,534219-1,Dracaena goldieana,Dracaena goldieana,534219-1,Species,CPCS::
+367,529816-1,Aloe purpurea,Aloe purpurea,529816-1,Species,CPCS::
+368,60471006-2,Dracaena sanderiana,Dracaena sanderiana,60471006-2,Species,CPCS::
+370,30010732-2,Dracaena,nan,nan,Genus,CPCS:UCANR:
+375,30064660-2,Dryopteris marginalis,Dryopteris marginalis,30064660-2,Species,CPCS::
+377,728289-1,Potentilla indica,Potentilla indica,728289-1,Species,CPCS::
+379,30004414-2,Echeveria,nan,nan,Genus,CPCS:UCANR:
+390,30035795-2,Echinacea,nan,nan,Genus,CPCS:UCANR:
+393,310928-2,Pontederia crassipes,Pontederia crassipes,310928-2,Species,CPCS::
+394,30001965-2,Elaeagnus,nan,nan,Genus,CPCS::
+396,536678-1,Hyacinthoides hispanica,Hyacinthoides hispanica,536678-1,Species,CPCS::
+397,536679-1,Hyacinthoides italica,Hyacinthoides italica,536679-1,Species,CPCS::
+398,971733-1,Hyacinthoides non-scripta,Hyacinthoides non-scripta,971733-1,Species,CPCS::
+399,24371-1,Hyacinthoides,nan,nan,Genus,CPCS::
+400,1037928-2,Enterolobium cyclocarpum,Enterolobium cyclocarpum,1037928-2,Species,CPCS::
+401,326435-2,Epidendrum,nan,nan,Genus,CPCS:UCANR:
+402,92411-2,Epilobium angustifolium,Epilobium angustifolium,92411-2,Species,CPCS::
+403,380772-1,Episcia cupreata,Episcia cupreata,380772-1,Species,CPCS:UCANR:
+404,378028-1,Alsobia dianthiflora,Alsobia dianthiflora,378028-1,Species,CPCS::
+405,380813-1,Episcia reptans,Episcia reptans,380813-1,Species,CPCS::
+407,30010704-2,Eriogonum umbellatum,Eriogonum umbellatum,30010704-2,Species,CPCS::
+409,1137625-2,Eruca vesicaria,Eruca vesicaria,1137625-2,Species,CPCS::
+410,329617-2,Erysimum,nan,nan,Genus,CPCS::
+411,37033-1,Escallonia,nan,nan,Genus,CPCS:UCANR:
+412,30043364-2,Eschscholzia californica,Eschscholzia californica,30043364-2,Species,CPCS:UCANR:
+413,592825-1,Eucalyptus cordata,Eucalyptus cordata,592825-1,Species,CPCS::
+414,592858-1,Eucalyptus dalrympleana,Eucalyptus dalrympleana,592858-1,Species,CPCS::
+415,913387-1,Syzygium oleosum,Syzygium oleosum,913387-1,Species,CPCS::
+416,30176564-2,Euphorbia pulcherrima,Euphorbia pulcherrima,30176564-2,Species,CPCS::
+425,8900-1,Euryops,nan,nan,Genus,CPCS::
+426,367449-1,Exacum affine,Exacum affine,367449-1,Species,CPCS:UCANR:CliniTox
+429,30048723-2,Fagus,nan,nan,Genus,CPCS::
+430,90496-1,Fatsia japonica,Fatsia japonica,90496-1,Species,CPCS:UCANR:
+436,852486-1,Ficus benjamina,Ficus benjamina,852486-1,Species,CPCS::
+438,852556-1,Ficus carica,Ficus carica,852556-1,Species,CPCS::
+439,60458499-2,Ficus elastica,Ficus elastica,60458499-2,Species,CPCS::
+441,327905-2,Ficus,nan,nan,Genus,CPCS::
+445,331611-2,Fittonia,nan,nan,Genus,CPCS:UCANR:
+449,331614-2,Forsythia,nan,nan,Genus,CPCS::
+451,30014957-2,Fragaria,nan,nan,Genus,CPCS::
+452,331198-2,Freesia,nan,nan,Genus,CPCS:UCANR:
+453,30008840-2,Fritillaria,nan,nan,Genus,CPCS::
+455,30000052-2,Fuchsia,nan,nan,Genus,CPCS:UCANR:
+457,30000299-2,Ornithogalum,nan,nan,Genus,CPCS::
+458,751073-1,Gardenia jasminoides,Gardenia jasminoides,751073-1,Species,CPCS:UCANR:
+460,331621-2,Gazania,nan,nan,Genus,CPCS::
+461,208893-1,Gerbera jamesonii,Gerbera jamesonii,208893-1,Species,CPCS:UCANR:
+464,30002796-2,Gesneria,nan,nan,Genus,CPCS::
+467,320317-2,Gilia,nan,nan,Genus,CPCS::
+468,381282-1,Gloxinia perennis,Gloxinia perennis,381282-1,Species,CPCS::
+470,113312-2,Graptopetalum paraguayense,Graptopetalum paraguayense,113312-2,Species,CPCS::
+473,211219-1,Gynura aurantiaca,Gynura aurantiaca,211219-1,Species,CPCS:UCANR:
+475,154563-1,Gypsophila paniculata,Gypsophila paniculata,154563-1,Species,CPCS::
+476,331642-2,Halesia,nan,nan,Genus,CPCS::
+480,77169621-1,Haworthiopsis coarctata var. coarctata,Haworthiopsis coarctata,77138006-1,Variety,CPCS::
+481,331203-2,Haworthia,nan,nan,Genus,CPCS::
+482,77172717-1,Tulista pumila var. pumila,Tulista pumila,77138045-1,Variety,CPCS::
+483,30005997-2,Veronica,nan,nan,Genus,CPCS::
+485,796836-1,Hedychium coronarium,Hedychium coronarium,796836-1,Species,CPCS::
+489,119003-2,Helianthus annuus,Helianthus annuus,119003-2,Species,CPCS:UCANR:
+490,962307-1,Xerochrysum bracteatum,Xerochrysum bracteatum,962307-1,Species,CPCS::
+491,213170-1,Helichrysum petiolare,Helichrysum petiolare,213170-1,Species,CPCS::
+492,331205-2,Heliconia,nan,nan,Genus,CPCS::
+494,796925-1,Heliconia bihai,Heliconia bihai,796925-1,Species,CPCS::
+495,796972-1,Heliconia psittacorum,Heliconia psittacorum,796972-1,Species,CPCS::
+498,60436426-2,Hesperis,nan,nan,Genus,CPCS::
+499,791403-1,Heuchera sanguinea,Heuchera sanguinea,791403-1,Species,CPCS:UCANR:
+502,328182-2,Hibiscus,nan,nan,Genus,CPCS:UCANR:
+508,560792-1,Hibiscus schizopetalus,Hibiscus schizopetalus,560792-1,Species,CPCS::
+509,326388-2,Hibiscus sabdariffa,Hibiscus sabdariffa,326388-2,Species,CPCS::
+510,560890-1,Hibiscus syriacus,Hibiscus syriacus,560890-1,Species,CPCS::
+511,561006-1,Hoheria glabrata,Hoheria glabrata,561006-1,Species,CPCS::
+512,331214-2,Hosta,nan,nan,Genus,CPCS:UCANR:
+514,60437256-2,Hoya,nan,nan,Genus,CPCS::
+518,126000-2,Hymenoxys grandiflora,Hymenoxys grandiflora,126000-2,Species,CPCS::
+525,331798-2,Nematanthus,nan,nan,Genus,CPCS::
+526,49962-1,Hypoestes phyllostachya,Hypoestes phyllostachya,49962-1,Species,CPCS::
+533,325983-2,Impatiens,nan,nan,Genus,CPCS:UCANR:
+535,4106-1,Incarvillea,nan,nan,Genus,CPCS::
+536,327328-2,Iresine,nan,nan,Genus,CPCS::
+537,109789-1,Jacaranda copaia,Jacaranda copaia,109789-1,Species,CPCS::
+539,609658-1,Jasminum nobile,Jasminum nobile,609658-1,Species,CPCS::
+540,609755-1,Jasminum sambac,Jasminum sambac,609755-1,Species,CPCS::
+541,289220-2,Justicia brandegeeana,Justicia brandegeeana,289220-2,Species,CPCS::CliniTox
+547,329967-2,Kaempferia,nan,nan,Genus,CPCS::
+549,274270-1,Kalanchoe beharensis,Kalanchoe beharensis,274270-1,Species,CPCS::
+550,274279-1,Kalanchoe blossfeldiana,Kalanchoe blossfeldiana,274279-1,Species,CPCS::
+551,274315-1,Kalanchoe daigremontiana,Kalanchoe daigremontiana,274315-1,Species,CPCS::
+553,274438-1,Kalanchoe pinnata,Kalanchoe pinnata,274438-1,Species,CPCS::
+557,30060186-2,Kalanchoe,nan,nan,Genus,CPCS::
+566,274502-1,Kalanchoe tomentosa,Kalanchoe tomentosa,274502-1,Species,CPCS::
+568,274508-1,Kalanchoe uniflora,Kalanchoe uniflora,274508-1,Species,CPCS::
+569,331220-2,Kniphofia,nan,nan,Genus,CPCS::
+572,60441798-2,Gloxinella lindeniana,Gloxinella lindeniana,60441798-2,Species,CPCS::
+573,148523-1,Kolkwitzia amabilis,Kolkwitzia amabilis,148523-1,Species,CPCS::
+574,77122819-1,Lachenalia orchioides subsp. glaucina,Lachenalia orchioides,537209-1,Subspecies,CPCS::
+575,134809-2,Lagenaria siceraria,Lagenaria siceraria,134809-2,Species,CPCS::
+577,553576-1,Lagerstroemia indica,Lagerstroemia indica,553576-1,Species,CPCS:UCANR:
+578,406799-1,Lagurus ovatus,Lagurus ovatus,406799-1,Species,CPCS::
+580,326333-2,Lampranthus,nan,nan,Genus,CPCS:UCANR:
+581,77171433-1,Lavandula angustifolia subsp. angustifolia,Lavandula angustifolia,449008-1,Subspecies,CPCS::
+582,20960-1,Lavandula,nan,nan,Genus,CPCS::
+584,331705-2,Leea,nan,nan,Genus,CPCS::
+585,321823-2,Leucocrinum montanum,Leucocrinum montanum,321823-2,Species,CPCS::
+586,325929-2,Liatris,nan,nan,Genus,CPCS::
+589,610001-1,Ligustrum japonicum,Ligustrum japonicum,610001-1,Species,CPCS::
+591,610017-1,Ligustrum lucidum,Ligustrum lucidum,610017-1,Species,CPCS::
+595,537642-1,Lilium longiflorum,Lilium longiflorum,537642-1,Species,CPCS:UCANR:
+597,30009317-2,Lilium,nan,nan,Genus,CPCS::
+614,331722-2,Limonium,nan,nan,Genus,CPCS:UCANR:
+615,140834-2,Linum grandiflorum,Linum grandiflorum,140834-2,Species,CPCS::
+616,430718-1,Liquidambar styraciflua,Liquidambar styraciflua,430718-1,Species,CPCS::
+620,554609-1,Liriodendron chinense,Liriodendron chinense,554609-1,Species,CPCS::
+621,30197364-2,Liriodendron tulipifera,Liriodendron tulipifera,30197364-2,Species,CPCS::
+622,537868-1,Liriope muscari,Liriope muscari,537868-1,Species,CPCS:UCANR:
+623,16237-1,Lithops,nan,nan,Genus,CPCS:UCANR:
+627,1085072-2,Lobularia maritima,Lobularia maritima,1085072-2,Species,CPCS::
+628,148772-1,Lonicera fragrantissima,Lonicera fragrantissima,148772-1,Species,CPCS::
+630,286647-1,Lunaria annua,Lunaria annua,286647-1,Species,CPCS:UCANR:
+632,30000138-2,Lycopodium,nan,nan,Genus,CPCS::
+633,701260-1,Lysimachia nummularia,Lysimachia nummularia,701260-1,Species,CPCS:UCANR:
+635,32953-1,Macadamia,nan,nan,Genus,CPCS::
+637,30000709-2,Magnolia,nan,nan,Genus,CPCS::
+638,554855-1,Magnolia stellata,Magnolia stellata,554855-1,Species,CPCS:UCANR:
+640,554866-1,Magnolia tripetala,Magnolia tripetala,554866-1,Species,CPCS::
+641,31334-2,Berberis aquifolium,Berberis aquifolium,31334-2,Species,CPCS::
+642,328526-2,Berberis,nan,nan,Genus,CPCS::
+643,149429-2,Maianthemum dilatatum,Maianthemum dilatatum,149429-2,Species,CPCS::
+644,134532-1,Mammillaria elongata,Mammillaria elongata,134532-1,Species,CPCS::
+645,134432-1,Mammillaria compressa,Mammillaria compressa,134432-1,Species,CPCS::
+647,328998-2,Mandevilla,nan,nan,Genus,CPCS::
+648,755707-1,Manettia luteorubra,Manettia luteorubra,755707-1,Species,CPCS::
+649,797361-1,Maranta leuconeura,Maranta leuconeura,797361-1,Species,CPCS:UCANR:CliniTox
+651,30019537-2,Maranta,nan,nan,Genus,CPCS::
+654,17275510-1,Onoclea struthiopteris,Onoclea struthiopteris,17275510-1,Species,CPCS::
+655,286910-1,Matthiola incana,Matthiola incana,286910-1,Species,CPCS::
+656,147284-3,Matthiola longipetala,Matthiola longipetala,147284-3,Species,CPCS::
+657,37807-1,Maurandya,nan,nan,Genus,CPCS::
+658,161289-2,Mikania ternata,Mikania ternata,161289-2,Species,CPCS::
+659,313242-2,Mimosa pudica,Mimosa pudica,313242-2,Species,CPCS:UCANR:
+661,21047-1,Moluccella,nan,nan,Genus,CPCS::
+664,60021-2,Claytonia perfoliata,Claytonia perfoliata,60021-2,Species,CPCS::
+665,30004492-2,Morus,nan,nan,Genus,CPCS:UCANR:
+668,694744-1,Muehlenbeckia complexa,Muehlenbeckia complexa,694744-1,Species,CPCS::
+670,797527-1,Musa acuminata,Musa acuminata,797527-1,Species,CPCS::
+671,330271-2,Muscari,nan,nan,Genus,CPCS:UCANR:
+673,30010296-2,Myosotis,nan,nan,Genus,CPCS::
+674,845120-1,Myrrhis odorata,Myrrhis odorata,845120-1,Species,CPCS::
+675,303885-2,Myrica californica,Myrica californica,303885-2,Species,CPCS::
+677,166255-2,Myrica pensylvanica,Myrica pensylvanica,166255-2,Species,CPCS::
+679,599719-1,Myrtus communis,Myrtus communis,599719-1,Species,CPCS::
+680,107544-1,Nandina domestica,Nandina domestica,107544-1,Species,CPCS::
+684,328327-2,Neoregelia,nan,nan,Genus,CPCS:UCANR:
+687,17160590-1,Nephrolepis,nan,nan,Genus,CPCS::
+688,330346-2,Nothofagus,nan,nan,Genus,CPCS::
+689,171201-2,Nymphaea odorata,Nymphaea odorata,171201-2,Species,CPCS::
+690,610599-1,Nyctanthes arbor-tristis,Nyctanthes arbor-tristis,610599-1,Species,CPCS::
+691,330032-2,Nymphaea,nan,nan,Genus,CPCS::
+692,302695-2,Nyssa aquatica,Nyssa aquatica,302695-2,Species,CPCS::
+694,60437227-2,Oenothera,nan,nan,Genus,CPCS::
+699,331250-2,Oncidium,nan,nan,Genus,CPCS:UCANR:
+700,281589-2,Onoclea sensibilis,Onoclea sensibilis,281589-2,Species,CPCS::
+701,235234-1,Onopordum acanthium,Onopordum acanthium,235234-1,Species,CPCS::
+703,94498-2,Eriocoma hymenoides,Eriocoma hymenoides,94498-2,Species,CPCS::
+704,77128534-1,Cartrema americana,Cartrema americana,77128534-1,Species,CPCS::
+706,610885-1,Osmanthus heterophyllus,Osmanthus heterophyllus,610885-1,Species,CPCS::
+708,845559-1,Osmorhiza longistylis,Osmorhiza longistylis,845559-1,Species,CPCS::
+709,77226592-1,Pelargonium cucullatum subsp. cucullatum,Pelargonium cucullatum,164626-3,Subspecies,CPCS::
+710,30302759-2,Pelargonium,nan,nan,Genus,CPCS::
+711,77182722-1,Hemionitis rotundifolia,Hemionitis rotundifolia,77182722-1,Species,CPCS:UCANR:CliniTox
+712,329746-2,Peperomia,nan,nan,Genus,CPCS:UCANR:
+713,331845-2,Petunia,nan,nan,Genus,CPCS::
+714,432774-1,Phacelia sericea,Phacelia sericea,432774-1,Species,CPCS::
+716,30007321-2,Philadelphus,nan,nan,Genus,CPCS::
+717,328376-2,Phlox,nan,nan,Genus,CPCS::
+720,668909-1,Phoenix canariensis,Phoenix canariensis,668909-1,Species,CPCS::CliniTox
+721,31428-1,Phoenix,nan,nan,Genus,CPCS::
+722,727386-1,Photinia glabra,Photinia glabra,727386-1,Species,CPCS::
+724,415983-1,Phyllostachys aurea,Phyllostachys aurea,415983-1,Species,CPCS:UCANR:
+725,30005648-2,Picea,nan,nan,Genus,CPCS::
+726,331855-2,Pilea,nan,nan,Genus,CPCS:UCANR:
+728,855275-1,Pilea cadierei,Pilea cadierei,855275-1,Species,CPCS::
+729,30268074-2,Pilea nummulariifolia,Pilea nummulariifolia,30268074-2,Species,CPCS::
+730,328247-2,Pinus,nan,nan,Genus,CPCS:UCANR:
+731,262965-1,Pinus glabra,Pinus glabra,262965-1,Species,CPCS::
+733,326028-2,Pittosporum,nan,nan,Genus,CPCS::
+734,684716-1,Pittosporum tobira,Pittosporum tobira,684716-1,Species,CPCS:UCANR:
+736,321286-2,Plantago major,Plantago major,321286-2,Species,CPCS::
+738,685871-1,Platanus occidentalis,Platanus occidentalis,685871-1,Species,CPCS:UCANR:
+739,685854-1,Platanus × hispanica,Platanus × hispanica,685854-1,Species,CPCS::
+740,32120-1,Platanus,nan,nan,Genus,CPCS::
+741,17177470-1,Platycerium elephantotis,Platycerium elephantotis,17177470-1,Species,CPCS::
+742,17177370-1,Platycerium,nan,nan,Genus,CPCS::
+745,144523-1,Platycodon grandiflorus,Platycodon grandiflorus,144523-1,Species,CPCS:UCANR:
+747,77201016-1,Coleus australis,Coleus australis,77201016-1,Species,CPCS::
+749,16301-1,Pleiospilos,nan,nan,Genus,CPCS::
+751,534338-1,Dracaena reflexa,Dracaena reflexa,534338-1,Species,CPCS::
+752,26540-1,Pleroma,nan,nan,Genus,CPCS::
+754,417792-1,Poa pratensis,Poa pratensis,417792-1,Species,CPCS::
+757,17207740-1,Polystichum munitum,Polystichum munitum,17207740-1,Species,CPCS::
+758,327121-2,Polystichum,nan,nan,Genus,CPCS::
+759,328417-2,Populus,nan,nan,Genus,CPCS::
+761,208592-2,Portulaca grandiflora,Portulaca grandiflora,208592-2,Species,CPCS::
+762,323270-2,Portulaca oleracea,Portulaca oleracea,323270-2,Species,CPCS::
+764,699417-1,Portulacaria afra,Portulacaria afra,699417-1,Species,CPCS::
+765,30000237-2,Potentilla,nan,nan,Genus,CPCS::
+768,706086-1,Protea repens,Protea repens,706086-1,Species,CPCS::
+769,331879-2,Protea,nan,nan,Genus,CPCS::
+770,30005513-2,Pseudotsuga,nan,nan,Genus,CPCS:UCANR:
+771,582569-1,Pterospora andromedea,Pterospora andromedea,582569-1,Species,CPCS::
+772,30154448-2,Pyracantha,nan,nan,Genus,CPCS::
+774,5008-1,Quesnelia,nan,nan,Genus,CPCS::
+775,110522-1,Radermachera sinica,Radermachera sinica,110522-1,Species,CPCS::
+777,669503-1,Raphia farinifera,Raphia farinifera,669503-1,Species,CPCS::
+779,217868-2,Ratibida columnifera,Ratibida columnifera,217868-2,Species,CPCS::
+780,236686-2,Sinningia cardinalis,Sinningia cardinalis,236686-2,Species,CPCS::CliniTox
+789,31476-1,Rhapis,nan,nan,Genus,CPCS::
+791,69506-1,Cotinus obovatus,Cotinus obovatus,69506-1,Species,CPCS::
+792,673954-1,Romneya coulteri,Romneya coulteri,673954-1,Species,CPCS::
+793,30002432-2,Rosa,nan,nan,Genus,CPCS::
+796,30000199-2,Rubus,nan,nan,Genus,CPCS::
+797,329766-2,Rudbeckia,nan,nan,Genus,CPCS::
+798,1174497-2,Echinacea purpurea,Echinacea purpurea,1174497-2,Species,CPCS::CliniTox
+801,224543-2,Rumohra adiantiformis,Rumohra adiantiformis,224543-2,Species,CPCS::
+804,77117375-1,Streptocarpus ionanthus,Streptocarpus ionanthus,77117375-1,Species,CPCS:UCANR:CliniTox
+805,284528-2,Salix discolor,Salix discolor,284528-2,Species,CPCS::
+806,325916-2,Salix,nan,nan,Genus,CPCS:UCANR:
+807,455999-1,Salvia columbariae,Salvia columbariae,455999-1,Species,CPCS::
+808,30000096-2,Salvia,nan,nan,Genus,CPCS:UCANR:
+810,30204763-2,Sanvitalia,nan,nan,Genus,CPCS::
+811,30002955-2,Saxifraga,nan,nan,Genus,CPCS::
+814,794357-1,Saxifraga pulvinaria,Saxifraga pulvinaria,794357-1,Species,CPCS::
+815,794584-1,Saxifraga stolonifera,Saxifraga stolonifera,794584-1,Species,CPCS::
+816,14326-1,Scabiosa,nan,nan,Genus,CPCS::
+818,90845-1,Heptapleurum arboricola,Heptapleurum arboricola,90845-1,Species,CPCS::
+819,3093-1,Schefflera,nan,nan,Genus,CPCS::
+820,38531-1,Schizanthus,nan,nan,Genus,CPCS::
+821,229596-2,Schlumbergera russelliana,Schlumbergera russelliana,229596-2,Species,CPCS:UCANR:
+823,231789-2,Sedum morganianum,Sedum morganianum,231789-2,Species,CPCS::CliniTox
+827,275731-1,Sedum multiceps,Sedum multiceps,275731-1,Species,CPCS::
+828,231817-2,Sedum pachyphyllum,Sedum pachyphyllum,231817-2,Species,CPCS::
+829,30001444-2,Sedum,nan,nan,Genus,CPCS:UCANR:
+830,231886-2,Sedum stahlii,Sedum stahlii,231886-2,Species,CPCS::
+831,274226-1,Hylotelephium telephium,Hylotelephium telephium,274226-1,Species,CPCS::
+832,60452854-2,Selaginella lepidophylla,Selaginella lepidophylla,60452854-2,Species,CPCS::CliniTox
+834,276682-1,Sempervivum tectorum,Sempervivum tectorum,276682-1,Species,CPCS:UCANR:
+836,77075194-1,Jacobaea maritima,Jacobaea maritima,77075194-1,Species,CPCS::
+837,60452326-2,Silene acaulis,Silene acaulis,60452326-2,Species,CPCS::
+839,237100-2,Sinningia pusilla,Sinningia pusilla,237100-2,Species,CPCS::
+840,382786-1,Sinningia speciosa,Sinningia speciosa,382786-1,Species,CPCS:UCANR:CliniTox
+842,238059-2,Smithiantha cinnabarina,Smithiantha cinnabarina,238059-2,Species,CPCS::
+843,238062-2,Smithiantha multiflora,Smithiantha multiflora,238062-2,Species,CPCS::
+844,856545-1,Soleirolia soleirolii,Soleirolia soleirolii,856545-1,Species,CPCS:UCANR:CliniTox
+854,30004837-2,Sorbus,nan,nan,Genus,CPCS::
+855,441392-1,Sparaxis tricolor,Sparaxis tricolor,441392-1,Species,CPCS::
+857,110661-1,Spathodea campanulata,Spathodea campanulata,110661-1,Species,CPCS::
+858,17223270-1,Sphaeropteris medullaris,Sphaeropteris medullaris,17223270-1,Species,CPCS::
+859,325874-2,Spiraea,nan,nan,Genus,CPCS:UCANR:
+860,77204413-1,Stephanotis floribunda,Stephanotis floribunda,77204413-1,Species,CPCS::CliniTox
+864,17229-1,Streptocarpus,nan,nan,Genus,CPCS::
+865,519595-1,Strongylodon macrobotrys,Strongylodon macrobotrys,519595-1,Species,CPCS::
+866,826818-1,Styrax japonicus,Styrax japonicus,826818-1,Species,CPCS::
+867,30010757-2,Symphoricarpos,nan,nan,Genus,CPCS::
+869,328109-2,Syringa,nan,nan,Genus,CPCS::
+870,601603-1,Syzygium cumini,Syzygium cumini,601603-1,Species,CPCS::
+871,254151-1,Taraxacum sect. Taraxacum,Taraxacum sect. Taraxacum,254151-1,Species,CPCS:UCANR:CliniTox
+873,111333-1,Tecomaria capensis,Tecomaria capensis,111333-1,Species,CPCS::
+874,56177-1,Thunbergia alata,Thunbergia alata,56177-1,Species,CPCS:UCANR:CliniTox
+875,30000734-2,Tibouchina,nan,nan,Genus,CPCS::
+878,286108-2,Tilia americana,Tilia americana,286108-2,Species,CPCS::
+879,1169665-2,Tillandsia usneoides,Tillandsia usneoides,1169665-2,Species,CPCS::
+880,11315-1,Tithonia,nan,nan,Genus,CPCS::
+881,794907-1,Tolmiea menziesii,Tolmiea menziesii,794907-1,Species,CPCS:UCANR:CliniTox
+884,255696-2,Townsendia exscapa,Townsendia exscapa,255696-2,Species,CPCS::
+885,82553-1,Trachelospermum jasminoides,Trachelospermum jasminoides,82553-1,Species,CPCS:UCANR:
+886,77205602-1,Callisia procumbens,Callisia procumbens,77205602-1,Species,CPCS::
+887,172628-1,Dichorisandra musaica,Dichorisandra musaica,172628-1,Species,CPCS::
+888,42453-2,Callisia navicularis,Callisia navicularis,42453-2,Species,CPCS::
+889,30002592-2,Tropaeolum,nan,nan,Genus,CPCS::
+890,11721-1,Tsuga,nan,nan,Genus,CPCS:UCANR:
+891,542801-1,Tulbaghia violacea,Tulbaghia violacea,542801-1,Species,CPCS::
+892,836870-1,Typha latifolia,Typha latifolia,836870-1,Species,CPCS::
+893,859937-1,Valeriana locusta,Valeriana locusta,859937-1,Species,CPCS::
+894,663990-1,Adonidia merrillii,Adonidia merrillii,663990-1,Species,CPCS::
+895,30049308-2,Verbascum,nan,nan,Genus,CPCS::
+896,330551-2,Verbena,nan,nan,Genus,CPCS::
+898,264854-2,Viburnum cassinoides,Viburnum cassinoides,264854-2,Species,CPCS::
+899,326266-2,Viburnum lentago,Viburnum lentago,326266-2,Species,CPCS::
+900,149801-1,Viburnum macrocephalum,Viburnum macrocephalum,149801-1,Species,CPCS::
+901,149848-1,Viburnum odoratissimum,Viburnum odoratissimum,149848-1,Species,CPCS::
+902,149876-1,Viburnum plicatum,Viburnum plicatum,149876-1,Species,CPCS:UCANR:
+903,30000738-2,Viburnum,nan,nan,Genus,CPCS:UCANR:
+908,525117-1,Vicia sativa,Vicia sativa,525117-1,Species,CPCS::
+909,867953-1,Viola cornuta,Viola cornuta,867953-1,Species,CPCS::
+910,868828-1,Viola odorata,Viola odorata,868828-1,Species,CPCS::
+911,30000540-2,Viola,nan,nan,Genus,CPCS::
+912,869428-1,Viola tricolor,Viola tricolor,869428-1,Species,CPCS::
+913,30000069-2,Vitex,nan,nan,Genus,CPCS::
+915,126163-1,Vriesea hieroglyphica,Vriesea hieroglyphica,126163-1,Species,CPCS::
+916,126130-1,Vriesea carinata,Vriesea carinata,126130-1,Species,CPCS::CliniTox
+918,77158988-1,Lutheria splendens,Lutheria splendens,77158988-1,Species,CPCS::
+919,331308-2,Washingtonia,nan,nan,Genus,CPCS::
+922,328242-2,Watsonia,nan,nan,Genus,CPCS::
+923,6141-1,Weigela,nan,nan,Genus,CPCS:UCANR:
+924,332071-2,Xylosma,nan,nan,Genus,CPCS::
+925,270297-2,Yucca brevifolia,Yucca brevifolia,270297-2,Species,CPCS::
+926,30003895-2,Yucca,nan,nan,Genus,CPCS:UCANR:
+929,77170928-1,Tradescantia zebrina var. zebrina,Tradescantia zebrina,30049896-2,Variety,CPCS::CliniTox
+933,332074-2,Zinnia,nan,nan,Genus,CPCS:UCANR:
+934,30000557-2,Abutilon,nan,nan,Genus,:UCANR:
+935,328214-2,Adiantum,nan,nan,Genus,:UCANR:
+936,37430-1,Antirrhinum,nan,nan,Genus,:UCANR:
+937,331363-2,Arctostaphylos,nan,nan,Genus,:UCANR:
+938,7704-1,Arctotis,nan,nan,Genus,:UCANR:
+939,36952-1,Astilbe,nan,nan,Genus,:UCANR:
+940,1097548-2,Bambusa multiplex,Bambusa multiplex,1097548-2,Species,:UCANR:
+941,328358-2,Bromelia,nan,nan,Genus,:UCANR:
+942,27624-1,Melaleuca,nan,nan,Genus,:UCANR:
+943,328170-2,Parkinsonia,nan,nan,Genus,:UCANR:
+944,147105-1,Cleome houtteana,Cleome houtteana,147105-1,Species,:UCANR:
+945,30100521-2,Coix lacryma-jobi,Coix lacryma-jobi,30100521-2,Species,:UCANR:
+946,446165-1,Coleus scutellarioides,Coleus scutellarioides,446165-1,Species,:UCANR:CliniTox
+949,30002865-2,Columnea,nan,nan,Genus,:UCANR:
+950,34398-1,Coprosma,nan,nan,Genus,:UCANR:
+951,20005010-1,Coreopsis grandiflora,Coreopsis grandiflora,20005010-1,Species,:UCANR:
+952,198320-1,Cosmos bipinnatus,Cosmos bipinnatus,198320-1,Species,:UCANR:
+953,60461938-2,Crocus vernus,Crocus vernus,60461938-2,Species,:UCANR:
+954,17268360-1,Cyrtomium falcatum,Cyrtomium falcatum,17268360-1,Species,:UCANR:CliniTox
+955,202484-1,Echinops exaltatus,Echinops exaltatus,202484-1,Species,:UCANR:
+956,207656-1,Felicia amelloides,Felicia amelloides,207656-1,Species,:UCANR:
+957,110723-2,Gleditsia triacanthos,Gleditsia triacanthos,110723-2,Species,:UCANR:
+958,24324-1,Hemerocallis,nan,nan,Genus,:UCANR:
+959,31276-1,Howea,nan,nan,Genus,:UCANR:
+960,659-1,Hypoestes,nan,nan,Genus,:UCANR:
+961,537112-1,Kniphofia uvaria,Kniphofia uvaria,537112-1,Species,:UCANR:
+962,449008-1,Lavandula angustifolia,Lavandula angustifolia,449008-1,Species,:UCANR:
+963,30008300-2,Liquidambar,nan,nan,Genus,:UCANR:
+964,668021-1,Livistona chinensis,Livistona chinensis,668021-1,Species,:UCANR:
+965,60461121-2,Silene coronaria,Silene coronaria,60461121-2,Species,:UCANR:
+966,21049-1,Monarda,nan,nan,Genus,:UCANR:
+967,119282-1,Myosotis sylvatica,Myosotis sylvatica,119282-1,Species,:UCANR:
+968,17160830-1,Nephrolepis exaltata,Nephrolepis exaltata,17160830-1,Species,:UCANR:CliniTox
+969,328107-2,Osmanthus,nan,nan,Genus,:UCANR:
+970,353208-1,Pachysandra terminalis,Pachysandra terminalis,353208-1,Species,:UCANR:
+971,327473-2,Paphiopedilum,nan,nan,Genus,:UCANR:
+972,328300-2,Passiflora,nan,nan,Genus,:UCANR:
+973,817227-1,Petunia × atkinsiana,Petunia × atkinsiana,817227-1,Species,:UCANR:
+974,193615-2,Phlox paniculata,Phlox paniculata,193615-2,Species,:UCANR:
+975,668945-1,Phoenix roebelenii,Phoenix roebelenii,668945-1,Species,:UCANR:
+976,30014031-2,Photinia,nan,nan,Genus,:UCANR:
+977,30095300-2,Picea pungens,Picea pungens,30095300-2,Species,:UCANR:
+978,17177460-1,Platycerium bifurcatum,Platycerium bifurcatum,17177460-1,Species,:UCANR:CliniTox
+979,328178-2,Plectranthus,nan,nan,Genus,:UCANR:
+980,17175390-1,Phlebodium aureum,Phlebodium aureum,17175390-1,Species,:UCANR:CliniTox
+982,325899-2,Portulaca,nan,nan,Genus,:UCANR:
+983,4224-1,Radermachera,nan,nan,Genus,:UCANR:
+984,34008-1,Rhaphiolepis,nan,nan,Genus,:UCANR:
+985,669577-1,Rhapis excelsa,Rhapis excelsa,669577-1,Species,:UCANR:
+986,741641-1,Sorbus aucuparia,Sorbus aucuparia,741641-1,Species,:UCANR:
+987,798194-1,Strelitzia reginae,Strelitzia reginae,798194-1,Species,:UCANR:
+988,327906-2,Syzygium,nan,nan,Genus,:UCANR:
+989,310974-2,Tropaeolum majus,Tropaeolum majus,310974-2,Species,:UCANR:
+990,328332-2,Vriesea,nan,nan,Genus,:UCANR:
+991,77130215-1,Callianthe picta,Callianthe picta,77130215-1,Species,:CliniTox
+994,77130224-1,Callianthe striata,Callianthe striata,77130224-1,Species,:CliniTox
+996,719950-1,Acaena buchananii,Acaena buchananii,719950-1,Species,:CliniTox
+997,90431-1,Eleutherococcus senticosus,Eleutherococcus senticosus,90431-1,Species,:CliniTox
+1000,781250-1,Acer campestre,Acer campestre,781250-1,Species,:CliniTox
+1001,781424-1,Acer opalus,Acer opalus,781424-1,Species,:CliniTox
+1002,781455-1,Acer platanoides,Acer platanoides,781455-1,Species,:CliniTox
+1003,2294-2,Achillea millefolium,Achillea millefolium,2294-2,Species,:CliniTox
+1004,2332-2,Achillea nobilis,Achillea nobilis,2332-2,Species,:CliniTox
+1005,174326-1,Achillea tomentosa,Achillea tomentosa,174326-1,Species,:CliniTox
+1006,2352-2,Achimenes erecta,Achimenes erecta,2352-2,Species,:CliniTox
+1008,316204-2,Actaea racemosa,Actaea racemosa,316204-2,Species,:CliniTox
+1010,303913-2,Actaea spicata,Actaea spicata,303913-2,Species,:CliniTox
+1011,121640-1,Aechmea fasciata,Aechmea fasciata,121640-1,Species,:CliniTox
+1014,272194-1,Aeonium arboreum,Aeonium arboreum,272194-1,Species,:CliniTox
+1016,377844-1,Aeschynanthus radicans,Aeschynanthus radicans,377844-1,Species,:CliniTox
+1017,319063-2,Agave americana,Agave americana,319063-2,Species,:CliniTox
+1018,272293-1,Aichryson laxum,Aichryson laxum,272293-1,Species,:CliniTox
+1019,720605-1,Alchemilla glaucescens,Alchemilla glaucescens,720605-1,Species,:CliniTox
+1020,1121580-2,Alchemilla hybrida,Alchemilla hybrida,1121580-2,Species,:CliniTox
+1022,721079-1,Alchemilla vulgaris,Alchemilla vulgaris,721079-1,Species,:CliniTox
+1023,721091-1,Alchemilla xanthochlora,Alchemilla xanthochlora,721091-1,Species,:CliniTox
+1024,319065-2,Allamanda cathartica,Allamanda cathartica,319065-2,Species,:CliniTox
+1025,8535-2,Allamanda nobilis,Allamanda nobilis,8535-2,Species,:CliniTox
+1026,1015994-1,Aloysia citrodora,Aloysia citrodora,1015994-1,Species,:CliniTox
+1029,558872-1,Althaea officinalis,Althaea officinalis,558872-1,Species,:CliniTox
+1030,316347-2,Amaranthus caudatus,Amaranthus caudatus,316347-2,Species,:CliniTox
+1034,12322-2,Ananas comosus,Ananas comosus,12322-2,Species,:CliniTox
+1036,77172865-1,Ananas comosus var. comosus,Ananas comosus,12322-2,Variety,:CliniTox
+1039,277878-1,Anastatica hierochuntica,Anastatica hierochuntica,277878-1,Species,:CliniTox
+1040,837969-1,Anthriscus sylvestris,Anthriscus sylvestris,837969-1,Species,:CliniTox
+1043,838067-1,Apium graveolens,Apium graveolens,838067-1,Species,:CliniTox
+1044,91472-1,Panax ginseng,Panax ginseng,91472-1,Species,:CliniTox
+1046,531229-1,Asparagus officinalis,Asparagus officinalis,531229-1,Species,:CliniTox
+1049,30147822-2,Aster alpinus,Aster alpinus,30147822-2,Species,:CliniTox
+1050,981864-1,Symphyotrichum novi-belgii,Symphyotrichum novi-belgii,981864-1,Species,:CliniTox
+1052,77167690-1,Betula pubescens var. pubescens,Betula pubescens,295185-1,Variety,:CliniTox
+1053,295174-1,Betula pendula,Betula pendula,295174-1,Species,:CliniTox
+1054,295185-1,Betula pubescens,Betula pubescens,295185-1,Species,:CliniTox
+1055,77167700-1,Betula pendula subsp. pendula,Betula pendula,295174-1,Subspecies,:CliniTox
+1056,838717-1,Bifora radians,Bifora radians,838717-1,Species,:CliniTox
+1057,122153-1,Billbergia nutans,Billbergia nutans,122153-1,Species,:CliniTox
+1058,127067-1,Boswellia serrata,Boswellia serrata,127067-1,Species,:CliniTox
+1060,35444-2,Bougainvillea glabra,Bougainvillea glabra,35444-2,Species,:CliniTox
+1062,604358-1,Bougainvillea spectabilis,Bougainvillea spectabilis,604358-1,Species,:CliniTox
+1063,822270-1,Brachychiton rupestris,Brachychiton rupestris,822270-1,Species,:CliniTox
+1065,87143-2,Echinacea angustifolia,Echinacea angustifolia,87143-2,Species,:CliniTox
+1068,60459270-2,Goeppertia crocata,Goeppertia crocata,60459270-2,Species,:CliniTox
+1069,187819-1,Calendula arvensis,Calendula arvensis,187819-1,Species,:CliniTox
+1070,828548-1,Camellia sinensis,Camellia sinensis,828548-1,Species,:CliniTox
+1072,140487-1,Campanula isophylla,Campanula isophylla,140487-1,Species,:CliniTox
+1073,782195-1,Cardiospermum corindum,Cardiospermum corindum,782195-1,Species,:CliniTox
+1074,839677-1,Carum carvi,Carum carvi,839677-1,Species,:CliniTox
+1075,316350-2,Celosia argentea,Celosia argentea,316350-2,Species,:CliniTox
+1076,326619-2,Centaurium erythraea,Centaurium erythraea,326619-2,Species,:CliniTox
+1077,686555-1,Ceratostigma plumbaginoides,Ceratostigma plumbaginoides,686555-1,Species,:CliniTox
+1078,686560-1,Ceratostigma willmottianum,Ceratostigma willmottianum,686560-1,Species,:CliniTox
+1079,840142-1,Chaerophyllum aureum,Chaerophyllum aureum,840142-1,Species,:CliniTox
+1080,154715-2,Matricaria chamomilla,Matricaria chamomilla,154715-2,Species,:CliniTox
+1084,532792-1,Chlorophytum capense,Chlorophytum capense,532792-1,Species,:CliniTox
+1085,533000-1,Chlorophytum orchidastrum,Chlorophytum orchidastrum,533000-1,Species,:CliniTox
+1087,533073-1,Chlorophytum sparsiflorum,Chlorophytum sparsiflorum,533073-1,Species,:CliniTox
+1088,193510-1,Chrysanthemum indicum,Chrysanthemum indicum,193510-1,Species,:CliniTox
+1090,77111328-1,Chrysanthemum × morifolium,Chrysanthemum × morifolium,77111328-1,Species,:CliniTox
+1093,463752-1,Cinnamomum verum,Cinnamomum verum,463752-1,Species,:CliniTox
+1094,59600-2,Citrus × aurantium,Citrus × aurantium,59600-2,Species,:CliniTox
+1096,862437-1,Clerodendrum thomsoniae,Clerodendrum thomsoniae,862437-1,Species,:CliniTox
+1097,828636-1,Cleyera japonica,Cleyera japonica,828636-1,Species,:CliniTox
+1098,666160-1,Cocos nucifera,Cocos nucifera,666160-1,Species,:CliniTox
+1099,840760-1,Coriandrum sativum,Coriandrum sativum,840760-1,Species,:CliniTox
+1100,295446-1,Corylus avellana,Corylus avellana,295446-1,Species,:CliniTox
+1101,723644-1,Crataegus laevigata,Crataegus laevigata,723644-1,Species,:CliniTox
+1102,723820-1,Crataegus monogyna,Crataegus monogyna,723820-1,Species,:CliniTox
+1103,47014-1,Crossandra infundibuliformis,Crossandra infundibuliformis,47014-1,Species,:CliniTox
+1104,796451-1,Curcuma longa,Curcuma longa,796451-1,Species,:CliniTox
+1106,796485-1,Curcuma zanthorrhiza,Curcuma zanthorrhiza,796485-1,Species,:CliniTox
+1108,200876-1,Cynara cardunculus,Cynara cardunculus,200876-1,Species,:CliniTox
+1109,77180272-1,Cynara cardunculus subsp. cardunculus,Cynara cardunculus,200876-1,Subspecies,:CliniTox
+1110,303729-1,Cyperus alternifolius,Cyperus alternifolius,303729-1,Species,:CliniTox
+1111,320700-2,Cypripedium calceolus,Cypripedium calceolus,320700-2,Species,:CliniTox
+1112,75385-2,Cypripedium reginae,Cypripedium reginae,75385-2,Species,:CliniTox
+1113,17075980-1,Cyrtomium fortunei,Cyrtomium fortunei,17075980-1,Species,:CliniTox
+1114,30013429-2,Cystopteris fragilis,Cystopteris fragilis,30013429-2,Species,:CliniTox
+1115,274039-1,Echeveria secunda,Echeveria secunda,274039-1,Species,:CliniTox
+1117,202374-1,Echinacea pallida,Echinacea pallida,202374-1,Species,:CliniTox
+1118,229597-2,Schlumbergera truncata,Schlumbergera truncata,229597-2,Species,:CliniTox
+1121,138459-1,Schlumbergera × buckleyi,Schlumbergera × buckleyi,138459-1,Species,:CliniTox
+1122,380794-1,Episcia lilacina,Episcia lilacina,380794-1,Species,:CliniTox
+1123,219256-2,Rhipsalis campos-portoana,Rhipsalis campos-portoana,219256-2,Species,:CliniTox
+1125,592965-1,Eucalyptus globulus,Eucalyptus globulus,592965-1,Species,:CliniTox
+1126,245468-2,Stevia rebaudiana,Stevia rebaudiana,245468-2,Species,:CliniTox
+1129,828738-1,Eurya japonica,Eurya japonica,828738-1,Species,:CliniTox
+1130,724943-1,Filipendula ulmaria,Filipendula ulmaria,724943-1,Species,:CliniTox
+1132,105033-2,Fittonia albivenis,Fittonia albivenis,105033-2,Species,:CliniTox
+1136,842680-1,Foeniculum vulgare,Foeniculum vulgare,842680-1,Species,:CliniTox
+1138,208720-1,Gazania rigens,Gazania rigens,208720-1,Species,:CliniTox
+1139,368453-1,Gentiana lutea,Gentiana lutea,368453-1,Species,:CliniTox
+1140,373138-1,Geranium himalayense,Geranium himalayense,373138-1,Species,:CliniTox
+1141,376728-1,Pelargonium peltatum,Pelargonium peltatum,376728-1,Species,:CliniTox
+1143,377008-1,Pelargonium sidoides,Pelargonium sidoides,377008-1,Species,:CliniTox
+1145,377229-1,Pelargonium zonale,Pelargonium zonale,377229-1,Species,:CliniTox
+1147,496941-1,Glycyrrhiza glabra,Glycyrrhiza glabra,496941-1,Species,:CliniTox
+1148,77102526-1,Gomesa flexuosa,Gomesa flexuosa,77102526-1,Species,:CliniTox
+1149,757486-1,Nertera granadensis,Nertera granadensis,757486-1,Species,:CliniTox
+1151,675096-1,Passiflora incarnata,Passiflora incarnata,675096-1,Species,:CliniTox
+1154,703712-1,Grevillea banksii,Grevillea banksii,703712-1,Species,:CliniTox
+1155,50798-3,Grevillea robusta,Grevillea robusta,50798-3,Species,:CliniTox
+1156,704027-1,Grevillea rosmarinifolia,Grevillea rosmarinifolia,704027-1,Species,:CliniTox
+1157,77231028-1,Hamamelis virginiana var. virginiana,Hamamelis virginiana,430697-1,Variety,:CliniTox
+1158,430697-1,Hamamelis virginiana,Hamamelis virginiana,430697-1,Species,:CliniTox
+1159,675824-1,Harpagophytum procumbens,Harpagophytum procumbens,675824-1,Species,:CliniTox
+1160,969704-1,Rhipsalidopsis × graeseri,Rhipsalidopsis × graeseri,969704-1,Species,:CliniTox
+1161,811614-1,Veronica × andersonii,Veronica × andersonii,811614-1,Species,:CliniTox
+1163,329249-2,Helianthus pauciflorus,Helianthus pauciflorus,329249-2,Species,:CliniTox
+1164,329252-2,Helianthus tuberosus,Helianthus tuberosus,329252-2,Species,:CliniTox
+1165,560756-1,Hibiscus rosa-sinensis,Hibiscus rosa-sinensis,560756-1,Species,:CliniTox
+1166,667434-1,Howea forsteriana,Howea forsteriana,667434-1,Species,:CliniTox
+1167,374419-1,Impatiens walleriana,Impatiens walleriana,374419-1,Species,:CliniTox
+1168,77169515-1,Ixora coccinea var. coccinea,Ixora coccinea,753844-1,Variety,:CliniTox
+1171,753844-1,Ixora coccinea,Ixora coccinea,753844-1,Species,:CliniTox
+1172,77144221-1,Chrysojasminum fruticans,Chrysojasminum fruticans,77144221-1,Species,:CliniTox
+1173,609662-1,Jasminum nudiflorum,Jasminum nudiflorum,609662-1,Species,:CliniTox
+1174,609672-1,Jasminum officinale,Jasminum officinale,609672-1,Species,:CliniTox
+1175,77172364-1,Jasminum nudiflorum f. nudiflorum,Jasminum nudiflorum,609662-1,Form,:CliniTox
+1176,442917-1,Juncus effusus,Juncus effusus,442917-1,Species,:CliniTox
+1177,448792-1,Lamium album,Lamium album,448792-1,Species,:CliniTox
+1178,448886-1,Lamium maculatum,Lamium maculatum,448886-1,Species,:CliniTox
+1179,262420-1,Larix decidua,Larix decidua,262420-1,Species,:CliniTox
+1180,77169613-1,Larix decidua var. decidua,Larix decidua,262420-1,Variety,:CliniTox
+1181,60457419-2,Larix kaempferi,Larix kaempferi,60457419-2,Species,:CliniTox
+1183,501820-1,Lathyrus linifolius,Lathyrus linifolius,501820-1,Species,:CliniTox
+1185,501954-1,Lathyrus pratensis,Lathyrus pratensis,501954-1,Species,:CliniTox
+1186,502084-1,Lathyrus vernus,Lathyrus vernus,502084-1,Species,:CliniTox
+1189,449168-1,Leonurus cardiaca,Leonurus cardiaca,449168-1,Species,:CliniTox
+1190,325777-2,Linaria vulgaris,Linaria vulgaris,325777-2,Species,:CliniTox
+1191,30179739-2,Lotus corniculatus,Lotus corniculatus,30179739-2,Species,:CliniTox
+1192,641859-1,Lycaste aromatica,Lycaste aromatica,641859-1,Species,:CliniTox
+1193,60454892-2,Selaginella helvetica,Selaginella helvetica,60454892-2,Species,:CliniTox
+1195,449641-1,Lycopus europaeus,Lycopus europaeus,449641-1,Species,:CliniTox
+1197,246948-2,Syagrus insignis,Syagrus insignis,246948-2,Species,:CliniTox
+1198,246979-2,Syagrus weddelliana,Syagrus weddelliana,246979-2,Species,:CliniTox
+1200,453331-1,Origanum onites,Origanum onites,453331-1,Species,:CliniTox
+1203,561521-1,Malva alcea,Malva alcea,561521-1,Species,:CliniTox
+1204,77226650-1,Malva sylvestris var. sylvestris,Malva sylvestris,561932-1,Variety,:CliniTox
+1205,561790-1,Malva moschata,Malva moschata,561790-1,Species,:CliniTox
+1206,561795-1,Malva neglecta,Malva neglecta,561795-1,Species,:CliniTox
+1207,561932-1,Malva sylvestris,Malva sylvestris,561932-1,Species,:CliniTox
+1208,570289-1,Medinilla magnifica,Medinilla magnifica,570289-1,Species,:CliniTox
+1209,450084-1,Melissa officinalis,Melissa officinalis,450084-1,Species,:CliniTox
+1210,450192-1,Mentha aquatica,Mentha aquatica,450192-1,Species,:CliniTox
+1211,30026217-2,Mentha arvensis,Mentha arvensis,30026217-2,Species,:CliniTox
+1212,450735-1,Mentha longifolia,Mentha longifolia,450735-1,Species,:CliniTox
+1213,451162-1,Mentha spicata,Mentha spicata,451162-1,Species,:CliniTox
+1214,77169971-1,Mentha longifolia subsp. longifolia,Mentha longifolia,450735-1,Subspecies,:CliniTox
+1215,77171344-1,Mentha spicata subsp. spicata,Mentha spicata,451162-1,Subspecies,:CliniTox
+1216,450969-1,Mentha × piperita,Mentha × piperita,450969-1,Species,:CliniTox
+1217,290876-2,Nematanthus gregarius,Nematanthus gregarius,290876-2,Species,:CliniTox
+1218,169003-2,Neoregelia carolinae,Neoregelia carolinae,169003-2,Species,:CliniTox
+1219,77167975-1,Nertera granadensis var. granadensis,Nertera granadensis,757486-1,Variety,:CliniTox
+1220,316853-2,Cyrtochilum flexuosum,Cyrtochilum flexuosum,316853-2,Species,:CliniTox
+1221,453395-1,Origanum vulgare,Origanum vulgare,453395-1,Species,:CliniTox
+1222,300467-2,Panax quinquefolius,Panax quinquefolius,300467-2,Species,:CliniTox
+1224,649729-1,Paphiopedilum callosum,Paphiopedilum callosum,649729-1,Species,:CliniTox
+1225,321949-2,Passiflora caerulea,Passiflora caerulea,321949-2,Species,:CliniTox
+1226,376255-1,Pelargonium grandiflorum,Pelargonium grandiflorum,376255-1,Species,:CliniTox
+1227,678021-1,Peperomia argyreia,Peperomia argyreia,678021-1,Species,:CliniTox
+1229,678023-1,Peperomia arifolia,Peperomia arifolia,678023-1,Species,:CliniTox
+1230,678190-1,Peperomia caperata,Peperomia caperata,678190-1,Species,:CliniTox
+1231,679269-1,Peperomia obtusifolia,Peperomia obtusifolia,679269-1,Species,:CliniTox
+1232,432789-1,Phacelia tanacetifolia,Phacelia tanacetifolia,432789-1,Species,:CliniTox
+1233,650501-1,Phalaenopsis amabilis,Phalaenopsis amabilis,650501-1,Species,:CliniTox
+1234,855664-1,Pilea peperomioides,Pilea peperomioides,855664-1,Species,:CliniTox
+1235,846658-1,Pimpinella anisum,Pimpinella anisum,846658-1,Species,:CliniTox
+1236,454404-1,Plectranthus fruticosus,Plectranthus fruticosus,454404-1,Species,:CliniTox
+1237,687056-1,Plumbago auriculata,Plumbago auriculata,687056-1,Species,:CliniTox
+1239,687068-1,Plumbago europaea,Plumbago europaea,687068-1,Species,:CliniTox
+1240,77231719-1,Potentilla recta subsp. recta,Potentilla recta,209483-2,Subspecies,:CliniTox
+1241,60457410-2,Potentilla erecta,Potentilla erecta,60457410-2,Species,:CliniTox
+1242,702751-1,Primula veris,Primula veris,702751-1,Species,:CliniTox
+1243,17211870-1,Pteris cretica,Pteris cretica,17211870-1,Species,:CliniTox
+1244,77186168-1,Pteris cretica subsp. cretica,Pteris cretica,17211870-1,Subspecies,:CliniTox
+1246,77158954-1,Racinaea dyeriana,Racinaea dyeriana,77158954-1,Species,:CliniTox
+1248,332420-1,Rhododendron ferrugineum,Rhododendron ferrugineum,332420-1,Species,:CliniTox
+1249,326360-2,Rhododendron hirsutum,Rhododendron hirsutum,326360-2,Species,:CliniTox
+1250,332634-1,Rhododendron × intermedium,Rhododendron × intermedium,332634-1,Species,:CliniTox
+1251,457138-1,Salvia rosmarinus,Salvia rosmarinus,457138-1,Species,:CliniTox
+1252,736933-1,Rubus fruticosus,Rubus fruticosus,736933-1,Species,:CliniTox
+1253,223725-2,Rudbeckia fulgida,Rudbeckia fulgida,223725-2,Species,:CliniTox
+1254,223740-2,Rudbeckia hirta,Rudbeckia hirta,223740-2,Species,:CliniTox
+1255,54614-1,Ruellia strepens,Ruellia strepens,54614-1,Species,:CliniTox
+1256,303599-2,Salix caprea,Salix caprea,303599-2,Species,:CliniTox
+1257,301107-2,Salix cinerea,Salix cinerea,301107-2,Species,:CliniTox
+1258,777425-1,Salix daphnoides,Salix daphnoides,777425-1,Species,:CliniTox
+1259,777611-1,Salix × fragilis,Salix × fragilis,777611-1,Species,:CliniTox
+1260,301321-2,Salix purpurea,Salix purpurea,301321-2,Species,:CliniTox
+1261,779152-1,Salix viminalis,Salix viminalis,779152-1,Species,:CliniTox
+1262,54890-1,Sanchezia oblonga,Sanchezia oblonga,54890-1,Species,:CliniTox
+1263,227328-2,Sanchezia speciosa,Sanchezia speciosa,227328-2,Species,:CliniTox
+1264,793205-1,Saxifraga androsacea,Saxifraga androsacea,793205-1,Species,:CliniTox
+1265,275022-1,Sedum album,Sedum album,275022-1,Species,:CliniTox
+1266,276056-1,Sedum sexangulare,Sedum sexangulare,276056-1,Species,:CliniTox
+1269,275301-1,Sedum dasyphyllum,Sedum dasyphyllum,275301-1,Species,:CliniTox
+1270,77224999-1,Sedum dasyphyllum subsp. dasyphyllum,Sedum dasyphyllum,275301-1,Subspecies,:CliniTox
+1271,382771-1,Sinningia × ornata,Sinningia × ornata,382771-1,Species,:CliniTox
+1272,575815-1,Sonerila maculata,Sonerila maculata,575815-1,Species,:CliniTox
+1273,835200-1,Sparrmannia africana,Sparrmannia africana,835200-1,Species,:CliniTox
+1274,30066276-2,Thymus serpyllum,Thymus serpyllum,30066276-2,Species,:CliniTox
+1275,461765-1,Thymus vulgaris,Thymus vulgaris,461765-1,Species,:CliniTox
+1276,461798-1,Thymus zygis,Thymus zygis,461798-1,Species,:CliniTox
+1277,835608-1,Tilia tomentosa,Tilia tomentosa,835608-1,Species,:CliniTox
+1280,835277-1,Tilia cordata,Tilia cordata,835277-1,Species,:CliniTox
+1282,20006402-1,Tilia platyphyllos subsp. corinthiaca,Tilia platyphyllos,332109-2,Subspecies,:CliniTox
+1283,332109-2,Tilia platyphyllos,Tilia platyphyllos,332109-2,Species,:CliniTox
+1284,835306-1,Tilia × europaea,Tilia × europaea,835306-1,Species,:CliniTox
+1286,77158962-1,Wallisia cyanea,Wallisia cyanea,77158962-1,Species,:CliniTox
+1289,30049896-2,Tradescantia zebrina,Tradescantia zebrina,30049896-2,Species,:CliniTox
+1290,77231422-1,Filipendula ulmaria subsp. ulmaria,Filipendula ulmaria,724943-1,Subspecies,:CliniTox
+1291,260630-2,Urtica dioica,Urtica dioica,260630-2,Species,:CliniTox
+1292,857987-1,Urtica urens,Urtica urens,857987-1,Species,:CliniTox
+1293,30006039-2,Vaccinium myrtillus,Vaccinium myrtillus,30006039-2,Species,:CliniTox
+1294,860012-1,Valeriana officinalis,Valeriana officinalis,860012-1,Species,:CliniTox
+1295,865568-1,Vitex agnus-castus,Vitex agnus-castus,865568-1,Species,:CliniTox
+1296,543700-1,Yucca gigantea,Yucca gigantea,543700-1,Species,:CliniTox
+1298,325010-2,Yucca gloriosa,Yucca gloriosa,325010-2,Species,:CliniTox
+1299,798372-1,Zingiber officinale,Zingiber officinale,798372-1,Species,:CliniTox
