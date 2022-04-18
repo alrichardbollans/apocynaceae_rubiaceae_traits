@@ -2,6 +2,7 @@ import hashlib
 import os.path
 import urllib.request
 from urllib.error import HTTPError
+import lxml
 
 import pandas as pd
 from typing import List
@@ -278,7 +279,7 @@ def main():
         os.mkdir(output_path)
 
     # TODO: Note powo, wikipedia and USDA data is specific to our study
-    # prepare_data()
+    prepare_data()
 
     cornell_hits = pd.read_csv(get_tempout_csv('Cornell CALS', _temp_outputs_path), index_col=0)
     cpcs_hits = pd.read_csv(get_tempout_csv('CPCS nontoxic', _temp_outputs_path), index_col=0)
