@@ -1,5 +1,4 @@
 import os
-
 import pandas as pd
 from automatchnames import remove_whitespace_at_beginning_and_end, get_accepted_info_from_names_in_column
 from pkg_resources import resource_filename
@@ -24,8 +23,6 @@ rubiaceae_apocynaceae_metabolites_output_csv = os.path.join(_output_path, 'rub_a
 _rubiaceae_apocynaceae_alks_output_csv = os.path.join(_output_path, 'rub_apocs_alkaloids.csv')
 _rubiaceae_apocynaceae_steroid_output_csv = os.path.join(_output_path, 'rub_apocs_steroids.csv')
 _rubiaceae_apocynaceae_cardenolide_output_csv = os.path.join(_output_path, 'rub_apocs_cardenolides.csv')
-
-
 
 rub_apoc_alkaloid_hits_output_csv = os.path.join(_output_path, 'rub_apocs_alkaloid_hits.csv')
 rub_apoc_steroid_hits_output_csv = os.path.join(_output_path, 'rub_apocs_steroid_hits.csv')
@@ -73,7 +70,8 @@ def get_rub_apoc_knapsack_cardenolide_hits():
     card_df = output_cardenolides_from_metabolites(metabolites_to_check, _rubiaceae_apocynaceae_cardenolide_output_csv)
 
     rubs_apoc_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
-    get_compound_hits_for_taxa('cardenolides', rubs_apoc_metas_data, card_df, _rub_apoc_cardenolide_hits_knapsack_output_csv,
+    get_compound_hits_for_taxa('cardenolides', rubs_apoc_metas_data, card_df,
+                               _rub_apoc_cardenolide_hits_knapsack_output_csv,
                                fams=['Rubiaceae', 'Apocynaceae'])
 
 
@@ -92,9 +90,8 @@ def get_rub_apoc_antibac_metabolite_hits():
 
 
 def get_steroid_card_hits():
-
-    # get_rub_apoc_knapsack_steroid_hits()
-    # get_rub_apoc_knapsack_cardenolide_hits()
+    get_rub_apoc_knapsack_steroid_hits()
+    get_rub_apoc_knapsack_cardenolide_hits()
 
     manual_steroid_hits = pd.read_csv(rub_apoc_steroid_hits_manual_output_csv)
     knapsack_steroid_hits = pd.read_csv(_rub_apoc_steroid_hits_knapsack_output_csv)
@@ -106,14 +103,15 @@ def get_steroid_card_hits():
 
     compile_hits([manual_cardenolide_hits, knapsack_cardenolide_hits], rub_apoc_cardenolide_hits_output_csv)
 
+
 def main():
-    # get_rub_apoc_metabolites()
+    get_rub_apoc_metabolites()
     # # recheck_taxa(_check_output_csv)
     # summarise_metabolites()
     # get_rub_apoc_antibac_metabolite_hits()
     # get_rub_apoc_alkaloid_hits()
 
-    get_steroid_card_hits()
+    # get_steroid_card_hits()
 
 
 if __name__ == '__main__':
