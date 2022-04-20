@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from automatchnames import remove_whitespace_at_beginning_and_end, get_accepted_info_from_names_in_column
 from pkg_resources import resource_filename
+from powo_searches import search_powo
 from taxa_lists import get_all_taxa
 
 from metabolite_searches import get_metabolites_for_taxa, output_alkaloids_from_metabolites, get_compound_hits_for_taxa, \
@@ -9,13 +10,16 @@ from metabolite_searches import get_metabolites_for_taxa, output_alkaloids_from_
     output_cardenolides_from_metabolites
 from cleaning import compile_hits
 
-from manually_collected_data import rub_apoc_steroid_hits_manual_output_csv, rub_apoc_cardenolide_hits_manual_output_csv
+from manually_collected_data import rub_apoc_steroid_hits_manual_output_csv, \
+    rub_apoc_cardenolide_hits_manual_output_csv, rub_apoc_alk_hits_manual_output_csv
 
 _input_path = resource_filename(__name__, 'inputs')
 
 _temp_output_path = resource_filename(__name__, 'temp_outputs')
 _rub_apoc_steroid_hits_knapsack_output_csv = os.path.join(_temp_output_path, 'rub_apocs_steroid_knapsack.csv')
 _rub_apoc_cardenolide_hits_knapsack_output_csv = os.path.join(_temp_output_path, 'rub_apocs_card_knapsack.csv')
+_rub_apoc_alk_hits_knapsack_output_csv = os.path.join(_temp_output_path, 'rub_apocs_alk_knapsack.csv')
+_powo_search_alks_temp_output_accepted_csv = os.path.join(_temp_output_path, 'powo_alks.csv')
 
 _output_path = resource_filename(__name__, 'outputs')
 
@@ -28,7 +32,7 @@ rub_apoc_alkaloid_hits_output_csv = os.path.join(_output_path, 'rub_apocs_alkalo
 rub_apoc_steroid_hits_output_csv = os.path.join(_output_path, 'rub_apocs_steroid_hits.csv')
 rub_apoc_cardenolide_hits_output_csv = os.path.join(_output_path, 'rub_apocs_cardenolides_hits.csv')
 
-rub_apoc_antibac_metabolites_output_csv = os.path.join(_output_path, 'rub_apocs_antibac_metabolites.csv')
+rub_apoc_antibac_metabolite_hits_output_csv = os.path.join(_output_path, 'rub_apocs_antibac_metabolites_hits.csv')
 _check_output_csv = os.path.join(_output_path, 'rechecked_taxa.csv')
 
 
@@ -45,13 +49,26 @@ def get_rub_apoc_metabolites():
 
 
 def get_rub_apoc_alkaloid_hits():
+    # Knapsack
     metabolites_to_check = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv).columns.tolist()
 
     alks_df = output_alkaloids_from_metabolites(metabolites_to_check, _rubiaceae_apocynaceae_alks_output_csv)
 
     rubs_apoc_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
-    get_compound_hits_for_taxa('alks', rubs_apoc_metas_data, alks_df, rub_apoc_alkaloid_hits_output_csv,
+    get_compound_hits_for_taxa('alks', rubs_apoc_metas_data, alks_df, _rub_apoc_alk_hits_knapsack_output_csv,
                                fams=['Rubiaceae', 'Apocynaceae'])
+
+    # POWO
+    search_powo(['alkaloid'],
+                _powo_search_alks_temp_output_accepted_csv, families_of_interest=['Rubiaceae', 'Apocynaceae'],
+                filters=['species', 'infraspecies'])
+
+    # Compile
+    powo_hits = pd.read_csv(_powo_search_alks_temp_output_accepted_csv)
+    knapsack_alk_hits = pd.read_csv(_rub_apoc_alk_hits_knapsack_output_csv)
+    manual_alk_hits = pd.read_csv(rub_apoc_alk_hits_manual_output_csv)
+
+    compile_hits([manual_alk_hits, knapsack_alk_hits, powo_hits], rub_apoc_alkaloid_hits_output_csv)
 
 
 def get_rub_apoc_knapsack_steroid_hits():
@@ -85,7 +102,7 @@ def summarise_metabolites():
 
 def get_rub_apoc_antibac_metabolite_hits():
     all_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
-    get_antibac_metabolite_hits_for_taxa(all_metas_data, rub_apoc_antibac_metabolites_output_csv,
+    get_antibac_metabolite_hits_for_taxa(all_metas_data, rub_apoc_antibac_metabolite_hits_output_csv,
                                          fams=['Rubiaceae', 'Apocynaceae'])
 
 
@@ -107,11 +124,11 @@ def get_steroid_card_hits():
 def main():
     get_rub_apoc_metabolites()
     # # recheck_taxa(_check_output_csv)
-    # summarise_metabolites()
-    # get_rub_apoc_antibac_metabolite_hits()
-    # get_rub_apoc_alkaloid_hits()
+    summarise_metabolites()
+    get_rub_apoc_antibac_metabolite_hits()
+    get_rub_apoc_alkaloid_hits()
 
-    # get_steroid_card_hits()
+    get_steroid_card_hits()
 
 
 if __name__ == '__main__':

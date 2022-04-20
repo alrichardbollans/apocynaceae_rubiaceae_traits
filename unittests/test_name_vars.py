@@ -17,5 +17,6 @@ class MyTestCase(unittest.TestCase):
         p.confirm_powo_hit('Gonzalagunia panamensis', hits)
         p.confirm_no_hit('Tocoyena pittieri', hits)
 
+
 if __name__ == '__main__':
     unittest.main()
