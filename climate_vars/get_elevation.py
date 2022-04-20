@@ -57,11 +57,11 @@ def recompile_batches() -> pd.DataFrame:
     batch_files = os.listdir(elevation_batch_dir)
     csv_files = [f for f in batch_files if f.endswith('.csv')]
     for csv_file in csv_files:
-        collect_dfs.append(pd.read_csv(os.path.join(elevation_batch_dir,csv_file),
+        collect_dfs.append(pd.read_csv(os.path.join(elevation_batch_dir, csv_file),
                                        usecols=['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'gbifID',
                                                 'elevation']))
     recompiled_df = pd.concat(collect_dfs)
-
+    recompiled_df.reset_index(inplace=True, drop=True)
     return recompiled_df
 
 
@@ -78,7 +78,15 @@ def check_outputs():
     recompiled_without_el = recompiled_df.drop(columns=['elevation'])
     clean_occ_df = pd.read_csv(spec_occurence_input,
                                usecols=['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'gbifID'])
-    pd.testing.assert_frame_equal(recompiled_without_el, clean_occ_df)
+
+
+    pd.testing.assert_frame_equal(recompiled_without_el, clean_occ_df,check_index_type=False)
+
+
+def redo_cases_to_retry():
+    cases_to_retry = pd.read_csv(os.path.join(climate_temp_outputs_path, 'elevation_cases_to_retry.csv'))
+    cases_to_retry['elevation'] = cases_to_retry['gbifID'].progress_apply(get_elevation_from_gbif_key)
+    cases_to_retry.to_csv(os.path.join(climate_temp_outputs_path, 'elevation_cases_to_retry_done.csv'))
 
 
 def main():
@@ -87,5 +95,7 @@ def main():
                                usecols=['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'gbifID'])
     batch_append_elevation(clean_occ_df, start_from=44)
 
+
 if __name__ == '__main__':
-    main()
+    check_outputs()
+    # main()

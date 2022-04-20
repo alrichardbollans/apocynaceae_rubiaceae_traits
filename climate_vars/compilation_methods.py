@@ -20,21 +20,19 @@ if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
 
-def get_median_df():
-    # TODO: add elevation
+def get_climate_df():
     # We take median of occurences in order to mitigate outliers
     # This still has the possible issue of being biased towards where people take samples
 
-    clim_occ_df = pd.read_csv(os.path.join(_temp_outputs_path, 'species_with_clim_vars.csv'))
+    clim_occ_df = pd.read_csv(os.path.join(_temp_outputs_path, 'species_with_clim_vars.csv'), encoding='latin1')
 
     print(clim_occ_df.head())
     print(clim_occ_df.columns)
     dfs = []
     for c in ['CHELSA_bio1_1981.2010_V.2.1', 'CHELSA_bio12_1981.2010_V.2.1',
-              'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean', 'CHELSA_kg2_1981.2010_V.2.1']:
+              'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean', 'soc_0.5cm_mean']:
         avg = pd.DataFrame(clim_occ_df.groupby([clim_occ_df['fullname']])[c].median())
-        if c=='CHELSA_kg2_1981.2010_V.2.1':
-            avg = avg.round()
+
         dfs.append(avg)
 
     for df in dfs:
@@ -43,6 +41,8 @@ def get_median_df():
     merged = pd.merge(merged, dfs[2], on='fullname')
     merged = pd.merge(merged, dfs[3], on='fullname')
     merged = pd.merge(merged, dfs[4], on='fullname')
+
+    merged['kg2'] = clim_occ_df.groupby([clim_occ_df['fullname']])['CHELSA_kg2_1981.2010_V.2.1'].apply(list).values
 
     elevation_df = recompile_batches()
     avg_elevations = pd.DataFrame(elevation_df.groupby([clim_occ_df['fullname']])['elevation'].median())
@@ -53,7 +53,7 @@ def get_median_df():
     merged.rename(columns={'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
                            'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
                            'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',
-                           'CHELSA_kg2_1981.2010_V.2.1': 'koppen_geiger2'}, inplace=True)
+                           'soc_0.5cm_mean': 'soil_soc'}, inplace=True)
     merged['fullname'] = merged.index
     acc_merged = get_accepted_info_from_names_in_column(merged, 'fullname',
                                                         families_of_interest=['Apocynaceae', 'Rubiaceae'])
@@ -61,7 +61,8 @@ def get_median_df():
 
 
 def main():
-    get_median_df()
+
+    get_climate_df()
 
 
 if __name__ == '__main__':
