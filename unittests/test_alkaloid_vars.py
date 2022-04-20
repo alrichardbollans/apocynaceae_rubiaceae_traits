@@ -18,7 +18,7 @@ class MyTestCase(unittest.TestCase):
 
         p.confirm_knapsack_hit('Psychotria malayana', hits)
 
-        p.confirm_no_hit('Gonzalagunia panamensis', hits)
+        p.confirm_hit('Gonzalagunia panamensis', hits)
 
 
 if __name__ == '__main__':
