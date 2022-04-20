@@ -4,7 +4,7 @@ import pandas as pd
 from pkg_resources import resource_filename
 
 ### Inputs
-from manually_collected_data import manual_morph_data_output
+from manually_collected_data import manual_morph_data_output, manual_habit_data_output
 from morphological_vars import temp_outputs_path, try_spine_temp_output_accepted_csv, try_hair_temp_output_accepted_csv, \
     try_no_spine_temp_output_accepted_csv, prepare_try_data
 from cleaning import compile_hits
@@ -24,6 +24,7 @@ coloured_latex_output_csv = os.path.join(output_path, 'coloured_latex.csv')
 left_corollas_latex_output_csv = os.path.join(output_path, 'left_corollas.csv')
 right_corollas_latex_output_csv = os.path.join(output_path, 'right_corollas.csv')
 habits_output_csv = os.path.join(output_path, 'habits.csv')
+
 
 def get_powo_hairs_and_spines():
     # Get spine powo hits
@@ -111,11 +112,7 @@ def output_compiled_data():
     compile_hits([right_corollas], right_corollas_latex_output_csv)
 
     # Habit
-    habits = acc_manual_data.drop(columns=[
-        'spines',
-        'latex',
-        'corolla', 'Manual_snippet'])
-    habits = habits.rename(columns={'habit': 'Habit'})
+    habits = pd.read_csv(manual_habit_data_output)
     habits.to_csv(habits_output_csv)
 
 
@@ -124,8 +121,8 @@ def main():
         os.mkdir(temp_outputs_path)
     if not os.path.isdir(output_path):
         os.mkdir(output_path)
-    # get_powo_hairs_and_spines()
-    # prepare_try_data()
+    get_powo_hairs_and_spines()
+    prepare_try_data()
     output_compiled_data()
 
 
