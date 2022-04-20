@@ -25,9 +25,6 @@ left_corollas_latex_output_csv = os.path.join(output_path, 'left_corollas.csv')
 right_corollas_latex_output_csv = os.path.join(output_path, 'right_corollas.csv')
 habits_output_csv = os.path.join(output_path, 'habits.csv')
 
-
-# TODO: Output citations of specific datasets
-
 def get_powo_hairs_and_spines():
     # Get spine powo hits
     search_powo(['spine', 'thorn', 'spikes'],
