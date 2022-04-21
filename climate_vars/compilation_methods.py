@@ -42,7 +42,7 @@ def get_climate_df():
     merged = pd.merge(merged, dfs[3], on='fullname')
     merged = pd.merge(merged, dfs[4], on='fullname')
 
-    merged['kg2'] = clim_occ_df.groupby([clim_occ_df['fullname']])['CHELSA_kg2_1981.2010_V.2.1'].apply(list).values
+    merged['koppen_geiger2'] = clim_occ_df.groupby([clim_occ_df['fullname']])['CHELSA_kg2_1981.2010_V.2.1'].apply(list).values
 
     elevation_df = recompile_batches()
     avg_elevations = pd.DataFrame(elevation_df.groupby([clim_occ_df['fullname']])['elevation'].median())
