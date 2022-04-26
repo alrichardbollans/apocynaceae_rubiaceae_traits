@@ -25,10 +25,13 @@ NEW_HEADINGS = [
     "Tested_for_Alkaloids",
     "Ref_Alks",
     "Alkaloids",
-    "Alkaloid_Subclass",
+    "Alkaloid_mainclass",
+    "Alkaloid_class",
     "Alkaloid_class_notes",
     "History_Antimalarial",
     "Ref_H_Mal",
+    "History_Fever",
+    "Ref_H_Fever",
     "Tested_Antimalarial",
     "Activity_Antimalarial",
     "Authors_Activity_Label",
@@ -76,7 +79,7 @@ def rename_headings(df: pd.DataFrame):
 
 
 def do_initial_clean(fam: Family):
-    # Load family traits (removing first row) into dataframe
+    # Load family traits into dataframe
     trait_df = pd.read_csv(fam.unclean_trait_csv)
     rename_headings(trait_df)
 

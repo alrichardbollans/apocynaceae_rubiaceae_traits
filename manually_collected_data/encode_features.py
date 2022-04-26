@@ -84,6 +84,8 @@ def clean_alkaloids(given_value: str) -> int:
         if not given_value == "nan":
             print(e)
         return np.nan
+
+
 def replace_yes_no_in_column(df: pd.DataFrame, column_name: str):
     '''
     Changes 'Yes' to 1 and <Nan> to 0 in given column
@@ -96,10 +98,12 @@ def replace_yes_no_in_column(df: pd.DataFrame, column_name: str):
 
     df[column_name] = df[column_name].replace(r'\bno(?i)\b', value=0, regex=True)
 
+
 def encode_features(df: pd.DataFrame) -> pd.DataFrame:
     encode_alkaloids(df)
     encode_activity(df)
-    replace_yes_no_in_column(df,'History_Antimalarial')
+    replace_yes_no_in_column(df, 'History_Antimalarial')
+    replace_yes_no_in_column(df, 'History_Fever')
 
     def encode_family(fam: str) -> float:
         if fam == "Apocynaceae":
@@ -126,5 +130,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
