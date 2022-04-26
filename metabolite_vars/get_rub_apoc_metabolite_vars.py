@@ -50,18 +50,18 @@ def get_rub_apoc_metabolites():
 
 def get_rub_apoc_alkaloid_hits():
     # Knapsack
-    # metabolites_to_check = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv).columns.tolist()
-    #
-    # alks_df = output_alkaloids_from_metabolites(metabolites_to_check, _rubiaceae_apocynaceae_alks_output_csv)
-    #
-    # rubs_apoc_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
-    # get_compound_hits_for_taxa('alks', rubs_apoc_metas_data, alks_df, _rub_apoc_alk_hits_knapsack_output_csv,
-    #                            fams=['Rubiaceae', 'Apocynaceae'])
-    #
-    # # POWO
-    # search_powo(['alkaloid'],
-    #             _powo_search_alks_temp_output_accepted_csv, families_of_interest=['Rubiaceae', 'Apocynaceae'],
-    #             filters=['species', 'infraspecies'])
+    metabolites_to_check = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv).columns.tolist()
+
+    alks_df = output_alkaloids_from_metabolites(metabolites_to_check, _rubiaceae_apocynaceae_alks_output_csv)
+
+    rubs_apoc_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
+    get_compound_hits_for_taxa('alks', rubs_apoc_metas_data, alks_df, _rub_apoc_alk_hits_knapsack_output_csv,
+                               fams=['Rubiaceae', 'Apocynaceae'])
+
+    # POWO
+    search_powo(['alkaloid'],
+                _powo_search_alks_temp_output_accepted_csv, families_of_interest=['Rubiaceae', 'Apocynaceae'],
+                filters=['species', 'infraspecies'])
 
     # Compile
     powo_hits = pd.read_csv(_powo_search_alks_temp_output_accepted_csv)
@@ -107,8 +107,8 @@ def get_rub_apoc_antibac_metabolite_hits():
 
 
 def get_steroid_card_hits():
-    # get_rub_apoc_knapsack_steroid_hits()
-    # get_rub_apoc_knapsack_cardenolide_hits()
+    get_rub_apoc_knapsack_steroid_hits()
+    get_rub_apoc_knapsack_cardenolide_hits()
 
     manual_steroid_hits = pd.read_csv(rub_apoc_steroid_hits_manual_output_csv)
     knapsack_steroid_hits = pd.read_csv(_rub_apoc_steroid_hits_knapsack_output_csv)
@@ -122,10 +122,10 @@ def get_steroid_card_hits():
 
 
 def main():
-    # get_rub_apoc_metabolites()
+    get_rub_apoc_metabolites()
     # # # recheck_taxa(_check_output_csv)
-    # summarise_metabolites()
-    # get_rub_apoc_antibac_metabolite_hits()
+    summarise_metabolites()
+    get_rub_apoc_antibac_metabolite_hits()
     get_rub_apoc_alkaloid_hits()
 
     get_steroid_card_hits()
