@@ -3,6 +3,7 @@
 Using methods in mining_trait_data.
 
 Currently the data is generally focussed on species in Apocynaceae and Rubiaceae.
+
 ## Disclaimer
 
 WARNING: The information contained herein is provided as a public service with the understanding that authors make no
@@ -16,6 +17,11 @@ is on the list *DOES NOT* mean that it is not dangerous/poisonous/toxic.
 ## Installation
 
 Run:
+`cd 'DOWNLOAD_PATH'`
+`git clone https://github.com/alrichardbollans/apocynaceae_rubiaceae_traits.git`
+`pip install apocynaceae_rubiaceae_traits`
+
+Alternatively (though this may not preserve all input files):
 `pip install git+https://github.com/alrichardbollans/apocynaceae_rubiaceae_traits.git#egg=apocynaceaerubiaceaetraits`
 
 ### Requirements
@@ -31,3 +37,8 @@ methods that rely on a downloaded copy of a specific dataset which is restricted
 ## Sources
 
 See `cite.txt` file in each package for lists of sources.
+
+## Naming
+
+Names from different datasets are matched using the automatchnames
+package (https://github.com/alrichardbollans/automatchnames)
