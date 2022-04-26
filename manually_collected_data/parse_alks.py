@@ -1,8 +1,6 @@
 import os
 
 import pandas as pd
-from automatchnames import remove_whitespace_at_beginning_and_end, get_accepted_info_from_names_in_column
-from pkg_resources import resource_filename
 
 from manually_collected_data import trait_parsing_output_path, encoded_traits_csv
 
