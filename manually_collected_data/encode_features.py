@@ -18,9 +18,9 @@ def ordinal_encode(activity_value: str) -> int:
         if "inactive" in activity_value:
             return 0
         elif "weak" in activity_value:
-            return 1
+            return 0
         elif "active" in activity_value:
-            return 2
+            return 1
         else:
             raise ValueError(f'Unrecognised activity: {activity_value}')
     except AttributeError:
