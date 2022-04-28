@@ -8,23 +8,31 @@ from pkg_resources import resource_filename
 from climate_vars import recompile_batches
 
 _inputs_path = resource_filename(__name__, 'inputs')
-
+given_occurences_csv = os.path.join(_inputs_path, 'cleaned_species_occurences.csv')
 _temp_outputs_path = resource_filename(__name__, 'temp_outputs')
-
+acc_species_occ_with_clim_vars_csv = os.path.join(_temp_outputs_path, 'species_with_clim_vars.csv')
 _output_path = resource_filename(__name__, 'outputs')
 compiled_climate_vars_csv = os.path.join(_output_path, 'compiled_climate_vars.csv')
-
+occurences_with_accepted_names_csv = os.path.join(_output_path, 'occurences_with_accepted_names.csv')
 if not os.path.isdir(_temp_outputs_path):
     os.mkdir(_temp_outputs_path)
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
+_rename_dict = {'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
+                'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
+                'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',
+                'soc_0.5cm_mean': 'soil_soc'}
+
 
 def get_climate_df():
+    # TODO: Update with more occurrences
+    # TODO: INclude median lat/long
+    # TODO: include kg2 as most common for each species and also list
     # We take median of occurences in order to mitigate outliers
     # This still has the possible issue of being biased towards where people take samples
 
-    clim_occ_df = pd.read_csv(os.path.join(_temp_outputs_path, 'species_with_clim_vars.csv'), encoding='latin1')
+    clim_occ_df = pd.read_csv(acc_species_occ_with_clim_vars_csv, encoding='latin1')
 
     print(clim_occ_df.head())
     print(clim_occ_df.columns)
@@ -42,7 +50,12 @@ def get_climate_df():
     merged = pd.merge(merged, dfs[3], on='fullname')
     merged = pd.merge(merged, dfs[4], on='fullname')
 
-    merged['koppen_geiger2'] = clim_occ_df.groupby([clim_occ_df['fullname']])[
+    # Get mode of koppengeiger classification.
+    # In case of multiple modes, select one at random
+    merged['koppen_geiger2_mode'] = clim_occ_df.groupby([clim_occ_df['fullname']])['CHELSA_kg2_1981.2010_V.2.1'].agg(
+        lambda x: np.random.choice(x.mode(dropna=True)))
+
+    merged['koppen_geiger2_all'] = clim_occ_df.groupby([clim_occ_df['fullname']])[
         'CHELSA_kg2_1981.2010_V.2.1'].unique().apply(
         list).values
 
@@ -52,18 +65,23 @@ def get_climate_df():
     merged['elevation'] = np.nan
     merged.update(avg_elevations)
 
-    merged.rename(columns={'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
-                           'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
-                           'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',
-                           'soc_0.5cm_mean': 'soil_soc'}, inplace=True)
+    merged.rename(columns=_rename_dict, inplace=True)
     merged['fullname'] = merged.index
     acc_merged = get_accepted_info_from_names_in_column(merged, 'fullname',
                                                         families_of_interest=['Apocynaceae', 'Rubiaceae'])
     acc_merged.to_csv(compiled_climate_vars_csv)
 
 
+def get_clean_occ_df():
+    occ_df = pd.read_csv(given_occurences_csv, encoding='latin1')
+    acc_df = get_accepted_info_from_names_in_column(occ_df, 'fullname',
+                                                    families_of_interest=['Apocynaceae', 'Rubiaceae'])
+    acc_df.to_csv(occurences_with_accepted_names_csv)
+
+
 def main():
     get_climate_df()
+    # get_clean_occ_df()
 
 
 if __name__ == '__main__':
