@@ -38,7 +38,7 @@ def get_climate_df():
     print(clim_occ_df.columns)
     dfs = []
     for c in ['CHELSA_bio1_1981.2010_V.2.1', 'CHELSA_bio12_1981.2010_V.2.1',
-              'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean', 'soc_0.5cm_mean']:
+              'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean', 'soc_0.5cm_mean', 'decimalLatitude', 'decimalLongitude']:
         avg = pd.DataFrame(clim_occ_df.groupby([clim_occ_df['fullname']])[c].median())
 
         dfs.append(avg)
@@ -46,9 +46,9 @@ def get_climate_df():
     for df in dfs:
         print(len(df))
     merged = pd.merge(dfs[0], dfs[1], on='fullname')
-    merged = pd.merge(merged, dfs[2], on='fullname')
-    merged = pd.merge(merged, dfs[3], on='fullname')
-    merged = pd.merge(merged, dfs[4], on='fullname')
+    for i in range(len(dfs)):
+        if i > 1:
+            merged = pd.merge(merged, dfs[i], on='fullname')
 
     # Get mode of koppengeiger classification.
     # In case of multiple modes, select one at random
