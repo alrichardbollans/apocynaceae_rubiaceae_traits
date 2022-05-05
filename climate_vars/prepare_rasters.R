@@ -49,6 +49,7 @@ project_rast <- function(original_raster, template_raster){
 # KG needs specific aggregation
 kg = import_raster('Beck_KG_V1_present_0p0083.tif')
 kg.aggregated = agg_kg_raster(kg)
+names(kg.aggregated) <- c("Beck_KG_V1_present")
 
 # First get raster in desired format
 chelsa_bio1 = import_raster('CHELSA_bio1_1981-2010_V.2.1.tif')
@@ -61,12 +62,15 @@ chelsa_bio12.aggregated = project_rast(chelsa_bio12,chelsa_bio1.aggregated)
 
 homo_ph_soil = import_raster('phh2o_0-5cm_mean_homolosine.tif')
 ph_soil.aggregated = project_rast(homo_ph_soil,chelsa_bio1.aggregated)
+names(ph_soil.aggregated) <- c("phh2o_0-5cm_mean")
 
 homo_nit_soil = import_raster('nitrogen_0-5cm_mean_homolosine.tif')
 nit_soil.aggregated = project_rast(homo_nit_soil,chelsa_bio1.aggregated)
+names(nit_soil.aggregated) <- c("nitrogen_0-5cm_mean")
 
 homo_soc_soil = import_raster('soc_0-5cm_mean_homolosine.tif')
 soc_soil.aggregated = project_rast(homo_soc_soil,chelsa_bio1.aggregated)
+names(soc_soil.aggregated) <- c("soc_0-5cm_mean")
 
 breakline = import_raster('gmted10_breaklineemph.tif')
 breakline.aggregated = project_rast(breakline,chelsa_bio1.aggregated)

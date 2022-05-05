@@ -1,27 +1,39 @@
-library(raster)
+library(terra)
 
-import_raster <- function(filename){
-  str_name<-paste("C:\\Users\\ari11kg\\Downloads\\rasters\\",filename,sep='')
-  print(str_name)
-  imported_raster=raster(str_name)
-  return(imported_raster)
+
+read_rasters <- function(){
+  prep_rasters=list()
+  raster_files = list.files(path='temp_outputs/prepared rasters', pattern='*.tiff')
+  for (r in raster_files){
+    prepped_raster = rast(file.path('temp_outputs/prepared rasters',r))
+    prep_rasters[[length(prep_rasters)+1]]<-prepped_raster
+  }
+  return(prep_rasters)
 }
 
-append_var_to_df <- function(df,file_name){
-  x = import_raster(file_name)
-  var_values = data.frame(extract(stack(x), df[, c("decimalLongitude", "decimalLatitude")]))
+prepared_rasters = read_rasters()
+
+# Get dataframe containing cleaned occurences
+species_df = read.csv('/home/atp/Documents/work life/Kew/large folders/plant_occurence_vars/outputs/cleaned_sp_occurences.csv')
+subspecies_df = read.csv('/home/atp/Documents/work life/Kew/large folders/plant_occurence_vars/outputs/cleaned_subsp_occurences.csv')
+varis_df = read.csv('/home/atp/Documents/work life/Kew/large folders/plant_occurence_vars/outputs/cleaned_vari_occurences.csv')
+
+occ_df_with_duplicates = rbind(species_df,subspecies_df)
+occ_df_with_duplicates = rbind(occ_df_with_duplicates,varis_df)
+
+occ_df = dplyr::distinct(occ_df_with_duplicates, gbifID, .keep_all = TRUE)
+
+append_var_to_df <- function(df,reaggragated_raster){
+  var_values = data.frame(extract(stack(reaggragated_raster), df[, c("decimalLongitude", "decimalLatitude")]))
   bound_df = cbind(df, var_values)
   
   return(bound_df)
 }
 
-# Get dataframe containing cleaned occurences
-species_df = read.csv(file.path('inputs','cleaned_species_occurences.csv'))
 
-species_df<-append_var_to_df(species_df,'CHELSA_bio1_1981-2010_V.2.1.tif')
-species_df<-append_var_to_df(species_df,'CHELSA_bio12_1981-2010_V.2.1.tif')
-species_df<-append_var_to_df(species_df,'nitrogen_0-5cm_mean.tif')
-species_df<-append_var_to_df(species_df,'phh2o_0-5cm_mean.tif')
-species_df<-append_var_to_df(species_df,'CHELSA_kg2_1981-2010_V.2.1.tif')
-species_df<-append_var_to_df(species_df,'soc_0-5cm_mean.tif')
-write.csv(species_df, file.path('temp_outputs','species_with_clim_vars.csv'))
+for (r in prepared_rasters){
+  print(names(r))
+  occ_df<-append_var_to_df(occ_df,r)
+}
+
+write.csv(occ_df, '/home/atp/Documents/work life/Kew/large folders/occ_climate_vars/occ_with_climate_vars.csv')
