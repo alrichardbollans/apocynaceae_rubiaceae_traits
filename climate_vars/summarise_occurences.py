@@ -1,16 +1,24 @@
+import os.path
+
 import pandas as pd
 from taxa_lists import get_all_taxa
 
-from climate_vars import spec_occurence_input, summary_output_csv
+from climate_vars import summary_output_csv, climate_output_path, occurences_with_accepted_names_csv
 
 
 def summarise():
-    acc_sp = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'], accepted=True, ranks=['Species'])
-    clean_occ_df = pd.read_csv(spec_occurence_input)
-    unique_species = clean_occ_df['species'].unique()
+    # TODO: se
+    families = ['Apocynaceae', 'Rubiaceae']
+    acc_taxa = get_all_taxa(families_of_interest=families, accepted=True,
+                            ranks=['Species', 'Subspecies', 'Variety'])
+    clean_occ_df = pd.read_csv(occurences_with_accepted_names_csv)
 
-    out_dict = {'Total Species': [len(acc_sp.index)], 'Found Species': [len(unique_species)],
-                'Percent': [float(len(unique_species)) / len(acc_sp.index)]}
+    clean_occ_df.describe().to_csv(os.path.join(climate_output_path, 'data_summary.csv'))
+    unique_taxa = clean_occ_df['Accepted_Name'].unique()
+    unique_taxa_in_fams = [x for x in unique_taxa if x in acc_taxa['accepted_name'].values]
+
+    out_dict = {'Total Taxa': [len(acc_taxa.index)], 'Found Taxa': [len(unique_taxa_in_fams)],
+                'Percent': [float(len(unique_taxa_in_fams)) / len(acc_taxa.index)]}
     out_df = pd.DataFrame(out_dict)
     out_df.to_csv(summary_output_csv)
 
