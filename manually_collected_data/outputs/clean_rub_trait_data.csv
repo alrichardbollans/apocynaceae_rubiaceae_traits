@@ -338,8 +338,9 @@ Pentagonia nuciformis Dwyer,,Pentagonia,nuciformis Dwyer,Yes,68,"Not detected (D
 Pentagonia pinnatifida Seem.,,Pentagonia,pinnatifida Seem.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Pentagonia wendlandii Hook. f.,,Pentagonia,wendlandii Hook. f.,Yes,68,"Detected (Dragendorff), Fl",,,,,,,,,,,,,,,,,Rubiaceae
 Pentanisia ouranogyne S. Moore,spp. listed (1/19),Pentanisia,ouranogyne S. Moore,,,,,,,Yes,6,,,,,,,,,,,,Rubiaceae
-Pentas lanceolata (Forssk.) Deflers,spp. listed (2/16),Pentas,lanceolata (Forssk.) Deflers,Yes,146,"Isolated, A",quinoline; indole,quinoline; glycoside; monoterpenoid; indolizidine; beta-carboline,,Yes,66,,,Yes,Weak,,Yes,"IC50 = 16.22 ± 1.80 μg/mL (MeOH Rb, 3D7)",66,Compounds tested [142],,,Rubiaceae
+Pentas lanceolata (Forssk.) Deflers,spp. listed (3/16),Pentas,lanceolata (Forssk.) Deflers,Yes,146,"Isolated, A",quinoline; indole,quinoline; glycoside; monoterpenoid; indolizidine; beta-carboline,,Yes,66,,,Yes,Weak,,Yes,"IC50 = 16.22 ± 1.80 μg/mL (MeOH Rb, 3D7)",66,Compounds tested [142],,,Rubiaceae
 Pentas micrantha Baker,,Pentas,micrantha Baker,,,,,,,,,,,Yes,Active,Active,,"IC50 = 4.0 & 3.4 μg/mL (MeOH R, D6 & W2)",142,Compounds tested,,,Rubiaceae
+Pentas zanzibarica (Klotzsch) Bvatke,,Pentas,zanzibarica (Klotzsch) Bvatke,,,,,,,Yes,199,,,,,,,,,,,,Rubiaceae
 Pittoniotis trichantha Griseb.,spp. listed (1/3),Pittoniotis,trichantha Griseb.,,,,,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (MeOH L, W2)",158,,,,Rubiaceae
 Plocama calabrica (L. f.) M Backlund & Thulin,spp. listed (1/35),Plocama,calabrica (L. f.) M Backlund & Thulin,,,,,,,,,,,Yes,Active,Active,Yes,"IC50 = 2.7 μg/mL (CH3Cl R, K1)",13,,,,Rubiaceae
 Pogonopus speciosus (Jacq.) K. Schum.,spp. listed (2/3),Pogonopus,speciosus (Jacq.) K. Schum.,Yes,68/102,"Detected (Dragendorff), L [68] Isolated, U [102]",MIA; bisisoquinoline,beta-carboline; quinolizidine; bisisoquinoline; ,,,,,,,,,,,,,,,Rubiaceae
@@ -382,7 +383,7 @@ Randia armata (Sw.) DC.,,Randia,armata (Sw.) DC.,Yes,68,"Detected (Dragendorff),
 Randia lasiantha (Standl.) Standl.,,Randia,lasiantha (Standl.) Standl.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Randia mira Dwyer,,Randia,mira Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Raritebe palicoureoides subsp. dwyerianum J. H. Kirkbr.,spp. listed (1/1),Raritebe,palicoureoides subsp. dwyerianum J. H. Kirkbr.,Yes,68,"Detected (Dragendorff), L & F",,,,,,,,,,,,,,,,,Rubiaceae
-Remijia ferruginea (A. St.-Hil.) DC.,spp. listed (1/43),Remijia,ferruginea (A. St.-Hil.) DC.,,,,,,,Yes,14,Yes,14.0,Yes,,,Yes,48% reduction in parasitemia in p. berghei infested mice after 4 days of 1000 mg/kg dose of bark.,166,,,,Rubiaceae
+Remijia ferruginea (A. St.-Hil.) DC.,spp. listed (1/43),Remijia,ferruginea (A. St.-Hil.) DC.,,,,,,,Yes,14,Yes,14.0,Yes,,Weak,Yes,48% reduction in parasitemia in p. berghei infested mice after 4 days of 1000 mg/kg dose of bark.,166,,,,Rubiaceae
 Rennellia elliptica Korth.,spp. listed (1/7),Rennellia,elliptica Korth.,,,,,,,,,,,Yes,Active,Active,,"IC50 = 4 μg/mL (DCM R, 3D7)",142,Compounds tested,,,Rubiaceae
 Rhodopentas bussei (K. Krause) Kårehed & B. Bremer,spp. listed (1/2),Rhodopentas,bussei (K. Krause) Kårehed & B. Bremer,,,,,,,Yes,5,,,Yes,Weak,Weak,Yes,"IC50 = 23.3 & 27.9 μg/mL (MeOH Rb, D6 and W2) ",5,,,,Rubiaceae
 Rogiera amoena Planch.,spp. listed (1/13),Rogiera,amoena Planch.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae

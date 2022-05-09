@@ -8,7 +8,7 @@ Alafia caudata Stapf,,Alafia,caudata Stapf,Yes,72,"Isolated, R",Pyrrolizidine,Py
 Alafia multiflora (Stapf) Stapf,,Alafia,multiflora (Stapf) Stapf,Yes,72,"Isolated, U",Pyrrolizidine,Pyrrolizidine,,,,,,,,,,,,,,,Apocynaceae
 Allamanda cathartica L.,spp. listed (2/15),Allamanda,cathartica L.,Yes,48/280,"Detected (various reagents), F & L & R & St",,,,Yes,[79],,,Yes,Active,Active,Yes,Ethanol Leaf extract shows similar concentration dependent in vivo antioxidant effects to tocopherol.,49,,,,Apocynaceae
 Allamanda schottii Pohl,,Allamanda,schottii Pohl,Yes,50,"Detected (Dragendorff's & Mayer's), Fl",,,,,,,,,,,,,,,,,Apocynaceae
-Alstonia angustifolia Wall. ex A. DC.,spp. listed (14/44),Alstonia,angustifolia Wall. ex A. DC.,Yes,109,"Isolated, U",Bisindole; MIA,Bisindole; indole,,,,,,Yes,,Active,Yes,"ED50 = 2.92 μM (Villastonine, U)",109,More compounds tested,,,Apocynaceae
+Alstonia angustifolia Wall. ex A. DC.,spp. listed (14/44),Alstonia,angustifolia Wall. ex A. DC.,Yes,109,"Isolated, U",Bisindole; MIA,Bisindole; indole,,,,,,Yes,Active,Active,Yes,"ED50 = 2.92 μM (Villastonine, U) [IC50 = 1.92 μg/mL (MW:658.85)]",109,More compounds tested,,,Apocynaceae
 Alstonia angustiloba Miq.,,Alstonia,angustiloba Miq.,Yes,90,"Detected (Dragendorff's precipitation assay), L",,,,,,,,Yes,Active,Active,Yes,"EC50 = 0.46 & > 10 μg/mL (DCM:MeOH L, K1 & 3D7) ",90,,,,Apocynaceae
 Alstonia boonei De Wild.,,Alstonia,boonei De Wild.,Yes,128,"Isolated, SB",MIA,Indole,,Yes,"SB, R, L [128]",,,Yes,Inactive,Active [110],Yes [110],"MIC = 0.2 mg/ml (EtOH SB, U) [110] IC50 > 50 μg/mL (EtOH SB, FcB1) [146] ",110/146,,,,Apocynaceae
 Alstonia congensis Engl.,,Alstonia,congensis Engl.,Yes,111,"Isolated, SB",MIA,Indole,,,,,,Yes,Active,Active,Yes,"IC50 = 2.15 μg/mL (alkaloidal L, K1)",111,,,,Apocynaceae
@@ -185,7 +185,7 @@ Kopsia profunda Markgr.,,Kopsia,profunda Markgr.,Yes,185,"Isolated, S",MIA,indol
 Kopsia singapurensis Ridl.,,Kopsia,singapurensis Ridl.,Yes,184,"Isolated, U",quinoline; ,quinoline; piperidine; indolizidine; pyrrolidine,,,,,,,,,,,,,,,Apocynaceae
 Kopsia tenuis Leenh. & Steems,,Kopsia,tenuis Leenh. & Steems,Yes,181,"Isolated, L",bisindole; ,bisindole,N on ring junction of 5- & 8- membered rings,,,,,,,,,,,,,,Apocynaceae
 Kopsia teoi L. Allorge,,Kopsia,teoi L. Allorge,Yes,175,"Isolated, S",MIA,peptide; indolizidine,peptide essentially has carbonyl instead of connecting bond to complete an indole ring,,,,,,,,,,,,,,Apocynaceae
-Lacmellea panamensis (Woodson) Markgr.,spp. listed (1/24),Lacmellea,panamensis (Woodson) Markgr.,,,,,,,,,,,Yes,,,,"IC50 > 10 μg/mL (80% EtOH L, W2)",303,,,,Apocynaceae
+Lacmellea panamensis (Woodson) Markgr.,spp. listed (1/24),Lacmellea,panamensis (Woodson) Markgr.,,,,,,,,,,,Yes,,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L, W2)",303,,,,Apocynaceae
 Landolphia buchananii (Hallier f.) Stapf,spp. listed (6/63),Landolphia,buchananii (Hallier f.) Stapf,,,,,,,Yes,L [102],,,,,,,,,,,,Apocynaceae
 Landolphia dulcis (Sabine ex G. Don) Pichon,,Landolphia,dulcis (Sabine ex G. Don) Pichon,,,,,,,,,,,Yes,Weak,Weak,Yes,"IC50 = 31  μg/mL (EtOH W, K1)",192,,,,Apocynaceae
 Landolphia heudelotii A. DC.,,Landolphia,heudelotii A. DC.,,,,,,,,,,,Yes,Active,Active,Yes,"IC50 = 0.5 μg/mL (DCM L, K1)",194,,,,Apocynaceae
@@ -329,7 +329,7 @@ Tabernaemontana linkii A. DC.,,Tabernaemontana,linkii A. DC.,,,,,,,,,,,,,,,,,,,,
 Tabernaemontana litoralis Kunth.,,Tabernaemontana,litoralis Kunth.,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Tabernaemontana markgrafiana J. F. Macbr.,,Tabernaemontana,markgrafiana J. F. Macbr.,Yes,62,"Isolated, B",,monoterpenoid; indole; quinolizidine,7 membered ring w/ N on ring junction,,,,,,,,,,,,,,Apocynaceae
 Tabernaemontana pachysiphon Stapf,,Tabernaemontana,pachysiphon Stapf,Yes,56,"Isolated, L & R & SB",,indole; indolizidine; monoterpenoid;,,,,,,Yes,Active,Active,Yes,"IC50 = 4.8 & 3.9 μg/mL (aq & MeOH F, D6) & IC50 = 4.4 μg/mL (aq F, W2)",101,,,,Apocynaceae
-"Tabernaemontana panamensis (Markgr., Boiteua & L. Allorge) Leeuwenb.",,Tabernaemontana,"panamensis (Markgr., Boiteua & L. Allorge) Leeuwenb.",,,,,,,,,,,Yes,,,,"IC50 > 10 & > 10  μg/mL (80% EtOH L & S, W2)",303,,,,Apocynaceae
+"Tabernaemontana panamensis (Markgr., Boiteua & L. Allorge) Leeuwenb.",,Tabernaemontana,"panamensis (Markgr., Boiteua & L. Allorge) Leeuwenb.",,,,,,,,,,,Yes,,Inactive,Yes,"IC50 > 10 & > 10  μg/mL (80% EtOH L & S, W2)",303,,,,Apocynaceae
 Tabernaemontana pandacaqui Poir.,,Tabernaemontana,pandacaqui Poir.,Yes,56,"Detected (source refers to alkaloid fraction), S",,,,Yes,SB [88],,,,,,,,,,,,Apocynaceae
 Tabernaemontana peduncularis Wall.,,Tabernaemontana,peduncularis Wall.,,,,,,,,,,,Yes,Active,Active,Yes,"IC50 = 1.1 ± 1.0 μg/mL (CHCl3 S, K1)",122,,,,Apocynaceae
 Tabernaemontana sananho Ruiz & Pav.,,Tabernaemontana,sananho Ruiz & Pav.,Yes,61,"Isolated, L",,indole; monoterpenoid; piperidine,7 membered ring w/ N on ring junction; 8 membered N ring,,,,,,,,,,,,,,Apocynaceae
