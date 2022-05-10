@@ -40,4 +40,5 @@ for (r in prepared_rasters){
   occ_df<-append_var_to_df(occ_df,r)
 }
 occ_df <- occ_df %>% select(-ID)
+names(occ_df)[names(occ_df)=="COUNT"] <- "gmted_elevation"
 write.csv(occ_df, paste(configs$large_folders,'occ_climate_vars/occ_with_climate_vars.csv',sep='/'))
