@@ -7,7 +7,7 @@ from pkg_resources import resource_filename
 
 from large_file_storage import large_folders
 
-_inputs_path = os.path.join(large_folders,'occ_climate_vars/')
+_inputs_path = os.path.join(large_folders, 'occ_climate_vars/')
 clean_occurences_with_clim_vars_csv = os.path.join(_inputs_path, 'occ_with_climate_vars.csv')
 occurences_with_accepted_names_csv = os.path.join(_inputs_path, 'occurences_with_accepted_names.csv')
 
@@ -20,7 +20,8 @@ if not os.path.isdir(_output_path):
 _rename_dict = {'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
                 'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
                 'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',
-                'soc_0.5cm_mean': 'soil_soc', 'gmted_breakline': 'breakline_elevation'}
+                'soc_0.5cm_mean': 'soil_soc', 'gmted_breakline': 'breakline_elevation',
+                'gmted_elevation': 'mean_elevation'}
 
 families_in_occurrences = ['Apocynaceae', 'Rubiaceae', 'Celastraceae']
 
@@ -30,7 +31,8 @@ def read_and_clean_occurences() -> pd.DataFrame:
         ['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'countryCode', 'coordinateUncertaintyInMeters',
          'year', 'individualCount', 'gbifID', 'basisOfRecord', 'institutionCode', 'establishmentMeans',
          'is_cultivated_observation', 'sourceID', 'Beck_KG_V1_present', 'CHELSA_bio1_1981.2010_V.2.1',
-         'CHELSA_bio12_1981.2010_V.2.1', 'gmted_breakline', 'nitrogen_0.5cm_mean', 'phh2o_0.5cm_mean',
+         'CHELSA_bio12_1981.2010_V.2.1', 'gmted_elevation', 'gmted_breakline', 'nitrogen_0.5cm_mean',
+         'phh2o_0.5cm_mean',
          'soc_0.5cm_mean']]
     clim_occ_df.rename(columns=_rename_dict, inplace=True)
     # Coord uncertainty 20000
@@ -57,15 +59,15 @@ def read_and_clean_occurences() -> pd.DataFrame:
 
 
 def get_climate_df(clean_acc_df: pd.DataFrame):
-
     print(clean_acc_df.head())
     print(clean_acc_df.columns)
     dfs = []
+    grouped = clean_acc_df.groupby(['fullname'])
     for c in list(_rename_dict.values()) + ['decimalLatitude',
                                             'decimalLongitude']:
         # We take median of occurrences in order to mitigate outliers
         # This still has the possible issue of being biased towards where people take samples
-        avg = pd.DataFrame(clean_acc_df.groupby([clean_acc_df['fullname']])[c].median())
+        avg = pd.DataFrame(grouped[c].median())
 
         dfs.append(avg)
 
@@ -78,16 +80,18 @@ def get_climate_df(clean_acc_df: pd.DataFrame):
 
     # Get mode of koppengeiger classification.
     # In case of multiple modes, select one at random
-    merged['koppen_geiger2_mode'] = clean_acc_df.groupby([clean_acc_df['fullname']])['Beck_KG_V1_present'].agg(
+    merged['koppen_geiger_mode'] = clean_acc_df.groupby([clean_acc_df['fullname']])['Beck_KG_V1_present'].agg(
         lambda x: np.random.choice(x.mode(dropna=True)))
 
-    merged['koppen_geiger2_all'] = clean_acc_df.groupby([clean_acc_df['fullname']])[
+    merged['koppen_geiger_all'] = clean_acc_df.groupby([clean_acc_df['fullname']])[
         'Beck_KG_V1_present'].unique().apply(
         list).values
 
-    merged['fullname'] = merged.index
+    acc_info = clean_acc_df[['fullname', 'Accepted_Name', 'Accepted_ID', 'Accepted_Rank',
+                             'Accepted_Species', 'Accepted_Species_ID']].drop_duplicates(subset='fullname')
+    out_df = pd.merge(merged, acc_info, on='fullname')
 
-    merged.to_csv(compiled_climate_vars_csv)
+    out_df.to_csv(compiled_climate_vars_csv)
 
 
 def test_occs():
@@ -130,7 +134,8 @@ def test_occs():
 def main():
     # test_occs()
     acc_occ_df = read_and_clean_occurences()
-    get_climate_df(acc_occ_df)
+    acc_df = pd.read_csv(occurences_with_accepted_names_csv)
+    get_climate_df(acc_df)
 
 
 if __name__ == '__main__':
