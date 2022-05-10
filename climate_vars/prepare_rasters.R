@@ -1,7 +1,10 @@
 library(terra)
+library(rjson)
+
+configs = rjson::fromJSON(file = '../large_file_storage/my_directories.json')
 
 import_raster <- function(filename){
-  str_name<-paste("/home/atp/Downloads/rasters/",filename,sep='')
+  str_name<-paste(configs$raster_download,filename,sep='/')
   print(str_name)
   imported_raster=rast(str_name)
   return(imported_raster)
@@ -34,7 +37,7 @@ agg_kg_raster <- function(original_raster){
   print(res(original_raster))
   fact = desired_deg_resolution/res(original_raster)
   print(fact)
-  aggregated <- aggregate(original_raster,fact=fact,fun=modal,na.rm=TRUE)
+  aggregated <- aggregate(original_raster,fact=fact,fun=modal,na.rm=TRUE, ties='random')
   print(res(aggregated))
   return (aggregated)
 }
@@ -46,8 +49,22 @@ project_rast <- function(original_raster, template_raster){
   return (aggregated)
 }
 
+summarise_raster <- function(r){
+  print(names(r))
+  print(minmax(r))
+  print(res(r))
+}
+write_to_temp_outputs <- function(r){
+  
+  summarise_raster(r)
+  writeRaster(r,file.path('temp_outputs/prepared rasters',paste(names(r)[1],'.tiff',sep='')),overwrite=TRUE)
+  
+}
+
+
 # KG needs specific aggregation
-kg = import_raster('Beck_KG_V1_present_0p0083.tif')
+kg = import_raster('Beck_KG_V1_present_0p083.tif')
+values(kg)
 kg.aggregated = agg_kg_raster(kg)
 names(kg.aggregated) <- c("Beck_KG_V1_present")
 
@@ -56,6 +73,11 @@ chelsa_bio1 = import_raster('CHELSA_bio1_1981-2010_V.2.1.tif')
 chelsa_bio1.aggregated = agg_deg_raster(chelsa_bio1)
 
 # Then project other rasters to format
+elevation = import_raster('mn30_grd/mn30_grd')
+elevation.aggregated = project_rast(elevation,chelsa_bio1.aggregated)
+names(elevation.aggregated) <- c("gmted_elevation")
+write_to_temp_outputs(elevation.aggregated)
+
 
 chelsa_bio12 = import_raster('CHELSA_bio12_1981-2010_V.2.1.tif')
 chelsa_bio12.aggregated = project_rast(chelsa_bio12,chelsa_bio1.aggregated)
@@ -78,13 +100,12 @@ names(breakline.aggregated) <- c("gmted_breakline")
 
 prepared_rasters = list(chelsa_bio1.aggregated,chelsa_bio12.aggregated,
                      ph_soil.aggregated,nit_soil.aggregated,
-                     soc_soil.aggregated,kg.aggregated,breakline.aggregated)
+                     soc_soil.aggregated,kg.aggregated,breakline.aggregated, 
+                     elevation.aggregated)
 
 
-#writeRaster(breakline.aggregated,file.path('temp_outputs/prepared rasters',paste(names(breakline.aggregated)[1],'.tiff',sep='')),overwrite=TRUE)
 
 for (r in prepared_rasters){
-  print(names(r))
-  print(res(r))
-  writeRaster(r,file.path('temp_outputs/prepared rasters',paste(names(r)[1],'.tiff',sep='')),overwrite=TRUE)
-}
+  
+  write_to_temp_outputs(r)
+  }
