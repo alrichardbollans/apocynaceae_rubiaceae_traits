@@ -28,6 +28,8 @@ occ_df_with_duplicates = rbind(occ_df_with_duplicates,varis_df)
 occ_df = dplyr::distinct(occ_df_with_duplicates, gbifID, .keep_all = TRUE)
 
 append_var_to_df <- function(df,reaggragated_raster){
+  # Update names
+  names(reaggragated_raster) = varnames(reaggragated_raster)
   var_values = data.frame(extract(reaggragated_raster, df[, c("decimalLongitude", "decimalLatitude")], factors=FALSE))
   bound_df = cbind(df, var_values)
   
@@ -40,5 +42,4 @@ for (r in prepared_rasters){
   occ_df<-append_var_to_df(occ_df,r)
 }
 occ_df <- occ_df %>% select(-ID)
-names(occ_df)[names(occ_df)=="COUNT"] <- "gmted_elevation"
 write.csv(occ_df, paste(configs$large_folders,'occ_climate_vars/occ_with_climate_vars.csv',sep='/'))

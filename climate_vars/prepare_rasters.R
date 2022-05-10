@@ -41,11 +41,15 @@ agg_kg_raster <- function(original_raster){
   print(res(aggregated))
   return (aggregated)
 }
-
-project_rast <- function(original_raster, template_raster){
+project_rast <- function(original_raster, template_raster, new_name= NULL){
   print(res(original_raster))
   aggregated <- project(original_raster,template_raster)
   print(res(aggregated))
+  
+  if (!is.null(new_name)){
+    names(aggregated) = new_name
+  }
+  write_to_temp_outputs(aggregated)
   return (aggregated)
 }
 
@@ -62,50 +66,68 @@ write_to_temp_outputs <- function(r){
 }
 
 
+
+# First get raster in desired format
+chelsa_bio1 = import_raster('CHELSA_bio1_1981-2010_V.2.1.tif')
+chelsa_bio1.aggregated = agg_deg_raster(chelsa_bio1)
+write_to_temp_outputs(chelsa_bio1.aggregated)
+
+# Then project other rasters to format
+elevation = import_raster('mn30_grd/mn30_grd')
+elevation.aggregated = project_rast(elevation,chelsa_bio1.aggregated,new_name = c("gmted_elevation"))
+
+slope = terra::terrain(elevation,v="slope")
+slope.aggregated = project_rast(slope,chelsa_bio1.aggregated, new_name = c("gmted_slope"))
+
+
+chelsa_bio4 = import_raster('CHELSA_bio4_1981-2010_V.2.1.tif')
+chelsa_bio4.aggregated = project_rast(chelsa_bio4,chelsa_bio1.aggregated)
+
+chelsa_bio10 = import_raster('CHELSA_bio10_1981-2010_V.2.1.tif')
+chelsa_bio10 = project_rast(chelsa_bio10,chelsa_bio1.aggregated)
+
+chelsa_bio11 = import_raster('CHELSA_bio11_1981-2010_V.2.1.tif')
+chelsa_bio11.aggregated = project_rast(chelsa_bio11,chelsa_bio1.aggregated)
+
+chelsa_bio12 = import_raster('CHELSA_bio12_1981-2010_V.2.1.tif')
+chelsa_bio12.aggregated = project_rast(chelsa_bio12,chelsa_bio1.aggregated)
+
+chelsa_bio15 = import_raster('CHELSA_bio15_1981-2010_V.2.1.tif')
+chelsa_bio15.aggregated = project_rast(chelsa_bio15,chelsa_bio1.aggregated)
+
+chelsa_bio16 = import_raster('CHELSA_bio16_1981-2010_V.2.1.tif')
+chelsa_bio16.aggregated = project_rast(chelsa_bio16,chelsa_bio1.aggregated)
+
+chelsa_bio17 = import_raster('CHELSA_bio17_1981-2010_V.2.1.tif')
+chelsa_bio17.aggregated = project_rast(chelsa_bio17,chelsa_bio1.aggregated)
+
+depth_to_bedrock = import_raster('BDTICM_M_10km_ll.tif')
+depth_to_bedrock.aggregated = project_rast(depth_to_bedrock,chelsa_bio1.aggregated, new_name =  c("soil_depth"))
+
+water_capacity = import_raster('WWP_M_sl1_10km_ll.tif')
+water_capacity.aggregated = project_rast(water_capacity,chelsa_bio1.aggregated, new_name = c("water_capacity"))
+
+
+soil_ocs = import_raster('ocs_0-30cm_mean_5000_homolosine.tif')
+soil_ocs.aggregated = project_rast(soil_ocs,chelsa_bio1.aggregated, new_name = c("soil_ocs_0-30cm_mean"))
+
+homo_ph_soil = import_raster('phh2o_0-5cm_mean_homolosine.tif')
+ph_soil.aggregated = project_rast(homo_ph_soil,chelsa_bio1.aggregated,new_name = c("phh2o_0-5cm_mean"))
+
+
+homo_nit_soil = import_raster('nitrogen_0-5cm_mean_homolosine.tif')
+nit_soil.aggregated = project_rast(homo_nit_soil,chelsa_bio1.aggregated, new_name =  c("nitrogen_0-5cm_mean"))
+
+homo_soc_soil = import_raster('soc_0-5cm_mean_homolosine.tif')
+soc_soil.aggregated = project_rast(homo_soc_soil,chelsa_bio1.aggregated, new_name = c("soc_0-5cm_mean"))
+
+
+breakline = import_raster('gmted10_breaklineemph.tif')
+breakline.aggregated = project_rast(breakline,chelsa_bio1.aggregated, new_name = c("gmted_breakline"))
+
 # KG needs specific aggregation
 kg = import_raster('Beck_KG_V1_present_0p083.tif')
 values(kg)
 kg.aggregated = agg_kg_raster(kg)
 names(kg.aggregated) <- c("Beck_KG_V1_present")
-
-# First get raster in desired format
-chelsa_bio1 = import_raster('CHELSA_bio1_1981-2010_V.2.1.tif')
-chelsa_bio1.aggregated = agg_deg_raster(chelsa_bio1)
-
-# Then project other rasters to format
-elevation = import_raster('mn30_grd/mn30_grd')
-elevation.aggregated = project_rast(elevation,chelsa_bio1.aggregated)
-names(elevation.aggregated) <- c("gmted_elevation")
-write_to_temp_outputs(elevation.aggregated)
-
-
-chelsa_bio12 = import_raster('CHELSA_bio12_1981-2010_V.2.1.tif')
-chelsa_bio12.aggregated = project_rast(chelsa_bio12,chelsa_bio1.aggregated)
-
-homo_ph_soil = import_raster('phh2o_0-5cm_mean_homolosine.tif')
-ph_soil.aggregated = project_rast(homo_ph_soil,chelsa_bio1.aggregated)
-names(ph_soil.aggregated) <- c("phh2o_0-5cm_mean")
-
-homo_nit_soil = import_raster('nitrogen_0-5cm_mean_homolosine.tif')
-nit_soil.aggregated = project_rast(homo_nit_soil,chelsa_bio1.aggregated)
-names(nit_soil.aggregated) <- c("nitrogen_0-5cm_mean")
-
-homo_soc_soil = import_raster('soc_0-5cm_mean_homolosine.tif')
-soc_soil.aggregated = project_rast(homo_soc_soil,chelsa_bio1.aggregated)
-names(soc_soil.aggregated) <- c("soc_0-5cm_mean")
-
-breakline = import_raster('gmted10_breaklineemph.tif')
-breakline.aggregated = project_rast(breakline,chelsa_bio1.aggregated)
-names(breakline.aggregated) <- c("gmted_breakline")
-
-prepared_rasters = list(chelsa_bio1.aggregated,chelsa_bio12.aggregated,
-                     ph_soil.aggregated,nit_soil.aggregated,
-                     soc_soil.aggregated,kg.aggregated,breakline.aggregated, 
-                     elevation.aggregated)
-
-
-
-for (r in prepared_rasters){
-  
-  write_to_temp_outputs(r)
-  }
+write_to_temp_outputs(kg.aggregated)
