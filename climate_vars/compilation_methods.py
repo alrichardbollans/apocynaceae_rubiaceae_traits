@@ -17,24 +17,42 @@ compiled_climate_vars_csv = os.path.join(_output_path, 'compiled_climate_vars.cs
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
-_rename_dict = {'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
-                'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
-                'nitrogen_0.5cm_mean': 'soil_nitrogen', 'phh2o_0.5cm_mean': 'soil_ph',
-                'soc_0.5cm_mean': 'soil_soc', 'gmted_breakline': 'breakline_elevation',
-                'gmted_elevation': 'mean_elevation'}
-
+# Imported variables and new names for them
+climate_vars_and_names = {'Beck_KG_V1_present': 'Beck_KG_V1_present',
+                          'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
+                          'CHELSA_bio4_1981.2010_V.2.1': 'temp_seasonality',
+                          'CHELSA_bio10_1981.2010_V.2.1': 'bio10',
+                          'CHELSA_bio11_1981.2010_V.2.1': 'bio11',
+                          'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
+                          'CHELSA_bio15_1981.2010_V.2.1': 'bio15',
+                          'CHELSA_bio16_1981.2010_V.2.1': 'bio16',
+                          'CHELSA_bio17_1981.2010_V.2.1': 'bio17',
+                          'gmted_breakline': 'breakline_elevation',
+                          'gmted_elevation': 'mean_elevation',
+                          'gmted_slope': 'slope',
+                          'nitrogen_0.5cm_mean': 'soil_nitrogen',
+                          'phh2o_0.5cm_mean': 'soil_ph',
+                          'soc_0.5cm_mean': 'soil_soc',
+                          'soil_depth': 'soil_depth',
+                          'soil_ocs_0.30cm_mean': 'soil_ocs',
+                          'water_capacity': 'water_capacity',
+                          'decimalLatitude': 'latitude',
+                          'decimalLongitude': 'longitude'
+                          }
+# All final variables
+all_climate_names = list(climate_vars_and_names.values()) + ['koppen_geiger_mode',
+                                                             'koppen_geiger_all']
 families_in_occurrences = ['Apocynaceae', 'Rubiaceae', 'Celastraceae']
 
 
 def read_and_clean_occurences() -> pd.DataFrame:
+    # TODO: read and output without vars
+    # TODO: remove close occs re: autocorrelation
     clim_occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)[
-        ['species', 'fullname', 'decimalLongitude', 'decimalLatitude', 'countryCode', 'coordinateUncertaintyInMeters',
+        ['species', 'fullname', 'countryCode', 'coordinateUncertaintyInMeters',
          'year', 'individualCount', 'gbifID', 'basisOfRecord', 'institutionCode', 'establishmentMeans',
-         'is_cultivated_observation', 'sourceID', 'Beck_KG_V1_present', 'CHELSA_bio1_1981.2010_V.2.1',
-         'CHELSA_bio12_1981.2010_V.2.1', 'gmted_elevation', 'gmted_breakline', 'nitrogen_0.5cm_mean',
-         'phh2o_0.5cm_mean',
-         'soc_0.5cm_mean']]
-    clim_occ_df.rename(columns=_rename_dict, inplace=True)
+         'is_cultivated_observation', 'sourceID'] + list(climate_vars_and_names.keys())]
+    clim_occ_df.rename(columns=climate_vars_and_names, inplace=True)
     # Coord uncertainty 20000
     clean_df = clim_occ_df[clim_occ_df['coordinateUncertaintyInMeters'] <= 20000]
 
@@ -42,12 +60,12 @@ def read_and_clean_occurences() -> pd.DataFrame:
     clean_df = clean_df[clean_df['year'] >= 1945]
 
     ## long and lat
-    clean_df = clean_df[~((clean_df['decimalLongitude'] == 0) & (clean_df['decimalLatitude'] == 0))]
+    clean_df = clean_df[~((clean_df['longitude'] == 0) & (clean_df['latitude'] == 0))]
 
-    clean_df = clean_df[(clean_df['decimalLongitude'] != clean_df['decimalLatitude'])]
+    clean_df = clean_df[(clean_df['longitude'] != clean_df['latitude'])]
 
     # na lat long
-    clean_df = clean_df[~((clean_df['decimalLongitude'].isna()) | (clean_df['decimalLatitude'].isna()))]
+    clean_df = clean_df[~((clean_df['longitude'].isna()) | (clean_df['latitude'].isna()))]
 
     ### CLimate values
 
@@ -63,8 +81,7 @@ def get_climate_df(clean_acc_df: pd.DataFrame):
     print(clean_acc_df.columns)
     dfs = []
     grouped = clean_acc_df.groupby(['fullname'])
-    for c in list(_rename_dict.values()) + ['decimalLatitude',
-                                            'decimalLongitude']:
+    for c in list(climate_vars_and_names.values()):
         # We take median of occurrences in order to mitigate outliers
         # This still has the possible issue of being biased towards where people take samples
         avg = pd.DataFrame(grouped[c].median())
