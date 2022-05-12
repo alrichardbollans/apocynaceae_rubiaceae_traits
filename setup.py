@@ -10,6 +10,7 @@ setup(
     # Needed to actually package something
     packages=find_packages(include=['climate_vars', 'common_name_vars',
                                     'conservation_priorities',
+                                    'getting_malarial_regions',
                                     'poison_vars',
                                     'manually_collected_data', 'morphological_vars',
                                     'metabolite_vars', 'medicinal_usage_vars',
