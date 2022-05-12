@@ -13,6 +13,7 @@ setup(
                                     'poison_vars',
                                     'manually_collected_data', 'morphological_vars',
                                     'metabolite_vars', 'medicinal_usage_vars',
+                                    'wcsp_distributions',
                                     'wikipedia_vars']),
     # *strongly* suggested for sharing
     version='0.1',
