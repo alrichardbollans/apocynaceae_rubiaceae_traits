@@ -7,3 +7,8 @@ https://europepmc.org/article/med/8784548
 CDC
 https://www.cdc.gov/malaria/about/distribution.html
 Accessed 12/05/22
+
+Region codes
+Brummitt, R.K., Pando, F., Hollis, S., Brummitt, N., 2001.
+World geographical scheme for recording plant distributions.
+International working group on taxonomic databases for plant sciences

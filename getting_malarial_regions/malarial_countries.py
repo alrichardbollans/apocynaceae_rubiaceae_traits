@@ -1,4 +1,5 @@
 import os
+from itertools import chain
 
 import pandas as pd
 import cartopy.crs as ccrs
@@ -22,11 +23,14 @@ if not os.path.isdir(_temp_outputs_path):
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
+tdwg3_shp = shpreader.Reader(
+    os.path.join(_inputs_path, 'wgsrpd-master', 'level3', 'level3.shp'))
+
 
 # From https://datacatalog.worldbank.org/search/dataset/0037712
 # Accessed 03/05/2022
 # Any country with any incidence of malaria between 1960 and 2021
-def get_world_bank_countries():
+def print_world_bank_countries():
     wdid = pd.read_csv(os.path.join(data_download, 'WDI_csv/WDIData.csv'))
     malaria_data = wdid[wdid['Indicator Name'] == 'Incidence of malaria (per 1,000 population at risk)']
 
@@ -43,31 +47,74 @@ def get_world_bank_countries():
 
     print(countries_with_malaria)
     print(countries_with_malaria.keys())
-    retranslations = parsed_names_from_world_bank()
-    return list(countries_with_malaria.keys()) + retranslations
+    # retranslations = parsed_names_from_world_bank()
+    # return list(countries_with_malaria.values())
 
 
-def parsed_names_from_world_bank():
-    """ Get names from world bank in format reconisged by cartopy"""
-    missed_names = ["Cote d'Ivoire", 'Eswatini', "Korea, Dem. People's Rep."]
-    retranslations = ["Côte d'Ivoire", "Dem. Rep. Korea", "Kingdom of eSwatini"]
-    return retranslations
+def get_world_bank_tdwg_codes():
+    # Without a decent parser, the list output from world bank data is parsed manually here
+    parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Angola': ['ANG'],
+                        'Argentina': ['AGE', 'AGS', 'AGW'],
+                        'Armenia': ['TCS'],
+                        'Azerbaijan': ['TCS'], 'Bangladesh': ['BAN'], 'Belize': ['BLZ'], 'Benin': ['BEN'],
+                        'Bhutan': ['EHM'],
+                        'Bolivia': ['BOL'], 'Botswana': ['BOT'], 'Brazil': ['BZC', 'BZE', 'BZL', 'BZN', 'BZS'],
+                        'Burkina Faso': ['BKN'], 'Burundi': ['BUR'],
+                        'Cabo Verde': ['CVI'], 'Cambodia': ['CBD'], 'Cameroon': ['CMN'],
+                        'Central African Republic': ['CAF'],
+                        'Chad': ['CHA'],
+                        'China': ['CHC', 'CHN', 'CHS', 'CHH', 'CHI', 'CHM', 'CHQ', 'CHT', 'CHX'], 'Colombia': ['CLM'],
+                        'Comoros': ['COM'], 'Congo, Dem. Rep.': ['CON'],
+                        'Congo, Rep.': ['CON'],
+                        'Costa Rica': ['COS'], "Cote d'Ivoire": ['IVO'], 'Djibouti': ['DJI'],
+                        'Dominican Republic': ['DOM'],
+                        'Ecuador': ['ECU'], 'Egypt, Arab Rep.': ['EGY'], 'El Salvador': ['ELS'],
+                        'Equatorial Guinea': ['EQG'],
+                        'Eritrea': ['ERI'], 'Eswatini': ['SWZ'], 'Ethiopia': ['ETH'], 'Gabon': ['GAB'],
+                        'Gambia, The': ['GAM'],
+                        'Georgia': ['TCS'], 'Ghana': ['GHA'], 'Guatemala': ['GUA'], 'Guinea': ['GUI'],
+                        'Guinea-Bissau': ['GNB'],
+                        'Guyana': ['GUY'], 'Haiti': ['HAI'], 'Honduras': ['HON'], 'India': ['IND'],
+                        'Indonesia': ['NWG', 'JAW', 'BOR', 'LSI', 'MOL', 'SUL', 'SUM'],
+                        'Iran, Islamic Rep.': ['IRN'], 'Iraq': ['IRQ'], 'Kenya': ['KEN'],
+                        "Korea, Dem. People's Rep.": ['KOR'],
+                        'Korea, Rep.': ['KOR'], 'Kyrgyz Republic': ['KGZ'], 'Lao PDR': ['LAO'], 'Liberia': ['LBR'],
+                        'Madagascar': ['MDG'],
+                        'Malawi': ['MLW'], 'Malaysia': ['MLY'], 'Mali': ['MLI'], 'Mauritania': ['MTN'],
+                        'Mexico': ['MXC', 'MXE', 'MXG', 'MXI', 'MXN', 'MXS', 'MXT'],
+                        'Morocco': ['MOR'],
+                        'Mozambique': ['MOZ'], 'Myanmar': ['MYA'], 'Namibia': ['NAM'], 'Nepal': ['NEP'],
+                        'Nicaragua': ['NIC'],
+                        'Niger': ['NGR'],
+                        'Nigeria': ['NGA'], 'Oman': ['OMA'], 'Pakistan': ['PAK'], 'Panama': ['PAN'],
+                        'Papua New Guinea': ['NWG'],
+                        'Paraguay': ['PAR'], 'Peru': ['PER'], 'Philippines': ['PHI'], 'Rwanda': ['RWA'],
+                        'Sao Tome and Principe': ['GGI'],
+                        'Saudi Arabia': ['SAU'], 'Senegal': ['SEN'], 'Sierra Leone': ['SIE'],
+                        'Solomon Islands': ['SOL'],
+                        'Somalia': ['SOM'],
+                        'South Africa': ['CPP', 'OFS', 'NAT', 'TVL'], 'South Sudan': ['SUD'], 'Sri Lanka': ['SRL'],
+                        'Sudan': ['SUD'],
+                        'Suriname': ['SUR'],
+                        'Syrian Arab Republic': ['LBS'], 'Tajikistan': ['TZK'], 'Tanzania': ['TAN'],
+                        'Thailand': ['THA'],
+                        'Timor-Leste': ['LSI'], 'Togo': ['TOG'], 'Turkey': ['TUR'], 'Turkmenistan': ['TKM'],
+                        'Uganda': ['UGA'],
+                        'Uzbekistan': ['UZB'], 'Vanuatu': ['VAN'], 'Venezuela, RB': ['VEN'], 'Vietnam': ['VIE'],
+                        'Yemen, Rep.': ['YEM'],
+                        'Zambia': ['ZAM'], 'Zimbabwe': ['ZIM'], 'Kazakhstan': ['KAZ'], 'United Arab Emirates': ['GST']}
+
+    parsed_codes = []
+    for k in parsed_code_dict.keys():
+        for v in parsed_code_dict[k]:
+            parsed_codes.append(v)
+
+    return parsed_codes
 
 
-# From https://www.cdc.gov/malaria/about/distribution.html
-# Accessed: 05/05/2022
-def states_from_CDC():
-    states = ['Western Sahara', 'Kiribati', 'Somaliland', 'French Guiana', 'Puntland']
-    return states
+def plot_countries(malarial_region_codes):
+    print('plotting countries')
 
-def states_from_literature():
-    # Australia: https://doi.org/10.5694/j.1326-5377.1996.tb122051.x
-    # Réunion: https://europepmc.org/article/med/8784548
-    return ['Australia', 'Réunion']
-
-def plot_countries(malarial_countries):
-    shapename = os.path.join(_inputs_path, "ne_10m_admin_0_map_units", "ne_10m_admin_0_map_units.shp")
-    countries_shp = shpreader.Reader(shapename)
     plt.figure(figsize=(40, 25))
     plt.xlim(-210, 210)
     plt.ylim(-70, 90)
@@ -75,62 +122,61 @@ def plot_countries(malarial_countries):
     ax = plt.axes(projection=ccrs.PlateCarree())
     ax.coastlines(resolution='10m')
     ax.add_feature(cfeature.BORDERS, linewidth=5)
-    for country in countries_shp.records():
-        name_long = country.attributes['NAME_LONG']
-        name_short = country.attributes['NAME_SORT']
-        formal_name = country.attributes['FORMAL_EN']
-        map_names = [name_long, name_short, formal_name]
-        if any(name in malarial_countries for name in map_names):
+    for country in tdwg3_shp.records():
+        tdwg_code = country.attributes['LEVEL3_COD']
+        if tdwg_code in malarial_region_codes:
 
             # print(country.attributes['name_long'], next(earth_colors))
             ax.add_geometries([country.geometry], ccrs.PlateCarree(),
                               facecolor='red',
-                              label=name_long)
+                              label=tdwg_code)
 
             x = country.geometry.centroid.x
             y = country.geometry.centroid.y
 
-            ax.text(x, y, name_long, color='black', size=10, ha='center', va='center', transform=ccrs.PlateCarree())
+            ax.text(x, y, tdwg_code, color='black', size=10, ha='center', va='center',
+                    transform=ccrs.PlateCarree())
         else:
-            print(name_long)
+            # print(f"code not in given malarial isocodes: {tdwg_code}")
             ax.add_geometries([country.geometry], ccrs.PlateCarree(),
                               facecolor='white',
-                              label=name_long)
+                              label=tdwg_code)
 
-    all_map_names = [country.attributes['NAME_LONG'] for country in countries_shp.records()] + [
-        country.attributes['FORMAL_EN'] for country in countries_shp.records()] + [
-                        country.attributes['NAME_SORT'] for country in countries_shp.records()]
-    missed_names = [x for x in malarial_countries if x not in all_map_names]
-    print(missed_names)
+
+
+    all_map_isos = [country.attributes['LEVEL3_COD'] for country in tdwg3_shp.records()]
+    missed_names = [x for x in malarial_region_codes if x not in all_map_isos]
+    print(f'iso codes not plotted on map: {missed_names}')
     # plt.show()
     plt.savefig(os.path.join(_output_path, 'malarial_countries.png'), dpi=300)
 
 
-def get_iso3_codes(malarial_countries):
-    iso_3_codes = []
-    shapename = os.path.join(_inputs_path, "ne_10m_admin_0_map_units", "ne_10m_admin_0_map_units.shp")
-    countries_shp = shpreader.Reader(shapename)
-    for country in countries_shp.records():
-        name_long = country.attributes['NAME_LONG']
-        name_short = country.attributes['NAME_SORT']
-        formal_name = country.attributes['FORMAL_EN']
-        map_names = [name_long, name_short, formal_name]
-        if any(name in malarial_countries for name in map_names):
+def get_iso3_codes():
+    world_bank_codes = get_world_bank_tdwg_codes()
+    print('Getting iso3 codes')
+    # Caprivi strip is in namibia
+    # Assam is part of india
+    manual_additions = ['CPV', 'ASS']
+    # Australia: https://doi.org/10.5694/j.1326-5377.1996.tb122051.x
+    # Réunion: https://europepmc.org/article/med/8784548
+    # Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4
+    # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4
+    # Uruguay: https://doi.org/10.1093/ae/46.4.238
+    codes_from_literature = ['NTA', 'WAU', 'QLD', 'REU','LBY','TUN']
+    # From https://www.cdc.gov/malaria/about/distribution.html
+    # ['Western Sahara', 'Kiribati', 'French Guiana'] Zaire, Cabinda
+    # Accessed: 05/05/2022
+    codes_from_CDC = ['WSA', 'LIN', 'FRG', 'ZAI', 'CAB']
 
-            if country.attributes['ISO_A3'] == '-99':
-                print(map_names)
-            else:
-                iso_3_codes.append(country.attributes['ISO_A3'])
+    iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC
 
-    # These codes aren't assigned from the shapefiles
-    # Somalia units are contained by SOM
-    manual_additions = ['SOM', 'GEO', 'IRQ', 'PNG']
-    out_codes = iso_3_codes + manual_additions
-    code_df = pd.DataFrame({'iso3_codes': out_codes})
+    code_df = pd.DataFrame({'iso3_codes': iso_3_codes})
     code_df.to_csv(malaria_country_codes_csv)
+
+    return iso_3_codes
 
 
 if __name__ == '__main__':
-    malarial_states = get_world_bank_countries() + states_from_CDC() + states_from_literature()
-    plot_countries(malarial_states)
-    get_iso3_codes(malarial_states)
+    # print_world_bank_countries()
+    codes = get_iso3_codes()
+    plot_countries(codes)
