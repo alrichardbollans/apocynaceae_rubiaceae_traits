@@ -30,7 +30,7 @@ if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
 
-def search_powo_for_distributions(ipni_list: List[str], out_pkl: str):
+def search_powo_for_tdwg3_distributions(ipni_list: List[str], out_pkl: str):
     # Note distributions aren't given for synonyms. This is fine except in cases where you use an id which is
     # no longer accepted
     # Also, this function does not return distributions of extinct taxa
@@ -54,23 +54,26 @@ def search_powo_for_distributions(ipni_list: List[str], out_pkl: str):
 
             dist_codes = []
             try:
-                native_to = [d['tdwgCode'] for d in res['distribution']['natives']]
+                native_to = [d['tdwgCode'] for d in res['distribution']['natives'] if d['tdwgLevel'] == 3]
                 dist_codes += native_to
+
             except KeyError:
                 pass
 
             finally:
                 try:
-                    introduced_to = [d['tdwgCode'] for d in res['distribution']['introduced']]
+                    introduced_to = [d['tdwgCode'] for d in res['distribution']['introduced'] if d['tdwgLevel'] == 3]
                     dist_codes += introduced_to
+
                 except KeyError:
 
                     pass
 
                 finally:
                     try:
-                        extinct_to = [d['tdwgCode'] for d in res['distribution']['extinct']]
+                        extinct_to = [d['tdwgCode'] for d in res['distribution']['extinct'] if d['tdwgLevel'] == 3]
                         dist_codes += extinct_to
+
                     except KeyError:
 
                         pass
@@ -99,12 +102,11 @@ def convert_pkl_to_df():
 
 
 def main():
-    # acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
-    #                         ranks=['Species', 'Subspecies', 'Variety'])
-    # id_list = acc_taxa['kew_id'].to_list()
-    # search_powo_for_distributions(id_list,distributions_pkl)
-    # convert_pkl_to_df()
-    search_powo_for_distributions(['747455-1'],'test.pkl')
+    acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
+                            ranks=['Species', 'Subspecies', 'Variety'])
+    id_list = acc_taxa['kew_id'].to_list()
+    search_powo_for_tdwg3_distributions(id_list, 'new_test.pkl')
+
 
 if __name__ == '__main__':
     main()
