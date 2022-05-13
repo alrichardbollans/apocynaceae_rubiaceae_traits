@@ -31,9 +31,7 @@ if not os.path.isdir(_output_path):
 
 
 def search_powo_for_tdwg3_distributions(ipni_list: List[str], out_pkl: str):
-    # Note distributions aren't given for synonyms. This is fine except in cases where you use an id which is
-    # no longer accepted
-    # Also, this function does not return distributions of extinct taxa
+
     import pykew.powo as powo
     out = {}
     for i in tqdm(range(len(ipni_list)), desc="Searching POWO for dists…", ascii=False, ncols=72):
@@ -47,7 +45,7 @@ def search_powo_for_tdwg3_distributions(ipni_list: List[str], out_pkl: str):
             try:
                 if res['synonym']:
                     fq_id = res['accepted']['fqId']
-                    ipni = clean_urn_ids(fq_id)
+
                     res = powo.lookup(fq_id, include=['distribution'])
             except KeyError:
                 pass
@@ -95,7 +93,7 @@ def convert_pkl_to_df():
     str_dict = {}
     for k in dist_dict.keys():
         str_dict[k] = str(dist_dict[k])
-    value_dict = {'kew_id': list(str_dict.keys()), 'iso3_codes': list(str_dict.values())}
+    value_dict = {'kew_id': list(str_dict.keys()), 'tdwg3_codes': list(str_dict.values())}
     out_df = pd.DataFrame(value_dict)
     acc_out_df = get_accepted_info_from_ids_in_column(out_df, 'kew_id', families_of_interest=families_in_occurrences)
     acc_out_df.to_csv(distributions_csv)
@@ -105,7 +103,8 @@ def main():
     acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
                             ranks=['Species', 'Subspecies', 'Variety'])
     id_list = acc_taxa['kew_id'].to_list()
-    search_powo_for_tdwg3_distributions(id_list, 'new_test.pkl')
+    search_powo_for_tdwg3_distributions(id_list,distributions_pkl)
+    convert_pkl_to_df()
 
 
 if __name__ == '__main__':
