@@ -151,7 +151,7 @@ def plot_countries(malarial_region_codes):
     plt.savefig(os.path.join(_output_path, 'malarial_countries.png'), dpi=300)
 
 
-def get_iso3_codes():
+def get_tdwg3_codes():
     world_bank_codes = get_world_bank_tdwg_codes()
     print('Getting iso3 codes')
     # Caprivi strip is in namibia
@@ -170,7 +170,7 @@ def get_iso3_codes():
 
     iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC
 
-    code_df = pd.DataFrame({'iso3_codes': iso_3_codes})
+    code_df = pd.DataFrame({'tdwg3_codes': iso_3_codes})
     code_df.to_csv(malaria_country_codes_csv)
 
     return iso_3_codes
@@ -178,5 +178,5 @@ def get_iso3_codes():
 
 if __name__ == '__main__':
     # print_world_bank_countries()
-    codes = get_iso3_codes()
+    codes = get_tdwg3_codes()
     plot_countries(codes)
