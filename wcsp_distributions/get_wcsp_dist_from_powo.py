@@ -6,7 +6,7 @@ from typing import List
 
 import automatchnames
 import pandas as pd
-from automatchnames import get_accepted_info_from_ids_in_column
+from automatchnames import get_accepted_info_from_ids_in_column, clean_urn_ids
 from pkg_resources import resource_filename
 from pykew import powo_terms, powo, ipni
 from pykew.ipni_terms import Name
@@ -30,7 +30,7 @@ if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
 
-def search_powo_for_distributions(ipni_list: List[str]):
+def search_powo_for_distributions(ipni_list: List[str], out_pkl: str):
     # Note distributions aren't given for synonyms. This is fine except in cases where you use an id which is
     # no longer accepted
     # Also, this function does not return distributions of extinct taxa
@@ -44,12 +44,20 @@ def search_powo_for_distributions(ipni_list: List[str]):
         try:
 
             res = powo.lookup(lookup_str, include=['distribution'])
+            try:
+                if res['synonym']:
+                    fq_id = res['accepted']['fqId']
+                    ipni = clean_urn_ids(fq_id)
+                    res = powo.lookup(fq_id, include=['distribution'])
+            except KeyError:
+                pass
+
             dist_codes = []
             try:
                 native_to = [d['tdwgCode'] for d in res['distribution']['natives']]
                 dist_codes += native_to
             except KeyError:
-                print(f'No native codes: {ipni}')
+                pass
 
             finally:
                 try:
@@ -60,8 +68,18 @@ def search_powo_for_distributions(ipni_list: List[str]):
                     pass
 
                 finally:
+                    try:
+                        extinct_to = [d['tdwgCode'] for d in res['distribution']['extinct']]
+                        dist_codes += extinct_to
+                    except KeyError:
+
+                        pass
+
+                    finally:
+                        if len(dist_codes) == 0:
+                            print(f'No dist codes for {ipni}')
                     out[ipni] = dist_codes
-                with open(distributions_pkl, 'wb') as f:
+                with open(out_pkl, 'wb') as f:
                     pickle.dump(out, f)
         except JSONDecodeError:
             print(f'json error: {ipni}')
@@ -81,12 +99,12 @@ def convert_pkl_to_df():
 
 
 def main():
-    acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
-                            ranks=['Species', 'Subspecies', 'Variety'])
-    id_list = acc_taxa['kew_id'].to_list()
-    search_powo_for_distributions(id_list)
-    convert_pkl_to_df()
-
+    # acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
+    #                         ranks=['Species', 'Subspecies', 'Variety'])
+    # id_list = acc_taxa['kew_id'].to_list()
+    # search_powo_for_distributions(id_list,distributions_pkl)
+    # convert_pkl_to_df()
+    search_powo_for_distributions(['747455-1'],'test.pkl')
 
 if __name__ == '__main__':
     main()
