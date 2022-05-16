@@ -7,7 +7,7 @@ from automatchnames import get_accepted_info_from_names_in_column, get_accepted_
 from pkg_resources import resource_filename
 from taxa_lists import get_all_taxa
 
-from climate_vars import occurences_with_accepted_names_csv, families_in_occurrences
+from climate_vars import occurrences_with_clim_and_accepted_names_csv, families_in_occurrences
 from getting_malarial_regions import malaria_country_codes_csv
 from large_file_storage import large_folders
 from wcsp_distributions import distributions_csv
@@ -35,7 +35,7 @@ def get_taxa_in_malarial_countries_from_occurrences():
     :return:
     """
     # The `countryCode` column is in ISO-3 character, from GBIF but GBIF country codes can be patchy.
-    occ_df = pd.read_csv(occurences_with_accepted_names_csv)
+    occ_df = pd.read_csv(occurrences_with_clim_and_accepted_names_csv)
     malaria_country_codes_df = pd.read_csv(malaria_country_codes_csv)
 
     malarial_occurrences = occ_df[occ_df['countryCode'].isin(malaria_country_codes_df['tdwg3_codes'].values)]
