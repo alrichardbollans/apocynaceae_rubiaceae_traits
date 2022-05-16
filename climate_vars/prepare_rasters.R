@@ -39,15 +39,28 @@ agg_m_raster<-function(original_raster){
   agg_raster(original_raster,desired_m_resolution)
 }
 
+
+mode_fn <- function(x){
+  # Get modes without NAs and use pick randomly from ties
+  modes = c(statip::mfv(x, na_rm=TRUE))
+  if(length(modes)==1){
+    return(modes)
+  }
+  else{
+    return(sample(modes,size = 1))
+  }
+  
+}
+
 agg_kg_raster <- function(original_raster){
   print(res(original_raster))
   fact = desired_deg_resolution/res(original_raster)
   print(fact)
-  aggregated <- aggregate(original_raster,fact=fact,fun=modal,na.rm=TRUE, ties='random')
+  print(original_raster)
+  aggregated <- terra::aggregate(original_raster,fact=fact,fun=mode_fn)
   print(res(aggregated))
   return (aggregated)
 }
-
 
 project_rast <- function(original_raster, template_raster, new_name= NULL){
   print('old raster:')
