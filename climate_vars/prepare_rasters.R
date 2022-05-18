@@ -212,15 +212,15 @@ soc_soil.aggregated = agg_and_output_m_rast(homo_soc_soil,
 # Topography
 elevation = import_raster('mn30_grd/mn30_grd')
 elevation.aggregated = agg_and_output_deg_rast(elevation,
-                                    new_name = c("gmted_elevation"))
+                                    new_name = c("elevation"))
 
 slope = terra::terrain(elevation,v="slope")
 slope.aggregated = agg_and_output_deg_rast(slope,
-                                new_name = c("gmted_slope"))
+                                new_name = c("slope"))
 
 breakline = import_raster('be30_grd/be30_grd')
 breakline.aggregated = agg_and_output_deg_rast(breakline,
-                                    new_name = c("gmted_breakline"))
+                                    new_name = c("breakline_elevation"))
 
 
 # KG needs specific aggregation

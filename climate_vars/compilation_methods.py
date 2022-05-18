@@ -21,32 +21,43 @@ if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
 # Imported variables and new names for them
-climate_vars_and_names = {'Beck_KG_V1_present': 'Beck_KG_V1_present',
-                          'mean_air_temp': 'mean_air_temp',
-                          'temp_seasonality': 'temp_seasonality',
-                          'bio10': 'bio10',
-                          'bio11': 'bio11',
-                          'precip_amount': 'precip_amount',
-                          'precip_seasonality': 'precip_seasonality',
-                          'bio16': 'bio16',
-                          'bio17': 'bio17',
-                          'gmted_breakline': 'breakline_elevation',
-                          'gmted_elevation': 'elevation',
-                          'gmted_slope': 'slope',
-                          'soil_nitrogen': 'soil_nitrogen',
-                          'soil_ph': 'soil_ph',
-                          'soil_soc': 'soil_soc',
-                          'soil_depth': 'soil_depth',
-                          'soil_ocs': 'soil_ocs',
-                          'water_capacity': 'water_capacity',
-                          'decimalLatitude': 'latitude',
-                          'decimalLongitude': 'longitude'
-                          }
+initial_climate_vars = ['Beck_KG_V1_present',
+                        'mean_air_temp',
+                        'temp_seasonality',
+                        'bio10',
+                        'bio11',
+                        'precip_amount',
+                        'precip_seasonality',
+                        'bio16',
+                        'bio17',
+                        'breakline_elevation',
+                        'elevation',
+                        'slope',
+                        'soil_nitrogen',
+                        'soil_ph',
+                        'soil_soc',
+                        'soil_depth',
+                        'soil_ocs',
+                        'water_capacity',
+                        'latitude',
+                        'longitude'
+                        ]
 # All final variables
-all_climate_names = list(climate_vars_and_names.values()) + ['koppen_geiger_mode',
-                                                             'koppen_geiger_all']
+all_climate_names = initial_climate_vars + ['koppen_geiger_mode',
+                                            'koppen_geiger_all']
 all_climate_names.remove('Beck_KG_V1_present')
 families_in_occurrences = ['Apocynaceae', 'Rubiaceae', 'Celastraceae']
+
+
+# def rename_columns_in_data():
+#     renam_dict = {'gmted_breakline': 'breakline_elevation',
+#                   'gmted_elevation': 'elevation',
+#                   'gmted_slope': 'slope',
+#                   'decimalLongitude': 'longitude',
+#                   'decimalLatitude': 'latitude'}
+#     clim_occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)
+#     clim_occ_df.rename(columns=renam_dict, inplace=True)
+#     clim_occ_df.to_csv(clean_occurences_with_clim_vars_csv)
 
 
 def read_and_clean_occurences() -> pd.DataFrame:
@@ -67,12 +78,12 @@ def read_and_clean_occurences() -> pd.DataFrame:
     clean_df = clean_df[clean_df['year'] >= 1945]
 
     ## long and lat
-    clean_df = clean_df[~((clean_df['decimalLongitude'] == 0) & (clean_df['decimalLatitude'] == 0))]
+    clean_df = clean_df[~((clean_df['longitude'] == 0) & (clean_df['latitude'] == 0))]
 
-    clean_df = clean_df[(clean_df['decimalLongitude'] != clean_df['decimalLatitude'])]
+    clean_df = clean_df[(clean_df['longitude'] != clean_df['latitude'])]
 
     # na lat long
-    clean_df = clean_df[~((clean_df['decimalLongitude'].isna()) | (clean_df['decimalLatitude'].isna()))]
+    clean_df = clean_df[~((clean_df['longitude'].isna()) | (clean_df['latitude'].isna()))]
 
     ### CLimate values
 
@@ -90,21 +101,22 @@ def get_climate_df():
     occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)[
         ['species', 'fullname', 'countryCode', 'coordinateUncertaintyInMeters',
          'year', 'individualCount', 'gbifID', 'basisOfRecord', 'institutionCode', 'establishmentMeans',
-         'is_cultivated_observation', 'sourceID'] + list(climate_vars_and_names.keys())]
-    occ_df.rename(columns=climate_vars_and_names, inplace=True)
+         'is_cultivated_observation', 'sourceID'] + initial_climate_vars]
+
     print(occ_df.head())
     print(occ_df.columns)
 
     # Read accepted info and merge with climate data
     acc_info = pd.read_csv(_occurrences_with_accepted_names_csv).drop_duplicates(subset='fullname')
-    acc_info.drop(columns=['Unnamed: 0'], inplace=True)
+    cols_to_drop = [c for c in acc_info.columns if 'Unnamed' in c]
+    acc_info.drop(columns=cols_to_drop, inplace=True)
     acc_occ_df = pd.merge(occ_df, acc_info, on='fullname')
     # Output occurrences with climate vars and accepted names
     acc_occ_df.to_csv(occurrences_with_clim_and_accepted_names_csv)
 
     dfs = []
     grouped = acc_occ_df.groupby(['Accepted_ID'])
-    for c in list(climate_vars_and_names.values()):
+    for c in initial_climate_vars:
         # We take median of occurrences in order to mitigate outliers
         # This still has the possible issue of being biased towards where people take samples
         avg = pd.DataFrame(grouped[c].median())
@@ -158,14 +170,14 @@ def test_occs():
     uncertain.to_csv(os.path.join(test_dir, 'bad_year_examples.csv'))
 
     ## 0 long and lat
-    uncertain = occ_df[(occ_df['decimalLongitude'] == 0) & (occ_df['decimalLatitude'] == 0)]
+    uncertain = occ_df[(occ_df['longitude'] == 0) & (occ_df['latitude'] == 0)]
     uncertain.to_csv(os.path.join(test_dir, 'bad_zerolatlong_examples.csv'))
 
-    uncertain = occ_df[(occ_df['decimalLongitude'] == occ_df['decimalLatitude'])]
+    uncertain = occ_df[(occ_df['longitude'] == occ_df['latitude'])]
     uncertain.to_csv(os.path.join(test_dir, 'bad_eqlatlong_examples.csv'))
 
     # na lat long
-    uncertain = occ_df[(occ_df['decimalLongitude'].isna()) | (occ_df['decimalLatitude'].isna())]
+    uncertain = occ_df[(occ_df['longitude'].isna()) | (occ_df['latitude'].isna())]
     uncertain.to_csv(os.path.join(test_dir, 'bad_nalatlong_examples.csv'))
 
     # na codes
@@ -179,6 +191,7 @@ def main():
     # read_and_clean_occurences()
 
     get_climate_df()
+    # rename_columns_in_data()
 
 
 if __name__ == '__main__':

@@ -49,17 +49,17 @@ kg_rast.mode <- unlist(lapply(kg_rast.vals, FUN=mode_fn))
 
 # Join mean values to polygon data
 var_df <- data.frame(shape_data@data, placeholder_name=kg_rast.mode)
-names(var_df)[names(var_df) == "placeholder_name"] <- names(kg_rast)[[1]]
+names(var_df)[names(var_df) == "placeholder_name"] <- 'koppen_geiger_mode'
 
 # Do lat long
 centres <- rgeos::gCentroid(shape_data, byid = TRUE)@coords
 var_df = cbind(var_df, centres)
-names(var_df)[names(var_df) == "x"] <- 'decimalLongitude'
-names(var_df)[names(var_df) == "y"] <- 'decimalLatitude'
+names(var_df)[names(var_df) == "x"] <- 'longitude'
+names(var_df)[names(var_df) == "y"] <- 'latitude'
 
 # Do mean values
 for (r in prepared_rasters){
-  if(names(r)[[1]] != 'Beck_KG_V1_present'){
+  if(names(r)[[1]] != 'koppen_geiger_mode'){
     print(names(r)[[1]])
     var_df<-extract_distribution_means_to_df(var_df,r)
   }
