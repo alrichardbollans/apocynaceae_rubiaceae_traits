@@ -10,24 +10,26 @@ from large_file_storage import large_folders
 _inputs_path = os.path.join(large_folders, 'occ_climate_vars/')
 clean_occurences_with_clim_vars_csv = os.path.join(_inputs_path, 'occ_with_climate_vars.csv')
 _occurrences_with_accepted_names_csv = os.path.join(_inputs_path, 'occurences_with_accepted_names.csv')
-occurrences_with_clim_and_accepted_names_csv = os.path.join(_inputs_path, 'occurrences_with_clim_and_accepted_names.csv')
+occurrences_with_clim_and_accepted_names_csv = os.path.join(_inputs_path,
+                                                            'occurrences_with_clim_and_accepted_names.csv')
 
 _output_path = resource_filename(__name__, 'outputs')
 compiled_climate_vars_csv = os.path.join(_output_path, 'compiled_climate_vars.csv')
+mean_regional_bioclimatic_vars_csv = os.path.join('outputs', 'mean_regional_bioclimatic_vars.csv')
 
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
 # Imported variables and new names for them
 climate_vars_and_names = {'Beck_KG_V1_present': 'Beck_KG_V1_present',
-                          'CHELSA_bio1_1981.2010_V.2.1': 'mean_annual_air_temperature',
-                          'CHELSA_bio4_1981.2010_V.2.1': 'temp_seasonality',
-                          'CHELSA_bio10_1981.2010_V.2.1': 'bio10',
-                          'CHELSA_bio11_1981.2010_V.2.1': 'bio11',
-                          'CHELSA_bio12_1981.2010_V.2.1': 'annual_precipitation_amount',
-                          'CHELSA_bio15_1981.2010_V.2.1': 'bio15',
-                          'CHELSA_bio16_1981.2010_V.2.1': 'bio16',
-                          'CHELSA_bio17_1981.2010_V.2.1': 'bio17',
+                          'mean_air_temp': 'mean_air_temp',
+                          'temp_seasonality': 'temp_seasonality',
+                          'bio10': 'bio10',
+                          'bio11': 'bio11',
+                          'precip_amount': 'precip_amount',
+                          'precip_seasonality': 'precip_seasonality',
+                          'bio16': 'bio16',
+                          'bio17': 'bio17',
                           'gmted_breakline': 'breakline_elevation',
                           'gmted_elevation': 'elevation',
                           'gmted_slope': 'slope',

@@ -54,8 +54,8 @@ names(var_df)[names(var_df) == "placeholder_name"] <- names(kg_rast)[[1]]
 # Do lat long
 centres <- rgeos::gCentroid(shape_data, byid = TRUE)@coords
 var_df = cbind(var_df, centres)
-names(var_df)[names(var_df) == "x"] <- 'longitude'
-names(var_df)[names(var_df) == "y"] <- 'latitude'
+names(var_df)[names(var_df) == "x"] <- 'decimalLongitude'
+names(var_df)[names(var_df) == "y"] <- 'decimalLatitude'
 
 # Do mean values
 for (r in prepared_rasters){
