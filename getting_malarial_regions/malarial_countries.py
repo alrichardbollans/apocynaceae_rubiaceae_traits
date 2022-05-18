@@ -53,6 +53,7 @@ def print_world_bank_countries():
 
 def get_world_bank_tdwg_codes():
     # Without a decent parser, the list output from world bank data is parsed manually here
+    # using TDWG_geo2.pdf
     parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Angola': ['ANG'],
                         'Argentina': ['AGE', 'AGS', 'AGW'],
                         'Armenia': ['TCS'],
