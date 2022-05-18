@@ -97,6 +97,7 @@ def get_climate_df():
 
     # Read accepted info and merge with climate data
     acc_info = pd.read_csv(_occurrences_with_accepted_names_csv).drop_duplicates(subset='fullname')
+    acc_info.drop(columns=['Unnamed: 0'], inplace=True)
     acc_occ_df = pd.merge(occ_df, acc_info, on='fullname')
     # Output occurrences with climate vars and accepted names
     acc_occ_df.to_csv(occurrences_with_clim_and_accepted_names_csv)
