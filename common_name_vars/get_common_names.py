@@ -1,28 +1,21 @@
 import hashlib
 import os.path
 import urllib.request
+from typing import List
 from urllib.error import HTTPError
-import lxml
 
 import pandas as pd
-from typing import List
-
-from poison_vars import cornell_poison_file, CPCS_poison_file, UCANR_toxic_file, UCANR_nontoxic_file, usda_toxic_file, \
-    tppt_toxic_file
-from tqdm import tqdm
-
-import wikipedia_searches
-from pkg_resources import resource_filename
-
-from cleaning import compile_hits, generic_prepare_data, get_tempout_csv
 
 from automatchnames import get_accepted_info_from_names_in_column, clean_urn_ids, get_accepted_info_from_ids_in_column, \
     COL_NAMES
+from cleaning import compile_hits, generic_prepare_data, get_tempout_csv
+from pkg_resources import resource_filename
 
 ### Inputs
 from taxa_lists.get_taxa_from_wcvp import get_all_taxa
+from tqdm import tqdm
 
-from read_pdfs import common_names_from_wiersema
+from poison_vars import cornell_poison_file, CPCS_poison_file, UCANR_toxic_file, UCANR_nontoxic_file, tppt_toxic_file
 
 _inputs_path = resource_filename(__name__, 'inputs')
 _initial_USDA_csv = os.path.join(_inputs_path, 'USDA Plants Database.csv')
@@ -170,6 +163,8 @@ def get_powo_common_names(species_names: List[str], species_ids: List[str],
 
 
 def get_wiki_common_names(taxa_list: List[str], families_of_interest: List[str] = None):
+    import wikipedia_searches
+
     wiki_df = wikipedia_searches.search_for_common_names(taxa_list, _wiki_common_names_temp_output_csv)
     # wiki_df=pd.read_csv(_wiki_common_names_temp_output_csv)
     acc_wiki_df = get_accepted_info_from_names_in_column(wiki_df, 'Name',
@@ -234,6 +229,7 @@ def prepare_TPPT_data():
 
 
 def prepare_wiersema_data():
+    from read_pdfs import common_names_from_wiersema
     w = common_names_from_wiersema(_wiersema_common_names_temp_output_csv)
     # # w = pd.read_csv(_wiersema_common_names_temp_output_csv, index_col=0)
     generic_prepare_data('WEP (Wiersema 2013)', _temp_outputs_path, w, 'name', batch=True)

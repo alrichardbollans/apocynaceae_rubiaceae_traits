@@ -4,12 +4,9 @@ import time
 from json import JSONDecodeError
 from typing import List
 
-import automatchnames
 import pandas as pd
-from automatchnames import get_accepted_info_from_ids_in_column, clean_urn_ids
+from automatchnames import get_accepted_info_from_ids_in_column
 from pkg_resources import resource_filename
-from pykew import powo_terms, powo, ipni
-from pykew.ipni_terms import Name
 from taxa_lists import get_all_taxa
 from tqdm import tqdm
 

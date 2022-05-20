@@ -2,10 +2,9 @@ import os
 from itertools import chain
 
 import pandas as pd
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+
 import matplotlib.pyplot as plt
-import cartopy.io.shapereader as shpreader
+
 from pkg_resources import resource_filename
 
 from large_file_storage import data_download
@@ -22,9 +21,6 @@ if not os.path.isdir(_temp_outputs_path):
     os.mkdir(_temp_outputs_path)
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
-
-tdwg3_shp = shpreader.Reader(
-    os.path.join(_inputs_path, 'wgsrpd-master', 'level3', 'level3.shp'))
 
 
 # From https://datacatalog.worldbank.org/search/dataset/0037712
@@ -114,6 +110,13 @@ def get_world_bank_tdwg_codes():
 
 
 def plot_countries(malarial_region_codes):
+    import cartopy.crs as ccrs
+    import cartopy.feature as cfeature
+    import cartopy.io.shapereader as shpreader
+
+    tdwg3_shp = shpreader.Reader(
+        os.path.join(_inputs_path, 'wgsrpd-master', 'level3', 'level3.shp'))
+
     print('plotting countries')
 
     plt.figure(figsize=(40, 25))
@@ -143,8 +146,6 @@ def plot_countries(malarial_region_codes):
                               facecolor='white',
                               label=tdwg_code)
 
-
-
     all_map_isos = [country.attributes['LEVEL3_COD'] for country in tdwg3_shp.records()]
     missed_names = [x for x in malarial_region_codes if x not in all_map_isos]
     print(f'iso codes not plotted on map: {missed_names}')
@@ -163,7 +164,7 @@ def get_tdwg3_codes():
     # Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4
     # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4
     # Uruguay: https://doi.org/10.1093/ae/46.4.238
-    codes_from_literature = ['NTA', 'WAU', 'QLD', 'REU','LBY','TUN']
+    codes_from_literature = ['NTA', 'WAU', 'QLD', 'REU', 'LBY', 'TUN']
     # From https://www.cdc.gov/malaria/about/distribution.html
     # ['Western Sahara', 'Kiribati', 'French Guiana'] Zaire, Cabinda
     # Accessed: 05/05/2022
