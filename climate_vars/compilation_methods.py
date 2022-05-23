@@ -8,10 +8,14 @@ from pkg_resources import resource_filename
 from large_file_storage import large_folders
 
 _inputs_path = os.path.join(large_folders, 'occ_climate_vars/')
-clean_occurences_with_clim_vars_csv = os.path.join(_inputs_path, 'occ_with_climate_vars.csv')
-_occurrences_with_accepted_names_csv = os.path.join(_inputs_path, 'occurences_with_accepted_names.csv')
-occurrences_with_clim_and_accepted_names_csv = os.path.join(_inputs_path,
-                                                            'occurrences_with_clim_and_accepted_names.csv')
+clean_native_occurences_with_clim_vars_csv = os.path.join(_inputs_path, 'native', 'occ_with_climate_vars.csv')
+clean_introd_occurences_with_clim_vars_csv = os.path.join(_inputs_path, 'introduced', 'occ_with_climate_vars.csv')
+
+occurrences_with_accepted_names_csv = os.path.join(_inputs_path, 'occurences_with_accepted_names.csv')
+native_occurrences_with_clim_and_accepted_names_csv = os.path.join(_inputs_path,
+                                                                   'native_occurrences_with_clim_and_accepted_names.csv')
+introd_occurrences_with_clim_and_accepted_names_csv = os.path.join(_inputs_path,
+                                                                   'introd_occurrences_with_clim_and_accepted_names.csv')
 
 _output_path = resource_filename(__name__, 'outputs')
 compiled_climate_vars_csv = os.path.join(_output_path, 'compiled_climate_vars.csv')
@@ -49,73 +53,72 @@ all_climate_names.remove('Beck_KG_V1_present')
 families_in_occurrences = ['Apocynaceae', 'Rubiaceae', 'Celastraceae']
 
 
-# def rename_columns_in_data():
-#     renam_dict = {'gmted_breakline': 'breakline_elevation',
-#                   'gmted_elevation': 'elevation',
-#                   'gmted_slope': 'slope',
-#                   'decimalLongitude': 'longitude',
-#                   'decimalLatitude': 'latitude'}
-#     clim_occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)
-#     clim_occ_df.rename(columns=renam_dict, inplace=True)
-#     clim_occ_df.to_csv(clean_occurences_with_clim_vars_csv)
-
-
 def read_and_clean_occurences() -> pd.DataFrame:
     """
     Get accepted info for occurrences. This only needs updating with new occurrences
     rather than when new cliamte data is added
     :return:
     """
-    # TODO: remove close occs re: autocorrelation
 
-    clim_occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)
-    print(clim_occ_df.columns)
+    native_occ_df = pd.read_csv(clean_native_occurences_with_clim_vars_csv)
+    introd_occ_df = pd.read_csv(clean_introd_occurences_with_clim_vars_csv)
 
-    # Coord uncertainty 20000
-    clean_df = clim_occ_df[clim_occ_df['coordinateUncertaintyInMeters'] <= 20000]
+    occ_df = pd.concat([native_occ_df, introd_occ_df])
+    print(occ_df[occ_df['gbifID'].duplicated(keep="first")])
+    print(occ_df)
+    occ_df.drop_duplicates(subset=['gbifID'], keep='first', inplace=True)
+    print(occ_df)
+    # print(occ_df.columns)
 
-    ## Years
-    clean_df = clean_df[clean_df['year'] >= 1945]
-
-    ## long and lat
-    clean_df = clean_df[~((clean_df['longitude'] == 0) & (clean_df['latitude'] == 0))]
-
-    clean_df = clean_df[(clean_df['longitude'] != clean_df['latitude'])]
-
-    # na lat long
-    clean_df = clean_df[~((clean_df['longitude'].isna()) | (clean_df['latitude'].isna()))]
-
-    ### CLimate values
-
-    acc_df = get_accepted_info_from_names_in_column(clean_df, 'fullname',
+    acc_df = get_accepted_info_from_names_in_column(occ_df, 'fullname',
                                                     families_of_interest=families_in_occurrences)
 
     acc_df = acc_df[['fullname', 'Accepted_Name', 'Accepted_ID', 'Accepted_Rank',
                      'Accepted_Species', 'Accepted_Species_ID']]
-    acc_df.to_csv(_occurrences_with_accepted_names_csv)
+    acc_df.to_csv(occurrences_with_accepted_names_csv)
 
     return acc_df
 
 
 def get_climate_df():
-    occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)[
+    native_occ_df = pd.read_csv(clean_native_occurences_with_clim_vars_csv)[
+        ['species', 'fullname', 'countryCode', 'coordinateUncertaintyInMeters',
+         'year', 'individualCount', 'gbifID', 'basisOfRecord', 'institutionCode', 'establishmentMeans',
+         'is_cultivated_observation', 'sourceID'] + initial_climate_vars]
+    introd_occ_df = pd.read_csv(clean_introd_occurences_with_clim_vars_csv)[
         ['species', 'fullname', 'countryCode', 'coordinateUncertaintyInMeters',
          'year', 'individualCount', 'gbifID', 'basisOfRecord', 'institutionCode', 'establishmentMeans',
          'is_cultivated_observation', 'sourceID'] + initial_climate_vars]
 
-    print(occ_df.head())
-    print(occ_df.columns)
+    print(native_occ_df.head())
+    print(len(native_occ_df.index))
+    print(introd_occ_df.head())
+    print(len(introd_occ_df.index))
 
     # Read accepted info and merge with climate data
-    acc_info = pd.read_csv(_occurrences_with_accepted_names_csv).drop_duplicates(subset='fullname')
+    acc_info = pd.read_csv(occurrences_with_accepted_names_csv).drop_duplicates(subset='fullname')
     cols_to_drop = [c for c in acc_info.columns if 'Unnamed' in c]
     acc_info.drop(columns=cols_to_drop, inplace=True)
-    acc_occ_df = pd.merge(occ_df, acc_info, on='fullname')
+    native_acc_occ_df = pd.merge(native_occ_df, acc_info, on='fullname')
+    introd_acc_occ_df = pd.merge(introd_occ_df, acc_info, on='fullname')
+
+    print(native_acc_occ_df.head())
+    print(len(native_acc_occ_df.index))
+    print(introd_acc_occ_df.head())
+    print(len(introd_acc_occ_df.index))
+
     # Output occurrences with climate vars and accepted names
-    acc_occ_df.to_csv(occurrences_with_clim_and_accepted_names_csv)
+    native_acc_occ_df.to_csv(native_occurrences_with_clim_and_accepted_names_csv)
+    introd_acc_occ_df.to_csv(introd_occurrences_with_clim_and_accepted_names_csv)
+
+    # Get dataframe with native occurrences plus introduced occurrences where no native data has been found
+
+    introd_occ_not_in_native = introd_acc_occ_df[
+        ~introd_acc_occ_df['Accepted_ID'].isin(native_acc_occ_df['Accepted_ID'].values)]
+    occ_df_native_priority = pd.concat([native_acc_occ_df, introd_occ_not_in_native])
 
     dfs = []
-    grouped = acc_occ_df.groupby(['Accepted_ID'])
+    grouped = occ_df_native_priority.groupby(['Accepted_ID'])
     for c in initial_climate_vars:
         # We take median of occurrences in order to mitigate outliers
         # This still has the possible issue of being biased towards where people take samples
@@ -135,10 +138,10 @@ def get_climate_df():
 
     # Get mode of koppengeiger classification.
     # In case of multiple modes, select one at random
-    merged['koppen_geiger_mode'] = acc_occ_df.groupby(['Accepted_ID'])['Beck_KG_V1_present'].agg(
+    merged['koppen_geiger_mode'] = occ_df_native_priority.groupby(['Accepted_ID'])['Beck_KG_V1_present'].agg(
         lambda x: np.random.choice(x.mode(dropna=True)))
 
-    merged['koppen_geiger_all'] = acc_occ_df.groupby(['Accepted_ID'])[
+    merged['koppen_geiger_all'] = occ_df_native_priority.groupby(['Accepted_ID'])[
         'Beck_KG_V1_present'].unique().apply(
         list).values
 
@@ -148,50 +151,10 @@ def get_climate_df():
     out_df.to_csv(compiled_climate_vars_csv)
 
 
-def test_occs():
-    test_dir = resource_filename(__name__, 'tests')
-    occ_df = pd.read_csv(clean_occurences_with_clim_vars_csv)
-    dups = occ_df[occ_df.duplicated(subset=['gbifID'])]
-    print(dups)
-    if len(dups.index) > 0:
-        raise ValueError
-
-    # Coord uncertainty 20000
-    print('coord uncertainty clean')
-    uncertain = occ_df[occ_df['coordinateUncertaintyInMeters'] > 20000]
-    uncertain.to_csv(os.path.join(test_dir, 'bad_coord_examples.csv'))
-    print(len(occ_df.index))
-    # clim_occ_df = clim_occ_df[clim_occ_df['coordinateUncertaintyInMeters'] <= 20000]
-
-    print(len(occ_df.index))
-
-    ## Years
-    uncertain = occ_df[occ_df['year'] < 1945]
-    uncertain.to_csv(os.path.join(test_dir, 'bad_year_examples.csv'))
-
-    ## 0 long and lat
-    uncertain = occ_df[(occ_df['longitude'] == 0) & (occ_df['latitude'] == 0)]
-    uncertain.to_csv(os.path.join(test_dir, 'bad_zerolatlong_examples.csv'))
-
-    uncertain = occ_df[(occ_df['longitude'] == occ_df['latitude'])]
-    uncertain.to_csv(os.path.join(test_dir, 'bad_eqlatlong_examples.csv'))
-
-    # na lat long
-    uncertain = occ_df[(occ_df['longitude'].isna()) | (occ_df['latitude'].isna())]
-    uncertain.to_csv(os.path.join(test_dir, 'bad_nalatlong_examples.csv'))
-
-    # na codes
-    uncertain = occ_df[(occ_df['countryCode'].isna())]
-    uncertain.to_csv(os.path.join(test_dir, 'bad_naccode_examples.csv'))
-
-
 def main():
-    # test_occs()
-
     # read_and_clean_occurences()
 
     get_climate_df()
-    # rename_columns_in_data()
 
 
 if __name__ == '__main__':
