@@ -152,7 +152,7 @@ def get_climate_df():
 
 
 def main():
-    # read_and_clean_occurences()
+    read_and_clean_occurences()
 
     get_climate_df()
 
