@@ -10,8 +10,6 @@ from pkg_resources import resource_filename
 from taxa_lists import get_all_taxa
 from tqdm import tqdm
 
-from climate_vars import families_in_occurrences
-
 _inputs_path = resource_filename(__name__, 'inputs')
 
 _temp_outputs_path = resource_filename(__name__, 'temp_outputs')
@@ -28,7 +26,6 @@ if not os.path.isdir(_output_path):
 
 
 def search_powo_for_tdwg3_distributions(ipni_list: List[str], out_pkl: str):
-
     import pykew.powo as powo
     out = {}
     for i in tqdm(range(len(ipni_list)), desc="Searching POWO for dists…", ascii=False, ncols=72):
@@ -78,7 +75,7 @@ def search_powo_for_tdwg3_distributions(ipni_list: List[str], out_pkl: str):
                     finally:
                         if (len(native_codes) + len(introduced_codes) + len(extinct_codes)) == 0:
                             print(f'No dist codes for {ipni}')
-                    out[ipni] = [native_codes,introduced_codes,extinct_codes]
+                    out[ipni] = [native_codes, introduced_codes, extinct_codes]
                 with open(out_pkl, 'wb') as f:
                     pickle.dump(out, f)
         except JSONDecodeError:
@@ -91,7 +88,7 @@ def convert_pkl_to_df():
 
     native_dict = {}
     intro_dict = {}
-    ext_dict ={}
+    ext_dict = {}
     for k in dist_dict.keys():
         native_dict[k] = str(dist_dict[k][0])
         intro_dict[k] = str(dist_dict[k][1])
@@ -106,10 +103,10 @@ def convert_pkl_to_df():
 
 
 def main():
-    acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
+    acc_taxa = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae', 'Celastraceae'], accepted=True,
                             ranks=['Species', 'Subspecies', 'Variety'])
     id_list = acc_taxa['kew_id'].to_list()
-    search_powo_for_tdwg3_distributions(id_list,distributions_pkl)
+    search_powo_for_tdwg3_distributions(id_list, distributions_pkl)
     convert_pkl_to_df()
 
 
