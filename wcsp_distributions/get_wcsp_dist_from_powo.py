@@ -1,14 +1,8 @@
 import os
-import pickle
-import time
-from json import JSONDecodeError
-from typing import List
 
-import pandas as pd
-from automatchnames import get_accepted_info_from_ids_in_column
 from pkg_resources import resource_filename
 from taxa_lists import get_all_taxa
-from tqdm import tqdm
+from wcsp_distribution_search import search_powo_for_tdwg3_distributions, convert_pkl_to_df
 
 _inputs_path = resource_filename(__name__, 'inputs')
 
@@ -25,89 +19,12 @@ if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
 
-def search_powo_for_tdwg3_distributions(ipni_list: List[str], out_pkl: str):
-    import pykew.powo as powo
-    out = {}
-    for i in tqdm(range(len(ipni_list)), desc="Searching POWO for dists…", ascii=False, ncols=72):
-
-        time.sleep(1)
-        ipni = ipni_list[i]
-        lookup_str = 'urn:lsid:ipni.org:names:' + str(ipni)
-        try:
-
-            res = powo.lookup(lookup_str, include=['distribution'])
-            try:
-                if res['synonym']:
-                    fq_id = res['accepted']['fqId']
-
-                    res = powo.lookup(fq_id, include=['distribution'])
-            except KeyError:
-                pass
-
-            native_codes = []
-            introduced_codes = []
-            extinct_codes = []
-            try:
-                native_to = [d['tdwgCode'] for d in res['distribution']['natives'] if d['tdwgLevel'] == 3]
-                native_codes += native_to
-
-            except KeyError:
-                pass
-
-            finally:
-                try:
-                    introduced_to = [d['tdwgCode'] for d in res['distribution']['introduced'] if d['tdwgLevel'] == 3]
-                    introduced_codes += introduced_to
-
-                except KeyError:
-
-                    pass
-
-                finally:
-                    try:
-                        extinct_to = [d['tdwgCode'] for d in res['distribution']['extinct'] if d['tdwgLevel'] == 3]
-                        extinct_codes += extinct_to
-
-                    except KeyError:
-
-                        pass
-
-                    finally:
-                        if (len(native_codes) + len(introduced_codes) + len(extinct_codes)) == 0:
-                            print(f'No dist codes for {ipni}')
-                    out[ipni] = [native_codes, introduced_codes, extinct_codes]
-                with open(out_pkl, 'wb') as f:
-                    pickle.dump(out, f)
-        except JSONDecodeError:
-            print(f'json error: {ipni}')
-
-
-def convert_pkl_to_df():
-    with open(distributions_pkl, 'rb') as f:
-        dist_dict = pickle.load(f)
-
-    native_dict = {}
-    intro_dict = {}
-    ext_dict = {}
-    for k in dist_dict.keys():
-        native_dict[k] = str(dist_dict[k][0])
-        intro_dict[k] = str(dist_dict[k][1])
-        ext_dict[k] = str(dist_dict[k][2])
-    value_dict = {'kew_id': list(dist_dict.keys()),
-                  'native_tdwg3_codes': list(native_dict.values()),
-                  'intro_tdwg3_codes': list(intro_dict.values()),
-                  'extinct_tdwg3_codes': list(ext_dict.values())}
-    out_df = pd.DataFrame(value_dict)
-    acc_out_df = get_accepted_info_from_ids_in_column(out_df, 'kew_id', families_of_interest=families_in_occurrences)
-    acc_out_df.to_csv(distributions_csv)
-
-
 def main():
     acc_taxa = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae', 'Celastraceae'], accepted=True,
                             ranks=['Species', 'Subspecies', 'Variety'])
     id_list = acc_taxa['kew_id'].to_list()
     search_powo_for_tdwg3_distributions(id_list, distributions_pkl)
-    convert_pkl_to_df()
+    convert_pkl_to_df(distributions_pkl, distributions_csv)
 
 
 if __name__ == '__main__':
