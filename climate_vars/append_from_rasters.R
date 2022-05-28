@@ -4,6 +4,10 @@ library(dplyr)
 
 configs = rjson::fromJSON(file = '../large_file_storage/my_directories.json')
 source(here::here('helper_functions.R'))
+
+occ_df = read.csv(file.path(configs$plant_occurences,'outputs','final_cleaned_occurrences.csv'))
+
+
 read_rasters <- function(){
   prep_rasters=list()
   raster_files = list.files(path=file.path('temp_outputs','prepared rasters'), pattern='*.tiff$')
@@ -19,29 +23,7 @@ read_rasters <- function(){
 
 prepared_rasters = read_rasters()
 
-# Get dataframe containing cleaned occurences
-native = TRUE # Whether to look at occurrences from native or introduced regions
-if (native){
-  species_df = read.csv(paste(configs$large_folders,'plant_occurence_vars/outputs/native/cleaned_sp_occurences.csv',sep='/'))
-  subspecies_df = read.csv(paste(configs$large_folders,'plant_occurence_vars/outputs/native/cleaned_subsp_occurences.csv',sep='/'))
-  varis_df = read.csv(paste(configs$large_folders,'plant_occurence_vars/outputs/native/cleaned_vari_occurences.csv',sep='/'))
-} else{
-  species_df = read.csv(paste(configs$large_folders,'plant_occurence_vars/outputs/introduced/cleaned_sp_occurences.csv',sep='/'))
-  subspecies_df = read.csv(paste(configs$large_folders,'plant_occurence_vars/outputs/introduced/cleaned_subsp_occurences.csv',sep='/'))
-  varis_df = read.csv(paste(configs$large_folders,'plant_occurence_vars/outputs/introduced/cleaned_vari_occurences.csv',sep='/'))
-}
 
-occ_df_with_duplicates = rbind(species_df,subspecies_df)
-occ_df_with_duplicates = rbind(occ_df_with_duplicates,varis_df)
-
-occ_df = dplyr::distinct(occ_df_with_duplicates, gbifID, .keep_all = TRUE)
-
-# Save some RAM
-rm(occ_df_with_duplicates)
-rm(species_df)
-rm(subspecies_df)
-rm(varis_df)
-gc()
 append_var_to_df <- function(df,reaggragated_raster){
   
   # Update names
@@ -66,12 +48,7 @@ for (r in prepared_rasters){
 names(occ_df)[names(occ_df)=="decimalLatitude"] <- "latitude"
 names(occ_df)[names(occ_df)=="decimalLongitude"] <- "longitude"
 
-
-if (native){
-  write.csv(occ_df, paste(configs$large_folders,'occ_climate_vars/native/occ_with_climate_vars.csv',sep='/'))
-} else{
-  write.csv(occ_df, paste(configs$large_folders,'occ_climate_vars/introduced/occ_with_climate_vars.csv',sep='/'))
-}
+write.csv(occ_df, paste(configs$large_folders,'occ_climate_vars/occ_with_climate_vars.csv',sep='/'))
 
 
 
