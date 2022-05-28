@@ -1,21 +1,16 @@
-import os.path
-
 import pandas as pd
 from taxa_lists import get_all_taxa
 
-from climate_vars import summary_output_csv, climate_output_path, native_occurrences_with_clim_and_accepted_names_csv, \
-    compiled_climate_vars_csv, occurrences_with_accepted_names_csv
-from large_file_storage import data_download
+from cleaning_plant_occurrences import final_occurrence_output_csv
+from climate_vars import summary_output_csv
 
 
-def summarise():
-    # TODO: se
+def summarise_occurrences():
     families = ['Apocynaceae', 'Rubiaceae']
     acc_taxa = get_all_taxa(families_of_interest=families, accepted=True,
                             ranks=['Species', 'Subspecies', 'Variety'])
-    occ_df = pd.read_csv(occurrences_with_accepted_names_csv)
+    occ_df = pd.read_csv(final_occurrence_output_csv)
 
-    occ_df.describe().to_csv(os.path.join(climate_output_path, 'data_summary.csv'))
     unique_taxa = occ_df['Accepted_Name'].unique()
     unique_taxa_in_fams = [x for x in unique_taxa if x in acc_taxa['accepted_name'].values]
 
@@ -37,7 +32,8 @@ def plot_sp_map():
 
 
 def main():
-    summarise()
+    summarise_occurrences()
+
 
 if __name__ == '__main__':
     main()
