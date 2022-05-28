@@ -8,7 +8,7 @@ setup(
     author='Adam Richard-Bollans',
     author_email='38588335+alrichardbollans@users.noreply.github.com',
     # Needed to actually package something
-    packages=find_packages(include=['climate_vars', 'common_name_vars',
+    packages=find_packages(include=['cleaning_plant_occurrences', 'climate_vars', 'common_name_vars',
                                     'conservation_priorities',
                                     'getting_malarial_regions',
                                     'poison_vars',
