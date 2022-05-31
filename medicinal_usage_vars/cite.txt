@@ -1,7 +1,12 @@
 Royal Botanic Gardens, Kew (2022) Medicinal Plant Names Services, Version 11.
 www.kew.org/mpns
-Accessed XX/XX/XXX
+Accessed 18/01/2022
 
 Plants of the World Online (2022). Facilitated by the Royal Botanic Gardens, Kew. Published on the
 Internet; http://www.plantsoftheworldonline.org/
-Accessed XX/XX/XXXX
+Accessed 07/02/2022
+
+POWO Search terms.
+Medicinal: 'medicinal', 'medication', 'medicine', 'therapeutic', 'healing', 'cure', 'drug', 'antibiotic', 'antiviral',
+'antibacterial'
+Antimalarial: 'antimalarial', 'malaria'

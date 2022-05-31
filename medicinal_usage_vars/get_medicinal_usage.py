@@ -59,7 +59,7 @@ def prepare_MPNS_common_names(families_of_interest=None) -> pd.DataFrame:
 
 
 def get_powo_antimalarial_usage():
-    search_powo(['antimalarial', 'malaria', 'antimalaria'],
+    search_powo(['antimalarial', 'malaria'],
                 _powo_search_malarial_temp_output_accepted_csv,
                 characteristics_to_search=['use'],
                 families_of_interest=['Rubiaceae', 'Apocynaceae'],
