@@ -8,7 +8,7 @@ Diazgranados, Mauricio, Bob Allkin, Nicholas Black, Rodrigo Cámara-Leret, Cáti
 KNB Data Repository, 2020.
 https://doi.org/10.5063/F1CV4G34.
 
-LITTOX
+RBG, Kew (ed.) (2021). LitTox database. Royal Botanic Gardens, Kew, London.
 
 Wikipedia, The Free Encyclopedia
 https://en.wikipedia.org/
