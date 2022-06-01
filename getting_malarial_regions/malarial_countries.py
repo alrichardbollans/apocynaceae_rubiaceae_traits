@@ -1,10 +1,6 @@
 import os
-from itertools import chain
 
 import pandas as pd
-
-import matplotlib.pyplot as plt
-
 from pkg_resources import resource_filename
 
 from large_file_storage import data_download
@@ -110,6 +106,7 @@ def get_world_bank_tdwg_codes():
 
 
 def plot_countries(malarial_region_codes):
+    import matplotlib.pyplot as plt
     import cartopy.crs as ccrs
     import cartopy.feature as cfeature
     import cartopy.io.shapereader as shpreader
