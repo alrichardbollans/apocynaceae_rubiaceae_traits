@@ -57,7 +57,8 @@ def get_taxa_in_malarial_countries_from_wcsp_data():
     for idx, row in wcsp_dists.iterrows():
 
         if any(iso_code in malaria_country_codes_df['tdwg3_codes'].values for iso_code in
-               ast.literal_eval(row['tdwg3_codes'])):
+               (ast.literal_eval(row['native_tdwg3_codes']) + ast.literal_eval(
+                   row['intro_tdwg3_codes']) + ast.literal_eval(row['extinct_tdwg3_codes']))):
             ids_in_malarial_regions.append(row['kew_id'])
 
     acc_taxa = get_all_taxa(families_of_interest=families_in_occurrences, accepted=True,
@@ -67,7 +68,6 @@ def get_taxa_in_malarial_countries_from_wcsp_data():
     malarial_taxa_acc = get_accepted_info_from_ids_in_column(family_taxa_in_malarial_regions, 'kew_id',
                                                              families_of_interest=families_in_occurrences)
     malarial_taxa_acc.to_csv(taxa_in_malarial_countries_csv)
-
 
 
 def main():
