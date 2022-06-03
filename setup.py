@@ -9,13 +9,17 @@ setup(
     author_email='38588335+alrichardbollans@users.noreply.github.com',
     # Needed to actually package something
     packages=find_packages(include=['cleaning_plant_occurrences', 'climate_vars', 'common_name_vars',
-                                    'conservation_priorities',
+                                    'conservation_priority',
                                     'getting_malarial_regions',
-                                    'poison_vars',
+                                    'large_file_storage',
                                     'manually_collected_data', 'morphological_vars',
                                     'metabolite_vars', 'medicinal_usage_vars',
+                                    'poison_vars',
                                     'wcsp_distributions',
                                     'wikipedia_vars']),
+    package_data={
+        "": ["outputs/*"]
+    },
     # *strongly* suggested for sharing
     version='0.1',
     license='MIT',
