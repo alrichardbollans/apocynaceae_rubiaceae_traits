@@ -6,7 +6,7 @@ from pkg_resources import resource_filename
 import wikipedia_searches
 from cleaning import compile_hits
 from automatchnames import clean_urn_ids, get_accepted_info_from_names_in_column
-from powo_searches import search_powo
+
 
 ### Inputs
 
@@ -176,6 +176,7 @@ def prepare_littox_poisons() -> pd.DataFrame:
 
 
 def get_powo_poisons():
+    from powo_searches import search_powo
     search_powo(['poison', 'poisonous', 'toxic', 'deadly'],
                 _powo_search_temp_output_accepted_csv,
                 families_of_interest=['Rubiaceae', 'Apocynaceae'],
@@ -244,5 +245,6 @@ def get_poison_hits():
 
 
 if __name__ == '__main__':
+
     get_poison_hits()
     get_nonpoison_hits()
