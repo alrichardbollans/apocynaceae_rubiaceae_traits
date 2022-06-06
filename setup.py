@@ -18,7 +18,8 @@ setup(
                                     'wcsp_distributions',
                                     'wikipedia_vars']),
     package_data={
-        "": ["outputs/*"]
+        "": ["outputs/*"],
+        "morphological_vars": ["temp_outputs/*"]
     },
     # *strongly* suggested for sharing
     version='0.1',
