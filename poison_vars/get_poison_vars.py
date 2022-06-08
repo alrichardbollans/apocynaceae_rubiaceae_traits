@@ -3,10 +3,8 @@ import os
 import pandas as pd
 from pkg_resources import resource_filename
 
-import wikipedia_searches
 from cleaning import compile_hits
 from automatchnames import clean_urn_ids, get_accepted_info_from_names_in_column
-
 
 ### Inputs
 
@@ -51,7 +49,8 @@ output_nonpoison_csv = os.path.join(_output_path, 'list_of_nonpoisonous_plants.c
 def prepare_cornell_data() -> pd.DataFrame:
     tables = pd.read_html(cornell_poison_file)
     tables[0]['Source'] = 'Cornell CALS'
-    db_acc = get_accepted_info_from_names_in_column(tables[0], 'Scientific Name')
+    tables[0].rename(columns={'Scientific Name': 'Cornell_Snippet'}, inplace=True)
+    db_acc = get_accepted_info_from_names_in_column(tables[0], 'Cornell_Snippet')
     db_acc.to_csv(_cornell_temp_accepted_csv)
     return db_acc
 
@@ -63,12 +62,14 @@ def prepare_CPCS_data():
     # Remove letter headers
     non_toxic_db = non_toxic_db[~non_toxic_db['Latin or scientific name'].str.contains('^[A-Z]$', regex=True)]
     acc_non_toxic = get_accepted_info_from_names_in_column(non_toxic_db, 'Latin or scientific name')
+    acc_non_toxic.rename(columns={'Latin or scientific name': 'CPCS_Snippet'}, inplace=True)
     acc_non_toxic['Source'] = 'CPCS'
     acc_non_toxic.to_csv(_CPCS_nontoxic_temp_accepted_csv)
 
     toxic_db = tables[4]
     toxic_db = toxic_db[~toxic_db['Latin or scientific name'].str.contains('^[A-Z]$', regex=True)]
     acc_toxic = get_accepted_info_from_names_in_column(toxic_db, 'Latin or scientific name')
+    acc_toxic.rename(columns={'Latin or scientific name': 'CPCS_Snippet'}, inplace=True)
     acc_toxic['Source'] = 'CPCS'
     acc_toxic.to_csv(_CPCS_toxic_temp_accepted_csv)
 
@@ -79,6 +80,7 @@ def prepare_toxic_UCANR_data():
     toxic_db = toxic_tables[0]
     acc_toxic = get_accepted_info_from_names_in_column(toxic_db, 'Toxic plants: Scientific name')
     acc_toxic['Source'] = 'UCANR'
+    acc_toxic.rename(columns={'Toxic plants: Scientific name': 'UCANR_Snippet'}, inplace=True)
     acc_toxic.to_csv(_UCANR_toxic_temp_accepted_csv)
 
 
@@ -86,6 +88,7 @@ def prepare_usda_data():
     toxic_db = pd.read_csv(usda_toxic_file)
     acc_toxic = get_accepted_info_from_names_in_column(toxic_db, 'Plants with Activity Synergy')
     acc_toxic['Source'] = 'USDA(Duke)'
+    acc_toxic.rename(columns={'Plants with Activity Synergy': 'USDA(Duke)_Snippet'}, inplace=True)
     acc_toxic.to_csv(_usda_toxic_temp_accepted_csv)
 
 
@@ -95,6 +98,7 @@ def prepare_TPPT_data():
     acc_toxic = get_accepted_info_from_names_in_column(toxic_db, 'Latin_plant_name',
                                                        families_of_interest=toxic_db['Plant_family'].unique().tolist())
     acc_toxic['Source'] = 'TPPT'
+    acc_toxic.rename(columns={'Latin_plant_name': 'TPPT_Snippet'}, inplace=True)
     acc_toxic.to_csv(_tppt_toxic_temp_accepted_csv)
 
 
@@ -104,6 +108,7 @@ def prepare_nontoxic_UCANR_data():
     nontoxic_db = nontoxic_tables[0]
     acc_nontoxic = get_accepted_info_from_names_in_column(nontoxic_db, 'Safe plants: Scientific name')
     acc_nontoxic['Source'] = 'UCANR'
+    acc_nontoxic.rename(columns={'Safe plants: Scientific name': 'UCANR_Snippet'}, inplace=True)
     acc_nontoxic.to_csv(_UCANR_nontoxic_temp_accepted_csv)
 
 
@@ -120,6 +125,7 @@ def prepare_nontoxic_clinitox_data():
     nontoxic_db = pd.DataFrame(out_dict)
     acc_nontoxic = get_accepted_info_from_names_in_column(nontoxic_db, 'Safe plants: Scientific name')
     acc_nontoxic['Source'] = 'CliniTox'
+    acc_nontoxic.rename(columns={'Safe plants: Scientific name': 'CliniTox_Snippet'}, inplace=True)
     acc_nontoxic.to_csv(_clinitox_nontoxic_temp_accepted_csv)
 
 
@@ -137,40 +143,43 @@ def prepare_toxic_clinitox_data():
             for tag in soup.find_all('li'):
                 list_elements.append(tag.text)
     out_dict = {'Toxic plants: Scientific name': list_elements}
-    nontoxic_db = pd.DataFrame(out_dict)
-    acc_nontoxic = get_accepted_info_from_names_in_column(nontoxic_db, 'Toxic plants: Scientific name')
-    acc_nontoxic['Source'] = 'CliniTox'
-    acc_nontoxic.to_csv(_clinitox_toxic_temp_accepted_csv)
+    toxic_db = pd.DataFrame(out_dict)
+    acc_toxic_db = get_accepted_info_from_names_in_column(toxic_db, 'Toxic plants: Scientific name')
+    acc_toxic_db['Source'] = 'CliniTox'
+    acc_toxic_db.rename(columns={'Toxic plants: Scientific name': 'CliniTox_Snippet'}, inplace=True)
+    acc_toxic_db.to_csv(_clinitox_toxic_temp_accepted_csv)
 
 
 def prepare_useful_plants_poisons() -> pd.DataFrame:
     useful_db = pd.read_csv(_useful_plants_file, encoding='latin_1', sep='\t')
 
     useful_db = useful_db[useful_db['Poisons'] == 1]
-
-    useful_db.rename(
-        columns={'acc_ipniid': 'Accepted_ID', 'binomial_acc_name': 'Accepted_Name'},
-        inplace=True)
-    useful_db['Accepted_Rank'] = 'Species'
-    useful_db['Accepted_Species'] = useful_db['Accepted_Name']
-    useful_db['Accepted_Species_ID'] = useful_db['Accepted_ID']
-
-    useful_db.dropna(subset=['Accepted_ID'], inplace=True)
+    #
+    # useful_db.rename(
+    #     columns={'acc_ipniid': 'Accepted_ID', 'binomial_acc_name': 'Accepted_Name'},
+    #     inplace=True)
+    # useful_db['Accepted_Rank'] = 'Species'
+    # useful_db['Accepted_Species'] = useful_db['Accepted_Name']
+    # useful_db['Accepted_Species_ID'] = useful_db['Accepted_ID']
+    #
+    # useful_db.dropna(subset=['Accepted_ID'], inplace=True)
 
     # Drop columns containing 'Source' as this gets confused when compiling all data
     cs = [c for c in useful_db.columns if 'Source' in c]
     useful_db.drop(columns=cs, inplace=True)
     # Then add a source column
     useful_db['Source'] = 'Useful Plants Data'
-
-    useful_db.to_csv(_useful_temp_output_accepted_csv)
-    return useful_db
+    useful_db.rename(columns={'binomial_acc_name': 'Useful_Plants_Snippet'}, inplace=True)
+    useful_db_acc = get_accepted_info_from_names_in_column(useful_db, 'Useful_Plants_Snippet')
+    useful_db_acc.to_csv(_useful_temp_output_accepted_csv)
+    return useful_db_acc
 
 
 def prepare_littox_poisons() -> pd.DataFrame:
     littox_db = pd.read_csv(os.path.join(_inputs_path, 'Littox_210428_copy.csv'))
     littox_db['Source'] = 'LITTOX'
-    littox_db_acc = get_accepted_info_from_names_in_column(littox_db, 'Latin name provided')
+    littox_db.rename(columns={'Latin name provided': 'LITTOX_Snippet'}, inplace=True)
+    littox_db_acc = get_accepted_info_from_names_in_column(littox_db, 'LITTOX_Snippet')
     littox_db_acc.to_csv(_littox_temp_output_accepted_csv)
     return littox_db_acc
 
@@ -179,15 +188,16 @@ def get_powo_poisons():
     from powo_searches import search_powo
     search_powo(['poison', 'poisonous', 'toxic', 'deadly'],
                 _powo_search_temp_output_accepted_csv,
-                families_of_interest=['Rubiaceae', 'Apocynaceae'],
                 filters=['species', 'infraspecies']
                 )
 
 
 def get_wiki_poisons():
+    import wikipedia_searches
     wiki_df = wikipedia_searches.search_for_poisons(_wiki_search_temp_output_csv)
-    # wiki_df = pd.read_csv(_wiki_search_temp_output_csv,index=0)
+    # wiki_df = pd.read_csv(_wiki_search_temp_output_csv, index_col=0)
     acc_wiki_df = get_accepted_info_from_names_in_column(wiki_df, 'name')
+    acc_wiki_df.rename(columns={'name': 'wiki_Snippet'}, inplace=True)
     acc_wiki_df.to_csv(_wiki_search_temp_output_accepted_csv)
 
     return acc_wiki_df
@@ -234,8 +244,8 @@ def get_poison_hits():
     cornell_hits = pd.read_csv(_cornell_temp_accepted_csv)
     wiki_hits = pd.read_csv(_wiki_search_temp_output_accepted_csv)
     powo_hits = pd.read_csv(_powo_search_temp_output_accepted_csv)
+    powo_hits['powo_name_Snippet'] = powo_hits['name']
     littox_hits = pd.read_csv(_littox_temp_output_accepted_csv)
-    littox_hits['Source'] = 'LITTOX'
     useful_hits = pd.read_csv(_useful_temp_output_accepted_csv)
     useful_hits['Accepted_Species_ID'] = useful_hits['Accepted_ID']
     compile_hits(
