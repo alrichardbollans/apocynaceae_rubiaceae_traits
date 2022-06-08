@@ -1,0 +1,101 @@
+,Scientific Name,Common Name(s),Species MostOften Affected,Parts Poisonous,Primary Poison(s),Source,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_ID,Accepted_Rank
+0,Acer rubrum,"Red maple, Swamp maple, Soft maple",horses,leaves,gallic acid,Cornell CALS,Acer rubrum,Acer rubrum,1867-2,1867-2,Species
+1,Abrus precatorius,Rosary Pea,all,seeds,abrin,Cornell CALS,Abrus precatorius,Abrus precatorius,469605-1,469605-1,Species
+2,Aconitum spp.,"Monkshood, Aconite, Wolfsbane","humans, cattle, goats","leaves, roots, all",aconitine,Cornell CALS,Aconitum,,,326013-2,Genus
+3,Actaea spp.,"Baneberry, Dolls Eyes, White Cohosh, Snakeberry",,"roots, sap, berries",protoanemonin,Cornell CALS,Actaea,,,33043-1,Genus
+4,Aesculus spp.,"Horse Chestnut, Buckeye","humans, cattle, goats",fruit,"Unknown, possibly saportins, narcotic alkaloids, or glycosides.",Cornell CALS,Aesculus,,,36263-1,Genus
+5,Agrostemma githago,Corn Cockle,"poultry, cattle, humans, goats",seeds,githagin,Cornell CALS,Agrostemma githago,Agrostemma githago,150316-1,150316-1,Species
+6,Aleurites fordii,Tung Oil Tree,,"all,seeds",pharbol ester,Cornell CALS,Vernicia fordii,Vernicia fordii,358198-1,358198-1,Species
+7,Allium spp.,"Commercial Onions, Wild Onions, Swamp Onions, Chives","cattle, horses, children","bulbs, lleaves",SMCO,Cornell CALS,Allium,,,30000901-2,Genus
+8,Amanita spp.,"Monkey Agaric, Panther Cap, Death Cap, Death Angel",all,cap?,"toxalbumin, amatoxins",Cornell CALS,,,,,
+9,A. muscaria,Fly Agaric,all,cap?,ibotenic acid and muscimol,Cornell CALS,,,,,
+10,A. pantherina,Panther,all,cap?,ibotenic acid and muscimol,Cornell CALS,,,,,
+11,A. verna,Destroying Angels,all,cap?,amatoxins,Cornell CALS,,,,,
+12,Amaranthus spp.,Pigweed,"cattle, swine",leaves,nitrate,Cornell CALS,Amaranthus,,,327362-2,Genus
+13,Amsinckia intermedia,Fiddleneck,"horses, swine, cattle",seeds,"intermedine, lycopsamine",Cornell CALS,Amsinckia menziesii var. intermedia,Amsinckia menziesii,11839-2,60470267-2,Variety
+14,Apocynum spp.,Dogbane,"horses, cattle, humans, sheep, cats, dogs, goats",rhizome,apocynamarin,Cornell CALS,Apocynum,,,2211-1,Genus
+15,Argemone mexicana,"Prickly Poppy, Mexican Poppy",goats,all,sanguinarine,Cornell CALS,Argemone mexicana,Argemone mexicana,18816-2,18816-2,Species
+16,Arisaema spp.,Jack in the Pulpit,humans,all,oxalate,Cornell CALS,Arisaema,,,328148-2,Genus
+17,Asclepias spp.,Milkweed,"sheep, cattle, goats","leaves, fruits, stems","desglucosyrioside, syrioside",Cornell CALS,Asclepias,,,30005968-2,Genus
+18,Astragalus and Oxytropis spp.,Locoweed,"horse,sheep, cattle","flowers, leaves, stems","selenium, nitro compounds, swainsonine",Cornell CALS,Astragalus,,,330028-2,Genus
+19,Atropa belladonna,"Belladonna, Deadly Nightshade","humans, goats",all,atropine and scopalamine,Cornell CALS,Atropa bella-donna,Atropa bella-donna,814358-1,814358-1,Species
+20,"Brassica spp,","Rape, Cabbage, Turnips, Broccoli, Mustard","cattle, humans, swine, sheep, goats, poultry","roots, seeds","glucosinolates, brassica, anemia factor",Cornell CALS,Brassica,,,30043511-2,Genus
+21,Caltha palustris,"Marsh Marigold, Cowslip",,leaves,protoanemonin,Cornell CALS,Caltha palustris,Caltha palustris,42867-2,42867-2,Species
+22,Cannabis sativa,Marijuana,"dogs, ferrets, cats, goats","all, flower stalks","resins, THC",Cornell CALS,Cannabis sativa,Cannabis sativa,306087-2,306087-2,Species
+23,Centaurea solstitialis,Yellow Star Thistle,horse,,,Cornell CALS,Centaurea solstitialis,Centaurea solstitialis,191626-1,191626-1,Species
+24,Chelidonium majus,Celandine,"cattle, humans",roots,isoquinoline alkoids,Cornell CALS,Chelidonium majus,Chelidonium majus,303589-2,303589-2,Species
+25,Chenopodium album,Lambs Quarters,"cattle, horses, humans, sheep, swine",all,nitrates,Cornell CALS,Chenopodium album,Chenopodium album,55993-2,55993-2,Species
+26,Cicuta spp.,"Water Hemlock, Cowbane",all,"roots, all",cicutoxin,Cornell CALS,Cicuta,,,39823-1,Genus
+27,Claviceps spp.,Ergot,all,fungus,indole alkaloid,Cornell CALS,,,,,
+28,Conium maculatum,Poison Hemlock,all,all,coniine,Cornell CALS,Conium maculatum,Conium maculatum,840668-1,840668-1,Species
+29,Coronilla varia,Crown Vetch,horse,,,Cornell CALS,Coronilla varia,Coronilla varia,487281-1,487281-1,Species
+30,Convallaria majalis,Lily of the Valley,"cats, dogs, humans, goats",all,cardiac glycosides and saponins,Cornell CALS,Convallaria majalis,Convallaria majalis,533487-1,533487-1,Species
+31,Daphne spp.,Daphne,"cats, dogs, humans","berries, all",mezereinic acid anhydride,Cornell CALS,Daphne,,,30024583-2,Genus
+32,Datura spp.,"Jimsonweed, Downy Thornapple, Devils Trumpet, Angels Trumpet","cattle, humans, horses, goats","flowers, leaves, seeds","atropine, scopalamine, and hyoscyamine",Cornell CALS,Datura,,,30002853-2,Genus
+33,Delphinium spp.,"Delphiniums, Larkspurs","cattle, humans, goats",all,"alkaloids delphinine, ajacine, and others",Cornell CALS,Delphinium,,,328251-2,Genus
+34,Dicentra spp.,"Bleeding Heart, Squirrel Corn, Dutchmans Breeches","cats, cattle, humans",all,isoquinolone alkaloids,Cornell CALS,Dicentra,,,331552-2,Genus
+35,Digitalis purpurea,Foxglove,"cats, cattle, dogs, goats, horses, humans","flowers, leaves, seeds",cardiac or steroid glycosides,Cornell CALS,Digitalis purpurea,Digitalis purpurea,802077-1,802077-1,Species
+36,Equisetum arvense and other spp.,Horsetail,horse,,,Cornell CALS,Equisetum arvense,Equisetum arvense,300073-2,300073-2,Species
+37,Eupatorium rugosum,White Snakeroot,"cattle, dogs, goats, horses, humans, rabbits, sheep",all,tremetone,Cornell CALS,Cronquistianthus bulliferus,Cronquistianthus bulliferus,69621-2,69621-2,Species
+38,Euphorbia spp.,"Poinsettia, Spurges, Snow on the Mountain","cattle, horses, humans, sheep","leaves, stems and sap",phorbol esters,Cornell CALS,Euphorbia,,,327729-2,Genus
+39,Fagoypyrum esculentum,Buckwheat,"horses, goats",,,Cornell CALS,,,,,
+40,Festuca arundinacea,Tall Fescue,"cattle, horses",all,"diaziphenanthrene, pyrrolizidine, and ergot",Cornell CALS,Festuca rubra,Festuca rubra,30010036-2,30010036-2,Species
+41,Gelsemium sempervirens,Jessamine,"horses, goats",all,gelsemine,Cornell CALS,Gelsemium sempervirens,Gelsemium sempervirens,60448812-2,60448812-2,Species
+42,Glechoma spp.,"Ground Ivy, Creeping Charlie, Gill over the ground","horses, goats","leaves, stems",unknown,Cornell CALS,Glechoma,,,331625-2,Genus
+43,Halogeton glomeratus,Halogeton,"sheep, cattle","leaves, stems",soluble oxalates,Cornell CALS,Halogeton glomeratus,Halogeton glomeratus,60448682-2,60448682-2,Species
+44,Helleborus niger,Christmas Rose,humans,all,protoanemonin,Cornell CALS,Helleborus niger,Helleborus niger,711348-1,711348-1,Species
+45,Hyoscyanamus niger,Henbane,humans,seeds,"atropine, scopolamine, and hyoscyamine.",Cornell CALS,,,,,
+46,Hypericum perforatum,"St. Johns Wort, Klamath Weed","horses, sheep, goats",all,hypericum,Cornell CALS,Hypericum perforatum,Hypericum perforatum,433719-1,433719-1,Species
+47,Iris spp.,Irises,"cattle, humans, swine",rhizomes and rootstocks,"irisin, iridin, or irisine",Cornell CALS,Iris,,,326330-2,Genus
+48,Laburnum anagyroides,"Golden Chain, Laburnum","cattle, dogs, horses, humans, swine","pods, seeds, all",cytisine,Cornell CALS,Laburnum anagyroides,Laburnum anagyroides,501428-1,501428-1,Species
+49,Lantana camara,"Lantana, Red Sage, Yellow Sage, West Indian Lantana","cattle, dogs, goats, cats, humans, sheep","unripe, green berries",triterpenes,Cornell CALS,Lantana camara,Lantana camara,325686-2,325686-2,Species
+50,Lathyrus spp.,"Sweet Pea, Tangier Pea, Everlasting Pea, Caley Pea, Singletary Pea","horses, rodents, turkeys, sheep, humans",seeds,"DABA, ODAP, amine, phenol, glycoside",Cornell CALS,Lathyrus,,,30005985-2,Genus
+51,Leucothoe axillaris and Leucothoe davisiae,"Drooping Leucothoe, Sierra Laurel","goats, sheep","leaves, nectar",andromedotoxin,Cornell CALS,Leucothoe axillaris,Leucothoe axillaris,331004-1,331004-1,Species
+52,Linum usitatissimum,Flax,"cattle, sheep",all,cyanogenic glycoside,Cornell CALS,Linum usitatissimum,Linum usitatissimum,544772-1,544772-1,Species
+53,Lobelia spp.,"Great Lobelia, Cardinal Flower, Indian Tobacco","humans, goats",all,"lobelamine, lobeline",Cornell CALS,Lobelia,,,30001605-2,Genus
+54,Lotus corniculatus,Birdsfoot Trefoil,"cattle, sheep",,CN tannini,Cornell CALS,Lotus corniculatus,Lotus corniculatus,30179739-2,30179739-2,Species
+55,Lupinus spp.,Lupine,"cattle, goats",seeds,"lupinine, anagyrine, sparteine, and hydroxylupanine",Cornell CALS,Lupinus,,,60436956-2,Genus
+56,Medicago sativa,"Alfalfa, Lucerne","cattle, chickens, humans, sheep",all,"canavanine, saponins",Cornell CALS,Medicago sativa,Medicago sativa,30234961-2,30234961-2,Species
+57,Metilotus alba and Melilotus officinalis,"White Sweetclover, Yellow Sweetclover","horses, cattle, sheep",stem,dicoumarol,Cornell CALS,Melilotus officinalis,Melilotus officinalis,30429323-2,30429323-2,Species
+58,Menispermum canadense,Moonseed,"humans, goats",all,dauricine,Cornell CALS,Menispermum canadense,Menispermum canadense,581040-1,581040-1,Species
+59,Nerium oleander,Oleander,"horses, cattle, sheep, dogs, humans, goats","all, leaves, stems","nerioside, oleandroside, saponins, cardiac glycosides",Cornell CALS,Nerium oleander,Nerium oleander,80460-1,80460-1,Species
+60,Nicotiana spp.,"Tobacco, Tree Tobacco","humans, swine",leaves,"nicotine,pyridine",Cornell CALS,Nicotiana,,,325974-2,Genus
+61,Onoclea sensibilis,Sensitive Fern,horse,leaves,unknown,Cornell CALS,Onoclea sensibilis,Onoclea sensibilis,281589-2,281589-2,Species
+62,Ornithogalum umbellatum,Star of Bethlehem,humans,"bulbs, flowers, all","convallatoxin, convalloside",Cornell CALS,Ornithogalum umbellatum,Ornithogalum umbellatum,539600-1,539600-1,Species
+63,Papaver spp.,Various Poppies including Opium Poppy,"cattle, humans",all,"codine, morphine, protopine",Cornell CALS,Papaver,,,30000445-2,Genus
+64,Phytolacca americana,Pokeweed,"cattle, sheep, humans, turkeys, swine, horses",all,"phytolaccatoxin, phytolaccigenin",Cornell CALS,Phytolacca americana,Phytolacca americana,323290-2,323290-2,Species
+65,Pieris japonica and other spp.,"Japanese Pieris, Mountain Fetterbrush",,"leaves, nectar",andromedotoxin,Cornell CALS,Pieris japonica,Pieris japonica,331662-1,331662-1,Species
+66,Pinus ponderosa,Ponderosa Pine,cattle,"needles, young shoots",unknown,Cornell CALS,Pinus ponderosa,Pinus ponderosa,307165-2,307165-2,Species
+67,Podophyllum peltatum,"Mayapple, Mandrake","cattle, humans, swine",all,"alpha- and beta- peltatin, podophylloresin",Cornell CALS,Podophyllum peltatum,Podophyllum peltatum,107599-1,107599-1,Species
+68,Prunus spp.,"Wild Cherries, Black Cherry, Bitter Cherry, Choke Cherry, Pin Cherry","horses, cattle, moose, sheep, swine, goats","seeds, leaves","amygdalin, prunasin",Cornell CALS,Prunus,,,30003057-2,Genus
+69,Pteridium aquilinium,Bracken Fern,"horse, cattle, sheep, humans, swine",all,"prunasin, ptaquiloside, thiaminase",Cornell CALS,,,,,
+70,Quercus spp.,Oak Trees,"horse, cattle","acorns, young leaves","gallotannins, quercitrin, and quercitin",Cornell CALS,Quercus,,,325819-2,Genus
+71,Ranunculus spp.,"Buttercup, Crowfoot","cattle, goats, horses",all,protoanemonin,Cornell CALS,Ranunculus,,,30002060-2,Genus
+72,Rheum rhaponticum,Rhubarb,"goats, humans, swine, horses",leaves,"anthraquinones, oxalate",Cornell CALS,Rheum rhaponticum,Rheum rhaponticum,696786-1,696786-1,Species
+73,Ricinus communis,Castor Bean,all,seeds,"ricin, albumin",Cornell CALS,Ricinus communis,Ricinus communis,355498-1,355498-1,Species
+74,Robinia pseudoacacia,Black Locust,"horses, cattle, humans, poultry, sheep, goats","bark, leaves, seeds","robin, phasin",Cornell CALS,Robinia pseudoacacia,Robinia pseudoacacia,30034699-2,30034699-2,Species
+75,Rumex spp.,Dock,"cattle, sheep",leaves,soluble oxalates,Cornell CALS,Rumex,,,328551-2,Genus
+76,Sambucus canadensis,Elderberry,"cattle, humans, goats","leaves, twigs, roots, unripe fruits",sambunigrin,Cornell CALS,Sambucus canadensis,Sambucus canadensis,321978-2,321978-2,Species
+77,Sanquinaria canadensis,Bloodroot,goats,,,Cornell CALS,,,,,
+78,Saponaria spp.,"Bouncing Bet, Cow Cockle",,seeds,saponins,Cornell CALS,Saponaria,,,6449-1,Genus
+79,Senecio spp.,"Senecio, Groundsels, Ragwort","horse, cattle, goats, sheep, human",leaves,"jacobine, seneciphylline",Cornell CALS,Senecio,,,325904-2,Genus
+80,Solanum spp.,"Common Nightshade, Black Nightshade, Horse Nettle, Buffalo Bur, Potato","cattle, humans, rodents, sheep, horses, goats","leaves, immature fruit","soladulcidine,solanine",Cornell CALS,,,,,
+81,Sorghum spp.,"Sorghum, Milo, Sudan Grass, Johnson Grass","horses, cattle, goats","leaves, stems","dhurrin, nitrate",Cornell CALS,Sorghum,,,331290-2,Genus
+82,Symplocarpus foetidus,Eastern Skunk Cabbage,human,all,oxalate,Cornell CALS,Symplocarpus foetidus,Symplocarpus foetidus,1149384-2,1149384-2,Species
+83,Rheum rhaponticum,Rhubarb,"goats, humans, swine, horses",leaves,"anthraquinones, oxalate",Cornell CALS,Rheum rhaponticum,Rheum rhaponticum,696786-1,696786-1,Species
+84,Taxus cuspidata,Yew,all,"leaves, seeds, twigs",taxine,Cornell CALS,Taxus cuspidata,Taxus cuspidata,324379-2,324379-2,Species
+85,Tetradymia spp.,Horsebrush,"sheep, cattle",leaves,,Cornell CALS,Tetradymia,,,11266-1,Genus
+86,Toxicodendron diversiloba,Poison oak,humans,,,Cornell CALS,Toxicodendron diversilobum,Toxicodendron diversilobum,255739-2,255739-2,Species
+87,Toxicodendron radicans,Poison ivy,humans,,,Cornell CALS,Toxicodendron radicans,Toxicodendron radicans,255769-2,255769-2,Species
+88,Toxicodendron vernix,Poison Sumac,humans,,,Cornell CALS,Toxicodendron vernix,Toxicodendron vernix,255798-2,255798-2,Species
+89,Trifolium spp.,"Alsike Clover, Red Clover, White Clover","horse, cattle","all, leaves",nitrate,Cornell CALS,Trifolium,,,325471-2,Genus
+90,Triglochin maritima,Arrowgrass,"cattle, sheep","all, leaves, flowers","taxiphillin, triglochinin",Cornell CALS,Triglochin maritima,Triglochin maritima,258178-2,258178-2,Species
+91,Urtica spp.,Stinging Nettle,"dogs, humans",hairs,"acetylcholine, histamine, 5-hydroxytryptamine",Cornell CALS,Urtica,,,30002031-2,Genus
+92,Vicia spp.,"Common Vetch, Hairy Vetch, Narrow leafed vetch, purple vetch, broad beans","chickens, horses, humans",seeds,beta-cyano-L-alanine,Cornell CALS,Vicia,,,330034-2,Genus
+93,Veratrum californicum,"Corn Lily, False Hellbore",sheep,all,cylcopamine,Cornell CALS,Veratrum californicum,Veratrum californicum,30327875-2,30327875-2,Species
+94,Wisteria spp.,Wisteria,humans,"all, flowers, seeds, leaves",wistarine,Cornell CALS,Wisteria,,,332065-2,Genus
+95,Xanthium strumarium,Cocklebur,"cattle, humans, rodents, swine","seedlings, seeds",carboxyatractyloside,Cornell CALS,Xanthium strumarium,Xanthium strumarium,260893-1,260893-1,Species
+96,Zigadenus spp.,Death Camas,all,"all, bulbs, leaves, flowers, pollen",zygacine,Cornell CALS,Zigadenus,,,328548-2,Genus
+97,Acer rubrum,"Red maple, Swamp maple, Soft maple",horses,leaves,gallic acid,Cornell CALS,Acer rubrum,Acer rubrum,1867-2,1867-2,Species
+98,Acer saccharum,"Sugar maple, Rock maple, Hard maple",horses,leaves,gallic acid,Cornell CALS,Acer saccharum,Acer saccharum,56795-1,56795-1,Species
+99,Acer saccharinum,"Silver maple, Soft maple, White maple",horses,leaves,gallic acid,Cornell CALS,Acer saccharinum,Acer saccharinum,1892-2,1892-2,Species
