@@ -49,6 +49,3 @@ names(occ_df)[names(occ_df)=="decimalLatitude"] <- "latitude"
 names(occ_df)[names(occ_df)=="decimalLongitude"] <- "longitude"
 
 write.csv(occ_df, paste(configs$large_folders,'occ_climate_vars/occ_with_climate_vars.csv',sep='/'))
-
-
-

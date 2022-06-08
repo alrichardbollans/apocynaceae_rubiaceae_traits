@@ -34,11 +34,6 @@ extract_distribution_means_to_df <- function(df, r){
   
   return(bound_df)
 }
-prepared_rasters= read_rasters()
-
-
-
-
 
 # Do kg first
 prepared_rasters = read_rasters()
@@ -59,7 +54,7 @@ names(var_df)[names(var_df) == "y"] <- 'latitude'
 
 # Do mean values
 for (r in prepared_rasters){
-  if(names(r)[[1]] != 'koppen_geiger_mode'){
+  if(names(r)[[1]] != 'Beck_KG_V1_present'){
     print(names(r)[[1]])
     var_df<-extract_distribution_means_to_df(var_df,r)
   }
