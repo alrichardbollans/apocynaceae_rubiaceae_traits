@@ -2,40 +2,51 @@ Plants of the World Online (2022). Facilitated by the Royal Botanic Gardens, Kew
 Internet; http://www.plantsoftheworldonline.org/
 Accessed 25/02/2022
 Search terms: 'poison', 'poisonous', 'toxic', 'deadly'
+Source abv.: POWO
 
 Diazgranados, Mauricio, Bob Allkin, Nicholas Black, Rodrigo Cámara-Leret, Cátia Canteiro, Julia Carretero, Ruth Eastwood, et al.
 “World Checklist of Useful Plant Species.”
 KNB Data Repository, 2020.
 https://doi.org/10.5063/F1CV4G34.
+Source abv.: Useful Plants Data
 
 RBG, Kew (ed.) (2021). LitTox database. Royal Botanic Gardens, Kew, London.
+Source abv.: LITTOX
 
 Wikipedia, The Free Encyclopedia
 https://en.wikipedia.org/
-Accessed 25/02/2022
+Accessed 08/06/2022
+Source abv.: [language]_wiki
+
 
 Cornell College of Agriculture and Life Sciences
 http://poisonousplants.ansci.cornell.edu
 Accessed 22/02/2022
+Source abv.: Cornell CALS
 
 California Poison Control System
 https://calpoison.org/topics/plant
 Accessed 22/02/2022
+Source abv.: CPCS
 
 University of California Safe and Poisonous Garden Plants
 https://ucanr.edu/sites/poisonous_safe_plants/
 Accessed 22/02/2022
+Source abv.: UCANR
 
 U.S. Department of Agriculture, Agricultural Research Service. 1992-2016.
 Dr. Duke's Phytochemical and Ethnobotanical Databases. Home Page, http://phytochem.nal.usda.gov/
 http://dx.doi.org/10.15482/USDA.ADC/1239279
 Accessed 22/02/2022
+Source abv.: USDA(Duke)
 
 Günthardt, B.F., Hollender, J., Hungerbühler, K., Scheringer, M., Bucheli, T.D.* 2018: Comprehensive Toxic Plants–Phytotoxins Database and Its Application in Assessing Aquatic Micropollution Potential. J. Agric. Food Chem.
 doi/10.1021/acs.jafc.8b01639
 https://www.agroscope.admin.ch/agroscope/en/home/publications/apps/tppt.html
 Accessed 22/02/2022
+Source abv.: TPPT
 
 CliniPharm CliniTox
 https://www.vetpharm.uzh.ch/perldocs/toxsyqry.htm
 Accessed 23/02/2022
+Source abv.: CliniTox
