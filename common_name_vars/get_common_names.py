@@ -61,7 +61,6 @@ def prepare_usda_common_names(families_of_interest=None):
 
 
 def prepare_common_names_spp_ppa() -> pd.DataFrame:
-    # TODO: Note this data is not specific to any family
     species_profile = pd.read_csv(_species_profile_csv, sep='\t', header=None)
 
     species_profile['Source'] = 'SpeciesProfileVernacular'
@@ -85,7 +84,6 @@ def prepare_common_names_spp_ppa() -> pd.DataFrame:
 
 
 def prepare_MPNS_common_names(families_of_interest: List[str] = None) -> pd.DataFrame:
-    # TODO: Note this is particular to Rubiaceae and Apocynaceae
     # Requested from from MPNS
     mpns_df = pd.read_csv(_initial_MPNS_csv, header=1)
     mpns_df.drop(columns=['authority', 'plant_id'], inplace=True)
@@ -263,6 +261,7 @@ def prepare_data():
     prepare_cornell_data()
     prepare_CPCS_data()
     prepare_toxic_UCANR_data()
+    prepare_nontoxic_UCANR_data()
     prepare_duke_usda_data()
     prepare_TPPT_data()
     prepare_wiersema_data()
@@ -274,7 +273,6 @@ def main():
     if not os.path.isdir(output_path):
         os.mkdir(output_path)
 
-    # TODO: Note powo, wikipedia and USDA data is specific to our study
     prepare_data()
 
     cornell_hits = pd.read_csv(get_tempout_csv('Cornell CALS', _temp_outputs_path), index_col=0)
@@ -298,5 +296,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # prepare_wiersema_data()
+
     main()
