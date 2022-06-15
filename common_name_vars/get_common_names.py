@@ -28,7 +28,7 @@ _temp_outputs_path = resource_filename(__name__, 'temp_outputs')
 
 _wiki_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'wiki_common_name_hits.csv')
 _powo_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'powo_common_name_hits.csv')
-_wiersema_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'wiersema_common_name_hits.csv')
+wiersema_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'wiersema_common_name_hits.csv')
 
 # Standardised versions
 _spp_ppa_common_names_temp_output_accepted_csv = os.path.join(_temp_outputs_path, 'spp_ppa_common_names_accepted.csv')
@@ -228,8 +228,8 @@ def prepare_TPPT_data():
 
 def prepare_wiersema_data():
     from read_pdfs import common_names_from_wiersema
-    w = common_names_from_wiersema(_wiersema_common_names_temp_output_csv)
-    # # w = pd.read_csv(_wiersema_common_names_temp_output_csv, index_col=0)
+    w = common_names_from_wiersema(wiersema_common_names_temp_output_csv)
+    # # w = pd.read_csv(wiersema_common_names_temp_output_csv, index_col=0)
     generic_prepare_data('WEP (Wiersema 2013)', _temp_outputs_path, w, 'name', batch=True)
     c = get_tempout_csv('WEP (Wiersema 2013)', _temp_outputs_path)
     out_df = pd.read_csv(c, index_col=0)

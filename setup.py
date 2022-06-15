@@ -19,7 +19,9 @@ setup(
                                     'wikipedia_vars']),
     package_data={
         "": ["outputs/*"],
-        "morphological_vars": ["temp_outputs/*"]
+        "morphological_vars": ["temp_outputs/*"],
+        "common_name_vars": ["temp_outputs/wiersema_common_name_hits.csv"]
+
     },
     # *strongly* suggested for sharing
     version='0.1',
