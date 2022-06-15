@@ -20,7 +20,7 @@ setup(
     package_data={
         "": ["outputs/*"],
         "morphological_vars": ["temp_outputs/*"],
-        "common_name_vars": ["temp_outputs/wiersema_common_name_hits.csv"]
+        "common_name_vars": ["temp_outputs/WEP (Wiersema 2013)_accepted.csv"]
 
     },
     # *strongly* suggested for sharing

@@ -28,7 +28,7 @@ _temp_outputs_path = resource_filename(__name__, 'temp_outputs')
 
 _wiki_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'wiki_common_name_hits.csv')
 _powo_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'powo_common_name_hits.csv')
-wiersema_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'wiersema_common_name_hits.csv')
+_wiersema_common_names_temp_output_csv = os.path.join(_temp_outputs_path, 'wiersema_common_name_hits.csv')
 
 # Standardised versions
 _spp_ppa_common_names_temp_output_accepted_csv = os.path.join(_temp_outputs_path, 'spp_ppa_common_names_accepted.csv')
@@ -36,6 +36,7 @@ _wiki_common_names_temp_output_accepted_csv = os.path.join(_temp_outputs_path, '
 _powo_common_names_temp_output_accepted_csv = os.path.join(_temp_outputs_path, 'powo_common_name_hits_accepted.csv')
 _cleaned_USDA_accepted_csv = os.path.join(_temp_outputs_path, 'USDA Plants Database_cleaned_accepted.csv')
 _cleaned_MPNS_accepted_csv = os.path.join(_temp_outputs_path, 'MPNS Data_cleaned_accepted.csv')
+wiersema_temp_output_accepted = os.path.join(_temp_outputs_path, 'WEP (Wiersema 2013)_accepted.csv')
 
 ### Outputs
 output_path = resource_filename(__name__, 'outputs')
@@ -228,8 +229,8 @@ def prepare_TPPT_data():
 
 def prepare_wiersema_data():
     from read_pdfs import common_names_from_wiersema
-    w = common_names_from_wiersema(wiersema_common_names_temp_output_csv)
-    # # w = pd.read_csv(wiersema_common_names_temp_output_csv, index_col=0)
+    w = common_names_from_wiersema(_wiersema_common_names_temp_output_csv)
+
     generic_prepare_data('WEP (Wiersema 2013)', _temp_outputs_path, w, 'name', batch=True)
     c = get_tempout_csv('WEP (Wiersema 2013)', _temp_outputs_path)
     out_df = pd.read_csv(c, index_col=0)
@@ -282,7 +283,7 @@ def main():
     ucannontoxic_hits = pd.read_csv(get_tempout_csv('UCANR NonToxic', _temp_outputs_path), index_col=0)
     duke_hits = pd.read_csv(get_tempout_csv('USDA(Duke)', _temp_outputs_path), index_col=0)
     tppt_hits = pd.read_csv(get_tempout_csv('TPPT', _temp_outputs_path), index_col=0)
-    wiersema_hits = pd.read_csv(get_tempout_csv('WEP (Wiersema 2013)', _temp_outputs_path), index_col=0)
+    wiersema_hits = pd.read_csv(wiersema_temp_output_accepted, index_col=0)
 
     usda_hits = pd.read_csv(_cleaned_USDA_accepted_csv)
     spp_ppa_df = pd.read_csv(_spp_ppa_common_names_temp_output_accepted_csv)
