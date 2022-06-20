@@ -105,16 +105,6 @@ def encode_features(df: pd.DataFrame) -> pd.DataFrame:
     replace_yes_no_in_column(df, 'History_Antimalarial')
     replace_yes_no_in_column(df, 'History_Fever')
 
-    def encode_family(fam: str) -> float:
-        if fam == "Apocynaceae":
-            return 0
-        elif fam == "Rubiaceae":
-            return 1
-        else:
-            raise ValueError
-
-    df['Encoded_Family'] = df['Family'].apply(encode_family)
-
     return df
 
 

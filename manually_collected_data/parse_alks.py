@@ -6,6 +6,7 @@ from manually_collected_data import trait_parsing_output_path, encoded_traits_cs
 
 rub_apoc_alk_hits_manual_output_csv = os.path.join(trait_parsing_output_path, 'rub_apocs_alks_manual.csv')
 
+
 def get_manual_alk_hits():
     manual_df = pd.read_csv(encoded_traits_csv)
     # Get steroids
@@ -14,6 +15,7 @@ def get_manual_alk_hits():
     alk_hits['Source'] = 'Manual'
 
     alk_hits.to_csv(rub_apoc_alk_hits_manual_output_csv)
+
 
 def main():
     get_manual_alk_hits()
