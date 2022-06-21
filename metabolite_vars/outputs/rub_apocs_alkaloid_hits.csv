@@ -349,437 +349,439 @@
 347,744363-1,Bathysa australis,Bathysa australis,744363-1,Species,,,:Manual::
 348,1014064-1,Bertiera bracteosa,Bertiera bracteosa,1014064-1,Species,,,:Manual::
 349,744444-1,Bertiera guianensis,Bertiera guianensis,744444-1,Species,,,:Manual::
-350,910167-1,Breonadia salicina,Breonadia salicina,910167-1,Species,,,:Manual::
-351,745154-1,Breonia perrieri,Breonia perrieri,745154-1,Species,,,:Manual::
-352,745156-1,Breonia sphaerantha,Breonia sphaerantha,745156-1,Species,,,:Manual::
-353,745241-1,Calycophyllum candidissimum,Calycophyllum candidissimum,745241-1,Species,,,:Manual::
-354,745378-1,Canthium coromandelicum,Canthium coromandelicum,745378-1,Species,,,:Manual::
-355,745437-1,Canthium glaucum,Canthium glaucum,745437-1,Species,,,:Manual::
-356,1214821-2,Carapichea affinis,Carapichea affinis,1214821-2,Species,"""['Dopamine', 'Cephaeline', 'Emetine', 'Ipecoside', 'Protoemetine', ""7'-O-Demethylcephaeline""]""",,:Manual:KNApSAcK:
-357,1214950-2,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,Species,,,:Manual::
-358,77132654-1,Carapichea klugii,Carapichea klugii,77132654-1,Species,,,:Manual::
-359,745903-1,Catunaregam nilotica,Catunaregam nilotica,745903-1,Species,,,183/184:Manual::
-360,745904-1,Catunaregam spinosa,Catunaregam spinosa,745904-1,Species,,,:Manual::
-361,745905-1,Catunaregam tomentosa,Catunaregam tomentosa,745905-1,Species,,,:Manual::
-362,52091-2,Cephalanthus glabratus,Cephalanthus glabratus,52091-2,Species,,,:Manual::
-363,746216-1,Cephalanthus natalensis,Cephalanthus natalensis,746216-1,Species,,,182:Manual::
-364,319140-2,Cephalanthus occidentalis,Cephalanthus occidentalis,319140-2,Species,,,:Manual::
-365,746233-1,Cephalanthus salicifolius,Cephalanthus salicifolius,746233-1,Species,,,:Manual::
-366,746238-1,Cephalanthus tetrandra,Cephalanthus tetrandra,746238-1,Species,,,:Manual::
-367,746289-1,Chassalia curviflora,Chassalia curviflora,746289-1,Species,,,:Manual::
-368,746368-1,Chassalia kolly,Chassalia kolly,746368-1,Species,,,:Manual::
-369,318431-2,Chimarrhis cymosa,Chimarrhis cymosa,318431-2,Species,,,:Manual::
-370,56528-2,Chimarrhis parviflora,Chimarrhis parviflora,56528-2,Species,,,:Manual::
-371,308173-2,Chimarrhis turbinata,Chimarrhis turbinata,308173-2,Species,"""['Strictosidine', 'Vallesiachotamine', 'Desoxycordifoline', '5alpha-Carboxystrictosidine', 'Isovallesiachotamine', 'Cordifoline', 'Turbinatine']""",,:Manual:KNApSAcK:
-372,56535-2,Chiococca alba,Chiococca alba,56535-2,Species,,,:Manual::
-373,77065717-1,Ciliosemina pedunculata,Ciliosemina pedunculata,77065717-1,Species,,,:Manual::
-374,746718-1,Cinchona calisaya,Cinchona calisaya,746718-1,Species,,,:Manual::
-375,746872-1,Cinchona pubescens,Cinchona pubescens,746872-1,Species,"""['Quinine', 'Quinidine', '10-Methoxycinchonamine']""",,181/182:Manual:KNApSAcK:
-376,61955-2,Coccocypselum guianense,Coccocypselum guianense,61955-2,Species,,,:Manual::
-377,746962-1,Coccocypselum herbaceum,Coccocypselum herbaceum,746962-1,Species,,,:Manual::
-378,746963-1,Coccocypselum hirsutum,Coccocypselum hirsutum,746963-1,Species,,,:Manual::
-379,61961-2,Coccocypselum hispidulum,Coccocypselum hispidulum,61961-2,Species,,,:Manual::
-380,747038-1,Coffea arabica,Coffea arabica,747038-1,Species,"""['Indole', 'Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", 'Adenosine', '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Melatonin', '2,3-Dimethylpyrazine', '2,5-Dimethylpyrazine', '2,6-Dimethylpyrazine', '2-Acetylpyridine', '2-Ethyl-6-methylpyrazine', '2-Methoxy-3-isobutylpyrazine', '2-Methoxypyridine', '2-Methylpyrazine', 'Pyridine']""",,:Manual:KNApSAcK:
-381,747048-1,Coffea benghalensis,Coffea benghalensis,747048-1,Species,,,:Manual::
-382,747068-1,Coffea canephora,Coffea canephora,747068-1,Species,"""['Indole', 'Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", 'Adenosine', '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Melatonin', '2,3-Dimethylpyrazine', '2,5-Dimethylpyrazine', '2,6-Dimethylpyrazine', '2-Ethyl-6-methylpyrazine', '2-Methylpyrazine', 'Pyridine', 'Theobromine']""",,:Manual:KNApSAcK:
-383,747150-1,Coffea kianjavatensis,Coffea kianjavatensis,747150-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine']""",,:Manual:KNApSAcK:
-384,77189827-1,Coffea liberica var. dewevrei,Coffea liberica,747169-1,Variety,,,:Manual::
-385,1010049-2,Condaminea corymbosa,Condaminea corymbosa,1010049-2,Species,,,:Manual::
-386,65657-2,Cordiera sessilis,Cordiera sessilis,65657-2,Species,,,:Manual::
-387,747599-1,Corynanthe johimbe,Corynanthe johimbe,747599-1,Species,"""['Yohimbine']""",,:Manual:KNApSAcK:
-388,747604-1,Corynanthe pachyceras,Corynanthe pachyceras,747604-1,Species,,,:Manual::
-389,66725-2,Cosmibuena grandiflora,Cosmibuena grandiflora,66725-2,Species,,,:Manual::
-390,964800-1,Cosmibuena valerii,Cosmibuena valerii,964800-1,Species,,,:Manual::
-391,67491-2,Coutarea hexandra,Coutarea hexandra,67491-2,Species,,,:Manual::
-392,747810-1,Craterispermum laurinum,Craterispermum laurinum,747810-1,Species,,,:Manual::
-393,747858-1,Crossopteryx febrifuga,Crossopteryx febrifuga,747858-1,Species,,,:Manual::
-394,984883-1,Deppea blumenaviensis,Deppea blumenaviensis,984883-1,Species,,,:Manual::
-395,748310-1,Deppea grandiflora,Deppea grandiflora,748310-1,Species,,,:Manual::
-396,77147276-1,Dimetia capitellata,Dimetia capitellata,77147276-1,Species,,,:Manual::
-397,748497-1,Diplospora dubia,Diplospora dubia,748497-1,Species,,,:Manual::
-398,86140-2,Duroia macrophylla,Duroia macrophylla,86140-2,Species,,,:Manual::
-399,975424-1,Elaeagia myriantha,Elaeagia myriantha,975424-1,Species,,,:Manual::
-400,88967-2,Elaeagia nitidifolia,Elaeagia nitidifolia,88967-2,Species,,,:Manual::
-401,748742-1,Emmenopterys henryi,Emmenopterys henryi,748742-1,Species,,,:Manual::
-402,77164450-1,Eumachia cymuligera,Eumachia cymuligera,77164450-1,Species,,,:Manual::
-403,77164451-1,Eumachia depauperata,Eumachia depauperata,77164451-1,Species,,,:Manual::
-404,77164469-1,Eumachia forsteriana,Eumachia forsteriana,77164469-1,Species,,,:Manual::
-405,77164470-1,Eumachia frutescens,Eumachia frutescens,77164470-1,Species,,,:Manual::
-406,77164477-1,Eumachia leptothyrsa,Eumachia leptothyrsa,77164477-1,Species,,,:Manual::
-407,77164484-1,Eumachia lyciiflora,Eumachia lyciiflora,77164484-1,Species,,,:Manual::
-408,77164489-1,Eumachia oleoides,Eumachia oleoides,77164489-1,Species,,,:Manual::
-409,77195625-1,Eumachia rostrata,Eumachia rostrata,77195625-1,Species,,,:Manual::
-410,748862-1,Exallage auricularia,Exallage auricularia,748862-1,Species,,,:Manual::
-411,77147284-1,Exallage chrysotricha,Exallage chrysotricha,77147284-1,Species,,,:Manual::
-412,748960-1,Fadogia cienkowskii,Fadogia cienkowskii,748960-1,Species,,,:Manual::
-413,1187456-2,Faramea occidentalis,Faramea occidentalis,1187456-2,Species,,,:Manual::
-414,749328-1,Feretia apodanthera,Feretia apodanthera,749328-1,Species,,,:Manual::
-415,300555-2,Galianthe ramosa,Galianthe ramosa,300555-2,Species,,,:Manual::
-416,963762-1,Galianthe thalictroides,Galianthe thalictroides,963762-1,Species,,,:Manual::
-417,945333-1,Galiniera saxifraga,Galiniera saxifraga,945333-1,Species,,,:Manual::
-418,30007294-2,Galium aparine,Galium aparine,30007294-2,Species,"""['Vasicinone']""",,:Manual:KNApSAcK:
-419,750253-1,Galium mollugo,Galium mollugo,750253-1,Species,,,:Manual::
-420,750829-1,Galium verum,Galium verum,750829-1,Species,,,:Manual::
-421,751331-1,Genipa americana,Genipa americana,751331-1,Species,,,:Manual::
-422,1080914-2,Geophila macropoda,Geophila macropoda,1080914-2,Species,,,:Manual::
-423,112521-2,Gonzalagunia ovatifolia,Gonzalagunia ovatifolia,112521-2,Species,,,:Manual::
-424,30107991-2,Gonzalagunia panamensis,Gonzalagunia panamensis,30107991-2,Species,,,:Manual::
-425,112530-2,Gonzalagunia rosea,Gonzalagunia rosea,112530-2,Species,,,:Manual::
-426,112531-2,Gonzalagunia rudis,Gonzalagunia rudis,112531-2,Species,,,:Manual::
-427,975248-1,Gonzalagunia stenostachya,Gonzalagunia stenostachya,975248-1,Species,,,:Manual::
-428,114492-2,Guettarda calyptrata,Guettarda calyptrata,114492-2,Species,,,:Manual::
-429,114528-2,Guettarda elliptica,Guettarda elliptica,114528-2,Species,,,:Manual::
-430,751948-1,Guettarda heterosepala,Guettarda heterosepala,751948-1,Species,"""['Guettardine']""",,:Manual:KNApSAcK:
-431,752069-1,Guettarda speciosa,Guettarda speciosa,752069-1,Species,,,:Manual::
-432,752093-1,Guettarda trimera,Guettarda trimera,752093-1,Species,,,:Manual::
-433,114647-2,Guettarda uruguensis,Guettarda uruguensis,114647-2,Species,,,:Manual::
-434,752146-1,Gyrostipula foveolata,Gyrostipula foveolata,752146-1,Species,,,:Manual::
-435,117176-2,Hamelia axillaris,Hamelia axillaris,117176-2,Species,,,:Manual::
-436,117178-2,Hamelia barbata,Hamelia barbata,117178-2,Species,,,:Manual::
-437,117182-2,Hamelia calycosa,Hamelia calycosa,117182-2,Species,,,:Manual::
-438,752194-1,Hamelia patens,Hamelia patens,752194-1,Species,"""['L-Ephedrine']""",,:Manual:KNApSAcK:
-439,297071-2,Hamelia sanguinea,Hamelia sanguinea,297071-2,Species,,,:Manual::
-440,117219-2,Hamelia xerocarpa,Hamelia xerocarpa,117219-2,Species,,,:Manual::
-441,753022-1,Heinsia crinita,Heinsia crinita,753022-1,Species,,,:Manual::
-442,77154344-1,Hexasepalum scandens,Hexasepalum scandens,77154344-1,Species,,,:Manual::
-443,122675-2,Hillia palmana,Hillia palmana,122675-2,Species,,,:Manual::
-444,122676-2,Hillia panamensis,Hillia panamensis,122676-2,Species,,,:Manual::
-445,753106-1,Hillia tetrandra,Hillia tetrandra,753106-1,Species,,,:Manual::
-446,947182-1,Hillia triflora,Hillia triflora,947182-1,Species,,,:Manual::
-447,753117-1,Himalrandia tetrasperma,Himalrandia tetrasperma,753117-1,Species,,,:Manual::
-448,122717-2,Hintonia latiflora,Hintonia latiflora,122717-2,Species,,,:Manual::
-449,123236-2,Hoffmannia bullata,Hoffmannia bullata,123236-2,Species,,,:Manual::
-450,123240-2,Hoffmannia cercidifolia,Hoffmannia cercidifolia,123240-2,Species,,,:Manual::
-451,975249-1,Hoffmannia congesta,Hoffmannia congesta,975249-1,Species,,,:Manual::
-452,753217-1,Hoffmannia longepetiolata,Hoffmannia longepetiolata,753217-1,Species,,,:Manual::
-453,123289-2,Hoffmannia morii,Hoffmannia morii,123289-2,Species,,,:Manual::
-454,123310-2,Hoffmannia pittieri,Hoffmannia pittieri,123310-2,Species,,,:Manual::
-455,753249-1,Hoffmannia psychotriifolia,Hoffmannia psychotriifolia,753249-1,Species,,,:Manual::
-456,123343-2,Hoffmannia vesciculifera,Hoffmannia vesciculifera,123343-2,Species,,,:Manual::
-457,123345-2,Hoffmannia viridis,Hoffmannia viridis,123345-2,Species,,,:Manual::
-458,753446-1,Hydnophytum formicarum,Hydnophytum formicarum,753446-1,Species,,,:Manual::
-459,753564-1,Hymenodictyon pachyantha,Hymenodictyon pachyantha,753564-1,Species,,,:Manual::
-460,30281446-2,Isertia coccinea,Isertia coccinea,30281446-2,Species,,,:Manual::
-461,753632-1,Isertia haenkeana,Isertia haenkeana,753632-1,Species,"""['Apodihydrocinchonamine']""",,:Manual:KNApSAcK:
-462,753635-1,Isertia hypoleuca,Isertia hypoleuca,753635-1,Species,"""['Dihydroquinamine']""",,:Manual:KNApSAcK:
-463,278892-2,Isertia laevis,Isertia laevis,278892-2,Species,,,:Manual::
-464,753703-1,Ixora amplexicaulis,Ixora amplexicaulis,753703-1,Species,,,:Manual::
-465,315603-2,Ixora brevifolia,Ixora brevifolia,315603-2,Species,,,:Manual::
-466,753834-1,Ixora chinensis,Ixora chinensis,753834-1,Species,,,:Manual::
-467,753844-1,Ixora coccinea,Ixora coccinea,753844-1,Species,,,:Manual::
-468,754326-1,Ixora pavetta,Ixora pavetta,754326-1,Species,,,:Manual::
-469,754544-1,Ixora undulata,Ixora undulata,754544-1,Species,,,:Manual::
-470,131692-2,Joosia panamensis,Joosia panamensis,131692-2,Species,,,:Manual::
-471,943151-1,Keetia multiflora,Keetia multiflora,943151-1,Species,,,:Manual::
-472,754656-1,Khasiaclunea oligocephala,Khasiaclunea oligocephala,754656-1,Species,,,:Manual::
-473,754709-1,Kohautia aspera,Kohautia aspera,754709-1,Species,,,:Manual::
-474,134593-2,Ladenbergia bullata,Ladenbergia bullata,134593-2,Species,,,:Manual::
-475,754828-1,Ladenbergia hexandra,Ladenbergia hexandra,754828-1,Species,,,:Manual::
-476,1215741-2,Ladenbergia macrocarpa,Ladenbergia macrocarpa,1215741-2,Species,,,:Manual::
-477,1106418-2,Ladenbergia oblongifolia,Ladenbergia oblongifolia,1106418-2,Species,,,:Manual::
-478,755323-1,Lerchea bracteata,Lerchea bracteata,755323-1,Species,,,:Manual::
-479,931538-1,Lerchea parviflora,Lerchea parviflora,931538-1,Species,,,:Manual::
-480,755403-1,Ludekia bernardoi,Ludekia bernardoi,755403-1,Species,,,:Manual::
-481,755513-1,Macrocnemum roseum,Macrocnemum roseum,755513-1,Species,,,:Manual::
-482,755646-1,Manettia coccinea,Manettia coccinea,755646-1,Species,,,:Manual::
-483,755756-1,Manettia reclinata,Manettia reclinata,755756-1,Species,,,:Manual::
-484,756020-1,Massularia acuminata,Massularia acuminata,756020-1,Species,,,:Manual::
-485,756200-1,Meyna laxiflora,Meyna laxiflora,756200-1,Species,,,:Manual::
-486,756228-1,Mitracarpus hirtus,Mitracarpus hirtus,756228-1,Species,,,:Manual::
-487,756293-1,Mitragyna diversifolia,Mitragyna diversifolia,756293-1,Species,,,:Manual::
-488,756294-1,Mitragyna hirsuta,Mitragyna hirsuta,756294-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Angustoline', 'Hirsuteine', 'Hirsutine', 'Isomitraphylline', 'Isorhynchophylline', 'Mitrajavine', 'Uncarine C', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isomitraphylline N-oxide']""",,:Manual:KNApSAcK:
-489,756296-1,Mitragyna inermis,Mitragyna inermis,756296-1,Species,"""['Rhynchophylline']""",,:Manual:KNApSAcK:
-490,756298-1,Mitragyna ledermannii,Mitragyna ledermannii,756298-1,Species,,,:Manual::
-491,756300-1,Mitragyna parvifolia,Mitragyna parvifolia,756300-1,Species,"""['Mitraphylline', 'Isomitraphylline', '16,17-Dihydro-17beta-hydroxymitraphylline']""",,:Manual:KNApSAcK:
-492,756302-1,Mitragyna rubrostipulata,Mitragyna rubrostipulata,756302-1,Species,,,:Manual::
-493,756303-1,Mitragyna speciosa,Mitragyna speciosa,756303-1,Species,"""['Isomitraphylline', 'Isorhynchophylline', 'Mitrajavine', 'Speciophylline', 'Mitrafoline', 'Mitragynine', '3-Isoajmalicine', 'Ciliaphylline', 'Corynantheidine', 'Corynoxeine', 'Corynoxine', 'Corynoxine B', 'Isocorynantheidine', 'Isomitrafoline', 'Isopaynantheine', 'Javaphylline', 'Mitragynine oxindole A', 'Mitragynine oxindole B', 'Paynantheine', 'Rhynchociline', 'Speciociliatine', 'Speciofoline', 'Speciogynine', 'Specionoxeine', 'Corynantheidaline', 'Isocorynoxeine', 'Mitragynaline', 'Mitralactonine', 'Mitrasulgynine', '7alpha-Hydroxy-7H-mitragynine', '9-Methoxymitralactonine']""",,:Manual:KNApSAcK:
-494,756304-1,Mitragyna stipulosa,Mitragyna stipulosa,756304-1,Species,,,:Manual::
-495,756305-1,Mitragyna tubulosa,Mitragyna tubulosa,756305-1,Species,,,:Manual::
-496,756356-1,Morinda chrysorhiza,Morinda chrysorhiza,756356-1,Species,,,:Manual::
-497,756419-1,Morinda lucida,Morinda lucida,756419-1,Species,,,:Manual::
-498,756541-1,Mussaenda anisophylla,Mussaenda anisophylla,756541-1,Species,,,:Manual::
-499,756632-1,Mussaenda frondosa,Mussaenda frondosa,756632-1,Species,,,:Manual::
-500,756718-1,Mussaenda macrophylla,Mussaenda macrophylla,756718-1,Species,,,:Manual::
-501,756798-1,Mussaenda roxburghii,Mussaenda roxburghii,756798-1,Species,,,:Manual::
-502,77147262-1,Mycetia faberi,Mycetia faberi,77147262-1,Species,,,:Manual::
-503,756896-1,Mycetia longifolia,Mycetia longifolia,756896-1,Species,,,:Manual::
-504,77147264-1,Mycetia nutans,Mycetia nutans,77147264-1,Species,,,:Manual::
-505,757009-1,Myrmeconauclea strigosa,Myrmeconauclea strigosa,757009-1,Species,,,:Manual::
-506,757089-1,Nauclea diderrichii,Nauclea diderrichii,757089-1,Species,"""['Desoxycordifoline', 'Methyl beta-Carboline-1-carboxylate']""",,:Manual:KNApSAcK:
-507,757144-1,Nauclea latifolia,Nauclea latifolia,757144-1,Species,"""['Strictosamide', '18,19-Dihydroangustine', 'Decarbomethoxy naucl echine']""",,:Manual:KNApSAcK:
-508,77078143-1,Nauclea officinalis,Nauclea officinalis,77078143-1,Species,"""['Vincoline', 'Angustoline', 'Naucleofficine A', 'Naucleofficine B', 'Naucleofficine C', 'Naucleofficine D', 'Naucleofficine E']""",,:Manual:KNApSAcK:
-509,757181-1,Nauclea orientalis,Nauclea orientalis,757181-1,Species,"""['Strictosamide', 'Nauclealine A', 'Nauclealine B']""",,:Manual:KNApSAcK:
-510,757196-1,Nauclea parva,Nauclea parva,757196-1,Species,,,:Manual::
-511,757209-1,Nauclea pobeguinii,Nauclea pobeguinii,757209-1,Species,,,:Manual::
-512,757225-1,Nauclea robinsonii,Nauclea robinsonii,757225-1,Species,,,:Manual::
-513,757259-1,Nauclea subdita,Nauclea subdita,757259-1,Species,,,:Manual::
-514,757268-1,Nauclea tenuiflora,Nauclea tenuiflora,757268-1,Species,,,:Manual::
-515,757302-1,Neanotis hirsuta,Neanotis hirsuta,757302-1,Species,,,185:Manual::
-516,914296-1,Neolamarckia cadamba,Neolamarckia cadamba,914296-1,Species,,,:Manual::
-517,914297-1,Neolamarckia macrophylla,Neolamarckia macrophylla,914297-1,Species,,,:Manual::
-518,757377-1,Neonauclea acuminata,Neonauclea acuminata,757377-1,Species,,,:Manual::
-519,757378-1,Neonauclea angustifolia,Neonauclea angustifolia,757378-1,Species,,,:Manual::
-520,757381-1,Neonauclea bartlingii,Neonauclea bartlingii,757381-1,Species,,,:Manual::
-521,757383-1,Neonauclea brassii,Neonauclea brassii,757383-1,Species,,,:Manual::
-522,757384-1,Neonauclea calycina,Neonauclea calycina,757384-1,Species,,,:Manual::
-523,757387-1,Neonauclea chalmersii,Neonauclea chalmersii,757387-1,Species,,,:Manual::
-524,757388-1,Neonauclea clemensiae,Neonauclea clemensiae,757388-1,Species,,,:Manual::
-525,757390-1,Neonauclea cyclophylla,Neonauclea cyclophylla,757390-1,Species,,,:Manual::
-526,757394-1,Neonauclea excelsa,Neonauclea excelsa,757394-1,Species,,,:Manual::
-527,757396-1,Neonauclea formicaria,Neonauclea formicaria,757396-1,Species,,,:Manual::
-528,946772-1,Neonauclea glabra,Neonauclea glabra,946772-1,Species,,,:Manual::
-529,757405-1,Neonauclea hagenii,Neonauclea hagenii,757405-1,Species,,,:Manual::
-530,757410-1,Neonauclea lanceolata,Neonauclea lanceolata,757410-1,Species,,,:Manual::
-531,955339-1,Neonauclea lanceolata subsp. gracilis,Neonauclea lanceolata,757410-1,Subspecies,,,:Manual::
-532,757411-1,Neonauclea longipedunculata,Neonauclea longipedunculata,757411-1,Species,,,:Manual::
-533,757414-1,Neonauclea media,Neonauclea media,757414-1,Species,,,:Manual::
-534,757425-1,Neonauclea obversifolia,Neonauclea obversifolia,757425-1,Species,,,:Manual::
-535,60459147-2,Neonauclea purpurea,Neonauclea purpurea,60459147-2,Species,,,:Manual::
-536,757436-1,Neonauclea reticulata,Neonauclea reticulata,757436-1,Species,,,:Manual::
-537,757439-1,Neonauclea sessilifolia,Neonauclea sessilifolia,757439-1,Species,,,:Manual::
-538,1096070-2,Notopleura camponutans,Notopleura camponutans,1096070-2,Species,,,:Manual::
-539,757659-1,Ochreinauclea maingayi,Ochreinauclea maingayi,757659-1,Species,,,:Manual::
-540,757942-1,Oldenlandia lancifolia,Oldenlandia lancifolia,757942-1,Species,,,:Manual::
-541,758379-1,Ophiorrhiza blumeana,Ophiorrhiza blumeana,758379-1,Species,"""['Blumeanine', 'Ophiorrhizine-12-carboxylate']""",,:Manual:KNApSAcK:
-542,758383-1,Ophiorrhiza bracteata,Ophiorrhiza bracteata,758383-1,Species,,,:Manual::
-543,758401-1,Ophiorrhiza communis,Ophiorrhiza communis,758401-1,Species,,,:Manual::
-544,758420-1,Ophiorrhiza discolor,Ophiorrhiza discolor,758420-1,Species,,,:Manual::
-545,758438-1,Ophiorrhiza filistipula,Ophiorrhiza filistipula,758438-1,Species,"""['Camptothecin']""",,:Manual:KNApSAcK:
-546,758479-1,Ophiorrhiza japonica,Ophiorrhiza japonica,758479-1,Species,"""['Ophiorine A', 'Ophiorine A methyl ester', 'Ophiorine B', 'Ophiorine B methyl ester']""",,:Manual:KNApSAcK:
-547,758486-1,Ophiorrhiza kunstleri,Ophiorrhiza kunstleri,758486-1,Species,,,:Manual::
-548,50884217-1,Ophiorrhiza kuroiwae,Ophiorrhiza kuroiwae,50884217-1,Species,,,:Manual::
-549,758518-1,Ophiorrhiza marginata,Ophiorrhiza marginata,758518-1,Species,,,:Manual::
-550,758576-1,Ophiorrhiza pumila,Ophiorrhiza pumila,758576-1,Species,"""['Strictosidine', 'Tryptamine', 'Strictosamide', 'Camptothecin']""",,:Manual:KNApSAcK:
-551,758581-1,Ophiorrhiza remotiflora,Ophiorrhiza remotiflora,758581-1,Species,,,:Manual::
-552,758590-1,Ophiorrhiza rosacea,Ophiorrhiza rosacea,758590-1,Species,,,:Manual::
-553,758642-1,Ophiorrhiza teysmannii,Ophiorrhiza teysmannii,758642-1,Species,,,:Manual::
-554,758646-1,Ophiorrhiza tomentosa,Ophiorrhiza tomentosa,758646-1,Species,,,:Manual::
-555,77115588-1,Palicourea acuminata,Palicourea acuminata,77115588-1,Species,"""['Strictosidine', 'Strictosamide']""",,:Manual:KNApSAcK:
-556,180889-2,Palicourea adusta,Palicourea adusta,180889-2,Species,,,:Manual::
-557,758987-1,Palicourea alpina,Palicourea alpina,758987-1,Species,"""['(+)-Calycanthine']""",,:Manual:KNApSAcK:
-558,60473600-2,Palicourea apoda,Palicourea apoda,60473600-2,Species,,,:Manual::
-559,77115589-1,Palicourea axillaris,Palicourea axillaris,77115589-1,Species,,,:Manual::
-560,180914-2,Palicourea bella,Palicourea bella,180914-2,Species,,,:Manual::
-561,77161804-1,Palicourea chiriquiensis,Palicourea chiriquiensis,77161804-1,Species,,,:Manual::
-562,180957-2,Palicourea coriacea,Palicourea coriacea,180957-2,Species,"""['(+)-Calycanthine']""",,:Manual:KNApSAcK:
-563,77161806-1,Palicourea correae,Palicourea correae,77161806-1,Species,,,:Manual::
-564,759061-1,Palicourea crocea,Palicourea crocea,759061-1,Species,"""['Croceaine A', 'Croceaine B']""",,:Manual:KNApSAcK:
-565,759062-1,Palicourea croceoides,Palicourea croceoides,759062-1,Species,,,:Manual::
-566,77161808-1,Palicourea cyanococca,Palicourea cyanococca,77161808-1,Species,"""['Strictosidine']""",,:Manual:KNApSAcK:
-567,77115599-1,Palicourea deflexa,Palicourea deflexa,77115599-1,Species,,,:Manual::
-568,77161810-1,Palicourea dichroa,Palicourea dichroa,77161810-1,Species,,,:Manual::
-569,759077-1,Palicourea didymocarpos,Palicourea didymocarpos,759077-1,Species,,,:Manual::
-570,759083-1,Palicourea domingensis,Palicourea domingensis,759083-1,Species,,,:Manual::
-571,77115600-1,Palicourea elata,Palicourea elata,77115600-1,Species,,,:Manual::
-572,212772-2,Palicourea fastigiata,Palicourea fastigiata,212772-2,Species,,,:Manual::
-573,181002-2,Palicourea garciae,Palicourea garciae,181002-2,Species,,,:Manual::
-574,77115607-1,Palicourea glomerulata,Palicourea glomerulata,77115607-1,Species,,,:Manual::
-575,77161069-1,Palicourea gracilenta,Palicourea gracilenta,77161069-1,Species,,,:Manual::
-576,77115613-1,Palicourea hoffmannseggiana,Palicourea hoffmannseggiana,77115613-1,Species,,,:Manual::
-577,77153570-1,Palicourea jungiana,Palicourea jungiana,77153570-1,Species,,,:Manual::
-578,77161819-1,Palicourea luxurians,Palicourea luxurians,77161819-1,Species,,,:Manual::
-579,77160487-1,Palicourea mamillaris,Palicourea mamillaris,77160487-1,Species,,,:Manual::
-580,759213-1,Palicourea marcgravii,Palicourea marcgravii,759213-1,Species,,,:Manual::
-581,77160489-1,Palicourea minutiflora,Palicourea minutiflora,77160489-1,Species,,,:Manual::
-582,77161081-1,Palicourea muscosa,Palicourea muscosa,77161081-1,Species,,,:Manual::
-583,181134-2,Palicourea ochnoides,Palicourea ochnoides,181134-2,Species,,,:Manual::
-584,181140-2,Palicourea ovalis,Palicourea ovalis,181140-2,Species,,,:Manual::
-585,281971-2,Palicourea padifolia,Palicourea padifolia,281971-2,Species,,,:Manual::
-586,77153572-1,Palicourea pleiocephala,Palicourea pleiocephala,77153572-1,Species,,,:Manual::
-587,77161909-1,Palicourea prunifolia,Palicourea prunifolia,77161909-1,Species,,,:Manual::
-588,759300-1,Palicourea rigida,Palicourea rigida,759300-1,Species,,,:Manual::
-589,181212-2,Palicourea semirasa,Palicourea semirasa,181212-2,Species,,,:Manual::
-590,77153573-1,Palicourea sessilis,Palicourea sessilis,77153573-1,Species,,,:Manual::
-591,77161833-1,Palicourea suerrensis,Palicourea suerrensis,77161833-1,Species,,,:Manual::
-592,77115635-1,Palicourea tomentosa,Palicourea tomentosa,77115635-1,Species,,,:Manual::
-593,759353-1,Palicourea triphylla,Palicourea triphylla,759353-1,Species,,,:Manual::
-594,77160497-1,Palicourea tsakiana,Palicourea tsakiana,77160497-1,Species,"""['Strictosidine', 'Strictosamide']""",,:Manual:KNApSAcK:
-595,77150875-1,Palicourea winkleri,Palicourea winkleri,77150875-1,Species,"""['Strictosidine', 'Strictosamide']""",,:Manual:KNApSAcK:
-596,77161054-1,Palicourea colorata,Palicourea colorata,77161054-1,Species,,,:Manual::
-597,759636-1,Pavetta corymbosa,Pavetta corymbosa,759636-1,Species,,,:Manual::
-598,759639-1,Pavetta crassipes,Pavetta crassipes,759639-1,Species,,,:Manual::
-599,760100-1,Pavetta tomentosa,Pavetta tomentosa,760100-1,Species,,,:Manual::
-600,188109-2,Pentagonia gymnopoda,Pentagonia gymnopoda,188109-2,Species,,,:Manual::
-601,760184-1,Pentagonia macrophylla,Pentagonia macrophylla,760184-1,Species,,,:Manual::
-602,760190-1,Pentagonia pinnatifida,Pentagonia pinnatifida,760190-1,Species,,,:Manual::
-603,760201-1,Pentagonia wendlandii,Pentagonia wendlandii,760201-1,Species,,,:Manual::
-604,760275-1,Pentas lanceolata,Pentas lanceolata,760275-1,Species,,,:Manual::
-605,204802-2,Pogonopus speciosus,Pogonopus speciosus,204802-2,Species,"""['Tubulosine', 'Psychotrine', ""1',2',3',4'-Tetradehydrotubulosine""]""",,:Manual:KNApSAcK:
-606,204805-2,Pogonopus tubulosus,Pogonopus tubulosus,204805-2,Species,"""['Tubulosine']""",,:Manual:KNApSAcK:
-607,208720-2,Posoqueria grandiflora,Posoqueria grandiflora,208720-2,Species,,,:Manual::
-608,1079607-2,Posoqueria latifolia,Posoqueria latifolia,1079607-2,Species,,,:Manual::
-609,212398-2,Psychotria alba,Psychotria alba,212398-2,Species,,,:Manual::
-610,761527-1,Psychotria brachyceras,Psychotria brachyceras,761527-1,Species,"""['Brachycerine']""",,:Manual:KNApSAcK:
-611,212532-2,Psychotria brachypoda,Psychotria brachypoda,212532-2,Species,,,:Manual::
-612,761603-1,Psychotria calocarpa,Psychotria calocarpa,761603-1,Species,,,:Manual::
-613,762210-1,Psychotria henryi,Psychotria henryi,762210-1,Species,,,:Manual::
-614,762388-1,Psychotria laciniata,Psychotria laciniata,762388-1,Species,,,:Manual::
-615,212975-2,Psychotria leiocarpa,Psychotria leiocarpa,212975-2,Species,,,:Manual::
-616,762593-1,Psychotria malayana,Psychotria malayana,762593-1,Species,"""['Hodgkinsine']""",,:Manual:KNApSAcK:
-617,762683-1,Psychotria milnei,Psychotria milnei,762683-1,Species,,,:Manual::
-618,762814-1,Psychotria nuda,Psychotria nuda,762814-1,Species,"""['Strictosamide']""",,:Manual:KNApSAcK:
-619,763024-1,Psychotria pilifera,Psychotria pilifera,763024-1,Species,,,:Manual::
-620,763316-1,Psychotria sarmentosoides,Psychotria sarmentosoides,763316-1,Species,,,:Manual::
-621,213454-2,Psychotria stachyoides,Psychotria stachyoides,213454-2,Species,,,:Manual::
-622,213495-2,Psychotria suterella,Psychotria suterella,213495-2,Species,"""['Strictosamide']""",,:Manual:KNApSAcK:
-623,763751-1,Psychotria viridis,Psychotria viridis,763751-1,Species,"""['Tetrahydroharmine', 'Harmaline', 'Harmine']""",,:Manual:KNApSAcK:
-624,915400-1,Psydrax acutiflorus,Psydrax acutiflorus,915400-1,Species,,,:Manual::
-625,915401-1,Psydrax arnoldianus,Psydrax arnoldianus,915401-1,Species,,,:Manual::
-626,763837-1,Psydrax dicoccos,Psydrax dicoccos,763837-1,Species,,,:Manual::
-627,763958-1,Randia aculeata,Randia aculeata,763958-1,Species,,,:Manual::
-628,77170970-1,Randia aculeata var. aculeata,Randia aculeata,763958-1,Variety,,,:Manual::
-629,975261-1,Randia altiscandens,Randia altiscandens,975261-1,Species,,,:Manual::
-630,1115268-2,Randia armata,Randia armata,1115268-2,Species,,,:Manual::
-631,217030-2,Randia lasiantha,Randia lasiantha,217030-2,Species,,,:Manual::
-632,217854-2,Raritebe palicoureoides subsp. dwyerianum,Raritebe palicoureoides,217852-2,Subspecies,,,:Manual::
-633,764710-1,Rogiera amoena,Rogiera amoena,764710-1,Species,,,:Manual::
-634,222508-2,Rosenbergiodendron formosum,Rosenbergiodendron formosum,222508-2,Species,,,:Manual::
-635,223858-2,Rudgea cornifolia,Rudgea cornifolia,223858-2,Species,,,:Manual::
-636,77168913-1,Rudgea coronata subsp. coronata,Rudgea coronata,765440-1,Subspecies,,,:Manual::
-637,765493-1,Rudgea jasminoides,Rudgea jasminoides,765493-1,Species,,,:Manual::
-638,223984-2,Rudgea recurva,Rudgea recurva,223984-2,Species,,,:Manual::
-639,975269-1,Rustia costaricensis,Rustia costaricensis,975269-1,Species,,,:Manual::
-640,1089673-2,Rustia occidentalis,Rustia occidentalis,1089673-2,Species,,,:Manual::
-641,224977-2,Sabicea panamensis,Sabicea panamensis,224977-2,Species,,,:Manual::
-642,765972-1,Sabicea villosa,Sabicea villosa,765972-1,Species,,,:Manual::
-643,766031-1,Saprosma hainanensis,Saprosma hainanensis,766031-1,Species,,,:Manual::
-644,766055-1,Saprosma ternata,Saprosma ternata,766055-1,Species,,,:Manual::
-645,77111993-1,Schizocalyx cuspidatus,Schizocalyx cuspidatus,77111993-1,Species,,,:Manual::
-646,77111998-1,Schizocalyx veraguensis,Schizocalyx veraguensis,77111998-1,Species,,,:Manual::
-647,229969-2,Schradera rotundata,Schradera rotundata,229969-2,Species,,,:Manual::
-648,766235-1,Schumanniophyton problematicum,Schumanniophyton problematicum,766235-1,Species,,,:Manual::
-649,77209436-1,Simira alba,Simira alba,77209436-1,Species,,,:Manual::
-650,236581-2,Simira maxonii,Simira maxonii,236581-2,Species,,,:Manual::
-651,77116177-1,Simira panamensis,Simira panamensis,77116177-1,Species,,,:Manual::
-652,236598-2,Simira williamsii,Simira williamsii,236598-2,Species,,,:Manual::
-653,766466-1,Sinoadina racemosa,Sinoadina racemosa,766466-1,Species,"""['Strictosamide']""",,:Manual:KNApSAcK:
-654,20010093-1,Solenandra mexicana,Solenandra mexicana,20010093-1,Species,,,:Manual::
-655,240642-2,Sommera donnell-smithii,Sommera donnell-smithii,240642-2,Species,,,:Manual::
-656,317930-2,Spermacoce capitata,Spermacoce capitata,317930-2,Species,,,:Manual::
-657,975271-1,Spermacoce exilis,Spermacoce exilis,975271-1,Species,,,:Manual::
-658,766765-1,Spermacoce hispida,Spermacoce hispida,766765-1,Species,,,:Manual::
-659,766863-1,Spermacoce ocymoides,Spermacoce ocymoides,766863-1,Species,,,:Manual::
-660,319724-2,Spermacoce remota,Spermacoce remota,319724-2,Species,,,:Manual::
-661,767031-1,Spermacoce verticillata,Spermacoce verticillata,767031-1,Species,,,:Manual::
-662,767136-1,Stenostomum resinosum,Stenostomum resinosum,767136-1,Species,,,:Manual::
-663,767328-1,Tamilnadia uliginosa,Tamilnadia uliginosa,767328-1,Species,,,:Manual::
-664,60434903-2,Tarenna asiatica,Tarenna asiatica,60434903-2,Species,,,:Manual::
-665,254985-2,Tocoyena pittieri,Tocoyena pittieri,254985-2,Species,,,:Manual::
-666,768211-1,Uncaria attenuata,Uncaria attenuata,768211-1,Species,"""['Tetrahydroalstonine', 'Mitraphylline', 'Rauniticine', 'Rhynchophylline', 'Isorhynchophylline', 'Speciophylline', '3-Isoajmalicine', 'Isocorynoxeine', '14alpha-Hydroxy-3-isorauniticine', 'Uncarine B']""",,:Manual:KNApSAcK:
-667,768216-1,Uncaria borneensis,Uncaria borneensis,768216-1,Species,"""['Rhynchophylline', 'Isorhynchophylline', 'Isocorynoxeine']""",,:Manual:KNApSAcK:
-668,768220-1,Uncaria callophylla,Uncaria callophylla,768220-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Isogambirine']""",,:Manual:KNApSAcK:
-669,768226-1,Uncaria cordata,Uncaria cordata,768226-1,Species,"""['Rhynchophylline', 'Isorhynchophylline']""",,:Manual:KNApSAcK:
-670,768250-1,Uncaria guianensis,Uncaria guianensis,768250-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Speciophylline', 'Isopteropodine']""",,:Manual:KNApSAcK:
-671,768253-1,Uncaria hirsuta,Uncaria hirsuta,768253-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Uncarine B']""",,:Manual:KNApSAcK:
-672,890709-1,Uncaria lanosa var. glabrata,Uncaria lanosa,768270-1,Variety,,,:Manual::
-673,77171967-1,Uncaria longiflora var. longiflora,Uncaria longiflora,768273-1,Variety,,,:Manual::
-674,768275-1,Uncaria macrophylla,Uncaria macrophylla,768275-1,Species,"""['Rhynchophylline', 'Isorhynchophylline', 'Corynoxine', 'Corynoxine B', 'Dihydrocorynantheine', 'Isorhyncophylline']""",,:Manual:KNApSAcK:
-675,768314-1,Uncaria sinensis,Uncaria sinensis,768314-1,Species,"""['Rhynchophylline', 'Isorhynchophylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isocorynoxeine', 'Isorhyncophylline', '3alpha-Dihydrocadambine', '3beta-Isodihydrocadambine', 'Isoformosanine']""",,:Manual:KNApSAcK:
-676,768322-1,Uncaria tomentosa,Uncaria tomentosa,768322-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Uncarine C', 'Speciophylline', 'Isopteropodine', 'Isomitraphylline N-oxide', '5(S)-5-Carboxystrictosidine']""",,:Manual:KNApSAcK:
-677,768297-1,Uncaria rhynchophylla,Uncaria rhynchophylla,768297-1,Species,"""['Vallesiachotamine', 'Tryptamine', 'Strictosamide', 'Cadambine', 'Melatonin', 'Rhynchophylline', 'Angustoline', 'Hirsuteine', 'Hirsutine', 'Isorhynchophylline', 'Corynoxeine', 'Isocorynoxeine', '5-Hydroxytryptamine', '3alpha-Dihydrocadambine', 'Angustidine', '5-Methoxytryptamine']""",,:Manual:KNApSAcK:
-678,769430-1,Urophyllum arboreum,Urophyllum arboreum,769430-1,Species,,,:Manual::
-679,77169958-1,Vangueria infausta subsp. infausta,Vangueria infausta,769741-1,Subspecies,,,:Manual::
-680,770293-1,Warszewiczia coccinea,Warszewiczia coccinea,770293-1,Species,,,:Manual::
-681,269045-2,Wittmackanthus stanleyanus,Wittmackanthus stanleyanus,269045-2,Species,,,:Manual::
-682,76518-1,Alstonia constricta,Alstonia constricta,76518-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamajine', 'Alstonine', '(-)-Vincamedine', ""(-)-17-O-(3',4',5'-Trimethoxycinnamoyl)vincamajine""]""",,::KNApSAcK:
-683,76520-1,Alstonia coriacea,Alstonia coriacea,76520-1,Species,"""['(-)-Vincamajine']""",,::KNApSAcK:
-684,76527-1,Alstonia deplanchei,Alstonia deplanchei,76527-1,Species,"""['(-)-Vincamajine', '(-)-Vincamedine']""",,::KNApSAcK:
-685,76546-1,Alstonia lanceolifera,Alstonia lanceolifera,76546-1,Species,"""[""(-)-17-O-(3',4',5'-Trimethoxycinnamoyl)vincamajine"", 'Lochnericine']""",,::KNApSAcK:
-686,76548-1,Alstonia legouixiae,Alstonia legouixiae,76548-1,Species,"""['(-)-Vincamajine']""",,::KNApSAcK:
-687,76549-1,Alstonia lenormandii,Alstonia lenormandii,76549-1,Species,"""['11-Methoxyakuammicine', 'Lochnericine', 'Akuammiline', 'Picraline']""",,::KNApSAcK:
-688,76562-1,Alstonia muelleriana,Alstonia muelleriana,76562-1,Species,"""['(+)-Quebrachidine', 'Alstonisine', 'Alstonerine']""",,::KNApSAcK:
-689,76565-1,Alstonia odontophora,Alstonia odontophora,76565-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamajine']""",,::KNApSAcK:
-690,76580-1,Alstonia quaternata,Alstonia quaternata,76580-1,Species,"""['(-)-Vincamajine', 'Quaternine', 'Quaternatine']""",,::KNApSAcK:
-691,76595-1,Alstonia spatulata,Alstonia spatulata,76595-1,Species,"""['Echitamine']""",,::KNApSAcK:
-692,76597-1,Alstonia spectabilis,Alstonia spectabilis,76597-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamajine', 'Echitamine']""",,::KNApSAcK:
-693,76598-1,Alstonia sphaerocapitata,Alstonia sphaerocapitata,76598-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamedine', '(-)-10-Methoxyvincamedine', '(-)-10-Methoxyvincamedine N-oxide']""",,::KNApSAcK:
-694,76604-1,Alstonia vieillardii,Alstonia vieillardii,76604-1,Species,"""['Vincamajine 17-O-veratrate']""",,::KNApSAcK:
-695,30117279-2,Araujia sericifera,Araujia sericifera,30117279-2,Species,"""['Rostratamine']""",,::KNApSAcK:
-696,319076-2,Asclepias syriaca,Asclepias syriaca,319076-2,Species,"""['Nicotine']""",,::KNApSAcK:
-697,21994-2,Aspidosperma limae,Aspidosperma limae,21994-2,Species,"""['Compactinervine', 'Aspidolimidine', 'Limaspermine']""",,::KNApSAcK:
-698,77876-1,Catharanthus lanceus,Catharanthus lanceus,77876-1,Species,"""['Leurosine', 'Cathovaline']""",,::KNApSAcK:
-699,77877-1,Catharanthus longifolius,Catharanthus longifolius,77877-1,Species,"""['Leurosine', 'Antirhine', 'Vindoline', 'Vindolinine']""",,::KNApSAcK:
-700,77878-1,Catharanthus ovalis,Catharanthus ovalis,77878-1,Species,"""['Leurosine', 'Cathovaline', 'Vindoline', 'Vindolinine', '(-)-Venalstonidine', '(-)-Venalstonine', '14-Hydroxycathovaline', '19-Epivindolinine', '19R-Hydroxytabersonine', '19S-Hydroxytabersonine', 'Cathovalinine', 'Deacetylcathovaline', 'Kitraline', 'Kitramine', 'Vindorosine']""",,::KNApSAcK:
-701,77882-1,Catharanthus trichophyllus,Catharanthus trichophyllus,77882-1,Species,"""['Lochnericine', '(-)-Echitoveniline', 'Vindolinine', '19-Epivindolinine', '(+)-Minovincinine', 'Trichophylline']""",,::KNApSAcK:
-702,96460-1,Cynanchum otophyllum,Cynanchum otophyllum,96460-1,Species,"""['Rostratamine']""",,::KNApSAcK:
-703,96692-1,Cynanchum wallichii,Cynanchum wallichii,96692-1,Species,"""['Rostratamine']""",,::KNApSAcK:
-704,78310-1,Diplorhynchus condylocarpon,Diplorhynchus condylocarpon,78310-1,Species,"""['Normacusine B', 'Norfluorocurarine', 'Condylocarpine', 'Stemmadenine']""",,::KNApSAcK:
-705,108063-2,Geissospermum argenteum,Geissospermum argenteum,108063-2,Species,"""['N-Acetylaspidospermidine', 'Aspidocarpine', '(-)-Aspidospermine']""",,::KNApSAcK:
-706,98277-1,Heterostemma brownii,Heterostemma brownii,98277-1,Species,"""['Heteromine D', 'Heteromine E', 'Heteromine F', 'Heteromine G', 'Heteromine H']""",,::KNApSAcK:
-707,79311-1,Holarrhena mitis,Holarrhena mitis,79311-1,Species,"""['Mitiphylline', 'N-Demethylmitiphylline']""",,::KNApSAcK:
-708,79342-1,Hunteria congolana,Hunteria congolana,79342-1,Species,"""['(-)-Eburnamine', '(+)-Eburnamenine', '(-)-Vincadifformine', '(+)-Isoeburnamine', '(-)-Umbellamine']""",,::KNApSAcK:
-709,79454-1,Kibatalia gitingensis,Kibatalia gitingensis,79454-1,Species,"""['Gitingensine', 'Lanitine']""",,::KNApSAcK:
-710,80519-1,Ochrosia lifuana,Ochrosia lifuana,80519-1,Species,"""['Ochrolifuanine A']""",,::KNApSAcK:
-711,81511-1,Rauvolfia bahiensis,Rauvolfia bahiensis,81511-1,Species,"""['Normacusine B', '10-O-Methylsarpagine', 'Picrinine', '(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Purpeline', '(+/-)-Norpurpeline', '(+)-Seredamine', '(+)-12-methoxyaffinisine', '12-Methoxy-Na-methylvellosimine', '12-Methoxy-vellosimine', 'Demethoxypurpeline']""",,::KNApSAcK:
-712,909641-1,Rauvolfia balansae,Rauvolfia balansae,909641-1,Species,"""['(+)-Raucaffrinoline', '(+)-Perakine', '(-)-Vinorine', '(+)-Ajmaline', '19,20-Dihydrovomilenine', 'Vomilenine']""",,::KNApSAcK:
-713,81513-1,Rauvolfia biauriculata,Rauvolfia biauriculata,81513-1,Species,"""['(+)-Perakine', '(+)-Ajmaline', 'Vomilenine']""",,::KNApSAcK:
-714,81519-1,Rauvolfia caffra,Rauvolfia caffra,81519-1,Species,"""['Sarpagine', '(+)-Raucaffrinoline', '(+)-Perakine', '(-)-Vinorine', '(+)-Ajmaline', 'Vomilenine', '17,21-O,O-Diacetylajmaline', '17-O-Acetylajmaline', 'Raucaffricine', 'Raucaffriline']""",,::KNApSAcK:
-715,81520-1,Rauvolfia cambodiana,Rauvolfia cambodiana,81520-1,Species,"""['(+)-Ajmaline']""",,::KNApSAcK:
-716,81531-1,Rauvolfia cubana,Rauvolfia cubana,81531-1,Species,"""['(+)-Ajmaline', 'Deserpidine', '(+)-Sandwicine']""",,::KNApSAcK:
-717,81545-1,Rauvolfia grandiflora,Rauvolfia grandiflora,81545-1,Species,"""['Darcyribeirine']""",,::KNApSAcK:
-718,81565-1,Rauvolfia ligustrina,Rauvolfia ligustrina,81565-1,Species,"""['(+)-Ajmaline']""",,::KNApSAcK:
-719,217921-2,Rauvolfia littoralis,Rauvolfia littoralis,217921-2,Species,"""['(+)-Ajmaline', 'Deserpidine']""",,::KNApSAcK:
-720,81579-1,Rauvolfia mannii,Rauvolfia mannii,81579-1,Species,"""['(-)-Vincamajine', 'Raucaffricine']""",,::KNApSAcK:
-721,81583-1,Rauvolfia media,Rauvolfia media,81583-1,Species,"""['(+)-Mauiensine', '(+)-12-Hydroxymauiensine']""",,::KNApSAcK:
-722,81598-1,Rauvolfia nitida,Rauvolfia nitida,81598-1,Species,"""['(+)-Raucaffrinoline', 'Yohimbine', '(+)-Ajmaline', 'Reserpiline', 'Nortetraphyllicine', 'Rescinnamine', '(+)-Norajmaline', '(+)-17-O-Acetylnortetraphyllicine', 'Rauniticine']""",,::KNApSAcK:
-723,328979-2,Rauvolfia sellowii,Rauvolfia sellowii,328979-2,Species,"""['(+)-Raucaffrinoline', '(+)-Perakine', '(+)-Ajmaline', 'Vomilenine']""",,::KNApSAcK:
-724,81646-1,Rauvolfia semperflorens,Rauvolfia semperflorens,81646-1,Species,"""['(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Sandwicine', '(+)-Mauiensine', 'Nortetraphyllicine', '(+)-Isoajmaline', '(+)-Isosandwicine']""",,::KNApSAcK:
-725,81648-1,Rauvolfia serpentina,Rauvolfia serpentina,81648-1,Species,"""['Strictosidine', '4,21-Dehydrogeissoschizine', 'Sarpagine', 'Tetrahydroalstonine', '(+)-Raucaffrinoline', 'Reserpine', '(+)-Perakine', '(-)-Vinorine', 'Vellosimine', 'Ajmalicine', 'Serpentine', 'Cathenamine', 'Yohimbine', '(+)-Ajmaline', 'Reserpiline', 'Vomilenine', '17-O-Acetylajmaline', 'Raucaffricine', 'Rescinnamine', '(+)-Isoajmaline', 'Papaverine', 'Ajmalimine', '(+)-Sandwicolidine', 'Ajmalinimine', 'Rescinnamidine', '3,4,5,6-Tetradehydroyohimbine', '12-Hydroxyajmaline', 'Acetylnorajmaline', '16-Epivellosimine', 'Polyneuridine aldehyde', 'Norajamaline']""",,::KNApSAcK:
-726,81499-1,Rauvolfia sevenetii,Rauvolfia sevenetii,81499-1,Species,"""['(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Ajmaline', '19,20-Dihydrovomilenine', 'Vomilenine']""",,::KNApSAcK:
-727,81500-1,Rauvolfia spathulata,Rauvolfia spathulata,81500-1,Species,"""['(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Ajmaline', '19,20-Dihydrovomilenine', 'Vomilenine']""",,::KNApSAcK:
-728,81670-1,Rauvolfia viridis,Rauvolfia viridis,81670-1,Species,"""['(+)-Quebrachidine', '(+)-Ajmaline']""",,::KNApSAcK:
-729,81672-1,Rauvolfia volkensii,Rauvolfia volkensii,81672-1,Species,"""['(+)-Raucaffrinoline', '(+)-Perakine', '(+)-Ajmaline', '17-O-Acetylajmaline', 'Nortetraphyllicine', '17-O-Acetyltetraphyllicine']""",,::KNApSAcK:
-730,82007-1,Tabernaemontana apoda,Tabernaemontana apoda,82007-1,Species,"""['Voacangine', 'Apodine', 'Apodinine', 'Heyneanine', 'Voacangine hydroxyindolenine', 'Voacangine pseudoindoxyl', 'Voacristine', 'Voacristine hydroxyindolenine', 'Montanine', 'Ibogaine hydroxyindolenine', 'Isovoacangine']""",,::KNApSAcK:
-731,248841-2,Tabernaemontana attenuata,Tabernaemontana attenuata,248841-2,Species,"""['Tubotaiwine', 'Voacangine', 'Heyneanine', 'Isovoacangine', 'Coronaridine hydroxyindolenine', '10-Hydroxyheyneanine', '11-Hydroxycoronaridine', '11-Hydroxyheyneanine', '19-Epiheyneanine', 'Conopharyngine', 'Conopharyngine hydroxyindolenine', 'Ibophyllidine']""",,::KNApSAcK:
-732,82013-1,Tabernaemontana aurantiaca,Tabernaemontana aurantiaca,82013-1,Species,"""['Voacangine', 'Voacangine pseudoindoxyl']""",,::KNApSAcK:
-733,82027-1,Tabernaemontana brachyantha,Tabernaemontana brachyantha,82027-1,Species,"""['Normacusine B', 'Voacorine']""",,::KNApSAcK:
-734,82035-1,Tabernaemontana calcarea,Tabernaemontana calcarea,82035-1,Species,"""['(-)-Apparicine', '(-)-Coronaridine', 'Ibogamine', 'Voacangine', 'Dregamine', 'Heyneanine', 'Voacristine', 'Isovoacangine', '11-Hydroxycoronaridine', 'Isovoacristine', '20-Epipandoline', 'Pandine', 'Pandoline', '(20R)-Pseudovincadifformine', '19-Epivoacristine', 'Silicine', '19-epi-Heyneanine']""",,::KNApSAcK:
-735,907601-1,Tabernaemontana capuronii,Tabernaemontana capuronii,907601-1,Species,"""['14,15-Anhydrocapuronidine', 'Capuronidine', 'Capuronine', 'Capuvosine']""",,::KNApSAcK:
-736,82046-1,Tabernaemontana cerifera,Tabernaemontana cerifera,82046-1,Species,"""['(-)-Apparicine', 'Voacangine', 'Voacangine hydroxyindolenine']""",,::KNApSAcK:
-737,82059-1,Tabernaemontana coffeoides,Tabernaemontana coffeoides,82059-1,Species,"""['Normacusine B', 'Stemmadenine', 'Lochnericine', 'Vallesamine', '(-)-Hazuntine', '3-Oxotabersonine', 'Isoreserpiline', '(-)-Apparicine', 'Polyneuridine', 'Voacangine', 'Pericyclivine', 'Dregamine', 'Tabernaemontanine', 'Reserpiline', 'Heyneanine', 'Isovoacangine', '19-Epiheyneanine', 'Silicine', '14,15-Dihydroxyvincadifformine', 'Voaphylline', 'Voacarpine', '(19R)-19-Hydroxytabernaelegantine A', ""(20'S)-19',20'-Dihydrotabernamine"", '20-Episilicine', '3,14-Dihydroellipticine', '6-Oxo-16-episilicine', '6-Oxomethuenine', '6-Oxosilicine', 'Hazuntinine', 'Isomethuenine', 'Methuenine', 'Tabernaelegantine A', '(+)-Tetraphyllicine', 'Vincanidine']""",,::KNApSAcK:
-738,82065-1,Tabernaemontana contorta,Tabernaemontana contorta,82065-1,Species,"""['Voacangine', 'Voacristine', 'Conopharyngine']""",,::KNApSAcK:
-739,82072-1,Tabernaemontana crassa,Tabernaemontana crassa,82072-1,Species,"""['Akuammiline', 'Perivine', 'Heyneanine', 'Voacristine', 'Isovoacangine', 'Conopharyngine', 'Conopharyngine hydroxyindolenine', 'Ibogaine', '3-Oxocoronaridine', '19-Hydroxyconopharyngine', '5-Oxocoronaridine', 'Conoduramine', 'Crassanine']""",,::KNApSAcK:
-740,913394-1,Tabernaemontana debrayi,Tabernaemontana debrayi,913394-1,Species,"""['Dregamine', 'Pandine', 'Pandoline']""",,::KNApSAcK:
-741,60466169-2,Tabernaemontana dichotoma,Tabernaemontana dichotoma,60466169-2,Species,"""['Stemmadenine', 'Vallesamine', '(-)-Apparicine', 'Voacangine', 'Perivine', 'Vobasine', 'Heyneanine', 'Voacristine hydroxyindolenine', '19-Epiheyneanine', '19-Epivoacristine', 'Voaphylline', 'Isomethuenine', '12-Methoxyvoaphylline', 'Voaphylline hydroxyindolenine', 'Dichomine', '19-Epiiboxygaine', 'O-Acetylvallesamine']""",,::KNApSAcK:
-742,82107-1,Tabernaemontana eglandulosa,Tabernaemontana eglandulosa,82107-1,Species,"""['Norfluorocurarine', 'Voacangine pseudoindoxyl', 'Voacristine', 'Isovoacangine', '11-Hydroxycoronaridine', 'Conopharyngine', 'Dichomine', '(16R)-Descarbomethoxytacamine', '(16S)-Descarbomethoxytacamine', '(19S)-Hydroxytacamine', '16,17-Anhydrotacamine', '16-Epitacamine', 'Tacamine', 'Tacamonine', '(+)-20R-Pseudovincadifformine', '20S-Pseudovincadifformine', '(20R)-15,20-Dihydrocleavamine', '(20S)-Hydroxy-1,2-dehydropseudoaspidospermidine', '(20S)-15,20-Dihydrocleavamine', '17-Hydroxytacamonine', '3-Hydroxycoronaridine']""",,::KNApSAcK:
-743,82121-1,Tabernaemontana flavicans,Tabernaemontana flavicans,82121-1,Species,"""['Ibophyllidine N-oxide']""",,::KNApSAcK:
-744,82129-1,Tabernaemontana glandulosa,Tabernaemontana glandulosa,82129-1,Species,"""['12-Demethoxytabernulosine']""",,::KNApSAcK:
-745,82154-1,Tabernaemontana humblotii,Tabernaemontana humblotii,82154-1,Species,"""['Tubotaiwine', '(+)-14,15-Dehydro-16-epivincamine', '(-)-Apparicine', 'Voacangine', 'Voacristine', 'Ibogaline', '19-Epiiboxygaine', 'Iboluteine']""",,::KNApSAcK:
-746,285810-2,Tabernaemontana litoralis,Tabernaemontana litoralis,285810-2,Species,"""['Strictosidine', 'Tabersonine', '(-)-Coronaridine', 'Heyneanine']""",,::KNApSAcK:
-747,248876-2,Tabernaemontana longipes,Tabernaemontana longipes,248876-2,Species,"""['Voacangine']""",,::KNApSAcK:
-748,82203-1,Tabernaemontana macrocarpa,Tabernaemontana macrocarpa,82203-1,Species,"""['Voacangine', 'Voacangine hydroxyindolenine', 'Voaphylline']""",,::KNApSAcK:
-749,82224-1,Tabernaemontana mocquerysi,Tabernaemontana mocquerysi,82224-1,Species,"""['Tubotaiwine', 'Voacangine', 'Heyneanine', 'Voacristine', '19-Epiheyneanine', '19-Epivoacristine', 'Methuenine', '(20R)-15,20-Dihydrocleavamine', '(20S)-15,20-Dihydrocleavamine', 'Ervitsine']""",,::KNApSAcK:
-750,20010230-1,Tabernaemontana odoratissima,Tabernaemontana odoratissima,20010230-1,Species,"""['Vobasine', 'Gabunine']""",,::KNApSAcK:
-751,248887-2,Tabernaemontana oppositifolia,Tabernaemontana oppositifolia,248887-2,Species,"""['(-)-Coronaridine', 'Voacamine']""",,::KNApSAcK:
-752,82282-1,Tabernaemontana penduliflora,Tabernaemontana penduliflora,82282-1,Species,"""['(-)-Coronaridine', 'Voacangine', 'Conopharyngine']""",,::KNApSAcK:
-753,82297-1,Tabernaemontana psorocarpa,Tabernaemontana psorocarpa,82297-1,Species,"""['Tetrahydroalstonine', 'Vallesiachotamine', 'Voacangine', '14,15-Dehydro-12-methoxyvincamine', '16-Epiisositsirikine', 'Isovallesiachotamine']""",,::KNApSAcK:
-754,82313-1,Tabernaemontana retusa,Tabernaemontana retusa,82313-1,Species,"""['Voacangine', 'Heyneanine', 'Voacristine', 'Coronaridine hydroxyindolenine', '3-Oxovoacangine', 'Voaphylline', 'Pachysiphine']""",,::KNApSAcK:
-755,82336-1,Tabernaemontana sphaerocarpa,Tabernaemontana sphaerocarpa,82336-1,Species,"""['Dregamine', 'Tabernaemontanine']""",,::KNApSAcK:
-756,82371-1,Tabernaemontana undulata,Tabernaemontana undulata,82371-1,Species,"""['(+)-Quebrachidine', 'Voacangine', '19-Epiheyneanine', 'Voaphylline']""",,::KNApSAcK:
-757,82683-1,Vinca difformis,Vinca difformis,82683-1,Species,"""['(-)-Vincamajine', 'Normacusine B', '(-)-Vincamedine', '(+)-Vincadifformine']""",,::KNApSAcK:
-758,58723-2,Cinchona officinalis,Cinchona officinalis,58723-2,Species,"""['Strictosidine', 'Cinchonidine', 'Hydroquinidine', 'Quinine', 'Quinidine', 'Cinchonine']""",,::KNApSAcK:
-759,747109-1,Coffea eugenioides,Coffea eugenioides,747109-1,Species,"""['Caffeine']""",,::KNApSAcK:
-760,747169-1,Coffea liberica,Coffea liberica,747169-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine', 'Theacrine', 'Methylliberine', '1,3,7-Trimethyluric acid', 'Liberine']""",,::KNApSAcK:
-761,747242-1,Coffea racemosa,Coffea racemosa,747242-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine']""",,::KNApSAcK:
-762,747254-1,Coffea salvatrix,Coffea salvatrix,747254-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine']""",,::KNApSAcK:
-763,755237-1,Leptactina densiflora,Leptactina densiflora,755237-1,Species,"""['Tetrahydroharmine']""",,::KNApSAcK:
-764,756301-1,Mitragyna rotundifolia,Mitragyna rotundifolia,756301-1,Species,"""['Rhynchophylline', 'Mitrafoline']""",,::KNApSAcK:
-765,756359-1,Morinda citrifolia,Morinda citrifolia,756359-1,Species,"""['Cytidine']""",,::KNApSAcK:
-766,758527-1,Ophiorrhiza mungos,Ophiorrhiza mungos,758527-1,Species,"""['Camptothecin']""",,::KNApSAcK:
-767,758602-1,Ophiorrhiza rugosa,Ophiorrhiza rugosa,758602-1,Species,"""['Strictosidine', 'Camptothecin']""",,::KNApSAcK:
-768,922428-1,Ophiorrhiza rugosa var. prostrata,Ophiorrhiza rugosa,758602-1,Variety,"""['Strictosidine', 'Camptothecin']""",,::KNApSAcK:
-769,761435-1,Psychotria bahiensis,Psychotria bahiensis,761435-1,Species,"""['Strictosamide', '5alpha-Carboxystrictosidine', 'Isovallesiachotamine', 'Angustine']""",,::KNApSAcK:
-770,236592-2,Simira rubra,Simira rubra,236592-2,Species,"""['Harmine']""",,::KNApSAcK:
-771,767775-1,Timonius kaniensis,Timonius kaniensis,767775-1,Species,"""['Dihydrocupreine']""",,::KNApSAcK:
-772,768203-1,Uncaria acida,Uncaria acida,768203-1,Species,"""['Rhynchophylline', 'Isorhynchophylline']""",,::KNApSAcK:
-773,768207-1,Uncaria africana,Uncaria africana,768207-1,Species,"""['Ajmalicine', 'Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline']""",,::KNApSAcK:
-774,768231-1,Uncaria elliptica,Uncaria elliptica,768231-1,Species,"""['Tetrahydroalstonine', '19-Epiajmalicine', 'Ajmalicine', 'Mitraphylline', 'Rauniticine', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', '3-Isoajmalicine', 'Uncarine B', '14beta-Hydroxy-3-isorauniticine', '19-Epi-3-isoajmalicine', '3-Isorauniticine', '3-Isorauniticine pseudoindoxyl', 'Akuammigine pseudoindoxyl', 'Rauniticine oxindole A', 'Rauniticine pseudoindoxyl', 'Tetrahydroalstonine N-oxide', 'Uncarine A']""",,::KNApSAcK:
-775,60458896-2,Uncaria gambir,Uncaria gambir,60458896-2,Species,"""['Mitraphylline', 'Uncarine B', 'Roxburghine B']""",,::KNApSAcK:
-776,768254-1,Uncaria homomalla,Uncaria homomalla,768254-1,Species,"""['Mitraphylline', 'Isomitraphylline', 'Uncarine C', 'Speciophylline', 'Isopteropodine', 'Uncarine F']""",,::KNApSAcK:
-777,768268-1,Uncaria laevigata,Uncaria laevigata,768268-1,Species,"""['Mitraphylline', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine B']""",,::KNApSAcK:
-778,768269-1,Uncaria lancifolia,Uncaria lancifolia,768269-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline']""",,::KNApSAcK:
-779,768270-1,Uncaria lanosa,Uncaria lanosa,768270-1,Species,"""['Mitraphylline', 'Rauniticine', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isocorynoxeine']""",,::KNApSAcK:
-780,768273-1,Uncaria longiflora,Uncaria longiflora,768273-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isocorynoxeine']""",,::KNApSAcK:
-781,768281-1,Uncaria orientalis,Uncaria orientalis,768281-1,Species,"""['Ajmalicine', 'Mitraphylline', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Uncarine B']""",,::KNApSAcK:
-782,768303-1,Uncaria scandens,Uncaria scandens,768303-1,Species,"""['Mitraphylline', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F']""",,::KNApSAcK:
-783,768311-1,Uncaria sessilifructus,Uncaria sessilifructus,768311-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Uncarine F', 'Uncarine B']""",,::KNApSAcK:
+350,745007-1,Bothriospora corymbosa,Bothriospora corymbosa,745007-1,Species,,,:Manual::
+351,745109-1,Bouvardia ternifolia,Bouvardia ternifolia,745109-1,Species,,,:Manual::
+352,910167-1,Breonadia salicina,Breonadia salicina,910167-1,Species,,,:Manual::
+353,745154-1,Breonia perrieri,Breonia perrieri,745154-1,Species,,,:Manual::
+354,745156-1,Breonia sphaerantha,Breonia sphaerantha,745156-1,Species,,,:Manual::
+355,745241-1,Calycophyllum candidissimum,Calycophyllum candidissimum,745241-1,Species,,,:Manual::
+356,745378-1,Canthium coromandelicum,Canthium coromandelicum,745378-1,Species,,,:Manual::
+357,745437-1,Canthium glaucum,Canthium glaucum,745437-1,Species,,,:Manual::
+358,1214821-2,Carapichea affinis,Carapichea affinis,1214821-2,Species,"""['Dopamine', 'Cephaeline', 'Emetine', 'Ipecoside', 'Protoemetine', ""7'-O-Demethylcephaeline""]""",,:Manual:KNApSAcK:
+359,1214950-2,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,Species,,,:Manual::
+360,77132654-1,Carapichea klugii,Carapichea klugii,77132654-1,Species,,,:Manual::
+361,745903-1,Catunaregam nilotica,Catunaregam nilotica,745903-1,Species,,,183/184:Manual::
+362,745904-1,Catunaregam spinosa,Catunaregam spinosa,745904-1,Species,,,:Manual::
+363,745905-1,Catunaregam tomentosa,Catunaregam tomentosa,745905-1,Species,,,:Manual::
+364,52091-2,Cephalanthus glabratus,Cephalanthus glabratus,52091-2,Species,,,:Manual::
+365,746216-1,Cephalanthus natalensis,Cephalanthus natalensis,746216-1,Species,,,182:Manual::
+366,319140-2,Cephalanthus occidentalis,Cephalanthus occidentalis,319140-2,Species,,,:Manual::
+367,746233-1,Cephalanthus salicifolius,Cephalanthus salicifolius,746233-1,Species,,,:Manual::
+368,746238-1,Cephalanthus tetrandra,Cephalanthus tetrandra,746238-1,Species,,,:Manual::
+369,746289-1,Chassalia curviflora,Chassalia curviflora,746289-1,Species,,,:Manual::
+370,746368-1,Chassalia kolly,Chassalia kolly,746368-1,Species,,,:Manual::
+371,318431-2,Chimarrhis cymosa,Chimarrhis cymosa,318431-2,Species,,,:Manual::
+372,56528-2,Chimarrhis parviflora,Chimarrhis parviflora,56528-2,Species,,,:Manual::
+373,308173-2,Chimarrhis turbinata,Chimarrhis turbinata,308173-2,Species,"""['Strictosidine', 'Vallesiachotamine', 'Desoxycordifoline', '5alpha-Carboxystrictosidine', 'Isovallesiachotamine', 'Cordifoline', 'Turbinatine']""",,:Manual:KNApSAcK:
+374,56535-2,Chiococca alba,Chiococca alba,56535-2,Species,,,:Manual::
+375,77065717-1,Ciliosemina pedunculata,Ciliosemina pedunculata,77065717-1,Species,,,:Manual::
+376,746718-1,Cinchona calisaya,Cinchona calisaya,746718-1,Species,,,:Manual::
+377,746872-1,Cinchona pubescens,Cinchona pubescens,746872-1,Species,"""['Quinine', 'Quinidine', '10-Methoxycinchonamine']""",,181/182:Manual:KNApSAcK:
+378,61955-2,Coccocypselum guianense,Coccocypselum guianense,61955-2,Species,,,:Manual::
+379,746962-1,Coccocypselum herbaceum,Coccocypselum herbaceum,746962-1,Species,,,:Manual::
+380,746963-1,Coccocypselum hirsutum,Coccocypselum hirsutum,746963-1,Species,,,:Manual::
+381,61961-2,Coccocypselum hispidulum,Coccocypselum hispidulum,61961-2,Species,,,:Manual::
+382,747038-1,Coffea arabica,Coffea arabica,747038-1,Species,"""['Indole', 'Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", 'Adenosine', '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Melatonin', '2,3-Dimethylpyrazine', '2,5-Dimethylpyrazine', '2,6-Dimethylpyrazine', '2-Acetylpyridine', '2-Ethyl-6-methylpyrazine', '2-Methoxy-3-isobutylpyrazine', '2-Methoxypyridine', '2-Methylpyrazine', 'Pyridine']""",,:Manual:KNApSAcK:
+383,747048-1,Coffea benghalensis,Coffea benghalensis,747048-1,Species,,,:Manual::
+384,747068-1,Coffea canephora,Coffea canephora,747068-1,Species,"""['Indole', 'Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", 'Adenosine', '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Melatonin', '2,3-Dimethylpyrazine', '2,5-Dimethylpyrazine', '2,6-Dimethylpyrazine', '2-Ethyl-6-methylpyrazine', '2-Methylpyrazine', 'Pyridine', 'Theobromine']""",,:Manual:KNApSAcK:
+385,747150-1,Coffea kianjavatensis,Coffea kianjavatensis,747150-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine']""",,:Manual:KNApSAcK:
+386,77189827-1,Coffea liberica var. dewevrei,Coffea liberica,747169-1,Variety,,,:Manual::
+387,1010049-2,Condaminea corymbosa,Condaminea corymbosa,1010049-2,Species,,,:Manual::
+388,65657-2,Cordiera sessilis,Cordiera sessilis,65657-2,Species,,,:Manual::
+389,747599-1,Corynanthe johimbe,Corynanthe johimbe,747599-1,Species,"""['Yohimbine']""",,:Manual:KNApSAcK:
+390,747604-1,Corynanthe pachyceras,Corynanthe pachyceras,747604-1,Species,,,:Manual::
+391,66725-2,Cosmibuena grandiflora,Cosmibuena grandiflora,66725-2,Species,,,:Manual::
+392,964800-1,Cosmibuena valerii,Cosmibuena valerii,964800-1,Species,,,:Manual::
+393,67491-2,Coutarea hexandra,Coutarea hexandra,67491-2,Species,,,:Manual::
+394,747810-1,Craterispermum laurinum,Craterispermum laurinum,747810-1,Species,,,:Manual::
+395,747858-1,Crossopteryx febrifuga,Crossopteryx febrifuga,747858-1,Species,,,:Manual::
+396,984883-1,Deppea blumenaviensis,Deppea blumenaviensis,984883-1,Species,,,:Manual::
+397,748310-1,Deppea grandiflora,Deppea grandiflora,748310-1,Species,,,:Manual::
+398,77147276-1,Dimetia capitellata,Dimetia capitellata,77147276-1,Species,,,:Manual::
+399,748497-1,Diplospora dubia,Diplospora dubia,748497-1,Species,,,:Manual::
+400,86140-2,Duroia macrophylla,Duroia macrophylla,86140-2,Species,,,:Manual::
+401,975424-1,Elaeagia myriantha,Elaeagia myriantha,975424-1,Species,,,:Manual::
+402,88967-2,Elaeagia nitidifolia,Elaeagia nitidifolia,88967-2,Species,,,:Manual::
+403,748742-1,Emmenopterys henryi,Emmenopterys henryi,748742-1,Species,,,:Manual::
+404,77164450-1,Eumachia cymuligera,Eumachia cymuligera,77164450-1,Species,,,:Manual::
+405,77164451-1,Eumachia depauperata,Eumachia depauperata,77164451-1,Species,,,:Manual::
+406,77164469-1,Eumachia forsteriana,Eumachia forsteriana,77164469-1,Species,,,:Manual::
+407,77164470-1,Eumachia frutescens,Eumachia frutescens,77164470-1,Species,,,:Manual::
+408,77164477-1,Eumachia leptothyrsa,Eumachia leptothyrsa,77164477-1,Species,,,:Manual::
+409,77164484-1,Eumachia lyciiflora,Eumachia lyciiflora,77164484-1,Species,,,:Manual::
+410,77164489-1,Eumachia oleoides,Eumachia oleoides,77164489-1,Species,,,:Manual::
+411,77195625-1,Eumachia rostrata,Eumachia rostrata,77195625-1,Species,,,:Manual::
+412,748862-1,Exallage auricularia,Exallage auricularia,748862-1,Species,,,:Manual::
+413,77147284-1,Exallage chrysotricha,Exallage chrysotricha,77147284-1,Species,,,:Manual::
+414,748960-1,Fadogia cienkowskii,Fadogia cienkowskii,748960-1,Species,,,:Manual::
+415,1187456-2,Faramea occidentalis,Faramea occidentalis,1187456-2,Species,,,:Manual::
+416,749328-1,Feretia apodanthera,Feretia apodanthera,749328-1,Species,,,:Manual::
+417,300555-2,Galianthe ramosa,Galianthe ramosa,300555-2,Species,,,:Manual::
+418,963762-1,Galianthe thalictroides,Galianthe thalictroides,963762-1,Species,,,:Manual::
+419,945333-1,Galiniera saxifraga,Galiniera saxifraga,945333-1,Species,,,:Manual::
+420,30007294-2,Galium aparine,Galium aparine,30007294-2,Species,"""['Vasicinone']""",,:Manual:KNApSAcK:
+421,750253-1,Galium mollugo,Galium mollugo,750253-1,Species,,,:Manual::
+422,750829-1,Galium verum,Galium verum,750829-1,Species,,,:Manual::
+423,751331-1,Genipa americana,Genipa americana,751331-1,Species,,,:Manual::
+424,1080914-2,Geophila macropoda,Geophila macropoda,1080914-2,Species,,,:Manual::
+425,112521-2,Gonzalagunia ovatifolia,Gonzalagunia ovatifolia,112521-2,Species,,,:Manual::
+426,30107991-2,Gonzalagunia panamensis,Gonzalagunia panamensis,30107991-2,Species,,,:Manual::
+427,112530-2,Gonzalagunia rosea,Gonzalagunia rosea,112530-2,Species,,,:Manual::
+428,112531-2,Gonzalagunia rudis,Gonzalagunia rudis,112531-2,Species,,,:Manual::
+429,975248-1,Gonzalagunia stenostachya,Gonzalagunia stenostachya,975248-1,Species,,,:Manual::
+430,114492-2,Guettarda calyptrata,Guettarda calyptrata,114492-2,Species,,,:Manual::
+431,114528-2,Guettarda elliptica,Guettarda elliptica,114528-2,Species,,,:Manual::
+432,751948-1,Guettarda heterosepala,Guettarda heterosepala,751948-1,Species,"""['Guettardine']""",,:Manual:KNApSAcK:
+433,752069-1,Guettarda speciosa,Guettarda speciosa,752069-1,Species,,,:Manual::
+434,752093-1,Guettarda trimera,Guettarda trimera,752093-1,Species,,,:Manual::
+435,114647-2,Guettarda uruguensis,Guettarda uruguensis,114647-2,Species,,,:Manual::
+436,752146-1,Gyrostipula foveolata,Gyrostipula foveolata,752146-1,Species,,,:Manual::
+437,117176-2,Hamelia axillaris,Hamelia axillaris,117176-2,Species,,,:Manual::
+438,117178-2,Hamelia barbata,Hamelia barbata,117178-2,Species,,,:Manual::
+439,117182-2,Hamelia calycosa,Hamelia calycosa,117182-2,Species,,,:Manual::
+440,752194-1,Hamelia patens,Hamelia patens,752194-1,Species,"""['L-Ephedrine']""",,:Manual:KNApSAcK:
+441,297071-2,Hamelia sanguinea,Hamelia sanguinea,297071-2,Species,,,:Manual::
+442,117219-2,Hamelia xerocarpa,Hamelia xerocarpa,117219-2,Species,,,:Manual::
+443,753022-1,Heinsia crinita,Heinsia crinita,753022-1,Species,,,:Manual::
+444,77154344-1,Hexasepalum scandens,Hexasepalum scandens,77154344-1,Species,,,:Manual::
+445,122675-2,Hillia palmana,Hillia palmana,122675-2,Species,,,:Manual::
+446,122676-2,Hillia panamensis,Hillia panamensis,122676-2,Species,,,:Manual::
+447,753106-1,Hillia tetrandra,Hillia tetrandra,753106-1,Species,,,:Manual::
+448,947182-1,Hillia triflora,Hillia triflora,947182-1,Species,,,:Manual::
+449,753117-1,Himalrandia tetrasperma,Himalrandia tetrasperma,753117-1,Species,,,:Manual::
+450,122717-2,Hintonia latiflora,Hintonia latiflora,122717-2,Species,,,:Manual::
+451,123236-2,Hoffmannia bullata,Hoffmannia bullata,123236-2,Species,,,:Manual::
+452,123240-2,Hoffmannia cercidifolia,Hoffmannia cercidifolia,123240-2,Species,,,:Manual::
+453,975249-1,Hoffmannia congesta,Hoffmannia congesta,975249-1,Species,,,:Manual::
+454,753217-1,Hoffmannia longepetiolata,Hoffmannia longepetiolata,753217-1,Species,,,:Manual::
+455,123289-2,Hoffmannia morii,Hoffmannia morii,123289-2,Species,,,:Manual::
+456,123310-2,Hoffmannia pittieri,Hoffmannia pittieri,123310-2,Species,,,:Manual::
+457,753249-1,Hoffmannia psychotriifolia,Hoffmannia psychotriifolia,753249-1,Species,,,:Manual::
+458,123343-2,Hoffmannia vesciculifera,Hoffmannia vesciculifera,123343-2,Species,,,:Manual::
+459,123345-2,Hoffmannia viridis,Hoffmannia viridis,123345-2,Species,,,:Manual::
+460,753446-1,Hydnophytum formicarum,Hydnophytum formicarum,753446-1,Species,,,:Manual::
+461,753564-1,Hymenodictyon pachyantha,Hymenodictyon pachyantha,753564-1,Species,,,:Manual::
+462,30281446-2,Isertia coccinea,Isertia coccinea,30281446-2,Species,,,:Manual::
+463,753632-1,Isertia haenkeana,Isertia haenkeana,753632-1,Species,"""['Apodihydrocinchonamine']""",,:Manual:KNApSAcK:
+464,753635-1,Isertia hypoleuca,Isertia hypoleuca,753635-1,Species,"""['Dihydroquinamine']""",,:Manual:KNApSAcK:
+465,278892-2,Isertia laevis,Isertia laevis,278892-2,Species,,,:Manual::
+466,753703-1,Ixora amplexicaulis,Ixora amplexicaulis,753703-1,Species,,,:Manual::
+467,315603-2,Ixora brevifolia,Ixora brevifolia,315603-2,Species,,,:Manual::
+468,753834-1,Ixora chinensis,Ixora chinensis,753834-1,Species,,,:Manual::
+469,753844-1,Ixora coccinea,Ixora coccinea,753844-1,Species,,,:Manual::
+470,754326-1,Ixora pavetta,Ixora pavetta,754326-1,Species,,,:Manual::
+471,754544-1,Ixora undulata,Ixora undulata,754544-1,Species,,,:Manual::
+472,131692-2,Joosia panamensis,Joosia panamensis,131692-2,Species,,,:Manual::
+473,943151-1,Keetia multiflora,Keetia multiflora,943151-1,Species,,,:Manual::
+474,754656-1,Khasiaclunea oligocephala,Khasiaclunea oligocephala,754656-1,Species,,,:Manual::
+475,754709-1,Kohautia aspera,Kohautia aspera,754709-1,Species,,,:Manual::
+476,134593-2,Ladenbergia bullata,Ladenbergia bullata,134593-2,Species,,,:Manual::
+477,754828-1,Ladenbergia hexandra,Ladenbergia hexandra,754828-1,Species,,,:Manual::
+478,1215741-2,Ladenbergia macrocarpa,Ladenbergia macrocarpa,1215741-2,Species,,,:Manual::
+479,1106418-2,Ladenbergia oblongifolia,Ladenbergia oblongifolia,1106418-2,Species,,,:Manual::
+480,755323-1,Lerchea bracteata,Lerchea bracteata,755323-1,Species,,,:Manual::
+481,931538-1,Lerchea parviflora,Lerchea parviflora,931538-1,Species,,,:Manual::
+482,755403-1,Ludekia bernardoi,Ludekia bernardoi,755403-1,Species,,,:Manual::
+483,755513-1,Macrocnemum roseum,Macrocnemum roseum,755513-1,Species,,,:Manual::
+484,755646-1,Manettia coccinea,Manettia coccinea,755646-1,Species,,,:Manual::
+485,755756-1,Manettia reclinata,Manettia reclinata,755756-1,Species,,,:Manual::
+486,756020-1,Massularia acuminata,Massularia acuminata,756020-1,Species,,,:Manual::
+487,756200-1,Meyna laxiflora,Meyna laxiflora,756200-1,Species,,,:Manual::
+488,756228-1,Mitracarpus hirtus,Mitracarpus hirtus,756228-1,Species,,,:Manual::
+489,756293-1,Mitragyna diversifolia,Mitragyna diversifolia,756293-1,Species,,,:Manual::
+490,756294-1,Mitragyna hirsuta,Mitragyna hirsuta,756294-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Angustoline', 'Hirsuteine', 'Hirsutine', 'Isomitraphylline', 'Isorhynchophylline', 'Mitrajavine', 'Uncarine C', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isomitraphylline N-oxide']""",,:Manual:KNApSAcK:
+491,756296-1,Mitragyna inermis,Mitragyna inermis,756296-1,Species,"""['Rhynchophylline']""",,:Manual:KNApSAcK:
+492,756298-1,Mitragyna ledermannii,Mitragyna ledermannii,756298-1,Species,,,:Manual::
+493,756300-1,Mitragyna parvifolia,Mitragyna parvifolia,756300-1,Species,"""['Mitraphylline', 'Isomitraphylline', '16,17-Dihydro-17beta-hydroxymitraphylline']""",,:Manual:KNApSAcK:
+494,756302-1,Mitragyna rubrostipulata,Mitragyna rubrostipulata,756302-1,Species,,,:Manual::
+495,756303-1,Mitragyna speciosa,Mitragyna speciosa,756303-1,Species,"""['Isomitraphylline', 'Isorhynchophylline', 'Mitrajavine', 'Speciophylline', 'Mitrafoline', 'Mitragynine', '3-Isoajmalicine', 'Ciliaphylline', 'Corynantheidine', 'Corynoxeine', 'Corynoxine', 'Corynoxine B', 'Isocorynantheidine', 'Isomitrafoline', 'Isopaynantheine', 'Javaphylline', 'Mitragynine oxindole A', 'Mitragynine oxindole B', 'Paynantheine', 'Rhynchociline', 'Speciociliatine', 'Speciofoline', 'Speciogynine', 'Specionoxeine', 'Corynantheidaline', 'Isocorynoxeine', 'Mitragynaline', 'Mitralactonine', 'Mitrasulgynine', '7alpha-Hydroxy-7H-mitragynine', '9-Methoxymitralactonine']""",,:Manual:KNApSAcK:
+496,756304-1,Mitragyna stipulosa,Mitragyna stipulosa,756304-1,Species,,,:Manual::
+497,756305-1,Mitragyna tubulosa,Mitragyna tubulosa,756305-1,Species,,,:Manual::
+498,756356-1,Morinda chrysorhiza,Morinda chrysorhiza,756356-1,Species,,,:Manual::
+499,756419-1,Morinda lucida,Morinda lucida,756419-1,Species,,,:Manual::
+500,756541-1,Mussaenda anisophylla,Mussaenda anisophylla,756541-1,Species,,,:Manual::
+501,756632-1,Mussaenda frondosa,Mussaenda frondosa,756632-1,Species,,,:Manual::
+502,756718-1,Mussaenda macrophylla,Mussaenda macrophylla,756718-1,Species,,,:Manual::
+503,756798-1,Mussaenda roxburghii,Mussaenda roxburghii,756798-1,Species,,,:Manual::
+504,77147262-1,Mycetia faberi,Mycetia faberi,77147262-1,Species,,,:Manual::
+505,756896-1,Mycetia longifolia,Mycetia longifolia,756896-1,Species,,,:Manual::
+506,77147264-1,Mycetia nutans,Mycetia nutans,77147264-1,Species,,,:Manual::
+507,757009-1,Myrmeconauclea strigosa,Myrmeconauclea strigosa,757009-1,Species,,,:Manual::
+508,757089-1,Nauclea diderrichii,Nauclea diderrichii,757089-1,Species,"""['Desoxycordifoline', 'Methyl beta-Carboline-1-carboxylate']""",,:Manual:KNApSAcK:
+509,757144-1,Nauclea latifolia,Nauclea latifolia,757144-1,Species,"""['Strictosamide', '18,19-Dihydroangustine', 'Decarbomethoxy naucl echine']""",,:Manual:KNApSAcK:
+510,77078143-1,Nauclea officinalis,Nauclea officinalis,77078143-1,Species,"""['Vincoline', 'Angustoline', 'Naucleofficine A', 'Naucleofficine B', 'Naucleofficine C', 'Naucleofficine D', 'Naucleofficine E']""",,:Manual:KNApSAcK:
+511,757181-1,Nauclea orientalis,Nauclea orientalis,757181-1,Species,"""['Strictosamide', 'Nauclealine A', 'Nauclealine B']""",,:Manual:KNApSAcK:
+512,757196-1,Nauclea parva,Nauclea parva,757196-1,Species,,,:Manual::
+513,757209-1,Nauclea pobeguinii,Nauclea pobeguinii,757209-1,Species,,,:Manual::
+514,757225-1,Nauclea robinsonii,Nauclea robinsonii,757225-1,Species,,,:Manual::
+515,757259-1,Nauclea subdita,Nauclea subdita,757259-1,Species,,,:Manual::
+516,757268-1,Nauclea tenuiflora,Nauclea tenuiflora,757268-1,Species,,,:Manual::
+517,757302-1,Neanotis hirsuta,Neanotis hirsuta,757302-1,Species,,,185:Manual::
+518,914296-1,Neolamarckia cadamba,Neolamarckia cadamba,914296-1,Species,,,:Manual::
+519,914297-1,Neolamarckia macrophylla,Neolamarckia macrophylla,914297-1,Species,,,:Manual::
+520,757377-1,Neonauclea acuminata,Neonauclea acuminata,757377-1,Species,,,:Manual::
+521,757378-1,Neonauclea angustifolia,Neonauclea angustifolia,757378-1,Species,,,:Manual::
+522,757381-1,Neonauclea bartlingii,Neonauclea bartlingii,757381-1,Species,,,:Manual::
+523,757383-1,Neonauclea brassii,Neonauclea brassii,757383-1,Species,,,:Manual::
+524,757384-1,Neonauclea calycina,Neonauclea calycina,757384-1,Species,,,:Manual::
+525,757387-1,Neonauclea chalmersii,Neonauclea chalmersii,757387-1,Species,,,:Manual::
+526,757388-1,Neonauclea clemensiae,Neonauclea clemensiae,757388-1,Species,,,:Manual::
+527,757390-1,Neonauclea cyclophylla,Neonauclea cyclophylla,757390-1,Species,,,:Manual::
+528,757394-1,Neonauclea excelsa,Neonauclea excelsa,757394-1,Species,,,:Manual::
+529,757396-1,Neonauclea formicaria,Neonauclea formicaria,757396-1,Species,,,:Manual::
+530,946772-1,Neonauclea glabra,Neonauclea glabra,946772-1,Species,,,:Manual::
+531,757405-1,Neonauclea hagenii,Neonauclea hagenii,757405-1,Species,,,:Manual::
+532,757410-1,Neonauclea lanceolata,Neonauclea lanceolata,757410-1,Species,,,:Manual::
+533,955339-1,Neonauclea lanceolata subsp. gracilis,Neonauclea lanceolata,757410-1,Subspecies,,,:Manual::
+534,757411-1,Neonauclea longipedunculata,Neonauclea longipedunculata,757411-1,Species,,,:Manual::
+535,757414-1,Neonauclea media,Neonauclea media,757414-1,Species,,,:Manual::
+536,757425-1,Neonauclea obversifolia,Neonauclea obversifolia,757425-1,Species,,,:Manual::
+537,60459147-2,Neonauclea purpurea,Neonauclea purpurea,60459147-2,Species,,,:Manual::
+538,757436-1,Neonauclea reticulata,Neonauclea reticulata,757436-1,Species,,,:Manual::
+539,757439-1,Neonauclea sessilifolia,Neonauclea sessilifolia,757439-1,Species,,,:Manual::
+540,1096070-2,Notopleura camponutans,Notopleura camponutans,1096070-2,Species,,,:Manual::
+541,757659-1,Ochreinauclea maingayi,Ochreinauclea maingayi,757659-1,Species,,,:Manual::
+542,757942-1,Oldenlandia lancifolia,Oldenlandia lancifolia,757942-1,Species,,,:Manual::
+543,758379-1,Ophiorrhiza blumeana,Ophiorrhiza blumeana,758379-1,Species,"""['Blumeanine', 'Ophiorrhizine-12-carboxylate']""",,:Manual:KNApSAcK:
+544,758383-1,Ophiorrhiza bracteata,Ophiorrhiza bracteata,758383-1,Species,,,:Manual::
+545,758401-1,Ophiorrhiza communis,Ophiorrhiza communis,758401-1,Species,,,:Manual::
+546,758420-1,Ophiorrhiza discolor,Ophiorrhiza discolor,758420-1,Species,,,:Manual::
+547,758438-1,Ophiorrhiza filistipula,Ophiorrhiza filistipula,758438-1,Species,"""['Camptothecin']""",,:Manual:KNApSAcK:
+548,758479-1,Ophiorrhiza japonica,Ophiorrhiza japonica,758479-1,Species,"""['Ophiorine A', 'Ophiorine A methyl ester', 'Ophiorine B', 'Ophiorine B methyl ester']""",,:Manual:KNApSAcK:
+549,758486-1,Ophiorrhiza kunstleri,Ophiorrhiza kunstleri,758486-1,Species,,,:Manual::
+550,50884217-1,Ophiorrhiza kuroiwae,Ophiorrhiza kuroiwae,50884217-1,Species,,,:Manual::
+551,758518-1,Ophiorrhiza marginata,Ophiorrhiza marginata,758518-1,Species,,,:Manual::
+552,758576-1,Ophiorrhiza pumila,Ophiorrhiza pumila,758576-1,Species,"""['Strictosidine', 'Tryptamine', 'Strictosamide', 'Camptothecin']""",,:Manual:KNApSAcK:
+553,758581-1,Ophiorrhiza remotiflora,Ophiorrhiza remotiflora,758581-1,Species,,,:Manual::
+554,758590-1,Ophiorrhiza rosacea,Ophiorrhiza rosacea,758590-1,Species,,,:Manual::
+555,758642-1,Ophiorrhiza teysmannii,Ophiorrhiza teysmannii,758642-1,Species,,,:Manual::
+556,758646-1,Ophiorrhiza tomentosa,Ophiorrhiza tomentosa,758646-1,Species,,,:Manual::
+557,77115588-1,Palicourea acuminata,Palicourea acuminata,77115588-1,Species,"""['Strictosidine', 'Strictosamide']""",,:Manual:KNApSAcK:
+558,180889-2,Palicourea adusta,Palicourea adusta,180889-2,Species,,,:Manual::
+559,758987-1,Palicourea alpina,Palicourea alpina,758987-1,Species,"""['(+)-Calycanthine']""",,:Manual:KNApSAcK:
+560,60473600-2,Palicourea apoda,Palicourea apoda,60473600-2,Species,,,:Manual::
+561,77115589-1,Palicourea axillaris,Palicourea axillaris,77115589-1,Species,,,:Manual::
+562,180914-2,Palicourea bella,Palicourea bella,180914-2,Species,,,:Manual::
+563,77161804-1,Palicourea chiriquiensis,Palicourea chiriquiensis,77161804-1,Species,,,:Manual::
+564,180957-2,Palicourea coriacea,Palicourea coriacea,180957-2,Species,"""['(+)-Calycanthine']""",,:Manual:KNApSAcK:
+565,77161806-1,Palicourea correae,Palicourea correae,77161806-1,Species,,,:Manual::
+566,759061-1,Palicourea crocea,Palicourea crocea,759061-1,Species,"""['Croceaine A', 'Croceaine B']""",,:Manual:KNApSAcK:
+567,759062-1,Palicourea croceoides,Palicourea croceoides,759062-1,Species,,,:Manual::
+568,77161808-1,Palicourea cyanococca,Palicourea cyanococca,77161808-1,Species,"""['Strictosidine']""",,:Manual:KNApSAcK:
+569,77115599-1,Palicourea deflexa,Palicourea deflexa,77115599-1,Species,,,:Manual::
+570,77161810-1,Palicourea dichroa,Palicourea dichroa,77161810-1,Species,,,:Manual::
+571,759077-1,Palicourea didymocarpos,Palicourea didymocarpos,759077-1,Species,,,:Manual::
+572,759083-1,Palicourea domingensis,Palicourea domingensis,759083-1,Species,,,:Manual::
+573,77115600-1,Palicourea elata,Palicourea elata,77115600-1,Species,,,:Manual::
+574,212772-2,Palicourea fastigiata,Palicourea fastigiata,212772-2,Species,,,:Manual::
+575,181002-2,Palicourea garciae,Palicourea garciae,181002-2,Species,,,:Manual::
+576,77115607-1,Palicourea glomerulata,Palicourea glomerulata,77115607-1,Species,,,:Manual::
+577,77161069-1,Palicourea gracilenta,Palicourea gracilenta,77161069-1,Species,,,:Manual::
+578,77115613-1,Palicourea hoffmannseggiana,Palicourea hoffmannseggiana,77115613-1,Species,,,:Manual::
+579,77153570-1,Palicourea jungiana,Palicourea jungiana,77153570-1,Species,,,:Manual::
+580,77161819-1,Palicourea luxurians,Palicourea luxurians,77161819-1,Species,,,:Manual::
+581,77160487-1,Palicourea mamillaris,Palicourea mamillaris,77160487-1,Species,,,:Manual::
+582,759213-1,Palicourea marcgravii,Palicourea marcgravii,759213-1,Species,,,:Manual::
+583,77160489-1,Palicourea minutiflora,Palicourea minutiflora,77160489-1,Species,,,:Manual::
+584,77161081-1,Palicourea muscosa,Palicourea muscosa,77161081-1,Species,,,:Manual::
+585,181134-2,Palicourea ochnoides,Palicourea ochnoides,181134-2,Species,,,:Manual::
+586,181140-2,Palicourea ovalis,Palicourea ovalis,181140-2,Species,,,:Manual::
+587,281971-2,Palicourea padifolia,Palicourea padifolia,281971-2,Species,,,:Manual::
+588,77153572-1,Palicourea pleiocephala,Palicourea pleiocephala,77153572-1,Species,,,:Manual::
+589,77161909-1,Palicourea prunifolia,Palicourea prunifolia,77161909-1,Species,,,:Manual::
+590,759300-1,Palicourea rigida,Palicourea rigida,759300-1,Species,,,:Manual::
+591,181212-2,Palicourea semirasa,Palicourea semirasa,181212-2,Species,,,:Manual::
+592,77153573-1,Palicourea sessilis,Palicourea sessilis,77153573-1,Species,,,:Manual::
+593,77161833-1,Palicourea suerrensis,Palicourea suerrensis,77161833-1,Species,,,:Manual::
+594,77115635-1,Palicourea tomentosa,Palicourea tomentosa,77115635-1,Species,,,:Manual::
+595,759353-1,Palicourea triphylla,Palicourea triphylla,759353-1,Species,,,:Manual::
+596,77160497-1,Palicourea tsakiana,Palicourea tsakiana,77160497-1,Species,"""['Strictosidine', 'Strictosamide']""",,:Manual:KNApSAcK:
+597,77150875-1,Palicourea winkleri,Palicourea winkleri,77150875-1,Species,"""['Strictosidine', 'Strictosamide']""",,:Manual:KNApSAcK:
+598,77161054-1,Palicourea colorata,Palicourea colorata,77161054-1,Species,,,:Manual::
+599,759636-1,Pavetta corymbosa,Pavetta corymbosa,759636-1,Species,,,:Manual::
+600,759639-1,Pavetta crassipes,Pavetta crassipes,759639-1,Species,,,:Manual::
+601,760100-1,Pavetta tomentosa,Pavetta tomentosa,760100-1,Species,,,:Manual::
+602,188109-2,Pentagonia gymnopoda,Pentagonia gymnopoda,188109-2,Species,,,:Manual::
+603,760184-1,Pentagonia macrophylla,Pentagonia macrophylla,760184-1,Species,,,:Manual::
+604,760190-1,Pentagonia pinnatifida,Pentagonia pinnatifida,760190-1,Species,,,:Manual::
+605,760201-1,Pentagonia wendlandii,Pentagonia wendlandii,760201-1,Species,,,:Manual::
+606,760275-1,Pentas lanceolata,Pentas lanceolata,760275-1,Species,,,:Manual::
+607,204802-2,Pogonopus speciosus,Pogonopus speciosus,204802-2,Species,"""['Tubulosine', 'Psychotrine', ""1',2',3',4'-Tetradehydrotubulosine""]""",,:Manual:KNApSAcK:
+608,204805-2,Pogonopus tubulosus,Pogonopus tubulosus,204805-2,Species,"""['Tubulosine']""",,:Manual:KNApSAcK:
+609,208720-2,Posoqueria grandiflora,Posoqueria grandiflora,208720-2,Species,,,:Manual::
+610,1079607-2,Posoqueria latifolia,Posoqueria latifolia,1079607-2,Species,,,:Manual::
+611,212398-2,Psychotria alba,Psychotria alba,212398-2,Species,,,:Manual::
+612,761527-1,Psychotria brachyceras,Psychotria brachyceras,761527-1,Species,"""['Brachycerine']""",,:Manual:KNApSAcK:
+613,212532-2,Psychotria brachypoda,Psychotria brachypoda,212532-2,Species,,,:Manual::
+614,761603-1,Psychotria calocarpa,Psychotria calocarpa,761603-1,Species,,,:Manual::
+615,762210-1,Psychotria henryi,Psychotria henryi,762210-1,Species,,,:Manual::
+616,762388-1,Psychotria laciniata,Psychotria laciniata,762388-1,Species,,,:Manual::
+617,212975-2,Psychotria leiocarpa,Psychotria leiocarpa,212975-2,Species,,,:Manual::
+618,762593-1,Psychotria malayana,Psychotria malayana,762593-1,Species,"""['Hodgkinsine']""",,:Manual:KNApSAcK:
+619,762683-1,Psychotria milnei,Psychotria milnei,762683-1,Species,,,:Manual::
+620,762814-1,Psychotria nuda,Psychotria nuda,762814-1,Species,"""['Strictosamide']""",,:Manual:KNApSAcK:
+621,763024-1,Psychotria pilifera,Psychotria pilifera,763024-1,Species,,,:Manual::
+622,763316-1,Psychotria sarmentosoides,Psychotria sarmentosoides,763316-1,Species,,,:Manual::
+623,213454-2,Psychotria stachyoides,Psychotria stachyoides,213454-2,Species,,,:Manual::
+624,213495-2,Psychotria suterella,Psychotria suterella,213495-2,Species,"""['Strictosamide']""",,:Manual:KNApSAcK:
+625,763751-1,Psychotria viridis,Psychotria viridis,763751-1,Species,"""['Tetrahydroharmine', 'Harmaline', 'Harmine']""",,:Manual:KNApSAcK:
+626,915400-1,Psydrax acutiflorus,Psydrax acutiflorus,915400-1,Species,,,:Manual::
+627,915401-1,Psydrax arnoldianus,Psydrax arnoldianus,915401-1,Species,,,:Manual::
+628,763837-1,Psydrax dicoccos,Psydrax dicoccos,763837-1,Species,,,:Manual::
+629,763958-1,Randia aculeata,Randia aculeata,763958-1,Species,,,:Manual::
+630,77170970-1,Randia aculeata var. aculeata,Randia aculeata,763958-1,Variety,,,:Manual::
+631,975261-1,Randia altiscandens,Randia altiscandens,975261-1,Species,,,:Manual::
+632,1115268-2,Randia armata,Randia armata,1115268-2,Species,,,:Manual::
+633,217030-2,Randia lasiantha,Randia lasiantha,217030-2,Species,,,:Manual::
+634,217854-2,Raritebe palicoureoides subsp. dwyerianum,Raritebe palicoureoides,217852-2,Subspecies,,,:Manual::
+635,764710-1,Rogiera amoena,Rogiera amoena,764710-1,Species,,,:Manual::
+636,222508-2,Rosenbergiodendron formosum,Rosenbergiodendron formosum,222508-2,Species,,,:Manual::
+637,223858-2,Rudgea cornifolia,Rudgea cornifolia,223858-2,Species,,,:Manual::
+638,77168913-1,Rudgea coronata subsp. coronata,Rudgea coronata,765440-1,Subspecies,,,:Manual::
+639,765493-1,Rudgea jasminoides,Rudgea jasminoides,765493-1,Species,,,:Manual::
+640,223984-2,Rudgea recurva,Rudgea recurva,223984-2,Species,,,:Manual::
+641,975269-1,Rustia costaricensis,Rustia costaricensis,975269-1,Species,,,:Manual::
+642,1089673-2,Rustia occidentalis,Rustia occidentalis,1089673-2,Species,,,:Manual::
+643,224977-2,Sabicea panamensis,Sabicea panamensis,224977-2,Species,,,:Manual::
+644,765972-1,Sabicea villosa,Sabicea villosa,765972-1,Species,,,:Manual::
+645,766031-1,Saprosma hainanensis,Saprosma hainanensis,766031-1,Species,,,:Manual::
+646,766055-1,Saprosma ternata,Saprosma ternata,766055-1,Species,,,:Manual::
+647,77111993-1,Schizocalyx cuspidatus,Schizocalyx cuspidatus,77111993-1,Species,,,:Manual::
+648,77111998-1,Schizocalyx veraguensis,Schizocalyx veraguensis,77111998-1,Species,,,:Manual::
+649,229969-2,Schradera rotundata,Schradera rotundata,229969-2,Species,,,:Manual::
+650,766235-1,Schumanniophyton problematicum,Schumanniophyton problematicum,766235-1,Species,,,:Manual::
+651,77209436-1,Simira alba,Simira alba,77209436-1,Species,,,:Manual::
+652,236581-2,Simira maxonii,Simira maxonii,236581-2,Species,,,:Manual::
+653,77116177-1,Simira panamensis,Simira panamensis,77116177-1,Species,,,:Manual::
+654,236598-2,Simira williamsii,Simira williamsii,236598-2,Species,,,:Manual::
+655,766466-1,Sinoadina racemosa,Sinoadina racemosa,766466-1,Species,"""['Strictosamide']""",,:Manual:KNApSAcK:
+656,20010093-1,Solenandra mexicana,Solenandra mexicana,20010093-1,Species,,,:Manual::
+657,240642-2,Sommera donnell-smithii,Sommera donnell-smithii,240642-2,Species,,,:Manual::
+658,317930-2,Spermacoce capitata,Spermacoce capitata,317930-2,Species,,,:Manual::
+659,975271-1,Spermacoce exilis,Spermacoce exilis,975271-1,Species,,,:Manual::
+660,766765-1,Spermacoce hispida,Spermacoce hispida,766765-1,Species,,,:Manual::
+661,766863-1,Spermacoce ocymoides,Spermacoce ocymoides,766863-1,Species,,,:Manual::
+662,319724-2,Spermacoce remota,Spermacoce remota,319724-2,Species,,,:Manual::
+663,767031-1,Spermacoce verticillata,Spermacoce verticillata,767031-1,Species,,,:Manual::
+664,767136-1,Stenostomum resinosum,Stenostomum resinosum,767136-1,Species,,,:Manual::
+665,767328-1,Tamilnadia uliginosa,Tamilnadia uliginosa,767328-1,Species,,,:Manual::
+666,60434903-2,Tarenna asiatica,Tarenna asiatica,60434903-2,Species,,,:Manual::
+667,254985-2,Tocoyena pittieri,Tocoyena pittieri,254985-2,Species,,,:Manual::
+668,768211-1,Uncaria attenuata,Uncaria attenuata,768211-1,Species,"""['Tetrahydroalstonine', 'Mitraphylline', 'Rauniticine', 'Rhynchophylline', 'Isorhynchophylline', 'Speciophylline', '3-Isoajmalicine', 'Isocorynoxeine', '14alpha-Hydroxy-3-isorauniticine', 'Uncarine B']""",,:Manual:KNApSAcK:
+669,768216-1,Uncaria borneensis,Uncaria borneensis,768216-1,Species,"""['Rhynchophylline', 'Isorhynchophylline', 'Isocorynoxeine']""",,:Manual:KNApSAcK:
+670,768220-1,Uncaria callophylla,Uncaria callophylla,768220-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Isogambirine']""",,:Manual:KNApSAcK:
+671,768226-1,Uncaria cordata,Uncaria cordata,768226-1,Species,"""['Rhynchophylline', 'Isorhynchophylline']""",,:Manual:KNApSAcK:
+672,768250-1,Uncaria guianensis,Uncaria guianensis,768250-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Speciophylline', 'Isopteropodine']""",,:Manual:KNApSAcK:
+673,768253-1,Uncaria hirsuta,Uncaria hirsuta,768253-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Uncarine B']""",,:Manual:KNApSAcK:
+674,890709-1,Uncaria lanosa var. glabrata,Uncaria lanosa,768270-1,Variety,,,:Manual::
+675,77171967-1,Uncaria longiflora var. longiflora,Uncaria longiflora,768273-1,Variety,,,:Manual::
+676,768275-1,Uncaria macrophylla,Uncaria macrophylla,768275-1,Species,"""['Rhynchophylline', 'Isorhynchophylline', 'Corynoxine', 'Corynoxine B', 'Dihydrocorynantheine', 'Isorhyncophylline']""",,:Manual:KNApSAcK:
+677,768314-1,Uncaria sinensis,Uncaria sinensis,768314-1,Species,"""['Rhynchophylline', 'Isorhynchophylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isocorynoxeine', 'Isorhyncophylline', '3alpha-Dihydrocadambine', '3beta-Isodihydrocadambine', 'Isoformosanine']""",,:Manual:KNApSAcK:
+678,768322-1,Uncaria tomentosa,Uncaria tomentosa,768322-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Uncarine C', 'Speciophylline', 'Isopteropodine', 'Isomitraphylline N-oxide', '5(S)-5-Carboxystrictosidine']""",,:Manual:KNApSAcK:
+679,768297-1,Uncaria rhynchophylla,Uncaria rhynchophylla,768297-1,Species,"""['Vallesiachotamine', 'Tryptamine', 'Strictosamide', 'Cadambine', 'Melatonin', 'Rhynchophylline', 'Angustoline', 'Hirsuteine', 'Hirsutine', 'Isorhynchophylline', 'Corynoxeine', 'Isocorynoxeine', '5-Hydroxytryptamine', '3alpha-Dihydrocadambine', 'Angustidine', '5-Methoxytryptamine']""",,:Manual:KNApSAcK:
+680,769430-1,Urophyllum arboreum,Urophyllum arboreum,769430-1,Species,,,:Manual::
+681,77169958-1,Vangueria infausta subsp. infausta,Vangueria infausta,769741-1,Subspecies,,,:Manual::
+682,770293-1,Warszewiczia coccinea,Warszewiczia coccinea,770293-1,Species,,,:Manual::
+683,269045-2,Wittmackanthus stanleyanus,Wittmackanthus stanleyanus,269045-2,Species,,,:Manual::
+684,76518-1,Alstonia constricta,Alstonia constricta,76518-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamajine', 'Alstonine', '(-)-Vincamedine', ""(-)-17-O-(3',4',5'-Trimethoxycinnamoyl)vincamajine""]""",,::KNApSAcK:
+685,76520-1,Alstonia coriacea,Alstonia coriacea,76520-1,Species,"""['(-)-Vincamajine']""",,::KNApSAcK:
+686,76527-1,Alstonia deplanchei,Alstonia deplanchei,76527-1,Species,"""['(-)-Vincamajine', '(-)-Vincamedine']""",,::KNApSAcK:
+687,76546-1,Alstonia lanceolifera,Alstonia lanceolifera,76546-1,Species,"""[""(-)-17-O-(3',4',5'-Trimethoxycinnamoyl)vincamajine"", 'Lochnericine']""",,::KNApSAcK:
+688,76548-1,Alstonia legouixiae,Alstonia legouixiae,76548-1,Species,"""['(-)-Vincamajine']""",,::KNApSAcK:
+689,76549-1,Alstonia lenormandii,Alstonia lenormandii,76549-1,Species,"""['11-Methoxyakuammicine', 'Lochnericine', 'Akuammiline', 'Picraline']""",,::KNApSAcK:
+690,76562-1,Alstonia muelleriana,Alstonia muelleriana,76562-1,Species,"""['(+)-Quebrachidine', 'Alstonisine', 'Alstonerine']""",,::KNApSAcK:
+691,76565-1,Alstonia odontophora,Alstonia odontophora,76565-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamajine']""",,::KNApSAcK:
+692,76580-1,Alstonia quaternata,Alstonia quaternata,76580-1,Species,"""['(-)-Vincamajine', 'Quaternine', 'Quaternatine']""",,::KNApSAcK:
+693,76595-1,Alstonia spatulata,Alstonia spatulata,76595-1,Species,"""['Echitamine']""",,::KNApSAcK:
+694,76597-1,Alstonia spectabilis,Alstonia spectabilis,76597-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamajine', 'Echitamine']""",,::KNApSAcK:
+695,76598-1,Alstonia sphaerocapitata,Alstonia sphaerocapitata,76598-1,Species,"""['(+)-Quebrachidine', '(-)-Vincamedine', '(-)-10-Methoxyvincamedine', '(-)-10-Methoxyvincamedine N-oxide']""",,::KNApSAcK:
+696,76604-1,Alstonia vieillardii,Alstonia vieillardii,76604-1,Species,"""['Vincamajine 17-O-veratrate']""",,::KNApSAcK:
+697,30117279-2,Araujia sericifera,Araujia sericifera,30117279-2,Species,"""['Rostratamine']""",,::KNApSAcK:
+698,319076-2,Asclepias syriaca,Asclepias syriaca,319076-2,Species,"""['Nicotine']""",,::KNApSAcK:
+699,21994-2,Aspidosperma limae,Aspidosperma limae,21994-2,Species,"""['Compactinervine', 'Aspidolimidine', 'Limaspermine']""",,::KNApSAcK:
+700,77876-1,Catharanthus lanceus,Catharanthus lanceus,77876-1,Species,"""['Leurosine', 'Cathovaline']""",,::KNApSAcK:
+701,77877-1,Catharanthus longifolius,Catharanthus longifolius,77877-1,Species,"""['Leurosine', 'Antirhine', 'Vindoline', 'Vindolinine']""",,::KNApSAcK:
+702,77878-1,Catharanthus ovalis,Catharanthus ovalis,77878-1,Species,"""['Leurosine', 'Cathovaline', 'Vindoline', 'Vindolinine', '(-)-Venalstonidine', '(-)-Venalstonine', '14-Hydroxycathovaline', '19-Epivindolinine', '19R-Hydroxytabersonine', '19S-Hydroxytabersonine', 'Cathovalinine', 'Deacetylcathovaline', 'Kitraline', 'Kitramine', 'Vindorosine']""",,::KNApSAcK:
+703,77882-1,Catharanthus trichophyllus,Catharanthus trichophyllus,77882-1,Species,"""['Lochnericine', '(-)-Echitoveniline', 'Vindolinine', '19-Epivindolinine', '(+)-Minovincinine', 'Trichophylline']""",,::KNApSAcK:
+704,96460-1,Cynanchum otophyllum,Cynanchum otophyllum,96460-1,Species,"""['Rostratamine']""",,::KNApSAcK:
+705,96692-1,Cynanchum wallichii,Cynanchum wallichii,96692-1,Species,"""['Rostratamine']""",,::KNApSAcK:
+706,78310-1,Diplorhynchus condylocarpon,Diplorhynchus condylocarpon,78310-1,Species,"""['Normacusine B', 'Norfluorocurarine', 'Condylocarpine', 'Stemmadenine']""",,::KNApSAcK:
+707,108063-2,Geissospermum argenteum,Geissospermum argenteum,108063-2,Species,"""['N-Acetylaspidospermidine', 'Aspidocarpine', '(-)-Aspidospermine']""",,::KNApSAcK:
+708,98277-1,Heterostemma brownii,Heterostemma brownii,98277-1,Species,"""['Heteromine D', 'Heteromine E', 'Heteromine F', 'Heteromine G', 'Heteromine H']""",,::KNApSAcK:
+709,79311-1,Holarrhena mitis,Holarrhena mitis,79311-1,Species,"""['Mitiphylline', 'N-Demethylmitiphylline']""",,::KNApSAcK:
+710,79342-1,Hunteria congolana,Hunteria congolana,79342-1,Species,"""['(-)-Eburnamine', '(+)-Eburnamenine', '(-)-Vincadifformine', '(+)-Isoeburnamine', '(-)-Umbellamine']""",,::KNApSAcK:
+711,79454-1,Kibatalia gitingensis,Kibatalia gitingensis,79454-1,Species,"""['Gitingensine', 'Lanitine']""",,::KNApSAcK:
+712,80519-1,Ochrosia lifuana,Ochrosia lifuana,80519-1,Species,"""['Ochrolifuanine A']""",,::KNApSAcK:
+713,81511-1,Rauvolfia bahiensis,Rauvolfia bahiensis,81511-1,Species,"""['Normacusine B', '10-O-Methylsarpagine', 'Picrinine', '(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Purpeline', '(+/-)-Norpurpeline', '(+)-Seredamine', '(+)-12-methoxyaffinisine', '12-Methoxy-Na-methylvellosimine', '12-Methoxy-vellosimine', 'Demethoxypurpeline']""",,::KNApSAcK:
+714,909641-1,Rauvolfia balansae,Rauvolfia balansae,909641-1,Species,"""['(+)-Raucaffrinoline', '(+)-Perakine', '(-)-Vinorine', '(+)-Ajmaline', '19,20-Dihydrovomilenine', 'Vomilenine']""",,::KNApSAcK:
+715,81513-1,Rauvolfia biauriculata,Rauvolfia biauriculata,81513-1,Species,"""['(+)-Perakine', '(+)-Ajmaline', 'Vomilenine']""",,::KNApSAcK:
+716,81519-1,Rauvolfia caffra,Rauvolfia caffra,81519-1,Species,"""['Sarpagine', '(+)-Raucaffrinoline', '(+)-Perakine', '(-)-Vinorine', '(+)-Ajmaline', 'Vomilenine', '17,21-O,O-Diacetylajmaline', '17-O-Acetylajmaline', 'Raucaffricine', 'Raucaffriline']""",,::KNApSAcK:
+717,81520-1,Rauvolfia cambodiana,Rauvolfia cambodiana,81520-1,Species,"""['(+)-Ajmaline']""",,::KNApSAcK:
+718,81531-1,Rauvolfia cubana,Rauvolfia cubana,81531-1,Species,"""['(+)-Ajmaline', 'Deserpidine', '(+)-Sandwicine']""",,::KNApSAcK:
+719,81545-1,Rauvolfia grandiflora,Rauvolfia grandiflora,81545-1,Species,"""['Darcyribeirine']""",,::KNApSAcK:
+720,81565-1,Rauvolfia ligustrina,Rauvolfia ligustrina,81565-1,Species,"""['(+)-Ajmaline']""",,::KNApSAcK:
+721,217921-2,Rauvolfia littoralis,Rauvolfia littoralis,217921-2,Species,"""['(+)-Ajmaline', 'Deserpidine']""",,::KNApSAcK:
+722,81579-1,Rauvolfia mannii,Rauvolfia mannii,81579-1,Species,"""['(-)-Vincamajine', 'Raucaffricine']""",,::KNApSAcK:
+723,81583-1,Rauvolfia media,Rauvolfia media,81583-1,Species,"""['(+)-Mauiensine', '(+)-12-Hydroxymauiensine']""",,::KNApSAcK:
+724,81598-1,Rauvolfia nitida,Rauvolfia nitida,81598-1,Species,"""['(+)-Raucaffrinoline', 'Yohimbine', '(+)-Ajmaline', 'Reserpiline', 'Nortetraphyllicine', 'Rescinnamine', '(+)-Norajmaline', '(+)-17-O-Acetylnortetraphyllicine', 'Rauniticine']""",,::KNApSAcK:
+725,328979-2,Rauvolfia sellowii,Rauvolfia sellowii,328979-2,Species,"""['(+)-Raucaffrinoline', '(+)-Perakine', '(+)-Ajmaline', 'Vomilenine']""",,::KNApSAcK:
+726,81646-1,Rauvolfia semperflorens,Rauvolfia semperflorens,81646-1,Species,"""['(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Sandwicine', '(+)-Mauiensine', 'Nortetraphyllicine', '(+)-Isoajmaline', '(+)-Isosandwicine']""",,::KNApSAcK:
+727,81648-1,Rauvolfia serpentina,Rauvolfia serpentina,81648-1,Species,"""['Strictosidine', '4,21-Dehydrogeissoschizine', 'Sarpagine', 'Tetrahydroalstonine', '(+)-Raucaffrinoline', 'Reserpine', '(+)-Perakine', '(-)-Vinorine', 'Vellosimine', 'Ajmalicine', 'Serpentine', 'Cathenamine', 'Yohimbine', '(+)-Ajmaline', 'Reserpiline', 'Vomilenine', '17-O-Acetylajmaline', 'Raucaffricine', 'Rescinnamine', '(+)-Isoajmaline', 'Papaverine', 'Ajmalimine', '(+)-Sandwicolidine', 'Ajmalinimine', 'Rescinnamidine', '3,4,5,6-Tetradehydroyohimbine', '12-Hydroxyajmaline', 'Acetylnorajmaline', '16-Epivellosimine', 'Polyneuridine aldehyde', 'Norajamaline']""",,::KNApSAcK:
+728,81499-1,Rauvolfia sevenetii,Rauvolfia sevenetii,81499-1,Species,"""['(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Ajmaline', '19,20-Dihydrovomilenine', 'Vomilenine']""",,::KNApSAcK:
+729,81500-1,Rauvolfia spathulata,Rauvolfia spathulata,81500-1,Species,"""['(+)-Raucaffrinoline', '(-)-Vinorine', '(+)-Ajmaline', '19,20-Dihydrovomilenine', 'Vomilenine']""",,::KNApSAcK:
+730,81670-1,Rauvolfia viridis,Rauvolfia viridis,81670-1,Species,"""['(+)-Quebrachidine', '(+)-Ajmaline']""",,::KNApSAcK:
+731,81672-1,Rauvolfia volkensii,Rauvolfia volkensii,81672-1,Species,"""['(+)-Raucaffrinoline', '(+)-Perakine', '(+)-Ajmaline', '17-O-Acetylajmaline', 'Nortetraphyllicine', '17-O-Acetyltetraphyllicine']""",,::KNApSAcK:
+732,82007-1,Tabernaemontana apoda,Tabernaemontana apoda,82007-1,Species,"""['Voacangine', 'Apodine', 'Apodinine', 'Heyneanine', 'Voacangine hydroxyindolenine', 'Voacangine pseudoindoxyl', 'Voacristine', 'Voacristine hydroxyindolenine', 'Montanine', 'Ibogaine hydroxyindolenine', 'Isovoacangine']""",,::KNApSAcK:
+733,248841-2,Tabernaemontana attenuata,Tabernaemontana attenuata,248841-2,Species,"""['Tubotaiwine', 'Voacangine', 'Heyneanine', 'Isovoacangine', 'Coronaridine hydroxyindolenine', '10-Hydroxyheyneanine', '11-Hydroxycoronaridine', '11-Hydroxyheyneanine', '19-Epiheyneanine', 'Conopharyngine', 'Conopharyngine hydroxyindolenine', 'Ibophyllidine']""",,::KNApSAcK:
+734,82013-1,Tabernaemontana aurantiaca,Tabernaemontana aurantiaca,82013-1,Species,"""['Voacangine', 'Voacangine pseudoindoxyl']""",,::KNApSAcK:
+735,82027-1,Tabernaemontana brachyantha,Tabernaemontana brachyantha,82027-1,Species,"""['Normacusine B', 'Voacorine']""",,::KNApSAcK:
+736,82035-1,Tabernaemontana calcarea,Tabernaemontana calcarea,82035-1,Species,"""['(-)-Apparicine', '(-)-Coronaridine', 'Ibogamine', 'Voacangine', 'Dregamine', 'Heyneanine', 'Voacristine', 'Isovoacangine', '11-Hydroxycoronaridine', 'Isovoacristine', '20-Epipandoline', 'Pandine', 'Pandoline', '(20R)-Pseudovincadifformine', '19-Epivoacristine', 'Silicine', '19-epi-Heyneanine']""",,::KNApSAcK:
+737,907601-1,Tabernaemontana capuronii,Tabernaemontana capuronii,907601-1,Species,"""['14,15-Anhydrocapuronidine', 'Capuronidine', 'Capuronine', 'Capuvosine']""",,::KNApSAcK:
+738,82046-1,Tabernaemontana cerifera,Tabernaemontana cerifera,82046-1,Species,"""['(-)-Apparicine', 'Voacangine', 'Voacangine hydroxyindolenine']""",,::KNApSAcK:
+739,82059-1,Tabernaemontana coffeoides,Tabernaemontana coffeoides,82059-1,Species,"""['Normacusine B', 'Stemmadenine', 'Lochnericine', 'Vallesamine', '(-)-Hazuntine', '3-Oxotabersonine', 'Isoreserpiline', '(-)-Apparicine', 'Polyneuridine', 'Voacangine', 'Pericyclivine', 'Dregamine', 'Tabernaemontanine', 'Reserpiline', 'Heyneanine', 'Isovoacangine', '19-Epiheyneanine', 'Silicine', '14,15-Dihydroxyvincadifformine', 'Voaphylline', 'Voacarpine', '(19R)-19-Hydroxytabernaelegantine A', ""(20'S)-19',20'-Dihydrotabernamine"", '20-Episilicine', '3,14-Dihydroellipticine', '6-Oxo-16-episilicine', '6-Oxomethuenine', '6-Oxosilicine', 'Hazuntinine', 'Isomethuenine', 'Methuenine', 'Tabernaelegantine A', '(+)-Tetraphyllicine', 'Vincanidine']""",,::KNApSAcK:
+740,82065-1,Tabernaemontana contorta,Tabernaemontana contorta,82065-1,Species,"""['Voacangine', 'Voacristine', 'Conopharyngine']""",,::KNApSAcK:
+741,82072-1,Tabernaemontana crassa,Tabernaemontana crassa,82072-1,Species,"""['Akuammiline', 'Perivine', 'Heyneanine', 'Voacristine', 'Isovoacangine', 'Conopharyngine', 'Conopharyngine hydroxyindolenine', 'Ibogaine', '3-Oxocoronaridine', '19-Hydroxyconopharyngine', '5-Oxocoronaridine', 'Conoduramine', 'Crassanine']""",,::KNApSAcK:
+742,913394-1,Tabernaemontana debrayi,Tabernaemontana debrayi,913394-1,Species,"""['Dregamine', 'Pandine', 'Pandoline']""",,::KNApSAcK:
+743,60466169-2,Tabernaemontana dichotoma,Tabernaemontana dichotoma,60466169-2,Species,"""['Stemmadenine', 'Vallesamine', '(-)-Apparicine', 'Voacangine', 'Perivine', 'Vobasine', 'Heyneanine', 'Voacristine hydroxyindolenine', '19-Epiheyneanine', '19-Epivoacristine', 'Voaphylline', 'Isomethuenine', '12-Methoxyvoaphylline', 'Voaphylline hydroxyindolenine', 'Dichomine', '19-Epiiboxygaine', 'O-Acetylvallesamine']""",,::KNApSAcK:
+744,82107-1,Tabernaemontana eglandulosa,Tabernaemontana eglandulosa,82107-1,Species,"""['Norfluorocurarine', 'Voacangine pseudoindoxyl', 'Voacristine', 'Isovoacangine', '11-Hydroxycoronaridine', 'Conopharyngine', 'Dichomine', '(16R)-Descarbomethoxytacamine', '(16S)-Descarbomethoxytacamine', '(19S)-Hydroxytacamine', '16,17-Anhydrotacamine', '16-Epitacamine', 'Tacamine', 'Tacamonine', '(+)-20R-Pseudovincadifformine', '20S-Pseudovincadifformine', '(20R)-15,20-Dihydrocleavamine', '(20S)-Hydroxy-1,2-dehydropseudoaspidospermidine', '(20S)-15,20-Dihydrocleavamine', '17-Hydroxytacamonine', '3-Hydroxycoronaridine']""",,::KNApSAcK:
+745,82121-1,Tabernaemontana flavicans,Tabernaemontana flavicans,82121-1,Species,"""['Ibophyllidine N-oxide']""",,::KNApSAcK:
+746,82129-1,Tabernaemontana glandulosa,Tabernaemontana glandulosa,82129-1,Species,"""['12-Demethoxytabernulosine']""",,::KNApSAcK:
+747,82154-1,Tabernaemontana humblotii,Tabernaemontana humblotii,82154-1,Species,"""['Tubotaiwine', '(+)-14,15-Dehydro-16-epivincamine', '(-)-Apparicine', 'Voacangine', 'Voacristine', 'Ibogaline', '19-Epiiboxygaine', 'Iboluteine']""",,::KNApSAcK:
+748,285810-2,Tabernaemontana litoralis,Tabernaemontana litoralis,285810-2,Species,"""['Strictosidine', 'Tabersonine', '(-)-Coronaridine', 'Heyneanine']""",,::KNApSAcK:
+749,248876-2,Tabernaemontana longipes,Tabernaemontana longipes,248876-2,Species,"""['Voacangine']""",,::KNApSAcK:
+750,82203-1,Tabernaemontana macrocarpa,Tabernaemontana macrocarpa,82203-1,Species,"""['Voacangine', 'Voacangine hydroxyindolenine', 'Voaphylline']""",,::KNApSAcK:
+751,82224-1,Tabernaemontana mocquerysi,Tabernaemontana mocquerysi,82224-1,Species,"""['Tubotaiwine', 'Voacangine', 'Heyneanine', 'Voacristine', '19-Epiheyneanine', '19-Epivoacristine', 'Methuenine', '(20R)-15,20-Dihydrocleavamine', '(20S)-15,20-Dihydrocleavamine', 'Ervitsine']""",,::KNApSAcK:
+752,20010230-1,Tabernaemontana odoratissima,Tabernaemontana odoratissima,20010230-1,Species,"""['Vobasine', 'Gabunine']""",,::KNApSAcK:
+753,248887-2,Tabernaemontana oppositifolia,Tabernaemontana oppositifolia,248887-2,Species,"""['(-)-Coronaridine', 'Voacamine']""",,::KNApSAcK:
+754,82282-1,Tabernaemontana penduliflora,Tabernaemontana penduliflora,82282-1,Species,"""['(-)-Coronaridine', 'Voacangine', 'Conopharyngine']""",,::KNApSAcK:
+755,82297-1,Tabernaemontana psorocarpa,Tabernaemontana psorocarpa,82297-1,Species,"""['Tetrahydroalstonine', 'Vallesiachotamine', 'Voacangine', '14,15-Dehydro-12-methoxyvincamine', '16-Epiisositsirikine', 'Isovallesiachotamine']""",,::KNApSAcK:
+756,82313-1,Tabernaemontana retusa,Tabernaemontana retusa,82313-1,Species,"""['Voacangine', 'Heyneanine', 'Voacristine', 'Coronaridine hydroxyindolenine', '3-Oxovoacangine', 'Voaphylline', 'Pachysiphine']""",,::KNApSAcK:
+757,82336-1,Tabernaemontana sphaerocarpa,Tabernaemontana sphaerocarpa,82336-1,Species,"""['Dregamine', 'Tabernaemontanine']""",,::KNApSAcK:
+758,82371-1,Tabernaemontana undulata,Tabernaemontana undulata,82371-1,Species,"""['(+)-Quebrachidine', 'Voacangine', '19-Epiheyneanine', 'Voaphylline']""",,::KNApSAcK:
+759,82683-1,Vinca difformis,Vinca difformis,82683-1,Species,"""['(-)-Vincamajine', 'Normacusine B', '(-)-Vincamedine', '(+)-Vincadifformine']""",,::KNApSAcK:
+760,58723-2,Cinchona officinalis,Cinchona officinalis,58723-2,Species,"""['Strictosidine', 'Cinchonidine', 'Hydroquinidine', 'Quinine', 'Quinidine', 'Cinchonine']""",,::KNApSAcK:
+761,747109-1,Coffea eugenioides,Coffea eugenioides,747109-1,Species,"""['Caffeine']""",,::KNApSAcK:
+762,747169-1,Coffea liberica,Coffea liberica,747169-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine', 'Theacrine', 'Methylliberine', '1,3,7-Trimethyluric acid', 'Liberine']""",,::KNApSAcK:
+763,747242-1,Coffea racemosa,Coffea racemosa,747242-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine']""",,::KNApSAcK:
+764,747254-1,Coffea salvatrix,Coffea salvatrix,747254-1,Species,"""['Adenine', 'Caffeine', 'Theophylline', 'Xanthosine', '7-Methylxanthine', ""Xanthosine 5'-monophosphate"", '7-Methylxanthosine', 'Paraxanthine', '3-Methylxanthine', 'Theobromine']""",,::KNApSAcK:
+765,755237-1,Leptactina densiflora,Leptactina densiflora,755237-1,Species,"""['Tetrahydroharmine']""",,::KNApSAcK:
+766,756301-1,Mitragyna rotundifolia,Mitragyna rotundifolia,756301-1,Species,"""['Rhynchophylline', 'Mitrafoline']""",,::KNApSAcK:
+767,756359-1,Morinda citrifolia,Morinda citrifolia,756359-1,Species,"""['Cytidine']""",,::KNApSAcK:
+768,758527-1,Ophiorrhiza mungos,Ophiorrhiza mungos,758527-1,Species,"""['Camptothecin']""",,::KNApSAcK:
+769,758602-1,Ophiorrhiza rugosa,Ophiorrhiza rugosa,758602-1,Species,"""['Strictosidine', 'Camptothecin']""",,::KNApSAcK:
+770,922428-1,Ophiorrhiza rugosa var. prostrata,Ophiorrhiza rugosa,758602-1,Variety,"""['Strictosidine', 'Camptothecin']""",,::KNApSAcK:
+771,761435-1,Psychotria bahiensis,Psychotria bahiensis,761435-1,Species,"""['Strictosamide', '5alpha-Carboxystrictosidine', 'Isovallesiachotamine', 'Angustine']""",,::KNApSAcK:
+772,236592-2,Simira rubra,Simira rubra,236592-2,Species,"""['Harmine']""",,::KNApSAcK:
+773,767775-1,Timonius kaniensis,Timonius kaniensis,767775-1,Species,"""['Dihydrocupreine']""",,::KNApSAcK:
+774,768203-1,Uncaria acida,Uncaria acida,768203-1,Species,"""['Rhynchophylline', 'Isorhynchophylline']""",,::KNApSAcK:
+775,768207-1,Uncaria africana,Uncaria africana,768207-1,Species,"""['Ajmalicine', 'Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline']""",,::KNApSAcK:
+776,768231-1,Uncaria elliptica,Uncaria elliptica,768231-1,Species,"""['Tetrahydroalstonine', '19-Epiajmalicine', 'Ajmalicine', 'Mitraphylline', 'Rauniticine', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', '3-Isoajmalicine', 'Uncarine B', '14beta-Hydroxy-3-isorauniticine', '19-Epi-3-isoajmalicine', '3-Isorauniticine', '3-Isorauniticine pseudoindoxyl', 'Akuammigine pseudoindoxyl', 'Rauniticine oxindole A', 'Rauniticine pseudoindoxyl', 'Tetrahydroalstonine N-oxide', 'Uncarine A']""",,::KNApSAcK:
+777,60458896-2,Uncaria gambir,Uncaria gambir,60458896-2,Species,"""['Mitraphylline', 'Uncarine B', 'Roxburghine B']""",,::KNApSAcK:
+778,768254-1,Uncaria homomalla,Uncaria homomalla,768254-1,Species,"""['Mitraphylline', 'Isomitraphylline', 'Uncarine C', 'Speciophylline', 'Isopteropodine', 'Uncarine F']""",,::KNApSAcK:
+779,768268-1,Uncaria laevigata,Uncaria laevigata,768268-1,Species,"""['Mitraphylline', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine B']""",,::KNApSAcK:
+780,768269-1,Uncaria lancifolia,Uncaria lancifolia,768269-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline']""",,::KNApSAcK:
+781,768270-1,Uncaria lanosa,Uncaria lanosa,768270-1,Species,"""['Mitraphylline', 'Rauniticine', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isocorynoxeine']""",,::KNApSAcK:
+782,768273-1,Uncaria longiflora,Uncaria longiflora,768273-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Isocorynoxeine']""",,::KNApSAcK:
+783,768281-1,Uncaria orientalis,Uncaria orientalis,768281-1,Species,"""['Ajmalicine', 'Mitraphylline', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F', 'Uncarine B']""",,::KNApSAcK:
+784,768303-1,Uncaria scandens,Uncaria scandens,768303-1,Species,"""['Mitraphylline', 'Isomitraphylline', 'Speciophylline', 'Isopteropodine', 'Uncarine F']""",,::KNApSAcK:
+785,768311-1,Uncaria sessilifructus,Uncaria sessilifructus,768311-1,Species,"""['Mitraphylline', 'Rhynchophylline', 'Isomitraphylline', 'Isorhynchophylline', 'Uncarine F', 'Uncarine B']""",,::KNApSAcK:
