@@ -9,8 +9,6 @@ from pkg_resources import resource_filename
 
 _inputs_path = resource_filename(__name__, 'inputs')
 
-
-
 trait_parsing_output_path = resource_filename(__name__, 'outputs')
 if not os.path.isdir(_inputs_path):
     os.mkdir(_inputs_path)
@@ -44,6 +42,8 @@ NEW_HEADINGS = [
 ]
 ORDER_STANDARDISED_CSV = os.path.join(trait_parsing_output_path, "standardised_order.csv")
 ACCEPTED_NAME_COLUMN = "Accepted_Name"
+
+
 class Family:
     # xlsx files are saved as csv files first
     def __init__(self, name, tag):
