@@ -1,4 +1,5 @@
 import os
+from typing import List
 
 import pandas as pd
 from pkg_resources import resource_filename
@@ -105,7 +106,7 @@ def get_world_bank_tdwg_codes():
     return parsed_codes
 
 
-def plot_countries(malarial_region_codes):
+def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     import matplotlib.pyplot as plt
     import cartopy.crs as ccrs
     import cartopy.feature as cfeature
@@ -119,17 +120,19 @@ def plot_countries(malarial_region_codes):
     plt.figure(figsize=(40, 25))
     plt.xlim(-210, 210)
     plt.ylim(-70, 90)
-    plt.title('Historical Malarial Regions', fontsize=40)
+    plt.xticks(fontsize=30)
+    plt.yticks(fontsize=30)
+    plt.title(title, fontsize=40)
     ax = plt.axes(projection=ccrs.PlateCarree())
     ax.coastlines(resolution='10m')
     ax.add_feature(cfeature.BORDERS, linewidth=5)
     for country in tdwg3_shp.records():
         tdwg_code = country.attributes['LEVEL3_COD']
-        if tdwg_code in malarial_region_codes:
+        if tdwg_code in tdwg3_region_codes:
 
             # print(country.attributes['name_long'], next(earth_colors))
             ax.add_geometries([country.geometry], ccrs.PlateCarree(),
-                              facecolor='red',
+                              facecolor='orange',
                               label=tdwg_code)
 
             x = country.geometry.centroid.x
@@ -144,10 +147,13 @@ def plot_countries(malarial_region_codes):
                               label=tdwg_code)
 
     all_map_isos = [country.attributes['LEVEL3_COD'] for country in tdwg3_shp.records()]
-    missed_names = [x for x in malarial_region_codes if x not in all_map_isos]
+    missed_names = [x for x in tdwg3_region_codes if x not in all_map_isos]
     print(f'iso codes not plotted on map: {missed_names}')
     # plt.show()
-    plt.savefig(os.path.join(_output_path, 'malarial_countries.png'), dpi=300)
+    plt.tight_layout()
+    # change the fontsize
+
+    plt.savefig(output_path, dpi=50)
 
 
 def get_tdwg3_codes():
@@ -178,4 +184,4 @@ def get_tdwg3_codes():
 if __name__ == '__main__':
     # print_world_bank_countries()
     codes = get_tdwg3_codes()
-    plot_countries(codes)
+    plot_countries(codes, 'Historical Malarial Regions', os.path.join(_output_path, 'malarial_countries.png'))
