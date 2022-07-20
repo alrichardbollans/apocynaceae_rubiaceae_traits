@@ -112,6 +112,7 @@ def create_order_csv(fams):
 
     duplicateRows = accepted_order[accepted_order.duplicated([ACCEPTED_NAME_COLUMN])]
     if len(duplicateRows.index) > 0:
+        print(duplicateRows)
         raise ValueError('Repeated accepted names (likely from use of synonyms in names). Fix before continuing.')
 
     print(accepted_order.columns)

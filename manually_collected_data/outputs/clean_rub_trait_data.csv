@@ -51,8 +51,9 @@ Cephalanthus natalensis Oliv.,,Cephalanthus,natalensis Oliv.,Yes,39,"Detected (T
 Cephalanthus occidentalis L.,,Cephalanthus,occidentalis L.,Yes,37/38,"Detected (TLC & GLC & UV & MS) L [38] Isolated, R [37]",MIA; ,monoterpenoid; indole; indolizidine,,,,,,,,,,,,,,,Rubiaceae
 Cephalanthus salicifolius Humb. & Bonpl.,,Cephalanthus,salicifolius Humb. & Bonpl.,Yes,39,"Detected (TLC), L",,,,,,,,,,,,,,,,,Rubiaceae
 Cephalanthus tetrandra (Roxb.) Ridsdale & Bakh. f.,,Cephalanthus,tetrandra (Roxb.) Ridsdale & Bakh. f.,Yes,39,"Detected (TLC & GC & MS), L",,,,,,,,,,,,,,,,,Rubiaceae
-Chassalia curviflora (Wall.) Thwaites,spp. listed (2/108),Chassalia,curviflora (Wall.) Thwaites,Yes,40,"Isolated, U",indole,pyrroloindole,,,,,,,,,,,,,,,Rubiaceae
+Chassalia curviflora (Wall.) Thwaites,spp. listed (3/108),Chassalia,curviflora (Wall.) Thwaites,Yes,40,"Isolated, U",indole,pyrroloindole,,,,,,,,,,,,,,,Rubiaceae
 Chassalia kolly (Schumach.) Hepper,,Chassalia,kolly (Schumach.) Hepper,Yes,41,"Detected (phytochemical screening), L",,,,,,,,,,,,,,,,,Rubiaceae
+Chassalia umbraticola Vatke,,Chassalia,umbraticola Vatke,,,,,,,Yes,205,,,,,,,,,,,,Rubiaceae
 Chimarrhis cymosa Jacq.,spp. listed (2/15),Chimarrhis,cymosa Jacq.,Yes,43,"Isolated, L",MIA; ,monoterpenoid; indole,,,,,,,,,,,,,,,Rubiaceae
 Chimarrhis parviflora Standl.,,Chimarrhis,parviflora Standl.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Chimarrhis turbinata DC.,,Chimarrhis,turbinata DC.,Yes,42,"Isolated, L",MIA; ,monoterpenoid; indole; beta-carboline,,,,,,,,,,,,,,,Rubiaceae
@@ -61,16 +62,16 @@ Chiococca belizensis Lundell,,Chiococca,belizensis Lundell,Yes,68,"Not detected 
 Chiococca phaenostemon Schltdl.,,Chiococca,phaenostemon Schltdl.,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Chione venosa (Sw.) Urb.,All spp. listed (1/1),Chione,venosa (Sw.) Urb.,Yes,202,,azine,,,,,,,,,,,,,,,,Rubiaceae
 Ciliosemina pedunculata (H. Karst.) Antonelli,spp. listed (1/2),Ciliosemina,pedunculata (H. Karst.) Antonelli,Yes,102,"Isolated, U",indole; quinoline; ,quinuclidine; quinoline; indole,,Yes,18,,,Yes,Active,Active,Yes,"IC50 < 10 μg/mL (EtOH C, 3D7)",18,,,,Rubiaceae
-Cinchona calisaya Wedd.,spp. listed (3/24),Cinchona,calisaya Wedd.,Yes,102,"Isolated, U",quinoline,quinuclidine; quinoline,,Yes,14/65,Yes,14.0,,,,,,,,,,Rubiaceae
+Cinchona calisaya Wedd.,spp. listed (3/24),Cinchona,calisaya Wedd.,Yes,102,"Isolated, U",quinoline,quinuclidine; quinoline,,Yes,14/65,Yes,14,,,,,,,,,,Rubiaceae
 Cinchona officinalis L.,,Cinchona,officinalis L.,,,,,,,Yes,65/ 76,,,,,,,,,Compounds tested,,,Rubiaceae
-Cinchona pubescens Vahl,,Cinchona,pubescens Vahl,Yes,68,"Detected (Dragendorff), L",,,,Yes,65/181,Yes,181.0,Yes,Active,Active,Yes,"IC50 < 10 μg/mL (Petr. Ether, DCM, EtOAc, MeOH B, 3D7 & Dd2)",191,,181/182,PubMed Central,Rubiaceae
+Cinchona pubescens Vahl,,Cinchona,pubescens Vahl,Yes,68,"Detected (Dragendorff), L",,,,Yes,65/181,Yes,181,Yes,Active,Active,Yes,"IC50 < 10 μg/mL (Petr. Ether, DCM, EtOAc, MeOH B, 3D7 & Dd2)",191,,181/182,PubMed Central,Rubiaceae
 Coccocypselum guianense (Aubl.) K. Schum.,spp. listed (4/22),Coccocypselum,guianense (Aubl.) K. Schum.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Coccocypselum herbaceum P. Browne ex Aubl.,,Coccocypselum,herbaceum P. Browne ex Aubl.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Coccocypselum hirsutum Bartl. ex DC.,,Coccocypselum,hirsutum Bartl. ex DC.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Coccocypselum hispidulum (Standl.) Standl.,,Coccocypselum,hispidulum (Standl.) Standl.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
-Coffea arabica L.,spp. listed (6/124),Coffea,arabica L.,Yes,47,"Isolated, Fr",purine,purine,,,,Yes,14.0,Yes,,Inactive,Yes,"39.7  ± 12.4 % Inhibition at 10 μg/mL (EtOAc L, FcB1)",45,,,,Rubiaceae
+Coffea arabica L.,spp. listed (6/124),Coffea,arabica L.,Yes,47,"Isolated, Fr",purine,purine,,,,Yes,14,Yes,,Inactive,Yes,"39.7  ± 12.4 % Inhibition at 10 μg/mL (EtOAc L, FcB1)",45,,,,Rubiaceae
 Coffea benghalensis B. Heyne ex Roth,,Coffea,benghalensis B. Heyne ex Roth,Yes,46,"Isolated, L",purine,purine,,,,,,,,,,,,,,,Rubiaceae
-Coffea canephora Pierre ex A. Froehner,,Coffea,canephora Pierre ex A. Froehner,Yes,48,"Isolated, bean",indole,pyrroloindole,,,,,,,,,,,,,,,Rubiaceae
+Coffea canephora Pierre ex A. Froehner,,Coffea,canephora Pierre ex A. Froehner,Yes,48,"Isolated, bean",indole,pyrroloindole,,Yes,203,,,,,,,,,,,,Rubiaceae
 Coffea kianjavatensis J.-F. Leroy,,Coffea,kianjavatensis J.-F. Leroy,Yes,49,"Detected (MS & UV & NMR & FTIR), bean",,,,,,,,,,,,,,,,,Rubiaceae
 Coffea liberica var. dewevrei (De. Wild. & T. Durand) Lebrun,,Coffea,liberica var. dewevrei (De. Wild. & T. Durand) Lebrun,Yes,50,"Detected, L & Fr",,,,,,,,,,,,,,,,,Rubiaceae
 Coffea mauritiana Lam.,,Coffea,mauritiana Lam.,,,,,,,,,,,Yes,Weak,Weak,Yes,"IC50 = 37.63 ± 0.7 μg/mL (EtOAc R, 3D7)",17,,,,Rubiaceae
@@ -82,7 +83,7 @@ Corynanthe pachyceras K. Schum.,,Corynanthe,pachyceras K. Schum.,Yes,52,"Isolate
 Cosmibuena grandiflora (Ruiz & Pav.) Rusby,spp. listed (2/4),Cosmibuena,grandiflora (Ruiz & Pav.) Rusby,Yes,68,"Detected (Dragendorff), L & Fl",,,,,,,,,,,,,,,,,Rubiaceae
 Cosmibuena valerii (Standl.) C. M. Taylor,,Cosmibuena,valerii (Standl.) C. M. Taylor,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Coussarea suaveolens (Duchass. ex Griseb.) C. M. Taylor,spp. listed (1/127),Coussarea,suaveolens (Duchass. ex Griseb.) C. M. Taylor,,,,,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
-Coutarea hexandra (Jacq.) K. Schum,spp. listed (1/4),Coutarea,hexandra (Jacq.) K. Schum,Yes,68,"Detected (Dragendorff), Fl",,,,Yes,14,Yes,14.0,,,,,,,An in vitro APM study has been performed on coutarea latiflora but I did not have access,,,Rubiaceae
+Coutarea hexandra (Jacq.) K. Schum,spp. listed (1/4),Coutarea,hexandra (Jacq.) K. Schum,Yes,68,"Detected (Dragendorff), Fl",,,,Yes,14,Yes,14,,,,,,,An in vitro APM study has been performed on coutarea latiflora but I did not have access,,,Rubiaceae
 Craterispermum laurinum (Poir.) Benth.,spp. listed (1/28),Craterispermum,laurinum (Poir.) Benth.,Yes,57,"Detected (Phytochemical screening), RB & SB",,,,Yes,56/62,,,,,,,,,,,,Rubiaceae
 Crossopteryx febrifuga (Afzel. ex G. Don) Benth.,All spp. listed (1/1),Crossopteryx,febrifuga (Afzel. ex G. Don) Benth.,Yes,59,"Detected (refers to alkaloidal extract), U",,,,Yes,59/62/135,,,Yes,Active,Active [59],Yes [59],"IC50 > 64 μg/mL (80% MeOH L, Ghanaian CQR) [30]. 4 < IC50 < 10 μg/mL (crude alkaloidal, W2) [59]",30/59,,,,Rubiaceae
 Cuviera longiflora Hiern,spp. listed (1/18),Cuviera,longiflora Hiern,,,,,,,,,,,Yes,Weak,,,"IC50 = 13.91 - 20.24 μg/mL (DCM:MeOH L, 3D7 & DD2)",182,,182,PubMed Central,Rubiaceae
@@ -112,12 +113,12 @@ Eumachia rostrata (Blume) I. M. Turner,,Eumachia,rostrata (Blume) I. M. Turner,Y
 "Eumachia straminea (Hutch.) Barrabé, C.M.Taylor & Razafim.",,Eumachia,"straminea (Hutch.) Barrabé, C.M.Taylor & Razafim.",Yes,72,"Not detected (U), U",,,,,,,,,,,,,,,,,Rubiaceae
 Exallage auricularia (L.) Bremek.,spp. listed (2/22),Exallage,auricularia (L.) Bremek.,Yes,99,"Isolated, Wp",bisindole,,,,,,,,,,,,,,,,Rubiaceae
 Exallage chrysotricha (Palib.) Neupane & N. Wikstr.,,Exallage,chrysotricha (Palib.) Neupane & N. Wikstr.,Yes,101,"Isolated, Wp",indole,beta-carboline,,,,,,,,,,,,,,,Rubiaceae
-Exostema caribaeum (Jacq.) Schult.,spp. listed (1/11),Exostema,caribaeum (Jacq.) Schult.,,,,,,,Yes,74,Yes,74.0,,Active,,Yes,IC50 = 3.2 ± 3.1 μg/mL (),,Did not have access to a planta medica study on in vitro antimalarial activity of coutarea latiflora and exostema caribaeum,,,Rubiaceae
-Fadogia cienkowskii Schweinf.,spp. listed (1/40),Fadogia,cienkowskii Schweinf.,Yes,75,"Detected (phytochemical screening), L",,,,Yes,75,Yes,75.0,Yes,,Active,Yes,Max growth inhibition of 93.44% of  P. berhei (in mice) at 400 mg/kg,75,,,,Rubiaceae
-Fadogiella stigmatoloba (K. Schum.) Robyns,spp. listed (1/3),Fadogiella,stigmatoloba (K. Schum.) Robyns,,,,,,,Yes,76,Yes,76.0,,,,,,,,,,Rubiaceae
+Exostema caribaeum (Jacq.) Schult.,spp. listed (1/11),Exostema,caribaeum (Jacq.) Schult.,,,,,,,Yes,74,Yes,74,,Active,,Yes,IC50 = 3.2 ± 3.1 μg/mL (),,Did not have access to a planta medica study on in vitro antimalarial activity of coutarea latiflora and exostema caribaeum,,,Rubiaceae
+Fadogia cienkowskii Schweinf.,spp. listed (1/40),Fadogia,cienkowskii Schweinf.,Yes,75,"Detected (phytochemical screening), L",,,,Yes,75,Yes,75,Yes,,Active,Yes,Max growth inhibition of 93.44% of  P. berhei (in mice) at 400 mg/kg,75,,,,Rubiaceae
+Fadogiella stigmatoloba (K. Schum.) Robyns,spp. listed (1/3),Fadogiella,stigmatoloba (K. Schum.) Robyns,,,,,,,Yes,76,Yes,76,,,,,,,,,,Rubiaceae
 Faramea occidentalis (L.) A. Rich.,spp. listed (1/215),Faramea,occidentalis (L.) A. Rich.,Yes,77,"Detected (phytochemical screening), R & S & L",,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
 Feretia apodanthera Delile,spp. listed (1/3),Feretia,apodanthera Delile,Yes,78,"Detected (refers to alkaloidal extract), SB",,,,Yes,25/135,,,Yes,Active,Active,Yes,"IC50 = 6.07 μg/mL (DCM L, K1)",186,,,,Rubiaceae
-Gaertnera phanerophlebia,spp. listed (1/89),Gaertnera,phanerophlebia,,,,,,,,,Yes,65.0,,,,,,,,,,Rubiaceae
+Gaertnera phanerophlebia,spp. listed (1/89),Gaertnera,phanerophlebia,,,,,,,,,Yes,65,,,,,,,,,,Rubiaceae
 Galianthe ramosa E. L. Cabral.,spp. listed (2/52),Galianthe,ramosa E. L. Cabral.,Yes,79,"Isolated, A",indole,beta-carboline,,,,,,,,,,,,,,,Rubiaceae
 Galianthe thalictroides (K. Schum.) E. L. Cabral,,Galianthe,thalictroides (K. Schum.) E. L. Cabral,Yes,80,"Isolated, R",indole,beta-carboline,,,,,,,,,,,,,,,Rubiaceae
 Galiniera saxifraga (Hochst.) Bridson,spp. listed (1/2),Galiniera,saxifraga (Hochst.) Bridson,Yes,81,"Detected (phytochemical screening), U",,,,,,,,,,,,,,,,,Rubiaceae
@@ -130,6 +131,7 @@ Gardenia sokotensis Hutch.,,Gardenia,sokotensis Hutch.,,,,,,,Yes,63/135,,,Yes,Ac
 Gardenia ternifolia Schumach. & Thonn.,,Gardenia,ternifolia Schumach. & Thonn.,,,,,,,Yes,62,,,Yes,Active,Active,Yes,"IC50 = 1.07 & 0.94 μg/mL (Acetone surface secretion of leaves,W2 & D6) ",187,,,,Rubiaceae
 Gardenia ternifolia subsp. jovis-tonantis (Welw.) Verdc.,,Gardenia,ternifolia subsp. jovis-tonantis (Welw.) Verdc.,,,,,,,Yes,86,,,Yes,Active,Active,Yes,"IC50 = 2.55 & 1.65 μg/mL (MeOH R, K1 & NF54)",86,,,,Rubiaceae
 Gardenia thunbergia Thunb.,,Gardenia,thunbergia Thunb.,,,,,,,Yes,87,,,Yes,,Active,Yes,">80% inhibition with 50  μg/mL (MeOH L, 3D7)",83,,,,Rubiaceae
+Gardenia erubescens Stapf & Hutch.,,Gardenia,erubescens Stapf & Hutch.,,,,,,,Yes,202,,,,,,,,,,,,Rubiaceae
 Gardenia urvillei Montrouz.,,Gardenia,urvillei Montrouz.,,,,,,,,,,,Yes,Active,Active,Yes,"IC50 = 5 & 5 μg/mL (EtOH L, Hb3 & FcB1)",85,,,,Rubiaceae
 Genipa americana L.,spp. listed (1/3),Genipa,americana L.,Yes,68,"Detected (Dragendorff), L",,,,Yes,88,,,,,,,,,,,,Rubiaceae
 Geophila macropoda (Ruiz & Pav.) DC.,spp. listed (2/30),Geophila,macropoda (Ruiz & Pav.) DC.,Yes,72,"Detected, U",,,,,,,,,,,,,,,,,Rubiaceae
@@ -175,9 +177,9 @@ Hoffmannia viridis Rusby,,Hoffmannia,viridis Rusby,Yes,68,"Detected (Dragendorff
 Hydnophytum formicarum Jack,spp. listed (1/57),Hydnophytum,formicarum Jack,Yes,114,"Detected (phytochemical screening), U",,,,,,,,,,,,,,,,,Rubiaceae
 Hymenodictyon floribundum (Hochst. & Steud.) B. L. Rob.,spp. listed (3/25),Hymenodictyon,floribundum (Hochst. & Steud.) B. L. Rob.,,,,,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 50 μg/mL (1:1 petrol ether:EtOAc R, PoW)",115,,,,Rubiaceae
 Hymenodictyon louhavate,,Hymenodictyon,louhavate,,,,,,,Yes,65,,,,,,,,,,,,Rubiaceae
-Hymenodictyon orixense (Roxb.) Mabb.,,Hymenodictyon,orixense (Roxb.) Mabb.,,,,,,,,,Yes,116.0,Yes,Inactive,Inactive,Yes,"IC50 > 50 μg/mL (DCM & MeOH & aq B, W2)",116,,,,Rubiaceae
+Hymenodictyon orixense (Roxb.) Mabb.,,Hymenodictyon,orixense (Roxb.) Mabb.,,,,,,,,,Yes,116,Yes,Inactive,Inactive,Yes,"IC50 > 50 μg/mL (DCM & MeOH & aq B, W2)",116,,,,Rubiaceae
 Hymenodictyon pachyantha K. Krause,,Hymenodictyon,pachyantha K. Krause,Yes,117,"Detected (phytochemical screening), SB",,,,,,,,,,,,,,,,,Rubiaceae
-Hyperacanthus talangninia (DC.) Rakotonas. & A.P.Davis,spp. listed (1/11),Hyperacanthus,talangninia (DC.) Rakotonas. & A.P.Davis,,,,,,,,,Yes,65.0,,,,,,,,,,Rubiaceae
+Hyperacanthus talangninia (DC.) Rakotonas. & A.P.Davis,spp. listed (1/11),Hyperacanthus,talangninia (DC.) Rakotonas. & A.P.Davis,,,,,,,,,Yes,65,,,,,,,,,,Rubiaceae
 Isertia coccinea (Aubl.) J. F. Gmel.,spp. listed (4/15),Isertia,coccinea (Aubl.) J. F. Gmel.,Yes,119,"Detected (refers to alkaloidal extract), U",,,,,,,,,,,,,,,,,Rubiaceae
 Isertia haenkeana DC.,,Isertia,haenkeana DC.,Yes,68/118,"Detected (Dragendorff), L & F & Fl [68], Isolated, L [118]",indole,quinuclidine; indole,,,,,,,,,,,,,,,Rubiaceae
 Isertia hypoleuca Benth.,,Isertia,hypoleuca Benth.,Yes,68,"Detected (Dragendorff), F & Fl",,,,Yes,31,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (EtOH L, 3D7)",31,,,,Rubiaceae
@@ -212,18 +214,18 @@ Meyna laxiflora Robyns,spp. listed (1/9),Meyna,laxiflora Robyns,Yes,128,"Detecte
 Mitracarpus hirtus (L.) DC.,spp. listed (1/66),Mitracarpus,hirtus (L.) DC.,Yes,130,"Isolated, A",isoquinoline,isoquinoline,,Yes,129,,,Yes,Weak,,Yes,"IC50 = 15.0 & 7 μg/mL (petrol ether, FcM29 & FcB1)",129,,,,Rubiaceae
 Mitragyna diversifolia (Wall. ex. G. Don) Havil.,spp. listed (9/10),Mitragyna,diversifolia (Wall. ex. G. Don) Havil.,Yes,102,"Isolated, U",MIA,monoterpenoid; indole; ,,,,,,,,,,,,,,,Rubiaceae
 Mitragyna hirsuta Havil.,,Mitragyna,hirsuta Havil.,Yes,39,"Detected (TLC & GC & MS), L",,,,,,,,,,,,,,,,,Rubiaceae
-Mitragyna inermis (Willd.) Kuntze,,Mitragyna,inermis (Willd.) Kuntze,Yes,54,"Isolated, SB",MIA,monoterpenoid; indole;,,Yes,60/62/135,,,Yes,Active,Active,,"IC50 = 4.3 μg/mL (CHCl3, W2)",61,Compounds tested [134],,,Rubiaceae
+Mitragyna inermis (Willd.) Kuntze,,Mitragyna,inermis (Willd.) Kuntze,Yes,54,"Isolated, SB",MIA,monoterpenoid; indole;,,Yes,60/62/135/207,,,Yes,Active,Active,,"IC50 = 4.3 μg/mL (CHCl3, W2)",61,Compounds tested [134],,,Rubiaceae
 Mitragyna ledermannii (K. Krause) Ridsdale,,Mitragyna,ledermannii (K. Krause) Ridsdale,Yes,39,"Detected (TLC & GC & MS & UV-Vis), L",,,,Yes,131,,,Yes,Weak,,Yes,"IC50 = 18 ± 9 μg/mL (MeOH L, FCM29 72h)",131,,,,Rubiaceae
 Mitragyna parvifolia (Roxb.) Korth.,,Mitragyna,parvifolia (Roxb.) Korth.,Yes,102,"Isolated, U",MIA,monoterpenoid; indole; quinolizidine,,,,,,,,,,,,,,,Rubiaceae
-Mitragyna rubrostipulata (K. Schum.) Havil.,,Mitragyna,rubrostipulata (K. Schum.) Havil.,Yes,39,"Detected (TLC & GC), L",,,,,,,,Yes,Weak,Weak,Yes,"IC50 = 39.9 ± 2.8 μg/mL (DCM Sb, 3D7)",133,,,,Rubiaceae
+Mitragyna rubrostipulata (K. Schum.) Havil.,,Mitragyna,rubrostipulata (K. Schum.) Havil.,Yes,39,"Detected (TLC & GC), L",,,,Yes,205,,,Yes,Weak,Weak [133],"Yes [133, 205]","IC50 = 39.9 ± 2.8 μg/mL (DCM Sb, 3D7) [133] 64.54 ± 7.56 & 53.22 ± 5.58 inhibition at 100 μg/mL (EtOH R & SB, Dd2) [205]","133, 205",,,,Rubiaceae
 Mitragyna speciosa Korth.,,Mitragyna,speciosa Korth.,Yes,55,"Isolated, L",MIA,monoterpenoid; indole; quinolizidine,,,,,,,,,,,,,,,Rubiaceae
 Mitragyna stipulosa (DC.) Kuntze,,Mitragyna,stipulosa (DC.) Kuntze,Yes,137,"Isolated, L",MIA,monoterpenoid; indole; indolizidine,,Yes,62,,,,,,,,,,,,Rubiaceae
 Mitragyna tubulosa (Arn.) Kuntze,,Mitragyna,tubulosa (Arn.) Kuntze,Yes,136,"Isolated, L",MIA,monoterpenoid; indole; quinolizidine; indolizidine,,,,,,,,,,,,,,,Rubiaceae
 Morinda asteroscepa K. Schum.,spp. listed (5/44),Morinda,asteroscepa K. Schum.,,,,,,,,,,,Yes,,Weak,,"46% inhibition with 10  μg/mL (MeOH L, 3D7)",139,Compounds tested,,,Rubiaceae
 Morinda chrysorhiza (Thonn.) DC.,,Morinda,chrysorhiza (Thonn.) DC.,Yes,57,Detected (phytochemical screening) L & SB,,,,Yes,56/62,,,Yes,Inactive,Inactive,Yes,"IC50 = 125 μg/mL (EtOH L, K1)",140,,,,Rubiaceae
-Morinda citrifolia L.,,Morinda,citrifolia L.,,,,,,,Yes,"L, F, SB [198]",,,Yes,Inactive,Inactive,,"IC50 > 64 μg/mL (80% MeOH Sb, Ghanaian CQR)",30,,,,Rubiaceae
-Morinda lucida Benth.,,Morinda,lucida Benth.,Yes,58,"Detected (Dragendorff), U",,,,Yes,24,Yes,24.0,Yes,Active,Active [60],Yes [60],"IC50 = 13.37 μg/mL (DCM R, D10) [24], IC50 = 3.90 μg/mL (Pet. Ether L, CQS) [194]",24/194,Compounds tested [141],,,Rubiaceae
-Morinda morindoides (Baker) Milne-Redh.,,Morinda,morindoides (Baker) Milne-Redh.,,,,,,,Yes,76/143,Yes,197.0,Yes,Active,Active,,"IC50 = 3.54 μg/mL (EtOH, K1)",61,Compounds tested [138],,,Rubiaceae
+Morinda citrifolia L.,,Morinda,citrifolia L.,,,,,,,Yes,"L, F, SB [198] [206]",,,Yes,Inactive,Inactive,,"IC50 > 64 μg/mL (80% MeOH Sb, Ghanaian CQR)",30,,,,Rubiaceae
+Morinda lucida Benth.,,Morinda,lucida Benth.,Yes,58,"Detected (Dragendorff), U",,,,Yes,24/202/203/204/207,Yes,24,Yes,Active,Active [60],Yes [60],"IC50 = 13.37 μg/mL (DCM R, D10) [24], IC50 = 3.90 μg/mL (Pet. Ether L, CQS) [194]",24/194,Compounds tested [141],,,Rubiaceae
+Morinda morindoides (Baker) Milne-Redh.,,Morinda,morindoides (Baker) Milne-Redh.,,,,,,,Yes,76/143,Yes,197,Yes,Active,Active,,"IC50 = 3.54 μg/mL (EtOH, K1)",61,Compounds tested [138],,,Rubiaceae
 Mussaenda anisophylla S. Vidal,spp. listed (4/184),Mussaenda,anisophylla S. Vidal,Yes,148,"Detected (phytochemical screening), L",,,,,,,,,,,,,,,,,Rubiaceae
 Mussaenda frondosa L.,,Mussaenda,frondosa L.,Yes,147,"Detected (phytochemical screening), L & S & Callus",,,,,,,,,,,,,,,,,Rubiaceae
 Mussaenda macrophylla Wall.,,Mussaenda,macrophylla Wall.,Yes,149,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
@@ -233,9 +235,9 @@ Mycetia longifolia (Wall.) Kuntze,,Mycetia,longifolia (Wall.) Kuntze,Yes,151,"De
 Mycetia nutans (R. Br. ex Kurz) Razafim. & B. Bremer,,Mycetia,nutans (R. Br. ex Kurz) Razafim. & B. Bremer,Yes,102,"Isolated, U",quinoline,quinoline; quinolizidine,,,,,,,,,,,,,,,Rubiaceae
 Myrmeconauclea strigosa (Korth.) Merr.,spp. listed (1/4),Myrmeconauclea,strigosa (Korth.) Merr.,Yes,39,"Detected (TLC), L",,,,,,,,,,,,,,,,,Rubiaceae
 Nauclea diderrichii (De Wild.) Merr.,spp. listed (9/13),Nauclea,diderrichii (De Wild.) Merr.,Yes,39,"Detected (TLC), L",,,,Yes,132,,,Yes,Inactive,,Yes,"IC50 = 337.21 ± 230.23 & 368.81 ± 79.83 μg/mL (aq L S, FcM29 & FcB1 72h)",132,,,,Rubiaceae
-Nauclea latifolia Sm.,,Nauclea,latifolia Sm.,Yes,39,"Detected (TLC), L",,,,Yes,24/62/135,Yes,24.0,Yes,Active,,Yes [60],"59.84% parasite viability with 25 μg/mL (DCM R, D10) [24], IC50 = 0.60 μg/mL (aq, FcB1) [195]",24/195,Compounds tested [134],,,Rubiaceae
+Nauclea latifolia Sm.,,Nauclea,latifolia Sm.,Yes,39,"Detected (TLC), L",,,,Yes,24/62/135/202/207,Yes,24/207,Yes,Active,,Yes [60],"59.84% parasite viability with 25 μg/mL (DCM R, D10) [24], IC50 = 0.60 μg/mL (aq, FcB1) [195]",24/195,Compounds tested [134],,,Rubiaceae
 Nauclea officinalis (Pierre ex Pit.) Merr. & Chun,,Nauclea,officinalis (Pierre ex Pit.) Merr. & Chun,Yes,39,"Detected (TLC), L",,,,Yes,116,,,Yes,Inactive,Inactive,Yes,"IC50 > 50 μg/mL (DCM & MeOH & aq B, W2)",116,,,,Rubiaceae
-Nauclea orientalis (L.) L.,,Nauclea,orientalis (L.) L.,Yes,39,"Detected (TLC), L",,,,Yes,SB [198],,,,,,,,,,,,Rubiaceae
+Nauclea orientalis (L.) L.,,Nauclea,orientalis (L.) L.,Yes,39,"Detected (TLC), L",,,,Yes,SB [198] [206],,,,,,,,,,,,Rubiaceae
 Nauclea parva (Havil.) Merr.,,Nauclea,parva (Havil.) Merr.,Yes,39,"Detected (TLC), L",,,,,,,,,,,,,,,,,Rubiaceae
 Nauclea pobeguinii (Hua ex Pobég.) Merr.,,Nauclea,pobeguinii (Hua ex Pobég.) Merr.,Yes,39/152,"Detected (TLC), L [39] Detected (phytochemical screening), SB [152]",,,,Yes,62/135,,,Yes,Active,Active [152],Yes [152],"IC50 = 32 μg/mL (GHA strain) [62] IC50 = 3.3 ± 1.7 μg/mL (80% MeOH Sb, CQS) [152]",62/152,,,,Rubiaceae
 Nauclea robinsonii Merr.,,Nauclea,robinsonii Merr.,Yes,39,"Detected (TLC), L",,,,,,,,,,,,,,,,,Rubiaceae
@@ -284,6 +286,7 @@ Ophiorrhiza rosacea Ridl.,,Ophiorrhiza,rosacea Ridl.,Yes,102,"Isolated, U",MIA,m
 Ophiorrhiza teysmannii Miq.,,Ophiorrhiza,teysmannii Miq.,Yes,126,"Isolated, U",MIA,monoterpenoid; indole; quinolizidine,,,,,,,,,,,,,,,Rubiaceae
 Ophiorrhiza tomentosa Jack ex Roxb.,,Ophiorrhiza,tomentosa Jack ex Roxb.,Yes,102,"Isolated, U",indole; MIA,monoterpenoid; beta carboline,,,,,,,,,,,,,,,Rubiaceae
 Otiophora pauciflora Baker,spp. listed (1/18),Otiophora,pauciflora Baker,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Oxyanthus speciosus DC.,spp. listed (1/38),Oxyanthus,speciosus DC.,,,,,,,Yes,205,,,Yes,Inactive,,Yes,"29.19 ± 9.66 inhibition at 100 μg/mL (EtOH L, Dd2) [205]",205,,,,Rubiaceae
 Pagamea guianensis Aubl.,spp. listed (1/26),Pagamea,guianensis Aubl.,,,,,,,,,,,Yes,Weak,Active,Yes,"IC50 = 18.5 ± 1.5 μg/mL (DCM L, FcB1)",104,,,,Rubiaceae
 Palicourea acuminata (Benth.) Borhidi,spp. listed (44/693),Palicourea,acuminata (Benth.) Borhidi,Yes,72,"Isolated, U",MIA,beta carboline; glycoside;,,,,,,,,,,,,,,,Rubiaceae
 Palicourea adusta Standl.,,Palicourea,adusta Standl.,Yes,72,"Isolated, U",MIA,beta carboline; monoterpenoid; glycoside; ,,,,,,,,,,,,,,,Rubiaceae
@@ -324,17 +327,18 @@ Palicourea rigidifolia (Dwyer & M. V. Hayden) Dwyer,,Palicourea,rigidifolia (Dwy
 Palicourea semirasa Standl.,,Palicourea,semirasa Standl.,Yes,72,"Isolated, U",bisquinoline; PIA,2x pyrrolindolidine,bisquinoline is calycanthine,,,,,,,,,,,,,,Rubiaceae
 Palicourea sessilis (Vell.) C. M. Taylor,,Palicourea,sessilis (Vell.) C. M. Taylor,Yes,72,"Isolated, U",indole; MIA,indole; monoterpenoid; beta carboline; glycoside,,,,,,,,,,,,,,,Rubiaceae
 Palicourea suerrensis (Donn. Sm.) Borhidi,,Palicourea,suerrensis (Donn. Sm.) Borhidi,Yes,72,"Isolated, U",indole; MIA,beta carboline; monooterpenoid; glycoside,,,,,,,,,,,,,,,Rubiaceae
-Palicourea tomentosa (Aubl.) Borhidi,,Palicourea,tomentosa (Aubl.) Borhidi,Yes,7,"Detected (Dragendorff), Sa",,,,,,Yes,31.0,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (EtOH L, 3D7)",31,,,,Rubiaceae
+Palicourea tomentosa (Aubl.) Borhidi,,Palicourea,tomentosa (Aubl.) Borhidi,Yes,7,"Detected (Dragendorff), Sa",,,,,,Yes,31,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (EtOH L, 3D7)",31,,,,Rubiaceae
 Palicourea triphylla DC.,,Palicourea,triphylla DC.,Yes,7,"Detected (Dragendorff), L & S & F",,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea tsakiana (C. M. Taylor) C. M. Taylor,,Palicourea,tsakiana (C. M. Taylor) C. M. Taylor,Yes,72,"Isolated, U",MIA;,monoterpenoid; beta carboline; glycoside,,,,,,,,,,,,,,,Rubiaceae
 Palicourea tumidonodosa Dwyer,,Palicourea,tumidonodosa Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea winkleri Borhidi,,Palicourea,winkleri Borhidi,Yes,72,"Isolated, U",indole; MIA,beta carboline; monoterpenoid; glycoside,,,,,,,,,,,,,,,Rubiaceae
 Palicourea woronovii (Standl.) Bruniera & C. M. Taylor,,Palicourea,woronovii (Standl.) Bruniera & C. M. Taylor,,,,,,,Yes,159,,,,,,,,,,,,Rubiaceae
 Palicourea colorata (Hoffmanns. ex Willd.) Delprete & J. H. Kirkbr,,Palicourea,colorata (Hoffmanns. ex Willd.) Delprete & J. H. Kirkbr,Yes,72,"Isolated, U",bisquinoline; PIA,2x PIA; 3x PIA; 4x PIA,bisquinoline is calycanthine,,,,,Yes,,Active,Yes,100% in vitro inhibition of p. falciparum at 25 μg/mL (acid-base L),160,,,,Rubiaceae
-Pavetta corymbosa (Dc.) F. N. Williams,spp. listed (4/364),Pavetta,corymbosa (Dc.) F. N. Williams,Yes,153,"Detected (Bouchardat & Dragendorff & Mayer), A",,,,Yes,23,,,Yes,Active,,,"IC50 > 20 & = 5.54 ± 0.79 μg/mL (DCM, A, 3D7 & K1)",23,,,,Rubiaceae
+Pavetta corymbosa (Dc.) F. N. Williams,spp. listed (4/364),Pavetta,corymbosa (Dc.) F. N. Williams,Yes,153,"Detected (Bouchardat & Dragendorff & Mayer), A",,,,Yes,23/202,,,Yes,Active,,,"IC50 > 20 & = 5.54 ± 0.79 μg/mL (DCM, A, 3D7 & K1)",23,,,,Rubiaceae
 Pavetta crassipes K. Schum.,,Pavetta,crassipes K. Schum.,Yes,59/61,"Detected (refers to alkaloidal extract), Wp [59] Isolated, U [61]",,,,Yes,59/62,,,Yes,Active,Active [61],,"IC50 < 4 μg/mL (crude alkaloidal, W2) [59], IC50 = 1.02 & 1.23 μg/mL (CHCl3, D6 & W2) [61]",59/61,Compounds tested [134],,,Rubiaceae
 Pavetta schumanniana F. Hoffm. ex K. Schum.,,Pavetta,schumanniana F. Hoffm. ex K. Schum.,,,,,,,Yes,64,,,,,,,,,,,,Rubiaceae
 Pavetta tomentosa Roxb. ex Sm.,,Pavetta,tomentosa Roxb. ex Sm.,Yes,171,"Detected (phytochemical screening), L",,,,,,,,,,,,,,,,,Rubiaceae
+Pavetta lynesii Bridson,,Pavetta,lynesii Bridson,,,,,,,Yes,205,,,,,,,,,,,,Rubiaceae
 Pentagonia gymnopoda (Standl.) Standl.,spp. listed (4/43),Pentagonia,gymnopoda (Standl.) Standl.,Yes,68,"Detected (Dragendorff), F",,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (aq B, W2)",158,,,,Rubiaceae
 Pentagonia macrophylla Benth.,,Pentagonia,macrophylla Benth.,Yes,68,"Detected (Dragendorff), F & Fl",,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
 Pentagonia nuciformis Dwyer,,Pentagonia,nuciformis Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
@@ -356,7 +360,7 @@ Prismatomeris tetrandra subsp. malayana (Ridl.) J. T. Johanss.,,Prismatomeris,te
 Psychotria alba Ruiz & Pav.,spp. listed (19/1642),Psychotria,alba Ruiz & Pav.,Yes,163,"Detected (indole chromophore identified in HPLC/DAD), U",,,,,,,,,,,,,,,,,Rubiaceae
 Psychotria brachyceras Müll. Arg.,,Psychotria,brachyceras Müll. Arg.,Yes,72,"Isolated, U",MIA,MIA glycoside; beta-carboline,,,,,,,,,,,,,,,Rubiaceae
 Psychotria brachypoda (Müll. Arg.) Britton,,Psychotria,brachypoda (Müll. Arg.) Britton,Yes,72,"Isolated, U",MIA,MIA glycoside; beta-carboline,,,,,,,,,,,,,,,Rubiaceae
-Psychotria bullata,,Psychotria,bullata,,,,,,,,,Yes,65.0,,,,,,,,,,Rubiaceae
+Psychotria bullata,,Psychotria,bullata,,,,,,,,,Yes,65,,,,,,,,,,Rubiaceae
 Psychotria calocarpa Kurz,,Psychotria,calocarpa Kurz,Yes,72,"Isolated, U",PIA,2x PIA; pyrrolidine; ,,,,,,,,,,,,,,,Rubiaceae
 Psychotria chagrensis Standl.,,Psychotria,chagrensis Standl.,,,,,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
 Psychotria henryi H. Lév,,Psychotria,henryi H. Lév,Yes,72,"Isolated, U",PIA,2x PIA,,,,,,,,,,,,,,,Rubiaceae
@@ -376,7 +380,7 @@ Psydrax acutiflorus (Hiern) Bridson,spp. listed (5/92),Psydrax,acutiflorus (Hier
 Psydrax arnoldianus (De Wild. & T. Durand) Bridson,,Psydrax,arnoldianus (De Wild. & T. Durand) Bridson,Yes,26,"Isolated, SB",,,,,,,,,,,,,,,,,Rubiaceae
 Psydrax dicoccos Gaertn.,,Psydrax,dicoccos Gaertn.,Yes,27,"Isolated, B",,,,,,,,,,,,,,,,,Rubiaceae
 Psydrax palma (K. Schum.) Bridson,,Psydrax,palma (K. Schum.) Bridson,,,,,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 64 μg/mL (80% MeOH Sb, Ghanaian CQR)",30,,,,Rubiaceae
-Psydrax subcordatus (DC.) Bridson,,Psydrax,subcordatus (DC.) Bridson,,,,,,,Yes,24,Yes,24.0,,,,,,,,,,Rubiaceae
+Psydrax subcordatus (DC.) Bridson,,Psydrax,subcordatus (DC.) Bridson,,,,,,,Yes,24,Yes,24,,,,,,,,,,Rubiaceae
 Pyrostria major (A. Rich. ex DC.) Kainul. & Razafim.,spp. listed (2/68 spp.),Pyrostria,major (A. Rich. ex DC.) Kainul. & Razafim.,,,,,,,,,,,Yes,Active,Active,Yes,"IC50 = 4.1 ± 0.8 μM (methylated 1,7-bis(3,4-dihydroxyphenyl)-3,5-dihydroxyheptyl 3-O-β-D-glucopyranoside (compd. 4b), FcB1 strain)",29,specific plant compound tested!,,,Rubiaceae
 Pyrostria phyllanthoidea (Baill.) Bridson,,Pyrostria,phyllanthoidea (Baill.) Bridson,,,,,,,Yes,121,,,,,,,,,,,,Rubiaceae
 Randia aculeata L.,spp. listed (5/112),Randia,aculeata L.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
@@ -386,9 +390,10 @@ Randia armata (Sw.) DC.,,Randia,armata (Sw.) DC.,Yes,68,"Detected (Dragendorff),
 Randia lasiantha (Standl.) Standl.,,Randia,lasiantha (Standl.) Standl.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Randia mira Dwyer,,Randia,mira Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Raritebe palicoureoides subsp. dwyerianum J. H. Kirkbr.,spp. listed (1/1),Raritebe,palicoureoides subsp. dwyerianum J. H. Kirkbr.,Yes,68,"Detected (Dragendorff), L & F",,,,,,,,,,,,,,,,,Rubiaceae
-Remijia ferruginea (A. St.-Hil.) DC.,spp. listed (1/43),Remijia,ferruginea (A. St.-Hil.) DC.,,,,,,,Yes,14,Yes,14.0,Yes,,Weak,Yes,48% reduction in parasitemia in p. berghei infested mice after 4 days of 1000 mg/kg dose of bark.,166,,,,Rubiaceae
+Remijia ferruginea (A. St.-Hil.) DC.,spp. listed (1/43),Remijia,ferruginea (A. St.-Hil.) DC.,,,,,,,Yes,14,Yes,14,Yes,,Weak,Yes,48% reduction in parasitemia in p. berghei infested mice after 4 days of 1000 mg/kg dose of bark.,166,,,,Rubiaceae
 Rennellia elliptica Korth.,spp. listed (1/7),Rennellia,elliptica Korth.,,,,,,,,,,,Yes,Active,Active,,"IC50 = 4 μg/mL (DCM R, 3D7)",142,Compounds tested,,,Rubiaceae
-Rhodopentas bussei (K. Krause) Kårehed & B. Bremer,spp. listed (1/2),Rhodopentas,bussei (K. Krause) Kårehed & B. Bremer,,,,,,,Yes,5,,,Yes,Weak,Weak,Yes,"IC50 = 23.3 & 27.9 μg/mL (MeOH Rb, D6 and W2) ",5,,,,Rubiaceae
+Rhodopentas bussei (K. Krause) Kårehed & B. Bremer,spp. listed (2/2),Rhodopentas,bussei (K. Krause) Kårehed & B. Bremer,,,,,,,Yes,"5, 205",,,Yes,Weak,Weak [5],"Yes [5, 205]","IC50 = 23.3 & 27.9 μg/mL (MeOH Rb, D6 and W2) [5] 59.92 ± 4.41 inhibition at 100 μg/mL (EtOH A, Dd2) [205]","5, 205",,,,Rubiaceae
+Rhodopentas parvifolia (Hiern) Kårehed & B.Bremer,,Rhodopentas,parvifolia (Hiern) Kårehed & B.Bremer,,,,,,,Yes,208,,,,,,,,,,,,Rubiaceae
 Rogiera amoena Planch.,spp. listed (1/13),Rogiera,amoena Planch.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Ronabea latifolia Aubl.,spp. listed (1/3),Ronabea,latifolia Aubl.,,,,,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
 Rondeletia hameliifolia Dwyer & M. V. Hayden,spp. listed (2/154),Rondeletia,hameliifolia Dwyer & M. V. Hayden,Yes,68,"Not detected (Dragendorff), L & Fl",,,,,,,,,,,,,,,,,Rubiaceae
@@ -405,7 +410,8 @@ Rudgea panamensis (Dwyer) C. M. Taylor,,Rudgea,panamensis (Dwyer) C. M. Taylor,,
 Rudgea recurva Müll. Arg.,,Rudgea,recurva Müll. Arg.,Yes,163,"Detected (indole chromophore identified in HPLC/DAD), U",,,,,,,,,,,,,,,,,Rubiaceae
 Rustia costaricensis (Standl.) Lorence,spp. listed (2/17),Rustia,costaricensis (Standl.) Lorence,Yes,68,"Detected (Dragendorff), Fl",,,,,,,,,,,,,,,,,Rubiaceae
 Rustia occidentalis (Benth.) Hemsl.,,Rustia,occidentalis (Benth.) Hemsl.,Yes,68,"Detected (Dragendorff), L & Fl & F",,,,,,,,,,,,,,,,,Rubiaceae
-Rytigynia nigerica (S. Moore) Robyns,spp. listed (1/82),Rytigynia,nigerica (S. Moore) Robyns,,,,,,,Yes,145,,,,,,,,,,,,Rubiaceae
+Rytigynia nigerica (S. Moore) Robyns,spp. listed (2/82),Rytigynia,nigerica (S. Moore) Robyns,,,,,,,Yes,145,,,,,,,,,,,,Rubiaceae
+Rytigynia obscura Robyns,,Rytigynia,obscura Robyns,,,,,,,Yes,205,,,,Inactive,,Yes,"22.35 ± 5.42 inhibition at 100 μg/mL (EtOH L, Dd2) [205]",205,,,,Rubiaceae
 Sabicea amazonensis Wernham,spp. listed (3/159),Sabicea,amazonensis Wernham,,,,,,,Yes,88,,,,,,,,,,,,Rubiaceae
 Sabicea panamensis Wernham,,Sabicea,panamensis Wernham,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
 Sabicea villosa Willd. ex Schult.,,Sabicea,villosa Willd. ex Schult.,Yes,68,"Detected (Dragendorff), L & Fl",,,,Yes,104,,,Yes,Active,Active,Yes,"IC50 = 5.3 ± 1.1 μg/mL (Hex A, FcB1)",104,,,,Rubiaceae
@@ -414,10 +420,11 @@ Saprosma ternata (Wall.) Hook. f.,,Saprosma,ternata (Wall.) Hook. f.,Yes,102,"Is
 Schismatoclada concinna Bak.,spp. listed (3/20),Schismatoclada,concinna Bak.,,,,,,,Yes,65,,,,,,,,,,,,Rubiaceae
 Schismatoclada farahimpensis Bak.,,Schismatoclada,farahimpensis Bak.,,,,,,,Yes,65,,,,,,,,,,,,Rubiaceae
 Schismatoclada viburnoides Bak.,,Schismatoclada,viburnoides Bak.,,,,,,,Yes,65,,,,,,,,,,,,Rubiaceae
-Schizocalyx cuspidatus (A. St.-Hil.) Kainul. & B. Bremer,spp. listed (2/9),Schizocalyx,cuspidatus (A. St.-Hil.) Kainul. & B. Bremer,Yes,15,"Detected (phytochemical screening), SB",,,,Yes,14,Yes,14.0,,,,,,,,,,Rubiaceae
+Schizocalyx cuspidatus (A. St.-Hil.) Kainul. & B. Bremer,spp. listed (2/9),Schizocalyx,cuspidatus (A. St.-Hil.) Kainul. & B. Bremer,Yes,15,"Detected (phytochemical screening), SB",,,,Yes,14,Yes,14,,,,,,,,,,Rubiaceae
 Schizocalyx veraguensis (Dwyer) Kainul. & B. Bremer,,Schizocalyx,veraguensis (Dwyer) Kainul. & B. Bremer,Yes,68,"Detected (Dragendorff), F",,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & S, W2)",158,,,,Rubiaceae
 Schradera rotundata Standl. ex Steyerm.,spp. listed (1/58),Schradera,rotundata Standl. ex Steyerm.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,Rubiaceae
-Schumanniophyton problematicum (A. Chev.) Aubrév.,spp. listed (1/3),Schumanniophyton,problematicum (A. Chev.) Aubrév.,Yes,102,"Isolated, U",,,,,,,,,,,,,,,,,Rubiaceae
+Schumanniophyton problematicum (A. Chev.) Aubrév.,spp. listed (2/3),Schumanniophyton,problematicum (A. Chev.) Aubrév.,Yes,102,"Isolated, U",,,,,,,,,,,,,,,,,Rubiaceae
+Schumanniophyton magnificum (K.Schum.) Harms,,Schumanniophyton,magnificum (K.Schum.) Harms,,,,,,,Yes,203,,,,,,,,,,,,Rubiaceae
 "Simira alba (Mart.) Delprete, Margalho & Groppo",spp. listed (4/42),Simira,"alba (Mart.) Delprete, Margalho & Groppo",Yes,102,"Isolated, U ",,,,,,,,,,,,,,Simira mexicana also has a paper about its alkaloids but I did not have access to this,,,Rubiaceae
 Simira maxonii (Standl.) Steyerm.,,Simira,maxonii (Standl.) Steyerm.,Yes,68,"Detected (Dragendorff), L & Fl",,,,,,,,,,,,,,,,,Rubiaceae
 Simira panamensis (Dwyer) C. M. Taylor,,Simira,panamensis (Dwyer) C. M. Taylor,Yes,68,"Detected (Dragendorff), F",,,,,,,,,,,,,,,,,Rubiaceae
@@ -429,7 +436,7 @@ Sommera donnell-smithii Standl.,spp. listed (1/11),Sommera,donnell-smithii Stand
 Spermacoce alata (Aubl.) DC.,spp. listed (10/290),Spermacoce,alata (Aubl.) DC.,,,,,,,Yes,168,,,,,,,,,,,,Rubiaceae
 Spermacoce capitata Ruiz & Pav,,Spermacoce,capitata Ruiz & Pav,Yes,168,"Isolated, A",,,,,,,,,,,,,,,,,Rubiaceae
 Spermacoce exilis (L.O. Wiliams) C. D. Adamns ex W. C. Burger & C.M. Taylor,,Spermacoce,exilis (L.O. Wiliams) C. D. Adamns ex W. C. Burger & C.M. Taylor,Yes,169,"Dragendorff F, Hager P, Wagner P",,,,,,,,,,,,,,,,,Rubiaceae
-Spermacoce hispida L.,,Spermacoce,hispida L.,Yes,169,"Dragendorff F, Hager P, Wagner P",,,,,,Yes,168.0,,,,,,,,,,Rubiaceae
+Spermacoce hispida L.,,Spermacoce,hispida L.,Yes,169,"Dragendorff F, Hager P, Wagner P",,,,,,Yes,168,,,,,,,,,,Rubiaceae
 Spermacoce latifolia Aubl.,,Spermacoce,latifolia Aubl.,Yes,168,,,,,,,,,,,,,,,,,,Rubiaceae
 Spermacoce ocymoides Burm. F.,,Spermacoce,ocymoides Burm. F.,Yes,169,"Dragendorff F, Hager P, Wagner P",,,,,,,,,,,,,,,,,Rubiaceae
 Spermacoce princeae (K. Schum.) Verdc.,,Spermacoce,princeae (K. Schum.) Verdc.,,,,,,,Yes,76,,,Yes,Inactive,Inactive,Yes,"IC50 > 100 μg/mL (Hex & CHCl3 & EtOAc & MeOH & aq, K39)",167,,,,Rubiaceae
@@ -462,10 +469,10 @@ Uncaria tomentosa (Willd. ex Schult.) DC.,,Uncaria,tomentosa (Willd. ex Schult.)
 Uncaria rhynchophylla (Miq.) Miq.,,Uncaria,rhynchophylla (Miq.) Miq.,Yes,102,"Isolated, U ",,,,,,,,,,,,,,,,,Rubiaceae
 Urophyllum arboreum (Reinw. ex Blume) Korth,spp. listed (1/121),Urophyllum,arboreum (Reinw. ex Blume) Korth,Yes,124,"""Simple qualitative methods"". Phytochemical screening",,,,Yes,124,,,,,,,,,,,,Rubiaceae
 Vangueria agrestis (Schweinf. ex Hiern) Lantz,spp. listed (3/58),Vangueria,agrestis (Schweinf. ex Hiern) Lantz,Yes,59,,,,,Yes,59,,,Yes,Active,,Yes,"4 < IC50 < 10 μg/mL (crude alkaloidal, W2)",59,,,,Rubiaceae
-Vangueria infausta subsp. infausta,,Vangueria,infausta subsp. infausta,Yes,179,Detected. Alkaloids show anticholinesterase properties,,,,Yes,175,,,Yes,Active,Active,Yes,"IC50 = 1.84 μg/mL (DCM R, NF54)",175,,,,Rubiaceae
+Vangueria infausta subsp. infausta,,Vangueria,infausta subsp. infausta,Yes,179,Detected. Alkaloids show anticholinesterase properties,,,,Yes,"175, 205",,,Yes,Active,Active,Yes,"IC50 = 1.84 μg/mL (DCM R, NF54)",175,,,,Rubiaceae
 Vangueria madagascariensis J. F. Gmel.,,Vangueria,madagascariensis J. F. Gmel.,,,,,,,Yes,176,,,Yes,Weak,Weak,Yes,"IC50 = 13.36 & 33.98 μg/mL  (MeOH, D6 & 3D7) [189] IC50 = 3.29 & 4.53 μg/mL ( 4,5-dicaffeoyl quinic acid methyl ester, D6 & W2) [178]",178/189,Compounds tested [178],,,Rubiaceae
 Warszewiczia coccinea (Vahl) Klotzsch,spp. listed (1/8),Warszewiczia,coccinea (Vahl) Klotzsch,Yes,68,"Detected (Dragendorff), L",,,,,,,,Yes,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (80% EtOH L & Br, W2)",158,,,,Rubiaceae
-Wendlandia burkillii Cowan,,Wendlandia,burkillii Cowan,,,,,,,Yes,SB [198],,,,,,,,,,,,Rubiaceae
+Wendlandia burkillii Cowan,,Wendlandia,burkillii Cowan,,,,,,,Yes,SB [198] [206],,,,,,,,,,,,Rubiaceae
 Wendlandia heynei (Schult.) Santapau & Merchant,spp. listed (3/82),Wendlandia,heynei (Schult.) Santapau & Merchant,Yes,180,,,,,,,,,,,,,,,,,,Rubiaceae
 Wendlandia ligustroides (Boiss. & Hohen.) Blakelock,,Wendlandia,ligustroides (Boiss. & Hohen.) Blakelock,,,,,,,,,,,Yes,Active,Active,Yes,"IC50 = 3.1 μg/mL (CH3Cl A, K1)",13,,,,Rubiaceae
 Wittmackanthus stanleyanus (M. R. Schomb.) Kuntze,spp. listed (1/1),Wittmackanthus,stanleyanus (M. R. Schomb.) Kuntze,Yes,68,"Detected (Dragendorff), L & Fl",,,,,,,,,,,,,,,,,Rubiaceae
