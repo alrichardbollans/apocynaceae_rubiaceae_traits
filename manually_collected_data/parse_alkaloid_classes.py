@@ -8,13 +8,22 @@ from manually_collected_data import trait_parsing_output_path, encoded_traits_cs
 parsed_alkaloid_classes_csv = os.path.join(trait_parsing_output_path, 'parsed_alkaloid_classes.csv')
 
 
-def remove_whitespace_at_beginning_and_end(value):
+def remove_whitespace_at_beginning_and_end(value: str):
     try:
         v = value.rstrip()
         out = v.lstrip()
         return out
     except AttributeError:
         return value
+
+
+def remove_reference_in_string(val: str):
+    import re
+    return re.sub("[\[].*?[\]]", "", val)
+
+
+def lower_case_string(val: str):
+    return val.lower()
 
 
 def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
@@ -32,7 +41,10 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
         except TypeError:
             raise ValueError
         else:
-            out_list = list(map(remove_whitespace_at_beginning_and_end, alk_list))
+            out_list = list(map(remove_reference_in_string, alk_list))
+            out_list = list(map(remove_whitespace_at_beginning_and_end, out_list))
+
+            out_list = list(map(lower_case_string, out_list))
 
             return out_list
 
