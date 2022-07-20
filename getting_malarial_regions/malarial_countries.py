@@ -162,15 +162,15 @@ def get_tdwg3_codes():
     # Caprivi strip is in namibia
     # Assam is part of india
     manual_additions = ['CPV', 'ASS']
-    # Australia: https://doi.org/10.5694/j.1326-5377.1996.tb122051.x
-    # Réunion: https://europepmc.org/article/med/8784548
-    # Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4
-    # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4
-    # Uruguay: https://doi.org/10.1093/ae/46.4.238
+    # Australia: https://doi.org/10.5694/j.1326-5377.1996.tb122051.x (Malaria transmission and climate change in Australia)
+    # Réunion: https://europepmc.org/article/med/8784548 (Control of malaria re-emergence in Reunion)
+    # Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
+    # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
+    # Uruguay: https://doi.org/10.1093/ae/46.4.238 (Malaria Vector Heterogeneity in South America)
     codes_from_literature = ['NTA', 'WAU', 'QLD', 'REU', 'LBY', 'TUN']
     # From https://www.cdc.gov/malaria/about/distribution.html
     # ['Western Sahara', 'Kiribati', 'French Guiana'] Zaire, Cabinda
-    # Accessed: 05/05/2022
+    # Accessed: 12/05/2022
     codes_from_CDC = ['WSA', 'LIN', 'FRG', 'ZAI', 'CAB']
 
     iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC

@@ -1,8 +1,12 @@
 https://datacatalog.worldbank.org/search/dataset/0037712
 Accessed 03/05/2022
 
-https://doi.org/10.5694/j.1326-5377.1996.tb122051.x
-https://europepmc.org/article/med/8784548
+# Australia: https://doi.org/10.5694/j.1326-5377.1996.tb122051.x (Malaria transmission and climate change in Australia)
+# Réunion: https://europepmc.org/article/med/8784548 (Control of malaria re-emergence in Reunion)
+# Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
+# Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
+# Uruguay: https://doi.org/10.1093/ae/46.4.238 (Malaria Vector Heterogeneity in South America)
+
 
 CDC
 https://www.cdc.gov/malaria/about/distribution.html
