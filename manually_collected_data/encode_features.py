@@ -49,11 +49,18 @@ def encode_activity(df: pd.DataFrame):
     df[TARGET_COLUMN] = df[TARGET_COLUMN].apply(clean_activities)
     df[TARGET_COLUMN] = df[TARGET_COLUMN].apply(ordinal_encode)
 
-
+presence_alk_strings = []
+absence_alk_strings = []
 def encode_alkaloids(df: pd.DataFrame):
     df['Alkaloids'] = df['Alkaloids'].apply(clean_alkaloids)
     df.loc[(df['Tested_for_Alkaloids'].isna()) & (df['Alkaloids'] == 0), 'Alkaloids'] = np.nan
+    print('##### Presence alkaloid strings:')
+    for a in presence_alk_strings:
+        print(a)
 
+    print('##### Absence alkaloid strings:')
+    for a in absence_alk_strings:
+        print(a)
 
 def clean_alkaloids(given_value: str) -> int:
     # TODO: Manually go through this
@@ -68,15 +75,19 @@ def clean_alkaloids(given_value: str) -> int:
     presence_names = ["unclear", "detected", "isolated"]
     try:
         if "not detected" in given_value:
-            print(f'no alkaloids: {given_value}')
+            # print(f'no alkaloids: {given_value}')
+            if given_value not in absence_alk_strings:
+                absence_alk_strings.append(given_value)
             return 0
         elif any(x in given_value for x in presence_names):
-            print(f'alkaloids: {given_value}')
-
+            # print(f'alkaloids: {given_value}')
+            if given_value not in presence_alk_strings:
+                presence_alk_strings.append(given_value)
             return 1
         elif any(x in given_value for x in test_names):
-            print(f'alkaloids: {given_value}')
-
+            # print(f'alkaloids: {given_value}')
+            if given_value not in presence_alk_strings:
+                presence_alk_strings.append(given_value)
             return 1
         else:
             raise AttributeError(f'Unrecognised alkaloids: {given_value}')
