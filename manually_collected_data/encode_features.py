@@ -49,8 +49,11 @@ def encode_activity(df: pd.DataFrame):
     df[TARGET_COLUMN] = df[TARGET_COLUMN].apply(clean_activities)
     df[TARGET_COLUMN] = df[TARGET_COLUMN].apply(ordinal_encode)
 
+
 presence_alk_strings = []
 absence_alk_strings = []
+
+
 def encode_alkaloids(df: pd.DataFrame):
     df['Alkaloids'] = df['Alkaloids'].apply(clean_alkaloids)
     df.loc[(df['Tested_for_Alkaloids'].isna()) & (df['Alkaloids'] == 0), 'Alkaloids'] = np.nan
@@ -61,6 +64,7 @@ def encode_alkaloids(df: pd.DataFrame):
     print('##### Absence alkaloid strings:')
     for a in absence_alk_strings:
         print(a)
+
 
 def clean_alkaloids(given_value: str) -> int:
     # TODO: Manually go through this
@@ -125,6 +129,13 @@ def main():
     trait_df.reset_index(inplace=True, drop=True)
 
     out_df = encode_features(trait_df)
+
+    # Ensure all tested samples are labelled
+    problem_df = out_df[(out_df['Activity_Antimalarial'].isna() & ~out_df['Given_Activities'].isna())]
+
+    if len(problem_df.index) > 0:
+        print(problem_df)
+        raise ValueError
 
     out_df.to_csv(encoded_traits_csv)
 
