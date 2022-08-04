@@ -1,68 +1,70 @@
 ,Accepted_ID,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_Rank,knapsack_snippet,Sources
-0,76349-1,Acokanthera oppositifolia,Acokanthera oppositifolia,76349-1,Species,,Manual:
-1,60447729-2,Acokanthera schimperi,Acokanthera schimperi,60447729-2,Species,,Manual:
-2,76360-1,Adenium boehmianum,Adenium boehmianum,76360-1,Species,,Manual:
-3,76366-1,Adenium multiflorum,Adenium multiflorum,76366-1,Species,,Manual:
-4,76369-1,Adenium obesum,Adenium obesum,76369-1,Species,,Manual:
-5,2180-1,Alafia,nan,nan,Genus,,Manual:
-6,77061-1,Anodendron affine,Anodendron affine,77061-1,Species,,Manual:
-7,16527-2,Apocynum cannabinum,Apocynum cannabinum,16527-2,Species,,Manual:
-8,77190069-1,Apocynum venetum subsp. basikurumon,Apocynum venetum,77279-1,Subspecies,,Manual:
-9,94213-1,Asclepias curassavica,Asclepias curassavica,94213-1,Species,"""['Asclepin', 'Calactin', 'Calotropin', 'Uscharidin']""",Manual:KNApSAcK
-10,94258-1,Asclepias eriocarpa,Asclepias eriocarpa,94258-1,Species,"""['Eriocarpin', 'Labriformidin', 'Labriformin']""",Manual:KNApSAcK
-11,94346-1,Asclepias humistrata,Asclepias humistrata,94346-1,Species,,Manual:
-12,94704-1,Asclepias tuberosa,Asclepias tuberosa,94704-1,Species,,Manual:
-13,77532-1,Beaumontia brevituba,Beaumontia brevituba,77532-1,Species,,Manual:
-14,77539-1,Beaumontia grandiflora,Beaumontia grandiflora,77539-1,Species,,Manual:
-15,77548-1,Beaumontia murtonii,Beaumontia murtonii,77548-1,Species,,Manual:
-16,95173-1,Calotropis gigantea,Calotropis gigantea,95173-1,Species,"""['Calactin', 'Calotropin']""",Manual:KNApSAcK
-17,1004515-2,Calotropis procera,Calotropis procera,1004515-2,Species,"""['Calactin', 'Calotropin', 'Uscharidin']""",Manual:KNApSAcK
-18,47927-2,Cascabela thevetia,Cascabela thevetia,47927-2,Species,,Manual:
-19,77906-1,Cerbera manghas,Cerbera manghas,77906-1,Species,"""['Cerberin']""",Manual:KNApSAcK
-20,77913-1,Cerbera odollam,Cerbera odollam,77913-1,Species,"""['Thevetin A']""",Manual:KNApSAcK
-21,77931-1,Cerberiopsis candelabra,Cerberiopsis candelabra,77931-1,Species,,Manual:
-22,95915-1,Cryptolepis buchananii,Cryptolepis buchananii,95915-1,Species,,Manual:
-23,95962-1,Cryptostegia grandiflora,Cryptostegia grandiflora,95962-1,Species,"""['Digitalin']""",Manual:KNApSAcK
-24,95963-1,Cryptostegia madagascariensis,Cryptostegia madagascariensis,95963-1,Species,,Manual:
-25,97547-1,Glossostelma carsonii,Glossostelma carsonii,97547-1,Species,,Manual:
-26,97610-1,Gomphocarpus fruticosus,Gomphocarpus fruticosus,97610-1,Species,,Manual:
-27,97698-1,Gomphocarpus sinaicus,Gomphocarpus sinaicus,97698-1,Species,,Manual:
-28,79297-1,Holarrhena curtisii,Holarrhena curtisii,79297-1,Species,,Manual:
-29,79311-1,Holarrhena mitis,Holarrhena mitis,79311-1,Species,,Manual:
-30,79318-1,Holarrhena pubescens,Holarrhena pubescens,79318-1,Species,,Manual:
-31,152033-2,Mandevilla pentlandiana,Mandevilla pentlandiana,152033-2,Species,,Manual:
-32,99158-1,Marsdenia gazensis,Marsdenia gazensis,99158-1,Species,,Manual:
-33,99829-1,Myriopteron extensum,Myriopteron extensum,99829-1,Species,,Manual:
-34,80460-1,Nerium oleander,Nerium oleander,80460-1,Species,"""['Adynerin']""",Manual:KNApSAcK
-35,60458242-2,Oxystelma esculentum,Oxystelma esculentum,60458242-2,Species,,Manual:
-36,100226-1,Pachycarpus distinctus,Pachycarpus distinctus,100226-1,Species,,Manual:
-37,100257-1,Pachycarpus schinzianus,Pachycarpus schinzianus,100257-1,Species,,Manual:
-38,80864-1,Parepigynum funingense,Parepigynum funingense,80864-1,Species,,Manual:
-39,942487-1,Pentalinon luteum,Pentalinon luteum,942487-1,Species,,Manual:
-40,100332-1,Pentopetia androsaemifolia,Pentopetia androsaemifolia,100332-1,Species,,Manual:
-41,100371-1,Pergularia daemia,Pergularia daemia,100371-1,Species,,Manual:
-42,77172919-1,Pergularia daemia subsp. daemia,Pergularia daemia,100371-1,Subspecies,,Manual:
-43,100411-1,Pergularia tomentosa,Pergularia tomentosa,100411-1,Species,"""['Calactin']""",Manual:KNApSAcK
-44,100454-1,Periploca forrestii,Periploca forrestii,100454-1,Species,,Manual:
-45,100502-1,Periploca sepium,Periploca sepium,100502-1,Species,,Manual:
-46,81256-1,Plumeria obtusa,Plumeria obtusa,81256-1,Species,,Manual:
-47,102040-1,Streptocaulon juventas,Streptocaulon juventas,102040-1,Species,,Manual:
-48,81877-1,Strophanthus divaricatus,Strophanthus divaricatus,81877-1,Species,"""['Decoside', 'Divaricoside', 'Divostroside', 'Lokundjoside', 'Musaroside', 'Sarmentoloside']""",Manual:KNApSAcK
-49,81881-1,Strophanthus eminii,Strophanthus eminii,81881-1,Species,,Manual:
-50,81895-1,Strophanthus gratus,Strophanthus gratus,81895-1,Species,"""['Ouabain']""",Manual:KNApSAcK
-51,81909-1,Strophanthus kombe,Strophanthus kombe,81909-1,Species,"""['Strophanthidin', 'Musaroside', 'Cymarin']""",Manual:KNApSAcK
-52,81912-1,Strophanthus ledienii,Strophanthus ledienii,81912-1,Species,,Manual:
-53,81924-1,Strophanthus nicholsonii,Strophanthus nicholsonii,81924-1,Species,,Manual:
-54,81938-1,Strophanthus preussii,Strophanthus preussii,81938-1,Species,,Manual:
-55,81945-1,Strophanthus sarmentosus,Strophanthus sarmentosus,81945-1,Species,"""['Sarmentoloside', 'Bipindoside']""",Manual:KNApSAcK
-56,81960-1,Strophanthus thollonii,Strophanthus thollonii,81960-1,Species,"""['Bipindoside']""",Manual:KNApSAcK
-57,2582-1,Strophanthus,nan,nan,Genus,,Manual:
-58,82440-1,Thevetia ahouai,Thevetia ahouai,82440-1,Species,,Manual:
-59,82646-1,Vallaris glabra,Vallaris glabra,82646-1,Species,,Manual:
-60,82660-1,Vallaris solanacea,Vallaris solanacea,82660-1,Species,,Manual:
-61,103155-1,Xysmalobium undulatum,Xysmalobium undulatum,103155-1,Species,,Manual:
-62,77279-1,Apocynum venetum,Apocynum venetum,77279-1,Species,"""['Strophanthidin']""",:KNApSAcK
-63,21220-2,Asclepias labriformis,Asclepias labriformis,21220-2,Species,"""['Eriocarpin', 'Labriformidin', 'Labriformin']""",:KNApSAcK
-64,94654-1,Asclepias speciosa,Asclepias speciosa,94654-1,Species,"""['Aspecioside']""",:KNApSAcK
-65,319076-2,Asclepias syriaca,Asclepias syriaca,319076-2,Species,"""['Aspecioside']""",:KNApSAcK
-66,77893-1,Cerbera floribunda,Cerbera floribunda,77893-1,Species,"""['Cerbertin']""",:KNApSAcK
+0,60447729-2,Acokanthera schimperi,Acokanthera schimperi,60447729-2,Species,,:Manual:
+1,76349-1,Acokanthera oppositifolia,Acokanthera oppositifolia,76349-1,Species,,:Manual:
+2,76366-1,Adenium multiflorum,Adenium multiflorum,76366-1,Species,,:Manual:
+3,76360-1,Adenium boehmianum,Adenium boehmianum,76360-1,Species,,:Manual:
+4,76369-1,Adenium obesum,Adenium obesum,76369-1,Species,,:Manual:
+5,2180-1,Alafia,nan,nan,Genus,,:Manual:
+6,77061-1,Anodendron affine,Anodendron affine,77061-1,Species,,:Manual:
+7,77190069-1,Apocynum venetum subsp. basikurumon,Apocynum venetum,77279-1,Subspecies,,:Manual:
+8,16527-2,Apocynum cannabinum,Apocynum cannabinum,16527-2,Species,,:Manual:
+9,94213-1,Asclepias curassavica,Asclepias curassavica,94213-1,Species,"""['Asclepin', 'Calactin', 'Calotropin', 'Uscharidin']""",:Manual:KNApSAcK
+10,94258-1,Asclepias eriocarpa,Asclepias eriocarpa,94258-1,Species,"""['Eriocarpin', 'Labriformidin', 'Labriformin']""",:Manual:KNApSAcK
+11,94346-1,Asclepias humistrata,Asclepias humistrata,94346-1,Species,,:Manual:
+12,94704-1,Asclepias tuberosa,Asclepias tuberosa,94704-1,Species,,:Manual:
+13,77539-1,Beaumontia grandiflora,Beaumontia grandiflora,77539-1,Species,,:Manual:
+14,77532-1,Beaumontia brevituba,Beaumontia brevituba,77532-1,Species,,:Manual:
+15,77548-1,Beaumontia murtonii,Beaumontia murtonii,77548-1,Species,,:Manual:
+16,95173-1,Calotropis gigantea,Calotropis gigantea,95173-1,Species,"""['Calactin', 'Calotropin']""",:Manual:KNApSAcK
+17,1004515-2,Calotropis procera,Calotropis procera,1004515-2,Species,"""['Calactin', 'Calotropin', 'Uscharidin']""",:Manual:KNApSAcK
+18,47927-2,Cascabela thevetia,Cascabela thevetia,47927-2,Species,,:Manual:
+19,77906-1,Cerbera manghas,Cerbera manghas,77906-1,Species,"""['Cerberin']""",:Manual:KNApSAcK
+20,77913-1,Cerbera odollam,Cerbera odollam,77913-1,Species,"""['Thevetin A']""",:Manual:KNApSAcK
+21,77931-1,Cerberiopsis candelabra,Cerberiopsis candelabra,77931-1,Species,,:Manual:
+22,95915-1,Cryptolepis buchananii,Cryptolepis buchananii,95915-1,Species,,:Manual:
+23,95962-1,Cryptostegia grandiflora,Cryptostegia grandiflora,95962-1,Species,"""['Digitalin']""",:Manual:KNApSAcK
+24,95963-1,Cryptostegia madagascariensis,Cryptostegia madagascariensis,95963-1,Species,,:Manual:
+25,97547-1,Glossostelma carsonii,Glossostelma carsonii,97547-1,Species,,:Manual:
+26,97610-1,Gomphocarpus fruticosus,Gomphocarpus fruticosus,97610-1,Species,,:Manual:
+27,97698-1,Gomphocarpus sinaicus,Gomphocarpus sinaicus,97698-1,Species,,:Manual:
+28,79297-1,Holarrhena curtisii,Holarrhena curtisii,79297-1,Species,,:Manual:
+29,79311-1,Holarrhena mitis,Holarrhena mitis,79311-1,Species,,:Manual:
+30,79318-1,Holarrhena pubescens,Holarrhena pubescens,79318-1,Species,,:Manual:
+31,152033-2,Mandevilla pentlandiana,Mandevilla pentlandiana,152033-2,Species,,:Manual:
+32,99158-1,Marsdenia gazensis,Marsdenia gazensis,99158-1,Species,,:Manual:
+33,99829-1,Myriopteron extensum,Myriopteron extensum,99829-1,Species,,:Manual:
+34,80460-1,Nerium oleander,Nerium oleander,80460-1,Species,"""['Adynerin']""",:Manual:KNApSAcK
+35,60458242-2,Oxystelma esculentum,Oxystelma esculentum,60458242-2,Species,,:Manual:
+36,100226-1,Pachycarpus distinctus,Pachycarpus distinctus,100226-1,Species,,:Manual:
+37,100257-1,Pachycarpus schinzianus,Pachycarpus schinzianus,100257-1,Species,,:Manual:
+38,80864-1,Parepigynum funingense,Parepigynum funingense,80864-1,Species,,:Manual:
+39,942487-1,Pentalinon luteum,Pentalinon luteum,942487-1,Species,,:Manual:
+40,100332-1,Pentopetia androsaemifolia,Pentopetia androsaemifolia,100332-1,Species,,:Manual:
+41,100371-1,Pergularia daemia,Pergularia daemia,100371-1,Species,,:Manual:
+42,77172919-1,Pergularia daemia subsp. daemia,Pergularia daemia,100371-1,Subspecies,,:Manual:
+43,100411-1,Pergularia tomentosa,Pergularia tomentosa,100411-1,Species,"""['Calactin']""",:Manual:KNApSAcK
+44,100454-1,Periploca forrestii,Periploca forrestii,100454-1,Species,,:Manual:
+45,100502-1,Periploca sepium,Periploca sepium,100502-1,Species,,:Manual:
+46,81256-1,Plumeria obtusa,Plumeria obtusa,81256-1,Species,,:Manual:
+47,102040-1,Streptocaulon juventas,Streptocaulon juventas,102040-1,Species,,:Manual:
+48,81862-1,Strophanthus boivinii,Strophanthus boivinii,81862-1,Species,,:Manual:
+49,81877-1,Strophanthus divaricatus,Strophanthus divaricatus,81877-1,Species,"""['Decoside', 'Divaricoside', 'Divostroside', 'Lokundjoside', 'Musaroside', 'Sarmentoloside']""",:Manual:KNApSAcK
+50,81881-1,Strophanthus eminii,Strophanthus eminii,81881-1,Species,,276.0:Manual:
+51,81892-1,Strophanthus gracilis,Strophanthus gracilis,81892-1,Species,,:Manual:
+52,81895-1,Strophanthus gratus,Strophanthus gratus,81895-1,Species,"""['Ouabain']""",:Manual:KNApSAcK
+53,81909-1,Strophanthus kombe,Strophanthus kombe,81909-1,Species,"""['Strophanthidin', 'Musaroside', 'Cymarin']""",:Manual:KNApSAcK
+54,81912-1,Strophanthus ledienii,Strophanthus ledienii,81912-1,Species,,:Manual:
+55,81924-1,Strophanthus nicholsonii,Strophanthus nicholsonii,81924-1,Species,,:Manual:
+56,81938-1,Strophanthus preussii,Strophanthus preussii,81938-1,Species,,:Manual:
+57,81945-1,Strophanthus sarmentosus,Strophanthus sarmentosus,81945-1,Species,"""['Sarmentoloside', 'Bipindoside']""",:Manual:KNApSAcK
+58,81960-1,Strophanthus thollonii,Strophanthus thollonii,81960-1,Species,"""['Bipindoside']""",:Manual:KNApSAcK
+59,2582-1,Strophanthus,nan,nan,Genus,,:Manual:
+60,82440-1,Thevetia ahouai,Thevetia ahouai,82440-1,Species,,:Manual:
+61,82646-1,Vallaris glabra,Vallaris glabra,82646-1,Species,,:Manual:
+62,82660-1,Vallaris solanacea,Vallaris solanacea,82660-1,Species,,:Manual:
+63,103155-1,Xysmalobium undulatum,Xysmalobium undulatum,103155-1,Species,,:Manual:
+64,77279-1,Apocynum venetum,Apocynum venetum,77279-1,Species,"""['Strophanthidin']""",::KNApSAcK
+65,21220-2,Asclepias labriformis,Asclepias labriformis,21220-2,Species,"""['Eriocarpin', 'Labriformidin', 'Labriformin']""",::KNApSAcK
+66,94654-1,Asclepias speciosa,Asclepias speciosa,94654-1,Species,"""['Aspecioside']""",::KNApSAcK
+67,319076-2,Asclepias syriaca,Asclepias syriaca,319076-2,Species,"""['Aspecioside']""",::KNApSAcK
+68,77893-1,Cerbera floribunda,Cerbera floribunda,77893-1,Species,"""['Cerbertin']""",::KNApSAcK

@@ -6,6 +6,7 @@ import os
 
 import pandas as pd
 from pkg_resources import resource_filename
+from taxa_lists import get_all_taxa
 
 _inputs_path = resource_filename(__name__, 'inputs')
 
@@ -38,7 +39,14 @@ NEW_HEADINGS = [
     "Ref_Activity",
     "General_notes",
     "MPNS_Sources",
-    "Details"
+    "Details",
+    "Cardenolides",
+    "Cardenolides_details",
+    "Cardenolides_Ref",
+    "Steroids",
+    "Steroids_details",
+    "Steroids_Ref",
+    'General_Phytochem_notes'
 ]
 ORDER_STANDARDISED_CSV = os.path.join(trait_parsing_output_path, "standardised_order.csv")
 ACCEPTED_NAME_COLUMN = "Accepted_Name"
