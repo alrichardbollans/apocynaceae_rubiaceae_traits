@@ -82,18 +82,19 @@ def main():
 
     get_powo_medicinal_usage()
     prepare_MPNS_common_names(families_of_interest=['Apocynaceae', 'Rubiaceae'])
-
+    get_manual_hits()
+    manual_antimal_hits = pd.read_csv(_manual_hit_antimal_temp_output)
     powo_medicinal_hits = pd.read_csv(_powo_search_medicinal_temp_output_accepted_csv)
     mpns_medicinal_hits = pd.read_csv(_cleaned_MPNS_accepted_csv)
 
 
 
-    compile_hits([powo_medicinal_hits, mpns_medicinal_hits], output_medicinal_csv)
+    compile_hits([powo_medicinal_hits, mpns_medicinal_hits,manual_antimal_hits], output_medicinal_csv)
 
     get_powo_antimalarial_usage()
     powo_antimalarial_hits = pd.read_csv(_powo_search_malarial_temp_output_accepted_csv)
-    get_manual_hits()
-    manual_antimal_hits = pd.read_csv(_manual_hit_antimal_temp_output)
+
+
     compile_hits([powo_antimalarial_hits,manual_antimal_hits], output_malarial_csv)
 
 
