@@ -23,6 +23,7 @@ if not os.path.isdir(_output_path):
 # From https://datacatalog.worldbank.org/search/dataset/0037712
 # Accessed 03/05/2022
 # Any country with any incidence of malaria between 1960 and 2021
+# the indicator is estimated only where malaria transmission occurs
 def print_world_bank_countries():
     wdid = pd.read_csv(os.path.join(data_download, 'WDI_csv/WDIData.csv'))
     malaria_data = wdid[wdid['Indicator Name'] == 'Incidence of malaria (per 1,000 population at risk)']
@@ -118,11 +119,11 @@ def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     print('plotting countries')
 
     plt.figure(figsize=(40, 25))
-    plt.xlim(-210, 210)
-    plt.ylim(-70, 90)
-    plt.xticks(fontsize=30)
-    plt.yticks(fontsize=30)
-    plt.title(title, fontsize=40)
+    # plt.xlim(-210, 210)
+    # plt.ylim(-70, 90)
+    # plt.xticks(fontsize=30)
+    # plt.yticks(fontsize=30)
+    # plt.title(title, fontsize=40)
     ax = plt.axes(projection=ccrs.PlateCarree())
     ax.coastlines(resolution='10m')
     ax.add_feature(cfeature.BORDERS, linewidth=5)
@@ -153,7 +154,7 @@ def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     plt.tight_layout()
     # change the fontsize
 
-    plt.savefig(output_path, dpi=50)
+    plt.savefig(output_path, dpi=50,bbox_inches='tight')
 
 
 def get_tdwg3_codes():
