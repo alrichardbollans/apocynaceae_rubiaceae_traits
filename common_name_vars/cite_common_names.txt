@@ -3,18 +3,22 @@ Note: Some sources are used specific to Apocynaceae and Rubiaceae while others a
 Royal Botanic Gardens, Kew (2022) Medicinal Plant Names Services, Version 11.
 www.kew.org/mpns
 Accessed 18/01/2022
+Source abv.: MPNS
 
 USDA, NRCS. 2022. The PLANTS Database (http://plants.usda.gov, 10/01/2022).
 National Plant Data Team, Greensboro, NC USA.
+Source abv.: USDA Plants Database
 
 Plants of the World Online (2022). Facilitated by the Royal Botanic Gardens, Kew. Published on the
 Internet; http://www.plantsoftheworldonline.org/
 Accessed 10/01/2022
+Source abv.: POWO pages([])
 
 Kew Species Profiles
 http://creativecommons.org/licenses/by/3.0
 https://storage.googleapis.com/powop-content/species_profiles/SpeciesProfileVernacular.zip
 Accessed 18/01/2022
+Source abv.: SpeciesProfileVernacular
 
 Common Names from Plants and People Africa
 http://www.plantsandpeopleafrica.com/
@@ -22,31 +26,39 @@ Plants and People Africa
 http://www.plantsandpeopleafrica.com http://creativecommons.org/licenses/by/3.0/
 https://storage.googleapis.com/powop-content/common_names/PPAfrica-botswana-commonnames.zip
 Accessed 10/01/2022
+Source abv.: PPAfrica-botswana-commonnames
 
 Wikipedia, The Free Encyclopedia
 https://en.wikipedia.org/
 Accessed 18/04/2022
+Source abv.: [language]_wiki
 
 Cornell College of Agriculture and Life Sciences
 http://poisonousplants.ansci.cornell.edu
 Accessed 22/02/2022
+Source abv.: Cornell CALS
 
 California Poison Control System
 https://calpoison.org/topics/plant
 Accessed 22/02/2022
+Source abv.: CPCS toxic/CPCS nontoxic
 
 University of California Safe and Poisonous Garden Plants
 https://ucanr.edu/sites/poisonous_safe_plants/
 Accessed 22/02/2022
+Source abv.:UCANR Toxic/UCANR NonToxic
 
 U.S. Department of Agriculture, Agricultural Research Service. 1992-2016.
 Dr. Duke's Phytochemical and Ethnobotanical Databases. Home Page, http://phytochem.nal.usda.gov/
 http://dx.doi.org/10.15482/USDA.ADC/1239279
 Accessed 22/02/2022
+Source abv.: USDA(Duke)
 
 Günthardt, B.F., Hollender, J., Hungerbühler, K., Scheringer, M., Bucheli, T.D.* 2018: Comprehensive Toxic Plants–Phytotoxins Database and Its Application in Assessing Aquatic Micropollution Potential. J. Agric. Food Chem.
 doi/10.1021/acs.jafc.8b01639
 https://www.agroscope.admin.ch/agroscope/en/home/publications/apps/tppt.html
 Accessed 22/02/2022
+Source abv.: TPPT
 
 Wiersema, J., Leon, B., 2013. World Economic Plants: a standard reference. CRC Press.
+Source abv.: WEP (Wiersema 2013)
