@@ -1,14 +1,13 @@
 import unittest
 
 import numpy as np
+import pandas as pd
 from automatchnames import get_genus_from_full_name
 
 from manually_collected_data import clean_activities, ordinal_encode, clean_alkaloids, encoded_traits_csv, \
     ORDER_STANDARDISED_CSV
 from unittests_for_vars import imported_and_encoded_data
 
-
-# TODO: To avoid repeating this for future families, create separate package for general family vars
 
 class Test(unittest.TestCase):
 
@@ -17,6 +16,11 @@ class Test(unittest.TestCase):
 
         t.activities(ORDER_STANDARDISED_CSV)
         t.type_of_test(encoded_traits_csv)
+
+        # Test all has family
+        trait_df = pd.read_csv(encoded_traits_csv)
+
+        self.assertEqual(trait_df['Family'].unique().tolist(), ['Apocynaceae', 'Rubiaceae'])
 
     def test_genera_from_acc_names(self):
         self.assertEqual(get_genus_from_full_name('Danais'), 'Danais')
