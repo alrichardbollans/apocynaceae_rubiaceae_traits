@@ -10,9 +10,9 @@ class MyTestCase(unittest.TestCase):
     def test_output_instances(self):
         distros_df = pd.read_csv(distributions_csv, index_col=0)
         distros_df.set_index('kew_id', inplace=True)
-        self.assertEqual("['ANG', 'NAM']", distros_df.at['76360-1', 'tdwg3_codes'], msg=f'76360-1')
-        self.assertEqual("['SAM']", distros_df.at['77164465-1', 'tdwg3_codes'], msg=f'77164465-1')
-        self.assertEqual("['CHC', 'CHT']", distros_df.at['756598-1', 'tdwg3_codes'], msg=f'756598-1')
+        self.assertEqual("['ANG', 'NAM']", distros_df.at['76360-1', 'native_tdwg3_codes'], msg=f'76360-1')
+        self.assertEqual("['SAM']", distros_df.at['77164465-1', 'native_tdwg3_codes'], msg=f'77164465-1')
+        self.assertEqual("['CHC', 'CHT']", distros_df.at['756598-1', 'native_tdwg3_codes'], msg=f'756598-1')
 
     def test_malarial_instances(self):
         malarial_taxa = pd.read_csv(taxa_in_malarial_countries_csv)

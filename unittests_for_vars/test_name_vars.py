@@ -3,7 +3,7 @@ import unittest
 import pandas as pd
 
 from common_name_vars import output_common_names_csv
-from unittests import confirming_hits
+from unittests_for_vars import confirming_hits
 
 
 class MyTestCase(unittest.TestCase):

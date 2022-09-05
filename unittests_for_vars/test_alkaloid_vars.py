@@ -1,9 +1,10 @@
 import unittest
 
 import pandas as pd
+from unit_test_methods import confirming_hits
 
 from metabolite_vars import rub_apoc_alkaloid_hits_output_csv
-from unittests import confirming_hits
+
 
 
 class MyTestCase(unittest.TestCase):
