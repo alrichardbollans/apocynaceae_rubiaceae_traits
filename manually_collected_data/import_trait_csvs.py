@@ -74,11 +74,18 @@ def strip_leading_trailing_whitespace(df: pd.DataFrame, column: str) -> pd.DataF
 
 
 def create_single_name(df: pd.DataFrame):
-    # Note if either genus or species is empty, this returns none
-    def add_space(value):
-        return value + ' '
-
     df['Name'] = df['Genus'] + " " + df['Species']
+
+    # Remove NBSPs
+    def remove_nbsp(value: str):
+        try:
+            v = value.replace("\xa0", " ")
+
+            return v
+        except AttributeError:
+            return value
+
+    df['Name'] = df['Name'].apply(remove_nbsp)
     df.set_index('Name', inplace=True)
 
 
