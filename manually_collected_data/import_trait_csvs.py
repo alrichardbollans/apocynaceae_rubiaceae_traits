@@ -102,6 +102,8 @@ def do_initial_clean(fam: Family):
     trait_df = strip_leading_trailing_whitespace(trait_df, 'Species')
     create_single_name(trait_df)
 
+    trait_df.sort_values(by=['Name'], inplace=True)
+
     # Add family name
     trait_df['Family'] = fam.name
 

@@ -12,8 +12,8 @@
 10,986841-1,Boucerosia indica,Boucerosia indica,986841-1,Species,,:Manual:
 11,94979-1,Boucerosia pauciflora,Boucerosia pauciflora,94979-1,Species,,:Manual:
 12,94990-1,Boucerosia umbellata,Boucerosia umbellata,94990-1,Species,,:Manual:
-13,95198-1,Caralluma adscendens,Caralluma adscendens,95198-1,Species,,:Manual:
-14,60452656-2,Caralluma adscendens var. gracilis,Caralluma adscendens,95198-1,Variety,,:Manual:
+13,60452656-2,Caralluma adscendens var. gracilis,Caralluma adscendens,95198-1,Variety,,:Manual:
+14,95198-1,Caralluma adscendens,Caralluma adscendens,95198-1,Species,,:Manual:
 15,95238-1,Caralluma dalzielii,Caralluma dalzielii,95238-1,Species,,274.0:Manual:
 16,95260-1,Caralluma fimbriata,Caralluma fimbriata,95260-1,Species,,:Manual:
 17,95370-1,Caralluma stalagmifera,Caralluma stalagmifera,95370-1,Species,,:Manual:
@@ -42,10 +42,10 @@
 40,60443873-2,Hemidesmus indicus,Hemidesmus indicus,60443873-2,Species,,:Manual:
 41,79318-1,Holarrhena pubescens,Holarrhena pubescens,79318-1,Species,,:Manual:
 42,98342-1,Hoodia gordonii,Hoodia gordonii,98342-1,Species,,:Manual:
-43,77173117-1,Hoya verticillata var. verticillata,Hoya verticillata,98729-1,Variety,,:Manual:
-44,107308-3,Hoya carnosa,Hoya carnosa,107308-3,Species,,:Manual:
-45,98512-1,Hoya kerrii,Hoya kerrii,98512-1,Species,,:Manual:
-46,98543-1,Hoya longifolia,Hoya longifolia,98543-1,Species,,:Manual:
+43,107308-3,Hoya carnosa,Hoya carnosa,107308-3,Species,,:Manual:
+44,98512-1,Hoya kerrii,Hoya kerrii,98512-1,Species,,:Manual:
+45,98543-1,Hoya longifolia,Hoya longifolia,98543-1,Species,,:Manual:
+46,77173117-1,Hoya verticillata var. verticillata,Hoya verticillata,98729-1,Variety,,:Manual:
 47,982441-1,Jasminanthes mucronata,Jasminanthes mucronata,982441-1,Species,,:Manual:
 48,79456-1,Kibatalia laurifolia,Kibatalia laurifolia,79456-1,Species,,:Manual:
 49,77143808-1,Leptadenia lanceolata,Leptadenia lanceolata,77143808-1,Species,,:Manual:
@@ -64,8 +64,8 @@
 62,99243-1,Marsdenia oreophila,Marsdenia oreophila,99243-1,Species,,:Manual:
 63,99275-1,Marsdenia rostrata,Marsdenia rostrata,99275-1,Species,,:Manual:
 64,99281-1,Marsdenia roylei,Marsdenia roylei,99281-1,Species,,:Manual:
-65,99319-1,Marsdenia tenacissima,Marsdenia tenacissima,99319-1,Species,,:Manual:
-66,99317-1,Marsdenia taylorii,Marsdenia taylorii,99317-1,Species,,:Manual:
+65,99317-1,Marsdenia taylorii,Marsdenia taylorii,99317-1,Species,,:Manual:
+66,99319-1,Marsdenia tenacissima,Marsdenia tenacissima,99319-1,Species,,:Manual:
 67,99325-1,Marsdenia tinctoria,Marsdenia tinctoria,99325-1,Species,,:Manual:
 68,99328-1,Marsdenia tomentosa,Marsdenia tomentosa,99328-1,Species,,:Manual:
 69,986817-1,Monolluma quadrangula,Monolluma quadrangula,986817-1,Species,,:Manual:

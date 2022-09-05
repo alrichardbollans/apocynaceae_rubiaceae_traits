@@ -1,19 +1,19 @@
 ,Accepted_ID,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_Rank,knapsack_snippet,Sources
-0,60447729-2,Acokanthera schimperi,Acokanthera schimperi,60447729-2,Species,,:Manual:
-1,76349-1,Acokanthera oppositifolia,Acokanthera oppositifolia,76349-1,Species,,:Manual:
-2,76366-1,Adenium multiflorum,Adenium multiflorum,76366-1,Species,,:Manual:
-3,76360-1,Adenium boehmianum,Adenium boehmianum,76360-1,Species,,:Manual:
+0,76349-1,Acokanthera oppositifolia,Acokanthera oppositifolia,76349-1,Species,,:Manual:
+1,60447729-2,Acokanthera schimperi,Acokanthera schimperi,60447729-2,Species,,:Manual:
+2,76360-1,Adenium boehmianum,Adenium boehmianum,76360-1,Species,,:Manual:
+3,76366-1,Adenium multiflorum,Adenium multiflorum,76366-1,Species,,:Manual:
 4,76369-1,Adenium obesum,Adenium obesum,76369-1,Species,,:Manual:
 5,2180-1,Alafia,nan,nan,Genus,,:Manual:
 6,77061-1,Anodendron affine,Anodendron affine,77061-1,Species,,:Manual:
-7,77190069-1,Apocynum venetum subsp. basikurumon,Apocynum venetum,77279-1,Subspecies,,:Manual:
-8,16527-2,Apocynum cannabinum,Apocynum cannabinum,16527-2,Species,,:Manual:
+7,16527-2,Apocynum cannabinum,Apocynum cannabinum,16527-2,Species,,:Manual:
+8,77190069-1,Apocynum venetum subsp. basikurumon,Apocynum venetum,77279-1,Subspecies,,:Manual:
 9,94213-1,Asclepias curassavica,Asclepias curassavica,94213-1,Species,"""['Asclepin', 'Calactin', 'Calotropin', 'Uscharidin']""",:Manual:KNApSAcK
 10,94258-1,Asclepias eriocarpa,Asclepias eriocarpa,94258-1,Species,"""['Eriocarpin', 'Labriformidin', 'Labriformin']""",:Manual:KNApSAcK
 11,94346-1,Asclepias humistrata,Asclepias humistrata,94346-1,Species,,:Manual:
 12,94704-1,Asclepias tuberosa,Asclepias tuberosa,94704-1,Species,,:Manual:
-13,77539-1,Beaumontia grandiflora,Beaumontia grandiflora,77539-1,Species,,:Manual:
-14,77532-1,Beaumontia brevituba,Beaumontia brevituba,77532-1,Species,,:Manual:
+13,77532-1,Beaumontia brevituba,Beaumontia brevituba,77532-1,Species,,:Manual:
+14,77539-1,Beaumontia grandiflora,Beaumontia grandiflora,77539-1,Species,,:Manual:
 15,77548-1,Beaumontia murtonii,Beaumontia murtonii,77548-1,Species,,:Manual:
 16,95173-1,Calotropis gigantea,Calotropis gigantea,95173-1,Species,"""['Calactin', 'Calotropin']""",:Manual:KNApSAcK
 17,1004515-2,Calotropis procera,Calotropis procera,1004515-2,Species,"""['Calactin', 'Calotropin', 'Uscharidin']""",:Manual:KNApSAcK

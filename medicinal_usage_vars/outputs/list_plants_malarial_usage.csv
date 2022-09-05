@@ -46,9 +46,9 @@
 44,79099-1,Funtumia elastica,Funtumia elastica,79099-1,Species,,:Manual
 45,108063-2,Geissospermum argenteum,Geissospermum argenteum,108063-2,Species,,:Manual
 46,79123-1,Geissospermum laeve,Geissospermum laeve,79123-1,Species,,:Manual
-47,1006780-1,Geissospermum sericeum,Geissospermum sericeum,1006780-1,Species,,:Manual
-48,277357-2,Geissospermum urceolatum,Geissospermum urceolatum,277357-2,Species,,:Manual
-49,277356-2,Geissospermum reticulatum,Geissospermum reticulatum,277356-2,Species,,:Manual
+47,277356-2,Geissospermum reticulatum,Geissospermum reticulatum,277356-2,Species,,:Manual
+48,1006780-1,Geissospermum sericeum,Geissospermum sericeum,1006780-1,Species,,:Manual
+49,277357-2,Geissospermum urceolatum,Geissospermum urceolatum,277357-2,Species,,:Manual
 50,97692-1,Gomphocarpus semilunatus,Gomphocarpus semilunatus,97692-1,Species,,:Manual
 51,122688-2,Himatanthus articulatus,Himatanthus articulatus,122688-2,Species,,:Manual
 52,122690-2,Himatanthus bracteatus,Himatanthus bracteatus,122690-2,Species,,:Manual
@@ -59,8 +59,8 @@
 57,79368-1,Hunteria umbellata,Hunteria umbellata,79368-1,Species,,:Manual
 58,79497-1,Kopsia fruticosa,Kopsia fruticosa,79497-1,Species,,:Manual
 59,79582-1,Landolphia buchananii,Landolphia buchananii,79582-1,Species,,:Manual
-60,79672-1,Landolphia owariensis,Landolphia owariensis,79672-1,Species,,:Manual
-61,79639-1,Landolphia lanceolata,Landolphia lanceolata,79639-1,Species,,:Manual
+60,79639-1,Landolphia lanceolata,Landolphia lanceolata,79639-1,Species,,:Manual
+61,79672-1,Landolphia owariensis,Landolphia owariensis,79672-1,Species,,:Manual
 62,77143808-1,Leptadenia lanceolata,Leptadenia lanceolata,77143808-1,Species,,:Manual
 63,98978-1,Leptadenia madagascariensis,Leptadenia madagascariensis,98978-1,Species,,:Manual
 64,99198-1,Marsdenia latifolia,Marsdenia latifolia,99198-1,Species,,:Manual
@@ -203,8 +203,8 @@
 201,77161073-1,Palicourea humboldtiana,Palicourea humboldtiana,77161073-1,Species,,:Manual
 202,313574-2,Palicourea luteonivea,Palicourea luteonivea,313574-2,Species,,:Manual
 203,759300-1,Palicourea rigida,Palicourea rigida,759300-1,Species,,:Manual
-204,77149703-1,Palicourea woronovii,Palicourea woronovii,77149703-1,Species,,:Manual
-205,313576-2,Palicourea subalatoides,Palicourea subalatoides,313576-2,Species,,:Manual
+204,313576-2,Palicourea subalatoides,Palicourea subalatoides,313576-2,Species,,:Manual
+205,77149703-1,Palicourea woronovii,Palicourea woronovii,77149703-1,Species,,:Manual
 206,759636-1,Pavetta corymbosa,Pavetta corymbosa,759636-1,Species,,:Manual
 207,759639-1,Pavetta crassipes,Pavetta crassipes,759639-1,Species,,:Manual
 208,931727-1,Pavetta lynesii,Pavetta lynesii,931727-1,Species,,:Manual

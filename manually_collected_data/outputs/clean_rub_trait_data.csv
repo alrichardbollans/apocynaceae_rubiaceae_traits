@@ -89,8 +89,8 @@ Coffea benghalensis B. Heyne ex Roth,,Coffea,benghalensis B. Heyne ex Roth,Yes,4
 Coffea canephora Pierre ex A. Froehner,,Coffea,canephora Pierre ex A. Froehner,Yes,"KN, 48","Isolated, U [KN] Isolated, bean [48]",pyrazine; [KN]; pyridine [KN]; purine [KN]; indole ,pyrroloindole,,Yes,203,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coffea eugenioides S.Moore,,Coffea,eugenioides S.Moore,Yes,KN,"Isolated, U",purine,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coffea kianjavatensis J.-F. Leroy,,Coffea,kianjavatensis J.-F. Leroy,Yes,49,"Isolated, U [KN] Detected (MS & UV & NMR & FTIR), bean [49] ",purine,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Coffea liberica var. dewevrei (De. Wild. & T. Durand) Lebrun,,Coffea,liberica var. dewevrei (De. Wild. & T. Durand) Lebrun,Yes,50,"Detected, L & Fr",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coffea liberica W.Bull,,Coffea,liberica W.Bull,Yes,KN,"Isolated, U",purine,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Coffea liberica var. dewevrei (De. Wild. & T. Durand) Lebrun,,Coffea,liberica var. dewevrei (De. Wild. & T. Durand) Lebrun,Yes,50,"Detected, L & Fr",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coffea mauritiana Lam.,,Coffea,mauritiana Lam.,,,,,,,,,,,Yes,Extraction,Vitro,Inactive,Weak,Yes,"IC50 = 37.63 ± 0.7 μg/mL (EtOAc R, 3D7)",17,,,,,,,,,,,Rubiaceae
 Coffea racemosa Lour.,,Coffea,racemosa Lour.,Yes,KN,"Isolated, U",purine,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coffea salvatrix Swynn. & Philipson`,,Coffea,salvatrix Swynn. & Philipson`,Yes,KN,"Isolated, U",purine,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
@@ -173,10 +173,10 @@ Guettarda angelica Mart. ex Müll. Arg.,spp. listed (8/155),Guettarda,angelica M
 Guettarda calyptrata A. Rich.,,Guettarda,calyptrata A. Rich.,Yes,95,"Detected (Dragendorff & Wagner), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Guettarda elliptica Sw.,,Guettarda,elliptica Sw.,Yes,96,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Guettarda heterosepala Guillaumin,,Guettarda,heterosepala Guillaumin,Yes,93,"Isolated, B",MIA,monoterpenoid; indole,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Guettarda platypoda DC.,,Guettarda,platypoda DC.,Yes,220,"Isolated, R",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Guettarda speciosa L.,,Guettarda,speciosa L.,Yes,92,"Isolated, RB",MIA,beta-carboline,,Yes,89,,,Yes,Extraction,Vitro,Inactive,Inactive,Yes,"IC50 > 50 μg/mL (DCM MeOH Meoh/H20 H20 Fl, W2)",89,,,,,,,,,,,Rubiaceae
 Guettarda trimera Guillaumin,,Guettarda,trimera Guillaumin,Yes,90,"Isolated, TrB",quinoline,piperidine; quinoline,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Guettarda uruguensis Cham. & Schltdl.,,Guettarda,uruguensis Cham. & Schltdl.,Yes,94,"Detected (phytochemical screening), SB",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Guettarda platypoda DC.,,Guettarda,platypoda DC.,Yes,220,"Isolated, R",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Gyrostipula foveolata (Capuron) J.-F. Leroy,spp. listed (1/3),Gyrostipula,foveolata (Capuron) J.-F. Leroy,Yes,39,"Detected (TLC), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Hamelia axillaris Sw.,spp. listed (6/16),Hamelia,axillaris Sw.,Yes,7,"Detected (Dragendorff), L & Wp",,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Hamelia barbata Standl.,,Hamelia,barbata Standl.,Yes,96,"Detected (Dragendorff), L & Wp",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
@@ -345,6 +345,7 @@ Palicourea axillaris (Sw.) Borhidi,,Palicourea,axillaris (Sw.) Borhidi,Yes,72,"I
 Palicourea bella (Standl.) Dwyer,,Palicourea,bella (Standl.) Dwyer,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea caerulea (Ruiz & Pav.) Schult.,,Palicourea,caerulea (Ruiz & Pav.) Schult.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea chiriquiensis (Standl.) Borhidi,,Palicourea,chiriquiensis (Standl.) Borhidi,Yes,72,"Isolated, U",MIA,beta-carboline; monoterpenoid,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Palicourea colorata (Hoffmanns. ex Willd.) Delprete & J. H. Kirkbr,,Palicourea,colorata (Hoffmanns. ex Willd.) Delprete & J. H. Kirkbr,Yes,72,"Isolated, U",PIA,2x PIA; 3x PIA; 4x PIA,calycanthine,,,,,Yes,Extraction,Vitro,Active,Active,Yes,100% in vitro inhibition of p. falciparum at 25 μg/mL (acid-base L),160,,,,,,,,,,,Rubiaceae
 Palicourea coriacea (Cham.) K. Schum.,,Palicourea,coriacea (Cham.) K. Schum.,Yes,72,"Isolated, U",MIA; PIA,bisquinoline; monoterpenoid; indole,calycanthine is often referred to as a polypyrroloindolidine alkaloid,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea correae (Dwyer & M. V. Hayden) Borhidi,,Palicourea,correae (Dwyer & M. V. Hayden) Borhidi,Yes,72,"Isolated, U",MIA;,monoterpenoid; beta-carboline; indole,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea crocea (Sw.) Schult.,,Palicourea,crocea (Sw.) Schult.,Yes,72,"Isolated, U",MIA,monoterpenoid; beta-carboline,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
@@ -378,6 +379,7 @@ Palicourea rigida Kunth,,Palicourea,rigida Kunth,Yes,72,"Isolated, U",MIA; PIA,m
 Palicourea rigidifolia (Dwyer & M. V. Hayden) Dwyer,,Palicourea,rigidifolia (Dwyer & M. V. Hayden) Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea semirasa Standl.,,Palicourea,semirasa Standl.,Yes,72,"Isolated, U",PIA,2x pyrrolindolidine,calycanthine,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea sessilis (Vell.) C. M. Taylor,,Palicourea,sessilis (Vell.) C. M. Taylor,Yes,72,"Isolated, U",indole; MIA,indole; monoterpenoid; beta-carboline; glycoside,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Palicourea subalatoides C.M. Taylor,,Palicourea,subalatoides C.M. Taylor,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea suerrensis (Donn. Sm.) Borhidi,,Palicourea,suerrensis (Donn. Sm.) Borhidi,Yes,72,"Isolated, U",indole; MIA,beta-carboline; monooterpenoid; glycoside,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea tomentosa (Aubl.) Borhidi,,Palicourea,tomentosa (Aubl.) Borhidi,Yes,7,"Detected (Dragendorff), Sa",,,,,,Yes,31,Yes,Extraction,Vitro,Inactive,Inactive,Yes,"IC50 > 10 μg/mL (EtOH L, 3D7)",31,,,,,,,,,,,Rubiaceae
 Palicourea triphylla DC.,,Palicourea,triphylla DC.,Yes,7,"Detected (Dragendorff), L & S & F",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
@@ -385,8 +387,6 @@ Palicourea tsakiana (C. M. Taylor) C. M. Taylor,,Palicourea,tsakiana (C. M. Tayl
 Palicourea tumidonodosa Dwyer,,Palicourea,tumidonodosa Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea winkleri Borhidi,,Palicourea,winkleri Borhidi,Yes,72,"Isolated, U",indole; MIA,beta-carboline; monoterpenoid; glycoside,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Palicourea woronovii (Standl.) Bruniera & C. M. Taylor,,Palicourea,woronovii (Standl.) Bruniera & C. M. Taylor,,,,,,,Yes,159,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Palicourea colorata (Hoffmanns. ex Willd.) Delprete & J. H. Kirkbr,,Palicourea,colorata (Hoffmanns. ex Willd.) Delprete & J. H. Kirkbr,Yes,72,"Isolated, U",PIA,2x PIA; 3x PIA; 4x PIA,calycanthine,,,,,Yes,Extraction,Vitro,Active,Active,Yes,100% in vitro inhibition of p. falciparum at 25 μg/mL (acid-base L),160,,,,,,,,,,,Rubiaceae
-Palicourea subalatoides C.M. Taylor,,Palicourea,subalatoides C.M. Taylor,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Pauridiantha callicarpoides (Hiern) Bremek.,Spp. listed (2/51),Pauridiantha,callicarpoides (Hiern) Bremek.,Yes,240,"Isolated, SB",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Pauridiantha paucinervis (Hiern) Bremek,,Pauridiantha,paucinervis (Hiern) Bremek,Yes,241,"Isolated, L",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Pavetta corymbosa (Dc.) F. N. Williams,spp. listed (7/364),Pavetta,corymbosa (Dc.) F. N. Williams,Yes,153,"Detected (Bouchardat & Dragendorff & Mayer), A",,,,Yes,23/202,,,Yes,Extraction,Vitro,Active,,,"IC50 > 20 & = 5.54 ± 0.79 μg/mL (DCM, A, 3D7 & K1)",23,,,,,,,,,,,Rubiaceae
@@ -555,17 +555,17 @@ Uncaria hirsuta Havil.,,Uncaria,hirsuta Havil.,Yes,102,"Isolated, U ",MIA; bisin
 Uncaria homomalla Miq.,,Uncaria,homomalla Miq.,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria laevigata Wall. ex G.Don,,Uncaria,laevigata Wall. ex G.Don,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria lancifolia Hutch.,,Uncaria,lancifolia Hutch.,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Uncaria lanosa var. glabrata (Blume) Ridsdale,,Uncaria,lanosa var. glabrata (Blume) Ridsdale,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria lanosa Wall.,,Uncaria,lanosa Wall.,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Uncaria lanosa var. glabrata (Blume) Ridsdale,,Uncaria,lanosa var. glabrata (Blume) Ridsdale,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria longiflora (Poir.) Merr.,,Uncaria,longiflora (Poir.) Merr.,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria longiflora var. longiflora,,Uncaria,longiflora var. longiflora,Yes,102,"Isolated, U ",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria macrophylla Wall.,,Uncaria,macrophylla Wall.,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria orientalis Guillaumin,,Uncaria,orientalis Guillaumin,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Uncaria rhynchophylla (Miq.) Miq.,,Uncaria,rhynchophylla (Miq.) Miq.,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria scandens (Sm.) Wall.,,Uncaria,scandens (Sm.) Wall.,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria sessilifructus Roxb.,,Uncaria,sessilifructus Roxb.,Yes,KN,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria sinensis (Oliv.) Havil.,,Uncaria,sinensis (Oliv.) Havil.,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Uncaria tomentosa (Willd. ex Schult.) DC.,,Uncaria,tomentosa (Willd. ex Schult.) DC.,Yes,68/102,"Detected (Dragendorff), L [68] Isolated, U [102]",MIA,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Uncaria rhynchophylla (Miq.) Miq.,,Uncaria,rhynchophylla (Miq.) Miq.,Yes,102,"Isolated, U ",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Urophyllum arboreum (Reinw. ex Blume) Korth,spp. listed (1/121),Urophyllum,arboreum (Reinw. ex Blume) Korth,Yes,124,"""Simple qualitative methods"". Phytochemical screening",,,,Yes,124,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Vangueria agrestis (Schweinf. ex Hiern) Lantz,spp. listed (3/58),Vangueria,agrestis (Schweinf. ex Hiern) Lantz,Yes,59,"Detected (crude alkaloid extract), U",,,,Yes,59,,,Yes,Extraction,Vitro,Active,,Yes,"4 < IC50 < 10 μg/mL (crude alkaloidal, W2)",59,,,,,,,,,,,Rubiaceae
 Vangueria infausta subsp. infausta,,Vangueria,infausta subsp. infausta,Yes,179,"Detected (Alkaloids show anticholinesterase properties), U",,,,Yes,"175, 205",,,Yes,Extraction,Vitro,Active,Active,Yes,"IC50 = 1.84 μg/mL (DCM R, NF54)",175,,,,,,,,,,,Rubiaceae
