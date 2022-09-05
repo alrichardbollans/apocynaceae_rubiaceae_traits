@@ -32,6 +32,8 @@ NEW_HEADINGS = [
     "History_Fever",
     "Ref_H_Fever",
     "Tested_Antimalarial",
+    "Extraction_Method",
+    "Type_of_Test",
     "Activity_Antimalarial",
     "Authors_Activity_Label",
     "Positive_Control_Used",

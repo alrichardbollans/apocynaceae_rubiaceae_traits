@@ -61,9 +61,21 @@ def encode_alkaloids(df: pd.DataFrame):
     for a in presence_alk_strings:
         print(a)
 
+    presence_alk_csv = os.path.join(trait_parsing_output_path, "presence_alk_strings.csv")
+
+    with open(presence_alk_csv, 'w') as f:
+        for line in presence_alk_strings:
+            f.write(f"{line}\n")
+
     print('##### Absence alkaloid strings:')
     for a in absence_alk_strings:
         print(a)
+
+    absence_alk_csv = os.path.join(trait_parsing_output_path, "absence_alk_strings.csv")
+
+    with open(absence_alk_csv, 'w') as f:
+        for line in absence_alk_strings:
+            f.write(f"{line}\n")
 
 
 def clean_alkaloids(given_value: str) -> int:
