@@ -70,15 +70,18 @@ Chione venosa (Sw.) Urb.,All spp. listed (1/1),Chione,venosa (Sw.) Urb.,Yes,211,
 Ciliosemina pedunculata (H. Karst.) Antonelli,spp. listed (2/2),Ciliosemina,pedunculata (H. Karst.) Antonelli,Yes,102/212,"Isolated, U",indole; quinoline; ,quinuclidine; quinoline; indole,,Yes,18,Yes,,Yes,Extraction,Vitro,Active,Active,Yes,"IC50 < 10 μg/mL (EtOH C, 3D7)",18,,,,,,,,,,,Rubiaceae
 Ciliosemina purdieana (Wedd.) Antonelli,,Ciliosemina,purdieana (Wedd.) Antonelli,Yes,213,"Isolated, U",indole; quinoline; ,quinuclidine; quinoline; indole,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Cinchona barbacoensis H. Karst.,spp. listed (10/24),Cinchona,barbacoensis H. Karst.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Cinchona calisaya Wedd.,,Cinchona,calisaya Wedd.,Yes,102,"Isolated, U",quinoline,quinuclidine; quinoline,,Yes,14/65,Yes,14,,,,,,,,,,,,,,,,,,,Rubiaceae
+Cinchona calisaya Wedd.,,Cinchona,calisaya Wedd.,Yes,"102, 262","Isolated, U",quinoline,quinuclidine; quinoline,,Yes,14/65,Yes,14,,Isolation,,Active,,,"Quinine Present [260, 261, 262]",,,,,,,,,,,,Rubiaceae
 Cinchona hirsuta Ruiz & Pav.,,Cinchona,hirsuta Ruiz & Pav.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Cinchona lancifolia Mutis,,Cinchona,lancifolia Mutis,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Cinchona lancifolia Mutis,,Cinchona,lancifolia Mutis,Yes,262,"Isolated, U",quinoline,,,,,,,,Isolation,,Active,,,Quinine Present [262],,,,,,,,,,,,Rubiaceae
 Cinchona lucumifolia Pav. ex Lindl.,,Cinchona,lucumifolia Pav. ex Lindl.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Cinchona macrocalyx Pav. ex DC.,,Cinchona,macrocalyx Pav. ex DC.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
+Cinchona macrocalyx Pav. ex DC.,,Cinchona,macrocalyx Pav. ex DC.,Yes,262,"Isolated, U",quinoline,,,Yes,209,,,,Isolation,,Active,,,Quinine Present [262],,,,,,,,,,,,Rubiaceae
+Cinchona micrantha,,Cinchona,micrantha,Yes,262,"Isolated, U",quinoline,,,,,,,,Isolation,,Active,,,Quinine Present [262],,,,,,,,,,,,Rubiaceae
 Cinchona mutisii Lamb.,,Cinchona,mutisii Lamb.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Cinchona officinalis L.,,Cinchona,officinalis L.,Yes,KN,"Isolated, U",MIA; quinoline,,,Yes,65/ 76,,,Yes,Extraction,Vitro,Active,Active,Yes,"IC50 = 0.21 0.21 μg/ml (Aqueous, B)",210,Compounds tested,,,,,,,,,,Rubiaceae
-Cinchona pitayensis (Wedd.) Wedd.,,Cinchona,pitayensis (Wedd.) Wedd.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Cinchona pubescens Vahl,,Cinchona,pubescens Vahl,Yes,"KN, 68","Isolated, U [KN] Detected (Dragendorff), L [68]",quinoline; MIA,,,Yes,65/181,Yes,181,Yes,Extraction,Vitro,Active,Active,Yes,"IC50 < 10 μg/mL (Petr. Ether, DCM, EtOAc, MeOH B, 3D7 & Dd2)",191,,181/182,PubMed Central,,,,,,,,Rubiaceae
+Cinchona nitida,,Cinchona,nitida,Yes,262,"Isolated, U",quinoline,,,,,,,,Isolation,,Active,,,Quinine Present [262],,,,,,,,,,,,Rubiaceae
+Cinchona officinalis L.,,Cinchona,officinalis L.,Yes,KN,"Isolated, U",MIA; quinoline,,,Yes,65/ 76,,,Yes,"Isolation, Extraction",Vitro,Active,Active,Yes,"IC50 = 0.21 0.21 μg/ml (Aqueous, B) [210] Quinine Present [262]",210,,,,,,,,,,,Rubiaceae
+Cinchona pitayensis (Wedd.) Wedd.,,Cinchona,pitayensis (Wedd.) Wedd.,Yes,262,"Isolated, U",quinoline,,,,,,,,Isolation,,Active,,,Quinine Present [262],,,,,,,,,,,,Rubiaceae
+Cinchona pubescens Vahl,,Cinchona,pubescens Vahl,Yes,"KN, 68","Isolated, U [KN] Detected (Dragendorff), L [68]",quinoline; MIA,,,Yes,65/181,Yes,181,Yes,"Isolation, Extraction",Vitro,Active,Active,Yes,"IC50 < 10 μg/mL (Petr. Ether, DCM, EtOAc, MeOH B, 3D7 & Dd2) [191[ Quinine Present [261, 262]",191,,181/182,PubMed Central,,,,,,,,Rubiaceae
+Cinchona villosa,,Cinchona,villosa,Yes,262,"Isolated, U",quinoline,,,,,,,,Isolation,,Active,,,Quinine Present [262],,,,,,,,,,,,Rubiaceae
 Coccocypselum guianense (Aubl.) K. Schum.,spp. listed (4/22),Coccocypselum,guianense (Aubl.) K. Schum.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coccocypselum herbaceum P. Browne ex Aubl.,,Coccocypselum,herbaceum P. Browne ex Aubl.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Coccocypselum hirsutum Bartl. ex DC.,,Coccocypselum,hirsutum Bartl. ex DC.,Yes,68,"Detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
@@ -449,7 +452,7 @@ Randia lasiantha (Standl.) Standl.,,Randia,lasiantha (Standl.) Standl.,Yes,68,"D
 Randia mira Dwyer,,Randia,mira Dwyer,Yes,68,"Not detected (Dragendorff), L",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Raritebe palicoureoides subsp. dwyerianum J. H. Kirkbr.,spp. listed (1/1),Raritebe,palicoureoides subsp. dwyerianum J. H. Kirkbr.,Yes,68,"Detected (Dragendorff), L & F",,,,,,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Remijia amphithrix Standl.,spp. listed (8/43),Remijia,amphithrix Standl.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
-Remijia ferruginea (A. St.-Hil.) DC.,,Remijia,ferruginea (A. St.-Hil.) DC.,,,,,,,Yes,14,Yes,14,Yes,Extraction,Vivo,Inactive,Weak,Yes,48% reduction in parasitemia in p. berghei infested mice after 4 days of 1000 mg/kg dose of bark.,166,,,,,,,,,,,Rubiaceae
+Remijia ferruginea (A. St.-Hil.) DC.,,Remijia,ferruginea (A. St.-Hil.) DC.,Yes,166,"Detected (Draggendorff), B",,,,Yes,14,Yes,14,Yes,Extraction,Vivo,Inactive,Weak,Yes,48% reduction in parasitemia in p. berghei infested mice after 4 days of 1000 mg/kg dose of bark.,166,,,,,,,,,,,Rubiaceae
 Remijia firmula (Mart. ex Klotzsch) Wedd.,,Remijia,firmula (Mart. ex Klotzsch) Wedd.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Remijia macrocnemia (Mart.) Wedd.,,Remijia,macrocnemia (Mart.) Wedd.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
 Remijia macrophylla (H.Karst.) Benth. & Hook.f. ex Flueck.,,Remijia,macrophylla (H.Karst.) Benth. & Hook.f. ex Flueck.,,,,,,,Yes,209,,,,,,,,,,,,,,,,,,,,,Rubiaceae
