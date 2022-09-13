@@ -269,6 +269,13 @@ def prepare_data():
     prepare_wiersema_data()
 
 
+def output_source_summaries():
+    output_summary_of_hit_csv(
+        output_common_names_csv,
+        os.path.join(output_path, 'source_summaries', 'commonname_source_summary'),
+        families=['Apocynaceae', 'Rubiaceae'], source_translations={'Wiki': 'Wiki (', 'POWO': 'POWO pages'})
+
+
 def main():
     if not os.path.isdir(_temp_outputs_path):
         os.mkdir(_temp_outputs_path)
@@ -296,10 +303,7 @@ def main():
     all_dfs = [mpns_hits, usda_hits, powo_hits, wiki_hits, spp_df, ppa_df, cornell_hits, cpcs_hits, cpcs_toxic_hits,
                ucantoxic_hits, ucannontoxic_hits, duke_hits, tppt_hits, wiersema_hits]
     compile_hits(all_dfs, output_common_names_csv)
-
-    output_summary_of_hit_csv(
-        output_common_names_csv,
-        os.path.join(output_path, 'source_summaries', 'commonname_source_summary'))
+    output_source_summaries()
 
 
 if __name__ == '__main__':

@@ -70,10 +70,6 @@ def get_rub_apoc_alkaloid_hits():
 
     compile_hits([manual_alk_hits, knapsack_alk_hits, powo_hits], rub_apoc_alkaloid_hits_output_csv)
 
-    output_summary_of_hit_csv(
-        rub_apoc_alkaloid_hits_output_csv,
-        os.path.join(_output_path, 'source_summaries', 'alkaloid_source_summary'))
-
 def get_rub_apoc_knapsack_steroid_hits():
     metabolites_to_check = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv).columns.tolist()
 
@@ -118,20 +114,28 @@ def get_steroid_card_hits():
 
     compile_hits([manual_steroid_hits, knapsack_steroid_hits], rub_apoc_steroid_hits_output_csv)
 
-    output_summary_of_hit_csv(
-        rub_apoc_steroid_hits_output_csv,
-        os.path.join(_output_path, 'source_summaries', 'steroid_source_summary'))
-
     manual_cardenolide_hits = pd.read_csv(rub_apoc_cardenolide_hits_manual_output_csv)
     knapsack_cardenolide_hits = pd.read_csv(_rub_apoc_cardenolide_hits_knapsack_output_csv)
 
     compile_hits([manual_cardenolide_hits, knapsack_cardenolide_hits], rub_apoc_cardenolide_hits_output_csv)
 
+
+def output_source_summaries():
+    output_summary_of_hit_csv(
+        rub_apoc_steroid_hits_output_csv,
+        os.path.join(_output_path, 'source_summaries', 'steroid_source_summary'),
+        families=['Apocynaceae', 'Rubiaceae'])
+
     output_summary_of_hit_csv(
         rub_apoc_cardenolide_hits_output_csv,
-        os.path.join(_output_path, 'source_summaries', 'cardenolide_source_summary'))
+        os.path.join(_output_path, 'source_summaries', 'cardenolide_source_summary'),
+        families=['Apocynaceae', 'Rubiaceae'])
 
-
+    output_summary_of_hit_csv(
+        rub_apoc_alkaloid_hits_output_csv,
+        os.path.join(_output_path, 'source_summaries', 'alkaloid_source_summary'),
+        families=['Apocynaceae', 'Rubiaceae'],
+        source_translations={'POWO': 'POWO pages'})
 def main():
     get_rub_apoc_metabolites()
     # # # # recheck_taxa(_check_output_csv)
@@ -140,7 +144,8 @@ def main():
     get_rub_apoc_alkaloid_hits()
 
     get_steroid_card_hits()
-
+    output_source_summaries()
 
 if __name__ == '__main__':
+
     main()

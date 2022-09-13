@@ -218,9 +218,7 @@ def get_nonpoison_hits():
 
     compile_hits([CPCS_hits, ucanr_hits, clinitox_hits], output_nonpoison_csv)
 
-    output_summary_of_hit_csv(
-        output_nonpoison_csv,
-        os.path.join(_output_path, 'source_summaries', 'nonpoison_source_summary'))
+
 
 
 def get_poison_hits():
@@ -257,9 +255,16 @@ def get_poison_hits():
          clinitox_hits],
         output_poison_csv)
 
+
+def output_source_summaries():
     output_summary_of_hit_csv(
         output_poison_csv,
-        os.path.join(_output_path, 'source_summaries', 'poison_source_summary'))
+        os.path.join(_output_path, 'source_summaries', 'poison_source_summary'),
+        source_translations={'Wiki': '_wiki', 'POWO': 'POWO pages'})
+
+    output_summary_of_hit_csv(
+        output_nonpoison_csv,
+        os.path.join(_output_path, 'source_summaries', 'nonpoison_source_summary'))
 
 
 if __name__ == '__main__':
