@@ -21,6 +21,7 @@ class Test(unittest.TestCase):
         trait_df = pd.read_csv(encoded_traits_csv)
 
         self.assertEqual(trait_df['Family'].unique().tolist(), ['Apocynaceae', 'Rubiaceae'])
+        self.assertEqual(len(trait_df[trait_df['Accepted_Rank'] == 'Genus']), 1)
 
     def test_genera_from_acc_names(self):
         self.assertEqual(get_genus_from_full_name('Danais'), 'Danais')
