@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from pkg_resources import resource_filename
 
-from cleaning import compile_hits
+from cleaning import compile_hits, output_summary_of_hit_csv
 from automatchnames import get_accepted_info_from_names_in_column
 from powo_searches import search_powo
 
@@ -38,7 +38,7 @@ def get_powo_medicinal_usage():
     )
 
 
-def prepare_MPNS_common_names(families_of_interest=None) -> pd.DataFrame:
+def prepare_MPNS_data(families_of_interest=None) -> pd.DataFrame:
     # Requested from MPNS
     mpns_df = pd.read_csv(_initial_MPNS_csv)
     mpns_df.drop(columns=['refstand', 'ref_short'], inplace=True)
@@ -51,8 +51,8 @@ def prepare_MPNS_common_names(families_of_interest=None) -> pd.DataFrame:
     accepted_mpns_df = get_accepted_info_from_names_in_column(mpns_df, 'taxon_name')
 
     accepted_mpns_df = accepted_mpns_df.dropna(subset=['Accepted_Name'])
-    accepted_mpns_df['Source'] = 'MPNS ('+accepted_mpns_df['taxon_name'].astype(str)+')'
-
+    accepted_mpns_df['Source'] = 'MPNS'
+    accepted_mpns_df['MPNS_snippet'] = accepted_mpns_df['taxon_name'].astype(str)
     accepted_mpns_df.to_csv(_cleaned_MPNS_accepted_csv)
 
     return accepted_mpns_df
@@ -65,14 +65,23 @@ def get_powo_antimalarial_usage():
                 families_of_interest=['Rubiaceae', 'Apocynaceae'],
                 filters=['species', 'infraspecies']
                 )
+
+
 def get_manual_hits():
     trait_table = pd.read_csv(encoded_traits_csv)
     antimal_hits = trait_table[trait_table['History_Antimalarial'] == 1]
     antimal_hits = antimal_hits[[
-        'History_Antimalarial', 'Accepted_Name', 'Accepted_Species', 'Accepted_Species_ID', 'Accepted_ID', 'Accepted_Rank',
+        'History_Antimalarial', 'Accepted_Name', 'Accepted_Species', 'Accepted_Species_ID', 'Accepted_ID',
+        'Accepted_Rank',
         'Family']]
     antimal_hits['Source'] = 'Manual'
     antimal_hits.to_csv(_manual_hit_antimal_temp_output)
+
+def prepare_data():
+    get_powo_medicinal_usage()
+    prepare_MPNS_data(families_of_interest=['Apocynaceae', 'Rubiaceae'])
+    get_powo_antimalarial_usage()
+    get_manual_hits()
 
 def main():
     if not os.path.isdir(_temp_outputs_path):
@@ -81,25 +90,25 @@ def main():
         os.mkdir(_output_path)
 
     # Prep Data
-    get_powo_medicinal_usage()
-    prepare_MPNS_common_names(families_of_interest=['Apocynaceae', 'Rubiaceae'])
-    get_powo_antimalarial_usage()
-    get_manual_hits()
+    prepare_data()
 
     # Compile
     manual_antimal_hits = pd.read_csv(_manual_hit_antimal_temp_output)
     powo_medicinal_hits = pd.read_csv(_powo_search_medicinal_temp_output_accepted_csv)
     mpns_medicinal_hits = pd.read_csv(_cleaned_MPNS_accepted_csv)
 
-
-
-    compile_hits([powo_medicinal_hits, mpns_medicinal_hits,manual_antimal_hits], output_medicinal_csv)
-
+    compile_hits([powo_medicinal_hits, mpns_medicinal_hits, manual_antimal_hits], output_medicinal_csv)
+    output_summary_of_hit_csv(
+        output_medicinal_csv,
+        os.path.join(_output_path, 'source_summaries', 'medicinal_source_summary'))
 
     powo_antimalarial_hits = pd.read_csv(_powo_search_malarial_temp_output_accepted_csv)
 
+    compile_hits([powo_antimalarial_hits, manual_antimal_hits], output_malarial_csv)
 
-    compile_hits([powo_antimalarial_hits,manual_antimal_hits], output_malarial_csv)
+    output_summary_of_hit_csv(
+        output_malarial_csv,
+        os.path.join(_output_path, 'source_summaries', 'malarial_source_summary'))
 
 
 if __name__ == '__main__':

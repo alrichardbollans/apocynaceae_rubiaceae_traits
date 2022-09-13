@@ -5,7 +5,7 @@ from pkg_resources import resource_filename
 from typing import List
 
 from automatchnames import get_accepted_info_from_names_in_column
-from cleaning import COL_NAMES
+from cleaning import COL_NAMES, single_source_col
 
 inputs_path = resource_filename(__name__, 'inputs')
 _try_morph_input_csv = os.path.join(inputs_path, '18455.txt')
@@ -167,7 +167,7 @@ def clean_try_hits(df: pd.DataFrame, traits_to_drop: List[str]) -> pd.DataFrame:
     df['OrigUnitStr'].fillna('', inplace=True)
     df['try_Snippet'] = df['DataName'] + ':' + df['OrigValueStr'] + df[
         'OrigUnitStr']
-    df[COL_NAMES['single_source']] = 'TRY (' + df['Reference'] + ')'
+    df[single_source_col] = 'TRY (' + df['Reference'] + ')'
 
     return df
 

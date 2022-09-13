@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from pkg_resources import resource_filename
 
-from cleaning import compile_hits
+from cleaning import compile_hits, output_summary_of_hit_csv
 from automatchnames import clean_urn_ids, get_accepted_info_from_names_in_column
 
 ### Inputs
@@ -218,6 +218,10 @@ def get_nonpoison_hits():
 
     compile_hits([CPCS_hits, ucanr_hits, clinitox_hits], output_nonpoison_csv)
 
+    output_summary_of_hit_csv(
+        output_nonpoison_csv,
+        os.path.join(_output_path, 'source_summaries', 'nonpoison_source_summary'))
+
 
 def get_poison_hits():
     if not os.path.isdir(_temp_outputs_path):
@@ -253,8 +257,11 @@ def get_poison_hits():
          clinitox_hits],
         output_poison_csv)
 
+    output_summary_of_hit_csv(
+        output_poison_csv,
+        os.path.join(_output_path, 'source_summaries', 'poison_source_summary'))
+
 
 if __name__ == '__main__':
-
     get_poison_hits()
     get_nonpoison_hits()

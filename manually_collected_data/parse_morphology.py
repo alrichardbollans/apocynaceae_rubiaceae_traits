@@ -32,6 +32,7 @@ def prepare_manually_collected_data():
 
     manual_data.drop(columns='habit', inplace=True)
     manual_data['Manual_snippet'] = ''
+    manual_data['Source'] = 'Manual'
     manual_data['spines'] = manual_data['spines'].apply(remove_whitespace_at_beginning_and_end)
     manual_data['latex'] = manual_data['latex'].apply(remove_whitespace_at_beginning_and_end)
     manual_data['corolla'] = manual_data['corolla'].apply(remove_whitespace_at_beginning_and_end)
@@ -43,7 +44,7 @@ def prepare_manually_collected_data():
 
 def main():
     prepare_manually_collected_data()
-    prepare_habits()
+    # prepare_habits()
 
 
 if __name__ == '__main__':
