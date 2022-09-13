@@ -7,6 +7,7 @@ from manually_collected_data import trait_parsing_output_path, encoded_traits_cs
 
 parsed_alkaloid_classes_csv = os.path.join(trait_parsing_output_path, 'parsed_alkaloid_classes.csv')
 
+_alk_class_column = 'Alkaloid_mainclass'
 
 def remove_whitespace_at_beginning_and_end(value: str):
     try:
@@ -48,9 +49,9 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
 
             return out_list
 
-    df['Alkaloid_mainclass'] = df['Alkaloid_mainclass'].apply(convert_alks_to_lists)
+    df[_alk_class_column] = df[_alk_class_column].apply(convert_alks_to_lists)
 
-    multilabels = df['Alkaloid_mainclass'].str.join('|').str.get_dummies()
+    multilabels = df[_alk_class_column].str.join('|').str.get_dummies()
     multilabels = multilabels.add_prefix('alk_')
     df = df.join(multilabels)
 
@@ -60,7 +61,7 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
 def parse_alkaloid_data():
     input_alks = pd.read_csv(encoded_traits_csv, index_col=0)
 
-    input_alks.dropna(subset=['Alkaloid_mainclass'], inplace=True)
+    input_alks.dropna(subset=[_alk_class_column], inplace=True)
 
     # OHE
     encoded = OHE_alks(input_alks)

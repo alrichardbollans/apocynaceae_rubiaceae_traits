@@ -31,7 +31,6 @@ def prepare_manually_collected_data():
                                 }, inplace=True)
 
     manual_data.drop(columns='habit', inplace=True)
-    manual_data['Source'] = 'Manual'
     manual_data['Manual_snippet'] = ''
     manual_data['spines'] = manual_data['spines'].apply(remove_whitespace_at_beginning_and_end)
     manual_data['latex'] = manual_data['latex'].apply(remove_whitespace_at_beginning_and_end)

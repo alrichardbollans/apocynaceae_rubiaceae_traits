@@ -16,8 +16,6 @@ def get_manual_steroid_hits():
     # Get steroids
     steroid_hits = manual_df[manual_df['Steroids'] == 1]
 
-    steroid_hits['Source'] = 'Manual'
-
     steroid_hits.to_csv(rub_apoc_steroid_hits_manual_output_csv)
 
 
@@ -26,8 +24,6 @@ def get_manual_cardenolide_hits():
                             )
     # Get cardenolides
     cardenolide_hits = manual_df[manual_df['Cardenolides'] == 1]
-
-    cardenolide_hits['Source'] = 'Manual'
 
     cardenolide_hits.to_csv(rub_apoc_cardenolide_hits_manual_output_csv)
 

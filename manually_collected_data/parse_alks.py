@@ -11,8 +11,6 @@ def get_manual_alk_hits():
     manual_df = pd.read_csv(encoded_traits_csv)
     # Get steroids
     alk_hits = manual_df[manual_df['Alkaloids'] == 1]
-    alk_hits.drop(columns=['MPNS_Sources'], inplace=True)
-    alk_hits['Source'] = 'Manual'
 
     alk_hits.to_csv(rub_apoc_alk_hits_manual_output_csv)
 

@@ -151,6 +151,9 @@ def main():
         print(problem_df)
         raise ValueError
 
+    # Add source info
+    out_df['Source'] = 'Manual'
+
     out_df.to_csv(encoded_traits_csv)
 
 

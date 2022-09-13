@@ -40,7 +40,7 @@ NEW_HEADINGS = [
     "Given_Activities",
     "Ref_Activity",
     "General_notes",
-    "MPNS_Sources",
+    "MPNS_notes",
     "Details",
     "Cardenolides",
     "Cardenolides_details",
@@ -50,6 +50,8 @@ NEW_HEADINGS = [
     "Steroids_Ref",
     'General_Phytochem_notes'
 ]
+if any('source' in x.lower() for x in NEW_HEADINGS):
+    raise ValueError('Unwanted Source included in columns')
 ORDER_STANDARDISED_CSV = os.path.join(trait_parsing_output_path, "standardised_order.csv")
 ACCEPTED_NAME_COLUMN = "Accepted_Name"
 
