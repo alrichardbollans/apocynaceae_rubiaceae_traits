@@ -273,7 +273,8 @@ def output_source_summaries():
     output_summary_of_hit_csv(
         output_common_names_csv,
         os.path.join(output_path, 'source_summaries', 'commonname_source_summary'),
-        families=['Apocynaceae', 'Rubiaceae'], source_translations={'Wiki': 'Wiki (', 'POWO': 'POWO pages'})
+        families=['Apocynaceae', 'Rubiaceae'], source_translations={'Wiki': 'Wiki (', 'POWO': 'POWO pages'},
+        ranks=['Species'])
 
 
 def main():

@@ -260,11 +260,11 @@ def output_source_summaries():
     output_summary_of_hit_csv(
         output_poison_csv,
         os.path.join(_output_path, 'source_summaries', 'poison_source_summary'),
-        source_translations={'Wiki': '_wiki', 'POWO': 'POWO pages'})
+        source_translations={'Wiki': '_wiki', 'POWO': 'POWO pages'}, ranks=['Species'])
 
     output_summary_of_hit_csv(
         output_nonpoison_csv,
-        os.path.join(_output_path, 'source_summaries', 'nonpoison_source_summary'))
+        os.path.join(_output_path, 'source_summaries', 'nonpoison_source_summary'), ranks=['Species'])
 
 
 if __name__ == '__main__':

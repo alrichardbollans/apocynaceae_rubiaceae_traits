@@ -124,18 +124,18 @@ def output_source_summaries():
     output_summary_of_hit_csv(
         rub_apoc_steroid_hits_output_csv,
         os.path.join(_output_path, 'source_summaries', 'steroid_source_summary'),
-        families=['Apocynaceae', 'Rubiaceae'])
+        families=['Apocynaceae', 'Rubiaceae'], ranks=['Species'])
 
     output_summary_of_hit_csv(
         rub_apoc_cardenolide_hits_output_csv,
         os.path.join(_output_path, 'source_summaries', 'cardenolide_source_summary'),
-        families=['Apocynaceae', 'Rubiaceae'])
+        families=['Apocynaceae', 'Rubiaceae'], ranks=['Species'])
 
     output_summary_of_hit_csv(
         rub_apoc_alkaloid_hits_output_csv,
         os.path.join(_output_path, 'source_summaries', 'alkaloid_source_summary'),
         families=['Apocynaceae', 'Rubiaceae'],
-        source_translations={'POWO': 'POWO pages'})
+        source_translations={'POWO': 'POWO pages'}, ranks=['Species'])
 def main():
     get_rub_apoc_metabolites()
     # # # # recheck_taxa(_check_output_csv)
