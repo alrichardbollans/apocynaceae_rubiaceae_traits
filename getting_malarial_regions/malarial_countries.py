@@ -106,6 +106,8 @@ def get_world_bank_tdwg_codes():
 
     return parsed_codes
 
+def get_WHO_codes():
+    pass
 
 def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     import matplotlib.pyplot as plt
@@ -175,8 +177,9 @@ def get_tdwg3_codes():
     codes_from_CDC = ['WSA', 'LIN', 'FRG', 'ZAI', 'CAB']
 
     iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC
-
+    iso_3_codes = sorted(iso_3_codes)
     code_df = pd.DataFrame({'tdwg3_codes': iso_3_codes})
+    code_df.drop_duplicates(subset=['tdwg3_codes'], inplace=True)
     code_df.to_csv(malaria_country_codes_csv)
 
     return iso_3_codes
