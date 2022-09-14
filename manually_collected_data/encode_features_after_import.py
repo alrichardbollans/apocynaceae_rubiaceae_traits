@@ -89,19 +89,17 @@ def clean_alkaloids(given_value: str) -> int:
 
     test_names = ["dragendorff", "hager", "wagner", "mayer", "phytochemical screening"]
     presence_names = ["unclear", "detected", "isolated"]
+    absence_names = ["not detected"]
     try:
-        if "not detected" in given_value:
-            # print(f'no alkaloids: {given_value}')
+        if any(x in given_value for x in absence_names):
             if given_value not in absence_alk_strings:
                 absence_alk_strings.append(given_value)
             return 0
         elif any(x in given_value for x in presence_names):
-            # print(f'alkaloids: {given_value}')
             if given_value not in presence_alk_strings:
                 presence_alk_strings.append(given_value)
             return 1
         elif any(x in given_value for x in test_names):
-            # print(f'alkaloids: {given_value}')
             if given_value not in presence_alk_strings:
                 presence_alk_strings.append(given_value)
             return 1

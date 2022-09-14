@@ -8,7 +8,7 @@ rub_apoc_alk_hits_manual_output_csv = os.path.join(trait_parsing_output_path, 'r
 
 
 def get_manual_alk_hits():
-    manual_df = pd.read_csv(encoded_traits_csv)
+    manual_df = pd.read_csv(encoded_traits_csv,index_col=0)
     # Get steroids
     alk_hits = manual_df[manual_df['Alkaloids'] == 1]
 
