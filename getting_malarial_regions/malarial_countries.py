@@ -19,6 +19,62 @@ if not os.path.isdir(_temp_outputs_path):
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)
 
+# Without a decent parser, the list output from world bank data is parsed manually using TDWG_geo2.pdf
+world_bank_parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Angola': ['ANG'],
+                               'Argentina': ['AGE', 'AGS', 'AGW'],
+                               'Armenia': ['TCS'],
+                               'Azerbaijan': ['TCS'], 'Bangladesh': ['BAN'], 'Belize': ['BLZ'], 'Benin': ['BEN'],
+                               'Bhutan': ['EHM'],
+                               'Bolivia': ['BOL'], 'Botswana': ['BOT'], 'Brazil': ['BZC', 'BZE', 'BZL', 'BZN', 'BZS'],
+                               'Burkina Faso': ['BKN'], 'Burundi': ['BUR'],
+                               'Cabo Verde': ['CVI'], 'Cambodia': ['CBD'], 'Cameroon': ['CMN'],
+                               'Central African Republic': ['CAF'],
+                               'Chad': ['CHA'],
+                               'China': ['CHC', 'CHN', 'CHS', 'CHH', 'CHI', 'CHM', 'CHQ', 'CHT', 'CHX'],
+                               'Colombia': ['CLM'],
+                               'Comoros': ['COM'], 'Congo, Dem. Rep.': ['CON'],
+                               'Congo, Rep.': ['CON'],
+                               'Costa Rica': ['COS'], "Cote d'Ivoire": ['IVO'], 'Djibouti': ['DJI'],
+                               'Dominican Republic': ['DOM'],
+                               'Ecuador': ['ECU'], 'Egypt, Arab Rep.': ['EGY'], 'El Salvador': ['ELS'],
+                               'Equatorial Guinea': ['EQG'],
+                               'Eritrea': ['ERI'], 'Eswatini': ['SWZ'], 'Ethiopia': ['ETH'], 'Gabon': ['GAB'],
+                               'Gambia, The': ['GAM'],
+                               'Georgia': ['TCS'], 'Ghana': ['GHA'], 'Guatemala': ['GUA'], 'Guinea': ['GUI'],
+                               'Guinea-Bissau': ['GNB'],
+                               'Guyana': ['GUY'], 'Haiti': ['HAI'], 'Honduras': ['HON'], 'India': ['IND'],
+                               'Indonesia': ['NWG', 'JAW', 'BOR', 'LSI', 'MOL', 'SUL', 'SUM'],
+                               'Iran, Islamic Rep.': ['IRN'], 'Iraq': ['IRQ'], 'Kenya': ['KEN'],
+                               "Korea, Dem. People's Rep.": ['KOR'],
+                               'Korea, Rep.': ['KOR'], 'Kyrgyz Republic': ['KGZ'], 'Lao PDR': ['LAO'],
+                               'Liberia': ['LBR'],
+                               'Madagascar': ['MDG'],
+                               'Malawi': ['MLW'], 'Malaysia': ['MLY'], 'Mali': ['MLI'], 'Mauritania': ['MTN'],
+                               'Mexico': ['MXC', 'MXE', 'MXG', 'MXI', 'MXN', 'MXS', 'MXT'],
+                               'Morocco': ['MOR'],
+                               'Mozambique': ['MOZ'], 'Myanmar': ['MYA'], 'Namibia': ['NAM'], 'Nepal': ['NEP'],
+                               'Nicaragua': ['NIC'],
+                               'Niger': ['NGR'],
+                               'Nigeria': ['NGA'], 'Oman': ['OMA'], 'Pakistan': ['PAK'], 'Panama': ['PAN'],
+                               'Papua New Guinea': ['NWG'],
+                               'Paraguay': ['PAR'], 'Peru': ['PER'], 'Philippines': ['PHI'], 'Rwanda': ['RWA'],
+                               'Sao Tome and Principe': ['GGI'],
+                               'Saudi Arabia': ['SAU'], 'Senegal': ['SEN'], 'Sierra Leone': ['SIE'],
+                               'Solomon Islands': ['SOL'],
+                               'Somalia': ['SOM'],
+                               'South Africa': ['CPP', 'OFS', 'NAT', 'TVL'], 'South Sudan': ['SUD'],
+                               'Sri Lanka': ['SRL'],
+                               'Sudan': ['SUD'],
+                               'Suriname': ['SUR'],
+                               'Syrian Arab Republic': ['LBS'], 'Tajikistan': ['TZK'], 'Tanzania': ['TAN'],
+                               'Thailand': ['THA'],
+                               'Timor-Leste': ['LSI'], 'Togo': ['TOG'], 'Turkey': ['TUR'], 'Turkmenistan': ['TKM'],
+                               'Uganda': ['UGA'],
+                               'Uzbekistan': ['UZB'], 'Vanuatu': ['VAN'], 'Venezuela, RB': ['VEN'], 'Vietnam': ['VIE'],
+                               'Yemen, Rep.': ['YEM'],
+                               'Zambia': ['ZAM'], 'Zimbabwe': ['ZIM'], 'Kazakhstan': ['KAZ'],
+                               'United Arab Emirates': ['GST']}
+
 
 # From https://datacatalog.worldbank.org/search/dataset/0037712
 # Accessed 03/05/2022
@@ -46,68 +102,45 @@ def print_world_bank_countries():
 
 
 def get_world_bank_tdwg_codes():
-    # Without a decent parser, the list output from world bank data is parsed manually here
-    # using TDWG_geo2.pdf
-    parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Angola': ['ANG'],
-                        'Argentina': ['AGE', 'AGS', 'AGW'],
-                        'Armenia': ['TCS'],
-                        'Azerbaijan': ['TCS'], 'Bangladesh': ['BAN'], 'Belize': ['BLZ'], 'Benin': ['BEN'],
-                        'Bhutan': ['EHM'],
-                        'Bolivia': ['BOL'], 'Botswana': ['BOT'], 'Brazil': ['BZC', 'BZE', 'BZL', 'BZN', 'BZS'],
-                        'Burkina Faso': ['BKN'], 'Burundi': ['BUR'],
-                        'Cabo Verde': ['CVI'], 'Cambodia': ['CBD'], 'Cameroon': ['CMN'],
-                        'Central African Republic': ['CAF'],
-                        'Chad': ['CHA'],
-                        'China': ['CHC', 'CHN', 'CHS', 'CHH', 'CHI', 'CHM', 'CHQ', 'CHT', 'CHX'], 'Colombia': ['CLM'],
-                        'Comoros': ['COM'], 'Congo, Dem. Rep.': ['CON'],
-                        'Congo, Rep.': ['CON'],
-                        'Costa Rica': ['COS'], "Cote d'Ivoire": ['IVO'], 'Djibouti': ['DJI'],
-                        'Dominican Republic': ['DOM'],
-                        'Ecuador': ['ECU'], 'Egypt, Arab Rep.': ['EGY'], 'El Salvador': ['ELS'],
-                        'Equatorial Guinea': ['EQG'],
-                        'Eritrea': ['ERI'], 'Eswatini': ['SWZ'], 'Ethiopia': ['ETH'], 'Gabon': ['GAB'],
-                        'Gambia, The': ['GAM'],
-                        'Georgia': ['TCS'], 'Ghana': ['GHA'], 'Guatemala': ['GUA'], 'Guinea': ['GUI'],
-                        'Guinea-Bissau': ['GNB'],
-                        'Guyana': ['GUY'], 'Haiti': ['HAI'], 'Honduras': ['HON'], 'India': ['IND'],
-                        'Indonesia': ['NWG', 'JAW', 'BOR', 'LSI', 'MOL', 'SUL', 'SUM'],
-                        'Iran, Islamic Rep.': ['IRN'], 'Iraq': ['IRQ'], 'Kenya': ['KEN'],
-                        "Korea, Dem. People's Rep.": ['KOR'],
-                        'Korea, Rep.': ['KOR'], 'Kyrgyz Republic': ['KGZ'], 'Lao PDR': ['LAO'], 'Liberia': ['LBR'],
-                        'Madagascar': ['MDG'],
-                        'Malawi': ['MLW'], 'Malaysia': ['MLY'], 'Mali': ['MLI'], 'Mauritania': ['MTN'],
-                        'Mexico': ['MXC', 'MXE', 'MXG', 'MXI', 'MXN', 'MXS', 'MXT'],
-                        'Morocco': ['MOR'],
-                        'Mozambique': ['MOZ'], 'Myanmar': ['MYA'], 'Namibia': ['NAM'], 'Nepal': ['NEP'],
-                        'Nicaragua': ['NIC'],
-                        'Niger': ['NGR'],
-                        'Nigeria': ['NGA'], 'Oman': ['OMA'], 'Pakistan': ['PAK'], 'Panama': ['PAN'],
-                        'Papua New Guinea': ['NWG'],
-                        'Paraguay': ['PAR'], 'Peru': ['PER'], 'Philippines': ['PHI'], 'Rwanda': ['RWA'],
-                        'Sao Tome and Principe': ['GGI'],
-                        'Saudi Arabia': ['SAU'], 'Senegal': ['SEN'], 'Sierra Leone': ['SIE'],
-                        'Solomon Islands': ['SOL'],
-                        'Somalia': ['SOM'],
-                        'South Africa': ['CPP', 'OFS', 'NAT', 'TVL'], 'South Sudan': ['SUD'], 'Sri Lanka': ['SRL'],
-                        'Sudan': ['SUD'],
-                        'Suriname': ['SUR'],
-                        'Syrian Arab Republic': ['LBS'], 'Tajikistan': ['TZK'], 'Tanzania': ['TAN'],
-                        'Thailand': ['THA'],
-                        'Timor-Leste': ['LSI'], 'Togo': ['TOG'], 'Turkey': ['TUR'], 'Turkmenistan': ['TKM'],
-                        'Uganda': ['UGA'],
-                        'Uzbekistan': ['UZB'], 'Vanuatu': ['VAN'], 'Venezuela, RB': ['VEN'], 'Vietnam': ['VIE'],
-                        'Yemen, Rep.': ['YEM'],
-                        'Zambia': ['ZAM'], 'Zimbabwe': ['ZIM'], 'Kazakhstan': ['KAZ'], 'United Arab Emirates': ['GST']}
-
     parsed_codes = []
-    for k in parsed_code_dict.keys():
-        for v in parsed_code_dict[k]:
+    for k in world_bank_parsed_code_dict.keys():
+        for v in world_bank_parsed_code_dict[k]:
             parsed_codes.append(v)
 
     return parsed_codes
 
+
 def get_WHO_codes():
-    pass
+    who_df = pd.read_csv(os.path.join(_inputs_path, 'f8SXcv4V.csv'))
+    malarial_regions = who_df[who_df['FactValueNumeric'] > 0]
+    malarial_regions.drop_duplicates(subset=['Location'], inplace=True)
+
+    name_code_parser = world_bank_parsed_code_dict.copy()
+    additional_codes = {'Bolivia (Plurinational State of)': ['BOL'],
+                        'Viet Nam': ['VIE'],
+                        'Yemen': ['YEM'],
+                        "Democratic People's Republic of Korea": ['KOR'],
+                        'Venezuela (Bolivarian Republic of)': ['VEN'],
+                        'Democratic Republic of the Congo': ['CON'],
+                        "Lao People's Democratic Republic": ['LAO'],
+                        "Republic of Korea": ['KOR'],
+                        'Côte d’Ivoire':['IVO'],
+                        'United Republic of Tanzania':['TAN'],
+                        'Gambia':['GAM'],
+                        'Congo':['CON'],
+                        'Iran (Islamic Republic of)':['IRN'],
+                        'Kyrgyzstan':['KGZ']
+                        }
+    name_code_parser.update(additional_codes)
+    region_codes = []
+
+    for location in malarial_regions['Location'].tolist():
+        for v in name_code_parser[location]:
+            region_codes.append(v)
+
+
+    return region_codes
+
 
 def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     import matplotlib.pyplot as plt
@@ -156,11 +189,14 @@ def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     plt.tight_layout()
     # change the fontsize
 
-    plt.savefig(output_path, dpi=50,bbox_inches='tight')
+    plt.savefig(output_path, dpi=50, bbox_inches='tight')
 
 
 def get_tdwg3_codes():
     world_bank_codes = get_world_bank_tdwg_codes()
+
+    who_codes = get_WHO_codes()
+
     print('Getting iso3 codes')
     # Caprivi strip is in namibia
     # Assam is part of india
@@ -176,16 +212,18 @@ def get_tdwg3_codes():
     # Accessed: 12/05/2022
     codes_from_CDC = ['WSA', 'LIN', 'FRG', 'ZAI', 'CAB']
 
-    iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC
+    iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC + who_codes
     iso_3_codes = sorted(iso_3_codes)
     code_df = pd.DataFrame({'tdwg3_codes': iso_3_codes})
     code_df.drop_duplicates(subset=['tdwg3_codes'], inplace=True)
+    code_df.reset_index(inplace=True, drop=True)
     code_df.to_csv(malaria_country_codes_csv)
 
     return iso_3_codes
 
 
 if __name__ == '__main__':
+    # get_WHO_codes()
     # print_world_bank_countries()
     codes = get_tdwg3_codes()
     plot_countries(codes, 'Historical Malarial Regions', os.path.join(_output_path, 'malarial_countries.png'))

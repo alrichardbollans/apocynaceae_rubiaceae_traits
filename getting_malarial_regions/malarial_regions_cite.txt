@@ -10,7 +10,6 @@ Accessed 03/05/2022
 # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
 # Uruguay: https://doi.org/10.1093/ae/46.4.238 (Malaria Vector Heterogeneity in South America)
 
-
 CDC
 https://www.cdc.gov/malaria/about/distribution.html
 Accessed 12/05/22
@@ -19,3 +18,8 @@ Region codes
 Brummitt, R.K., Pando, F., Hollis, S., Brummitt, N., 2001.
 World geographical scheme for recording plant distributions.
 International working group on taxonomic databases for plant sciences
+
+World Health Organization, Global Health Observatory
+Number of indigenous malaria cases
+https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-indigenous-malaria-cases
+Accessed: 14/09/2022
