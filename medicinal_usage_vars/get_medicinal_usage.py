@@ -20,6 +20,7 @@ _cleaned_MPNS_accepted_csv = os.path.join(_temp_outputs_path, 'MPNS Data_accepte
 
 _powo_search_malarial_temp_output_accepted_csv = os.path.join(_temp_outputs_path, 'powo_malarial_accepted.csv')
 _manual_hit_antimal_temp_output = os.path.join(_temp_outputs_path, '_manual_hit_antimal_temp_output.csv')
+_manual_hit_fever_temp_output = os.path.join(_temp_outputs_path, '_manual_hit_fever_temp_output.csv')
 
 ### Outputs
 _output_path = resource_filename(__name__, 'outputs')
@@ -69,19 +70,29 @@ def get_powo_antimalarial_usage():
 
 def get_manual_hits():
     trait_table = pd.read_csv(encoded_traits_csv)
-    antimal_hits = trait_table[trait_table['History_Antimalarial'] == 1]
+    antimal_hits = trait_table[trait_table['Antimalarial_Use'] == 1]
     antimal_hits = antimal_hits[[
-        'History_Antimalarial', 'Accepted_Name', 'Accepted_Species', 'Accepted_Species_ID', 'Accepted_ID',
+        'Antimalarial_Use', 'Accepted_Name', 'Accepted_Species', 'Accepted_Species_ID', 'Accepted_ID',
         'Accepted_Rank',
         'Family']]
     antimal_hits['Source'] = 'Manual'
     antimal_hits.to_csv(_manual_hit_antimal_temp_output)
+
+    fever_hits = trait_table[trait_table['History_Fever'] == 1]
+    fever_hits = fever_hits[[
+        'History_Fever', 'Accepted_Name', 'Accepted_Species', 'Accepted_Species_ID', 'Accepted_ID',
+        'Accepted_Rank',
+        'Family']]
+    fever_hits['Source'] = 'Manual'
+    fever_hits.to_csv(_manual_hit_fever_temp_output)
+
 
 def prepare_data():
     get_powo_medicinal_usage()
     prepare_MPNS_data(families_of_interest=['Apocynaceae', 'Rubiaceae'])
     get_powo_antimalarial_usage()
     get_manual_hits()
+
 
 def main():
     if not os.path.isdir(_temp_outputs_path):
@@ -94,11 +105,12 @@ def main():
 
     # Compile
     manual_antimal_hits = pd.read_csv(_manual_hit_antimal_temp_output)
+    manual_fever_hits = pd.read_csv(_manual_hit_fever_temp_output)
     powo_medicinal_hits = pd.read_csv(_powo_search_medicinal_temp_output_accepted_csv)
     mpns_medicinal_hits = pd.read_csv(_cleaned_MPNS_accepted_csv)
 
-    compile_hits([powo_medicinal_hits, mpns_medicinal_hits, manual_antimal_hits], output_medicinal_csv)
-
+    compile_hits([powo_medicinal_hits, mpns_medicinal_hits, manual_antimal_hits, manual_fever_hits],
+                 output_medicinal_csv)
 
     powo_antimalarial_hits = pd.read_csv(_powo_search_malarial_temp_output_accepted_csv)
 

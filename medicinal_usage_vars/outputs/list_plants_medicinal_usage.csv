@@ -33,7 +33,7 @@
 31,767031-1,Spermacoce verticillata,Spermacoce verticillata,767031-1,Species, <b>Use</b>: <em>Medicinal</em> (State of the World's Plants 2016).,Spermacoce verticillata,"['POWO pages(/taxon/urn:lsid:ipni.org:names:767031-1)', 'MPNS']"
 32,770293-1,Warszewiczia coccinea,Warszewiczia coccinea,770293-1,Species, <b>Use</b>: <em>Medicinal</em> (State of the World's Plants 2016).,Warszewiczia coccinea,"['POWO pages(/taxon/urn:lsid:ipni.org:names:770293-1)', 'MPNS']"
 33,77115588-1,Palicourea acuminata,Palicourea acuminata,77115588-1,Species, <b>Use</b>: <em>Medicinal</em> (Instituto Humboldt 2014).,Palicourea acuminata,"['POWO pages(/taxon/urn:lsid:ipni.org:names:77115588-1)', 'MPNS']"
-34,77115635-1,Palicourea tomentosa,Palicourea tomentosa,77115635-1,Species," <b>Use</b>: <em>Medicinal</em> (State of the World's Plants 2016, Instituto",Palicourea tomentosa,"['POWO pages(/taxon/urn:lsid:ipni.org:names:77115635-1)', 'MPNS']"
+34,77115635-1,Palicourea tomentosa,Palicourea tomentosa,77115635-1,Species," <b>Use</b>: <em>Medicinal</em> (State of the World's Plants 2016, Instituto",Palicourea tomentosa,"['POWO pages(/taxon/urn:lsid:ipni.org:names:77115635-1)', 'MPNS', 'Manual']"
 35,77161818-1,Palicourea longirostris,Palicourea longirostris,77161818-1,Species, <b>Use</b>: <em>Medicinal</em> (Instituto Humboldt 2014).,,['POWO pages(/taxon/urn:lsid:ipni.org:names:77161818-1)']
 36,77202779-1,Palicourea boqueronensis,Palicourea boqueronensis,77202779-1,Species," <b>Use</b>: <em>Medicinal</em> (State of the World's Plants 2016, Instituto",Palicourea boqueronensis,"['POWO pages(/taxon/urn:lsid:ipni.org:names:77202779-1)', 'MPNS']"
 37,77433-1,Aspidosperma polyneuron,Aspidosperma polyneuron,77433-1,Species," <b>Use</b>: <em>Medicinal</em> (State of the World's Plants 2016, Instituto",Aspidosperma polyneuron,"['POWO pages(/taxon/urn:lsid:ipni.org:names:77433-1)', 'MPNS', 'Manual']"
@@ -72,7 +72,7 @@
 70,77062253-1,Afrocanthium mundianum,Afrocanthium mundianum,77062253-1,Species,,Afrocanthium mundianum,['MPNS']
 71,77062257-1,Afrocanthium pseudorandii,Afrocanthium pseudorandii,77062257-1,Species,,Afrocanthium pseudorandii,['MPNS']
 72,76388-1,Aganosma cymosa,Aganosma cymosa,76388-1,Species,,Aganosma cymosa,['MPNS']
-73,77125846-1,Aganosma heynei,Aganosma heynei,77125846-1,Species,,Aganosma heynei,['MPNS']
+73,77125846-1,Aganosma heynei,Aganosma heynei,77125846-1,Species,,Aganosma heynei,"['MPNS', 'Manual']"
 74,76413-1,Aganosma wallichii,Aganosma wallichii,76413-1,Species,,Aganosma wallichii,['MPNS']
 75,742948-1,Agathisanthemum bojeri,Agathisanthemum bojeri,742948-1,Species,,Agathisanthemum bojeri,"['MPNS', 'Manual']"
 76,77167442-1,Agathisanthemum bojeri subsp. bojeri,Agathisanthemum bojeri,742948-1,Subspecies,,Agathisanthemum bojeri subsp. bojeri,['MPNS']
@@ -225,7 +225,7 @@
 223,744208-1,Asperula tinctoria,Asperula tinctoria,744208-1,Species,,Asperula tinctoria,['MPNS']
 224,77325-1,Aspidosperma album,Aspidosperma album,77325-1,Species,,Aspidosperma album,"['MPNS', 'Manual']"
 225,290346-2,Aspidosperma carapanauba,Aspidosperma carapanauba,290346-2,Species,,Aspidosperma carapanauba,"['MPNS', 'Manual']"
-226,77347-1,Aspidosperma cuspa,Aspidosperma cuspa,77347-1,Species,,Aspidosperma cuspa,['MPNS']
+226,77347-1,Aspidosperma cuspa,Aspidosperma cuspa,77347-1,Species,,Aspidosperma cuspa,"['MPNS', 'Manual']"
 227,77353-1,Aspidosperma desmanthum,Aspidosperma desmanthum,77353-1,Species,,Aspidosperma desmanthum,"['MPNS', 'Manual']"
 228,77354-1,Aspidosperma discolor,Aspidosperma discolor,77354-1,Species,,Aspidosperma discolor,"['MPNS', 'Manual']"
 229,77367-1,Aspidosperma excelsum,Aspidosperma excelsum,77367-1,Species,,Aspidosperma excelsum,"['MPNS', 'Manual']"
@@ -313,7 +313,7 @@
 311,1214950-2,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,Species,,Carapichea ipecacuanha,"['MPNS', 'Manual']"
 312,77685-1,Carissa bispinosa,Carissa bispinosa,77685-1,Species,,Carissa bispinosa,['MPNS']
 313,20001967-1,Carissa boiviniana,Carissa boiviniana,20001967-1,Species,,Carissa boiviniana,['MPNS']
-314,77691-1,Carissa carandas,Carissa carandas,77691-1,Species,,Carissa carandas,['MPNS']
+314,77691-1,Carissa carandas,Carissa carandas,77691-1,Species,,Carissa carandas,"['MPNS', 'Manual']"
 315,77727-1,Carissa macrocarpa,Carissa macrocarpa,77727-1,Species,,Carissa macrocarpa,['MPNS']
 316,77756-1,Carissa spinarum,Carissa spinarum,77756-1,Species,,Carissa spinarum,"['MPNS', 'Manual']"
 317,77759-1,Carissa tetramera,Carissa tetramera,77759-1,Species,,Carissa tetramera,['MPNS']
@@ -390,7 +390,7 @@
 388,77206440-1,Chloropetalum denticulatum,Chloropetalum denticulatum,77206440-1,Species,,Chloropetalum denticulatum,['MPNS']
 389,57096-2,Chomelia paniculata,Chomelia paniculata,57096-2,Species,,Chomelia paniculata,['MPNS']
 390,78006-1,Chonemorpha eriostylis,Chonemorpha eriostylis,78006-1,Species,,Chonemorpha eriostylis,['MPNS']
-391,78008-1,Chonemorpha fragrans,Chonemorpha fragrans,78008-1,Species,,Chonemorpha fragrans,['MPNS']
+391,78008-1,Chonemorpha fragrans,Chonemorpha fragrans,78008-1,Species,,Chonemorpha fragrans,"['MPNS', 'Manual']"
 392,78019-1,Chonemorpha megacalyx,Chonemorpha megacalyx,78019-1,Species,,Chonemorpha megacalyx,['MPNS']
 393,78020-1,Chonemorpha mollis,Chonemorpha mollis,78020-1,Species,,Chonemorpha mollis,['MPNS']
 394,77065717-1,Ciliosemina pedunculata,Ciliosemina pedunculata,77065717-1,Species,,Ciliosemina pedunculata,"['MPNS', 'Manual']"
@@ -893,7 +893,7 @@
 891,753530-1,Hymenocoleus libericus,Hymenocoleus libericus,753530-1,Species,,Hymenocoleus libericus,['MPNS']
 892,753550-1,Hymenodictyon floribundum,Hymenodictyon floribundum,753550-1,Species,,Hymenodictyon floribundum,['MPNS']
 893,753560-1,Hymenodictyon obovatum,Hymenodictyon obovatum,753560-1,Species,,Hymenodictyon obovatum,['MPNS']
-894,910769-1,Hymenodictyon orixense,Hymenodictyon orixense,910769-1,Species,,Hymenodictyon orixense,['MPNS']
+894,910769-1,Hymenodictyon orixense,Hymenodictyon orixense,910769-1,Species,,Hymenodictyon orixense,"['MPNS', 'Manual']"
 895,753565-1,Hymenodictyon parvifolium,Hymenodictyon parvifolium,753565-1,Species,,Hymenodictyon parvifolium,['MPNS']
 896,753572-1,Hymenodictyon timoranum,Hymenodictyon timoranum,753572-1,Species,,Hymenodictyon timoranum,['MPNS']
 897,915081-1,Hyperacanthus amoenus,Hyperacanthus amoenus,915081-1,Species,,Hyperacanthus amoenus,['MPNS']
@@ -901,7 +901,7 @@
 899,753603-1,Hypobathrum racemosum,Hypobathrum racemosum,753603-1,Species,,Hypobathrum racemosum,['MPNS']
 900,946927-1,Hypobathrum venulosum,Hypobathrum venulosum,946927-1,Species,,Hypobathrum venulosum,['MPNS']
 901,753615-1,Hyptianthera stricta,Hyptianthera stricta,753615-1,Species,,Hyptianthera stricta,['MPNS']
-902,79384-1,Ichnocarpus frutescens,Ichnocarpus frutescens,79384-1,Species,,Ichnocarpus frutescens,['MPNS']
+902,79384-1,Ichnocarpus frutescens,Ichnocarpus frutescens,79384-1,Species,,Ichnocarpus frutescens,"['MPNS', 'Manual']"
 903,753635-1,Isertia hypoleuca,Isertia hypoleuca,753635-1,Species,,Isertia hypoleuca,"['MPNS', 'Manual']"
 904,278894-2,Isertia rosea,Isertia rosea,278894-2,Species,,Isertia rosea,['MPNS']
 905,79412-1,Isonema smeathmannii,Isonema smeathmannii,79412-1,Species,,Isonema smeathmannii,['MPNS']
@@ -1620,7 +1620,7 @@
 1618,217943-2,Rauvolfia schuelii,Rauvolfia schuelii,217943-2,Species,,Rauvolfia schuelii,['MPNS']
 1619,328979-2,Rauvolfia sellowii,Rauvolfia sellowii,328979-2,Species,,Rauvolfia sellowii,['MPNS']
 1620,81646-1,Rauvolfia semperflorens,Rauvolfia semperflorens,81646-1,Species,,Rauvolfia semperflorens,['MPNS']
-1621,81648-1,Rauvolfia serpentina,Rauvolfia serpentina,81648-1,Species,,Rauvolfia serpentina,['MPNS']
+1621,81648-1,Rauvolfia serpentina,Rauvolfia serpentina,81648-1,Species,,Rauvolfia serpentina,"['MPNS', 'Manual']"
 1622,81660-1,Rauvolfia sumatrana,Rauvolfia sumatrana,81660-1,Species,,Rauvolfia sumatrana,['MPNS']
 1623,81663-1,Rauvolfia tetraphylla,Rauvolfia tetraphylla,81663-1,Species,,Rauvolfia tetraphylla,"['MPNS', 'Manual']"
 1624,81667-1,Rauvolfia verticillata,Rauvolfia verticillata,81667-1,Species,,Rauvolfia verticillata,"['MPNS', 'Manual']"
@@ -1784,7 +1784,7 @@
 1782,766663-1,Spermacoce confusa,Spermacoce confusa,766663-1,Species,,Spermacoce confusa,['MPNS']
 1783,945476-1,Spermacoce densiflora,Spermacoce densiflora,945476-1,Species,,Spermacoce densiflora,['MPNS']
 1784,914630-1,Spermacoce filifolia,Spermacoce filifolia,914630-1,Species,,Spermacoce filifolia,['MPNS']
-1785,766765-1,Spermacoce hispida,Spermacoce hispida,766765-1,Species,,Spermacoce hispida,['MPNS']
+1785,766765-1,Spermacoce hispida,Spermacoce hispida,766765-1,Species,,Spermacoce hispida,"['MPNS', 'Manual']"
 1786,766800-1,Spermacoce latifolia,Spermacoce latifolia,766800-1,Species,,Spermacoce latifolia,['MPNS']
 1787,766854-1,Spermacoce natalensis,Spermacoce natalensis,766854-1,Species,,Spermacoce natalensis,['MPNS']
 1788,914632-1,Spermacoce octodon,Spermacoce octodon,914632-1,Species,,Spermacoce octodon,['MPNS']
@@ -1928,7 +1928,7 @@
 1926,102219-1,Toxocarpus kurzii,Toxocarpus kurzii,102219-1,Species,,Toxocarpus kurzii,['MPNS']
 1927,102262-1,Toxocarpus villosus,Toxocarpus villosus,102262-1,Species,,Toxocarpus villosus,['MPNS']
 1928,102264-1,Toxocarpus wightianus,Toxocarpus wightianus,102264-1,Species,,Toxocarpus wightianus,['MPNS']
-1929,82528-1,Trachelospermum asiaticum,Trachelospermum asiaticum,82528-1,Species,,Trachelospermum asiaticum,['MPNS']
+1929,82528-1,Trachelospermum asiaticum,Trachelospermum asiaticum,82528-1,Species,,Trachelospermum asiaticum,"['MPNS', 'Manual']"
 1930,82531-1,Trachelospermum axillare,Trachelospermum axillare,82531-1,Species,,Trachelospermum axillare,['MPNS']
 1931,82546-1,Trachelospermum dunnii,Trachelospermum dunnii,82546-1,Species,,Trachelospermum dunnii,['MPNS']
 1932,82553-1,Trachelospermum jasminoides,Trachelospermum jasminoides,82553-1,Species,,Trachelospermum jasminoides,['MPNS']
@@ -1974,10 +1974,10 @@
 1972,769490-1,Urophyllum griffithianum,Urophyllum griffithianum,769490-1,Species,,Urophyllum griffithianum,['MPNS']
 1973,769495-1,Urophyllum hirsutum,Urophyllum hirsutum,769495-1,Species,,Urophyllum hirsutum,['MPNS']
 1974,769590-1,Urophyllum villosum,Urophyllum villosum,769590-1,Species,,Urophyllum villosum,['MPNS']
-1975,82646-1,Vallaris glabra,Vallaris glabra,82646-1,Species,,Vallaris glabra,"['MPNS', 'Manual']"
+1975,82646-1,Vallaris glabra,Vallaris glabra,82646-1,Species,,Vallaris glabra,['MPNS']
 1976,82649-1,Vallaris indecora,Vallaris indecora,82649-1,Species,,Vallaris indecora,['MPNS']
 1977,82660-1,Vallaris solanacea,Vallaris solanacea,82660-1,Species,,Vallaris solanacea,['MPNS']
-1978,82668-1,Vallesia glabra,Vallesia glabra,82668-1,Species,,Vallesia glabra,['MPNS']
+1978,82668-1,Vallesia glabra,Vallesia glabra,82668-1,Species,,Vallesia glabra,"['MPNS', 'Manual']"
 1979,77067582-1,Vangueria agrestis,Vangueria agrestis,77067582-1,Species,,Vangueria agrestis,"['MPNS', 'Manual']"
 1980,769845-1,Vangueria apiculata,Vangueria apiculata,769845-1,Species,,Vangueria apiculata,['MPNS']
 1981,769721-1,Vangueria cyanescens,Vangueria cyanescens,769721-1,Species,,Vangueria cyanescens,['MPNS']
@@ -2086,7 +2086,7 @@
 2084,60452495-2,Wrightia pubescens subsp. laniti,Wrightia pubescens,82875-1,Subspecies,,Wrightia pubescens subsp. laniti,['MPNS']
 2085,150353-3,Wrightia pubescens subsp. pubescens,Wrightia pubescens,82875-1,Subspecies,,Wrightia pubescens subsp. pubescens,"['MPNS', 'Manual']"
 2086,82877-1,Wrightia religiosa,Wrightia religiosa,82877-1,Species,,Wrightia religiosa,['MPNS']
-2087,82890-1,Wrightia tinctoria,Wrightia tinctoria,82890-1,Species,,Wrightia tinctoria,['MPNS']
+2087,82890-1,Wrightia tinctoria,Wrightia tinctoria,82890-1,Species,,Wrightia tinctoria,"['MPNS', 'Manual']"
 2088,103114-1,Xysmalobium heudelotianum,Xysmalobium heudelotianum,103114-1,Species,,Xysmalobium heudelotianum,['MPNS']
 2089,103117-1,Xysmalobium involucratum,Xysmalobium involucratum,103117-1,Species,,Xysmalobium involucratum,['MPNS']
 2090,103129-1,Xysmalobium parviflorum,Xysmalobium parviflorum,103129-1,Species,,Xysmalobium parviflorum,['MPNS']
@@ -2112,3 +2112,6 @@
 2110,766134-1,Schismatoclada farahimpensis,Schismatoclada farahimpensis,766134-1,Species,,,['Manual']
 2111,766150-1,Schismatoclada viburnoides,Schismatoclada viburnoides,766150-1,Species,,,['Manual']
 2112,770432-1,Wendlandia burkillii,Wendlandia burkillii,770432-1,Species,,,['Manual']
+2113,546308-1,Gaertnera phanerophlebia,Gaertnera phanerophlebia,546308-1,Species,,,['Manual']
+2114,77074404-1,Hyperacanthus talangninia,Hyperacanthus talangninia,77074404-1,Species,,,['Manual']
+2115,761577-1,Psychotria bullata,Psychotria bullata,761577-1,Species,,,['Manual']
