@@ -38,10 +38,21 @@ initial_climate_vars = ['Beck_KG_V1_present',
                         'latitude',
                         'longitude'
                         ]
+_climate_names = initial_climate_vars + ['koppen_geiger_mode',
+                                         'koppen_geiger_all']
+_climate_names.remove('Beck_KG_V1_present')
+
+renaming = {'koppen_geiger_mode': 'kg_mode',
+            'koppen_geiger_all': 'kg_all',
+            'mean_air_temp': 'bio1',
+            'temp_seasonality': 'bio4',
+            'precip_amount': 'bio12',
+            'precip_seasonality': 'bio15',
+            'breakline_elevation': 'brkl_elevation',
+            'water_capacity': 'soil_water_cap'
+            }
 # All final variables
-all_climate_names = initial_climate_vars + ['koppen_geiger_mode',
-                                            'koppen_geiger_all']
-all_climate_names.remove('Beck_KG_V1_present')
+all_climate_names = [renaming.get(n, n) for n in _climate_names]
 
 
 def get_climate_df():
@@ -82,13 +93,14 @@ def get_climate_df():
 
     merged.drop(columns='Beck_KG_V1_present', inplace=True)
 
-
     # Get accepted info back from occurrences
     merged.reset_index(inplace=True)
     merged = merged.rename(columns={'index': 'Accepted_ID'})
 
     occ_acc_info = occ_df[acc_columns].drop_duplicates(subset=['Accepted_ID'], keep='first')
     out_df = pd.merge(occ_acc_info, merged, on='Accepted_ID')
+
+    out_df.rename(columns=renaming, inplace=True)
 
     out_df.to_csv(compiled_climate_vars_csv)
 

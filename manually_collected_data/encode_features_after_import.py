@@ -127,7 +127,7 @@ def replace_yes_no_in_column(df: pd.DataFrame, column_name: str):
 def encode_features(df: pd.DataFrame) -> pd.DataFrame:
     encode_alkaloids(df)
     encode_activity(df)
-    replace_yes_no_in_column(df, 'History_Antimalarial')
+    replace_yes_no_in_column(df, 'Antimalarial_Use')
     replace_yes_no_in_column(df, 'History_Fever')
     replace_yes_no_in_column(df, 'Cardenolides')
     replace_yes_no_in_column(df, 'Steroids')
