@@ -9,6 +9,7 @@ parsed_alkaloid_classes_csv = os.path.join(trait_parsing_output_path, 'parsed_al
 
 _alk_class_column = 'Alkaloid_mainclass'
 
+
 def remove_whitespace_at_beginning_and_end(value: str):
     try:
         v = value.rstrip()
@@ -59,14 +60,22 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def parse_alkaloid_data():
-    input_alks = pd.read_csv(encoded_traits_csv, index_col=0)
+    trait_df = pd.read_csv(encoded_traits_csv, index_col=0)
 
-    input_alks.dropna(subset=[_alk_class_column], inplace=True)
+    input_alks = trait_df.dropna(subset=[_alk_class_column])
 
     # OHE
     encoded = OHE_alks(input_alks)
     alk_cols_to_use = [c for c in encoded.columns.tolist() if 'alk_' in c]
     encoded = encoded[['Accepted_Name', 'Genus', 'Accepted_ID'] + alk_cols_to_use]
+
+    # Add zero entries
+    zero_alks = trait_df[trait_df['Alkaloids'] == 0][['Accepted_Name', 'Genus', 'Accepted_ID']]
+    for alk_col in alk_cols_to_use:
+        zero_alks[alk_col] = 0
+
+    encoded = pd.concat([encoded, zero_alks])
+
     encoded.to_csv(parsed_alkaloid_classes_csv)
     encoded.describe().to_csv(os.path.join(trait_parsing_output_path, 'alks summary.csv'))
 
