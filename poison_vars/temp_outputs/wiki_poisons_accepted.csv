@@ -72,7 +72,7 @@
 70,Hedera helix,en_wiki:de_wiki:fr_wiki:hr_wiki,Hedera helix,Hedera helix,90723-1,90723-1,Species
 71,Heliotropium indicum,en_wiki,Heliotropium indicum,Heliotropium indicum,116938-1,116938-1,Species
 72,Helleborus niger,en_wiki:de_wiki:fr_wiki:hr_wiki,Helleborus niger,Helleborus niger,711348-1,711348-1,Species
-73,Heracleum mantegazzianum,en_wiki:fr_wiki,Heracleum mantegazzianum,Heracleum mantegazzianum,843084-1,843084-1,Species
+73,Heracleum mantegazzianum,en_wiki:de_wiki:fr_wiki,Heracleum mantegazzianum,Heracleum mantegazzianum,843084-1,843084-1,Species
 74,Heracleum sosnowskyi,en_wiki,Heracleum sosnowskyi,Heracleum sosnowskyi,843172-1,843172-1,Species
 75,Hippomane mancinella,en_wiki:fr_wiki,Hippomane mancinella,Hippomane mancinella,349995-1,349995-1,Species
 76,Hyacinthus orientalis,en_wiki:de_wiki:hr_wiki,Hyacinthus orientalis,Hyacinthus orientalis,536789-1,536789-1,Species
@@ -180,136 +180,136 @@
 178,Eschscholzia californica,de_wiki:hr_wiki,Eschscholzia californica,Eschscholzia californica,30043364-2,30043364-2,Species
 179,Ficus elastica,de_wiki:hr_wiki:hu_wiki,Ficus elastica,Ficus elastica,60458499-2,60458499-2,Species
 180,Helleborus foetidus,de_wiki:fr_wiki:hr_wiki,Helleborus foetidus,Helleborus foetidus,711317-1,711317-1,Species
-181,Heracleum spp.,de_wiki:hr_wiki,Heracleum,,,30054087-2,Genus
-182,Ilex spp.,de_wiki:hr_wiki,Ilex,,,60437220-2,Genus
-183,Iris spp.,de_wiki:hr_wiki,Iris,,,326330-2,Genus
-184,Laburnum anagyroides,de_wiki:fr_wiki:hr_wiki:hu_wiki,Laburnum anagyroides,Laburnum anagyroides,501428-1,501428-1,Species
-185,Nicotiana rustica,de_wiki,Nicotiana rustica,Nicotiana rustica,817055-1,817055-1,Species
-186,Nicotiana tabacum,de_wiki:fr_wiki:hr_wiki:hu_wiki,Nicotiana tabacum,Nicotiana tabacum,817077-1,817077-1,Species
-187,Prunus armeniaca,de_wiki:hr_wiki,Prunus armeniaca,Prunus armeniaca,729463-1,729463-1,Species
-188,Ranunculus spp.,de_wiki:hr_wiki,Ranunculus,,,30002060-2,Genus
-189,Rheum rhabarbarum,de_wiki:hr_wiki,Rheum rhabarbarum,Rheum rhabarbarum,301818-2,301818-2,Species
-190,Solanum melongena,de_wiki:hr_wiki,Solanum melongena,Solanum melongena,820053-1,820053-1,Species
-191,Strychnos ignatii,de_wiki:hr_wiki,Strychnos ignatii,Strychnos ignatii,547242-1,547242-1,Species
-192,Tanacetum (Chrysanthemum) vulgare,de_wiki,,,,,
-193,Thuja,de_wiki,Thuja,,,30076319-2,Genus
-194,Veratrum album,de_wiki:fr_wiki:hr_wiki:hu_wiki,Veratrum album,Veratrum album,30192264-2,30192264-2,Species
-195,Aconitum ferox,fr_wiki,Aconitum ferox,Aconitum ferox,707352-1,707352-1,Species
-196,Aconitum napellus subsp. napellus,fr_wiki,Aconitum napellus subsp. napellus,Aconitum napellus,707615-1,51020791-1,Subspecies
-197,Aconitum lycoctonum,fr_wiki:hr_wiki,Aconitum lycoctonum,Aconitum lycoctonum,707564-1,707564-1,Species
-198,Actaea spicata,fr_wiki,Actaea spicata,Actaea spicata,303913-2,303913-2,Species
-199,Alocasia amazonica,fr_wiki,,,,,
-200,Ambrosia artemisiifolia,fr_wiki,Ambrosia artemisiifolia,Ambrosia artemisiifolia,176058-1,176058-1,Species
-201,Andromeda polifolia,fr_wiki,Andromeda polifolia,Andromeda polifolia,30021967-2,30021967-2,Species
-202,Anemone pulsatilla,fr_wiki,Pulsatilla montana,Pulsatilla montana,712012-1,712012-1,Species
-203,Anthurium,fr_wiki,Anthurium,,,329747-2,Genus
-204,Aristolochia clematitis,fr_wiki:hu_wiki,Aristolochia clematitis,Aristolochia clematitis,92841-1,92841-1,Species
-205,Arum italicum,fr_wiki,Arum italicum,Arum italicum,86047-1,86047-1,Species
-206,Aucuba japonica,fr_wiki,Aucuba japonica,Aucuba japonica,271451-1,271451-1,Species
-207,Azadirachta indica,fr_wiki,Azadirachta indica,Azadirachta indica,1213180-2,1213180-2,Species
-208,Berberis,fr_wiki,Berberis,,,328526-2,Genus
-209,Bowiea volubilis,fr_wiki,Bowiea volubilis,Bowiea volubilis,531999-1,531999-1,Species
-210,Bryonia alba,fr_wiki:hu_wiki,Bryonia alba,Bryonia alba,291541-1,291541-1,Species
-211,Bryonia dioica,fr_wiki,Bryonia alba,Bryonia alba,291541-1,291541-1,Species
-212,Caladium,fr_wiki,Caladium,,,30005919-2,Genus
-213,Calotropis procera,fr_wiki,Calotropis procera,Calotropis procera,1004515-2,1004515-2,Species
-214,Cannabis indica et sativa,fr_wiki,Cannabis sativa,Cannabis sativa,306087-2,306087-2,Species
-215,Carapichea ipecacuanha,fr_wiki,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,1214950-2,Species
-216,Carlina gummifera,fr_wiki,Chamaeleon gummifer,Chamaeleon gummifer,192416-1,192416-1,Species
-217,Catharanthus roseus,fr_wiki,Catharanthus roseus,Catharanthus roseus,77880-1,77880-1,Species
-218,Cephaelis acuminata,fr_wiki,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,1214950-2,Species
-219,Cerbera manghas,fr_wiki,Cerbera manghas,Cerbera manghas,77906-1,77906-1,Species
-220,Cinnamomum camphora,fr_wiki,Cinnamomum camphora,Cinnamomum camphora,463336-1,463336-1,Species
-221,Citrullus colocynthis,fr_wiki,Citrullus colocynthis,Citrullus colocynthis,291930-1,291930-1,Species
-222,Clematis vitalba,fr_wiki,Clematis vitalba,Clematis vitalba,319145-2,319145-2,Species
-223,Coriaria japonica,fr_wiki,Coriaria japonica,Coriaria japonica,271356-1,271356-1,Species
-224,Cornus sanguinea,fr_wiki,Cornus sanguinea,Cornus sanguinea,271661-1,271661-1,Species
-225,Cornus stolonifera,fr_wiki,Cornus sericea,Cornus sericea,66169-2,66169-2,Species
-226,Cotoneaster sp.,fr_wiki,Cotoneaster,,,30040667-2,Genus
-227,Daphne sp.,fr_wiki,Daphne,,,30024583-2,Genus
-228,Delphinium sp.,fr_wiki,Delphinium,,,328251-2,Genus
-229,Dictamnus albus,fr_wiki:hu_wiki,Dictamnus albus,Dictamnus albus,772356-1,772356-1,Species
-230,Dieffenbachia sp.,fr_wiki,Dieffenbachia,,,30002878-2,Genus
-231,Drimia maritima,fr_wiki,Drimia maritima,Drimia maritima,534538-1,534538-1,Species
-232,Ephedra sinica,fr_wiki,Ephedra sinica,Ephedra sinica,383460-1,383460-1,Species
-233,Equisetum palustre,fr_wiki:hu_wiki,Equisetum palustre,Equisetum palustre,30039890-2,30039890-2,Species
-234,Euonymus japonicus,fr_wiki,Euonymus japonicus,Euonymus japonicus,160944-1,160944-1,Species
-235,Euonymus latifolius,fr_wiki,Euonymus latifolius,Euonymus latifolius,160962-1,160962-1,Species
-236,Euphorbia sp.,fr_wiki,Euphorbia,,,327729-2,Genus
-237,Euphorbia pulcherrima sp.,fr_wiki,Euphorbia pulcherrima,Euphorbia pulcherrima,30176564-2,30176564-2,Species
-238,Ferula communis,fr_wiki,Ferula communis,Ferula communis,842235-1,842235-1,Species
-239,Galega officinalis,fr_wiki,Galega officinalis,Galega officinalis,495681-1,495681-1,Species
-240,Gaultheria procumbens,fr_wiki,Gaultheria procumbens,Gaultheria procumbens,330655-1,330655-1,Species
-241,Gelsemium elegans,fr_wiki,Gelsemium elegans,Gelsemium elegans,546348-1,546348-1,Species
-242,Ginkgo biloba,fr_wiki,Ginkgo biloba,Ginkgo biloba,262125-1,262125-1,Species
-243,Glyceria maxima,fr_wiki,Glyceria maxima,Glyceria maxima,404141-1,404141-1,Species
-244,Gratiola officinalis,fr_wiki,Gratiola officinalis,Gratiola officinalis,803505-1,803505-1,Species
-245,Helleborus sp.,fr_wiki,Helleborus,,,33158-1,Genus
-246,Iris foetidissima,fr_wiki,Iris foetidissima,Iris foetidissima,438606-1,438606-1,Species
-247,Iris pseudacorus,fr_wiki,Iris pseudacorus,Iris pseudacorus,438992-1,438992-1,Species
-248,Juniperus sabina,fr_wiki:hu_wiki,Juniperus sabina,Juniperus sabina,30166980-2,30166980-2,Species
-249,Ledum palustre,fr_wiki,Rhododendron tomentosum,Rhododendron tomentosum,961622-1,961622-1,Species
-250,Leucojum vernum sp.,fr_wiki,Leucojum vernum,Leucojum vernum,65769-1,65769-1,Species
-251,Ligustrum vulgare,fr_wiki:hu_wiki,Ligustrum vulgare,Ligustrum vulgare,610130-1,610130-1,Species
-252,Lonicera caprifolium,fr_wiki,Lonicera caprifolium,Lonicera caprifolium,148670-1,148670-1,Species
-253,Lonicera xylosteum,fr_wiki,Lonicera xylosteum,Lonicera xylosteum,149194-1,149194-1,Species
-254,Lupinus sp.,fr_wiki,Lupinus,,,60436956-2,Genus
-255,Lycium europaeum,fr_wiki,Lycium europaeum,Lycium europaeum,816435-1,816435-1,Species
-256,Lycium barbarum,fr_wiki,Lycium barbarum,Lycium barbarum,816356-1,816356-1,Species
-257,Maianthemum bifolium,fr_wiki,Maianthemum bifolium,Maianthemum bifolium,30042358-2,30042358-2,Species
-258,Momordica charantia,fr_wiki,Momordica charantia,Momordica charantia,293413-1,293413-1,Species
-259,Monstera deliciosa,fr_wiki,Monstera deliciosa,Monstera deliciosa,87478-1,87478-1,Species
-260,Narcissus pseudonarcissus,fr_wiki,Narcissus pseudonarcissus,Narcissus pseudonarcissus,66177-1,66177-1,Species
-261,Nicandra physaloides,fr_wiki,,,,,
-262,Ornithogalum umbellatum,fr_wiki,Ornithogalum umbellatum,Ornithogalum umbellatum,539600-1,539600-1,Species
-263,Papaver somniferum,fr_wiki:hu_wiki,Papaver somniferum,Papaver somniferum,673724-1,673724-1,Species
-264,Parthenocissus quinquefolia,fr_wiki,Parthenocissus quinquefolia,Parthenocissus quinquefolia,184091-2,184091-2,Species
-265,Philodendron sp.,fr_wiki,Philodendron,,,326132-2,Genus
-266,Physalis alkekengi,fr_wiki,Physalis lagascae,Physalis lagascae,817449-1,817449-1,Species
-267,Phytolacca americana syn.esculenta,fr_wiki,Phytolacca americana,Phytolacca americana,323290-2,323290-2,Species
-268,Pinus ponderosa,fr_wiki,Pinus ponderosa,Pinus ponderosa,307165-2,307165-2,Species
-269,Polygonatum odoratum,fr_wiki,Polygonatum odoratum,Polygonatum odoratum,540195-1,540195-1,Species
-270,Polygonatum verticillatum,fr_wiki,Polygonatum verticillatum,Polygonatum verticillatum,540250-1,540250-1,Species
-271,Pyracantha sp.,fr_wiki,Pyracantha,,,30154448-2,Genus
-272,Ranunculus sp.,fr_wiki,Ranunculus,,,30002060-2,Genus
-273,Rauwolfia sp.,fr_wiki,Citharexylum,,,330592-2,Genus
-274,Rhamnus frangula (ou Frangula alnus),fr_wiki,Frangula alnus,Frangula alnus,717344-1,717344-1,Species
-275,Rheum sp.,fr_wiki,,,,,
-276,Rhododendron sp.,fr_wiki,Rhododendron,,,327085-2,Genus
-277,Robinia pseudoacacia,fr_wiki:hu_wiki,Robinia pseudoacacia,Robinia pseudoacacia,30034699-2,30034699-2,Species
-278,Rosa canina,fr_wiki,Rosa canina,Rosa canina,731955-1,731955-1,Species
-279,Ruscus aculeatus,fr_wiki,Ruscus aculeatus,Ruscus aculeatus,540443-1,540443-1,Species
-280,Ruta graveolens,fr_wiki:hu_wiki,Ruta graveolens,Ruta graveolens,775099-1,775099-1,Species
-281,Sambucus ebulus,fr_wiki:hu_wiki,Sambucus ebulus,Sambucus ebulus,149315-1,149315-1,Species
-282,Sambucus nigra,fr_wiki,Sambucus nigra,Sambucus nigra,30122169-2,30122169-2,Species
-283,Sambucus racemosa,fr_wiki,Sambucus racemosa,Sambucus racemosa,30056767-2,30056767-2,Species
-284,Saponaria officinalis,fr_wiki,Saponaria officinalis,Saponaria officinalis,156627-1,156627-1,Species
-285,Senecio inaequidens,fr_wiki,Senecio inaequidens,Senecio inaequidens,245637-1,245637-1,Species
-286,Senecio jacobaea,fr_wiki,Jacobaea maritima subsp. maritima,Jacobaea maritima,77075194-1,77180722-1,Subspecies
-287,Senecio vulgaris,fr_wiki,Senecio vulgaris,Senecio vulgaris,248251-1,248251-1,Species
-288,Skimmia japonica,fr_wiki,Skimmia japonica,Skimmia japonica,775237-1,775237-1,Species
-289,Solanum villosum,fr_wiki,Solanum villosum,Solanum villosum,285344-2,285344-2,Species
-290,Sorbus aucuparia,fr_wiki,Sorbus aucuparia,Sorbus aucuparia,741641-1,741641-1,Species
-291,Sorghum bicolor,fr_wiki,Sorghum bicolor,Sorghum bicolor,422090-1,422090-1,Species
-292,Spartium junceum,fr_wiki,Spartium junceum,Spartium junceum,519057-1,519057-1,Species
-293,Streptopus amplexifolius,fr_wiki,Streptopus amplexifolius,Streptopus amplexifolius,1160363-2,1160363-2,Species
-294,Strophanthus sp.,fr_wiki,Strophanthus,,,2582-1,Genus
-295,Strophanthus kombe,fr_wiki,Strophanthus kombe,Strophanthus kombe,81909-1,81909-1,Species
-296,Symphoricarpos albus,fr_wiki,Symphoricarpos albus,Symphoricarpos albus,149485-1,149485-1,Species
-297,Taxus cuspidata,fr_wiki,Taxus cuspidata,Taxus cuspidata,324379-2,324379-2,Species
-298,Teucrium chamaedrys,fr_wiki,Teucrium chamaedrys,Teucrium chamaedrys,460310-1,460310-1,Species
-299,Thuja occidentalis,fr_wiki:hu_wiki,Thuja occidentalis,Thuja occidentalis,263956-1,263956-1,Species
-300,Toxicodendron radicans,fr_wiki,Toxicodendron radicans,Toxicodendron radicans,255769-2,255769-2,Species
-301,Trichosanthes kirilowii,fr_wiki,Trichosanthes kirilowii,Trichosanthes kirilowii,294222-1,294222-1,Species
-302,Tulipa sp.,fr_wiki,Tulipa,,,24874-1,Genus
-303,Urginea maritima,fr_wiki,Drimia maritima,Drimia maritima,534538-1,534538-1,Species
-304,Viburnum lantana,fr_wiki,Viburnum lantana,Viburnum lantana,326265-2,326265-2,Species
-305,Viburnum opulus,fr_wiki,Viburnum opulus,Viburnum opulus,326268-2,326268-2,Species
-306,Viburnum rhytidophyllum,fr_wiki,Viburnum rhytidophyllum,Viburnum rhytidophyllum,149902-1,149902-1,Species
-307,Viburnum tinus,fr_wiki,Viburnum tinus,Viburnum tinus,326271-2,326271-2,Species
-308,Vinca minor,fr_wiki,Vinca minor,Vinca minor,82701-1,82701-1,Species
-309,Viscum album,fr_wiki:hu_wiki,Viscum album,Viscum album,300881-2,300881-2,Species
-310,Cascabela thevetia (Thevetia peruviana ),hr_wiki,Cascabela thevetia,Cascabela thevetia,47927-2,47927-2,Species
+181,Ilex spp.,de_wiki:hr_wiki,Ilex,,,60437220-2,Genus
+182,Iris spp.,de_wiki:hr_wiki,Iris,,,326330-2,Genus
+183,Laburnum anagyroides,de_wiki:fr_wiki:hr_wiki:hu_wiki,Laburnum anagyroides,Laburnum anagyroides,501428-1,501428-1,Species
+184,Nicotiana rustica,de_wiki,Nicotiana rustica,Nicotiana rustica,817055-1,817055-1,Species
+185,Nicotiana tabacum,de_wiki:fr_wiki:hr_wiki:hu_wiki,Nicotiana tabacum,Nicotiana tabacum,817077-1,817077-1,Species
+186,Prunus armeniaca,de_wiki:hr_wiki,Prunus armeniaca,Prunus armeniaca,729463-1,729463-1,Species
+187,Ranunculus spp.,de_wiki:hr_wiki,Ranunculus,,,30002060-2,Genus
+188,Rheum rhabarbarum,de_wiki:hr_wiki,Rheum rhabarbarum,Rheum rhabarbarum,301818-2,301818-2,Species
+189,Solanum melongena,de_wiki:hr_wiki,Solanum melongena,Solanum melongena,820053-1,820053-1,Species
+190,Strychnos ignatii,de_wiki:hr_wiki,Strychnos ignatii,Strychnos ignatii,547242-1,547242-1,Species
+191,Tanacetum (Chrysanthemum) vulgare,de_wiki,,,,,
+192,Thuja,de_wiki,Thuja,,,30076319-2,Genus
+193,Veratrum album,de_wiki:fr_wiki:hr_wiki:hu_wiki,Veratrum album,Veratrum album,30192264-2,30192264-2,Species
+194,Aconitum ferox,fr_wiki,Aconitum ferox,Aconitum ferox,707352-1,707352-1,Species
+195,Aconitum napellus subsp. napellus,fr_wiki,Aconitum napellus subsp. napellus,Aconitum napellus,707615-1,51020791-1,Subspecies
+196,Aconitum lycoctonum,fr_wiki:hr_wiki,Aconitum lycoctonum,Aconitum lycoctonum,707564-1,707564-1,Species
+197,Actaea spicata,fr_wiki,Actaea spicata,Actaea spicata,303913-2,303913-2,Species
+198,Alocasia amazonica,fr_wiki,,,,,
+199,Ambrosia artemisiifolia,fr_wiki,Ambrosia artemisiifolia,Ambrosia artemisiifolia,176058-1,176058-1,Species
+200,Andromeda polifolia,fr_wiki,Andromeda polifolia,Andromeda polifolia,30021967-2,30021967-2,Species
+201,Anemone pulsatilla,fr_wiki,Pulsatilla montana,Pulsatilla montana,712012-1,712012-1,Species
+202,Anthurium,fr_wiki,Anthurium,,,329747-2,Genus
+203,Aristolochia clematitis,fr_wiki:hu_wiki,Aristolochia clematitis,Aristolochia clematitis,92841-1,92841-1,Species
+204,Arum italicum,fr_wiki,Arum italicum,Arum italicum,86047-1,86047-1,Species
+205,Aucuba japonica,fr_wiki,Aucuba japonica,Aucuba japonica,271451-1,271451-1,Species
+206,Azadirachta indica,fr_wiki,Azadirachta indica,Azadirachta indica,1213180-2,1213180-2,Species
+207,Berberis,fr_wiki,Berberis,,,328526-2,Genus
+208,Bowiea volubilis,fr_wiki,Bowiea volubilis,Bowiea volubilis,531999-1,531999-1,Species
+209,Bryonia alba,fr_wiki:hu_wiki,Bryonia alba,Bryonia alba,291541-1,291541-1,Species
+210,Bryonia dioica,fr_wiki,Bryonia alba,Bryonia alba,291541-1,291541-1,Species
+211,Caladium,fr_wiki,Caladium,,,30005919-2,Genus
+212,Calotropis procera,fr_wiki,Calotropis procera,Calotropis procera,1004515-2,1004515-2,Species
+213,Cannabis indica et sativa,fr_wiki,Cannabis sativa,Cannabis sativa,306087-2,306087-2,Species
+214,Carapichea ipecacuanha,fr_wiki,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,1214950-2,Species
+215,Carlina gummifera,fr_wiki,Chamaeleon gummifer,Chamaeleon gummifer,192416-1,192416-1,Species
+216,Catharanthus roseus,fr_wiki,Catharanthus roseus,Catharanthus roseus,77880-1,77880-1,Species
+217,Cephaelis acuminata,fr_wiki,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,1214950-2,Species
+218,Cerbera manghas,fr_wiki,Cerbera manghas,Cerbera manghas,77906-1,77906-1,Species
+219,Cinnamomum camphora,fr_wiki,Cinnamomum camphora,Cinnamomum camphora,463336-1,463336-1,Species
+220,Citrullus colocynthis,fr_wiki,Citrullus colocynthis,Citrullus colocynthis,291930-1,291930-1,Species
+221,Clematis vitalba,fr_wiki,Clematis vitalba,Clematis vitalba,319145-2,319145-2,Species
+222,Coriaria japonica,fr_wiki,Coriaria japonica,Coriaria japonica,271356-1,271356-1,Species
+223,Cornus sanguinea,fr_wiki,Cornus sanguinea,Cornus sanguinea,271661-1,271661-1,Species
+224,Cornus stolonifera,fr_wiki,Cornus sericea,Cornus sericea,66169-2,66169-2,Species
+225,Cotoneaster sp.,fr_wiki,Cotoneaster,,,30040667-2,Genus
+226,Daphne sp.,fr_wiki,Daphne,,,30024583-2,Genus
+227,Delphinium sp.,fr_wiki,Delphinium,,,328251-2,Genus
+228,Dictamnus albus,fr_wiki:hu_wiki,Dictamnus albus,Dictamnus albus,772356-1,772356-1,Species
+229,Dieffenbachia sp.,fr_wiki,Dieffenbachia,,,30002878-2,Genus
+230,Drimia maritima,fr_wiki,Drimia maritima,Drimia maritima,534538-1,534538-1,Species
+231,Ephedra sinica,fr_wiki,Ephedra sinica,Ephedra sinica,383460-1,383460-1,Species
+232,Equisetum palustre,fr_wiki:hu_wiki,Equisetum palustre,Equisetum palustre,30039890-2,30039890-2,Species
+233,Euonymus japonicus,fr_wiki,Euonymus japonicus,Euonymus japonicus,160944-1,160944-1,Species
+234,Euonymus latifolius,fr_wiki,Euonymus latifolius,Euonymus latifolius,160962-1,160962-1,Species
+235,Euphorbia sp.,fr_wiki,Euphorbia,,,327729-2,Genus
+236,Euphorbia pulcherrima sp.,fr_wiki,Euphorbia pulcherrima,Euphorbia pulcherrima,30176564-2,30176564-2,Species
+237,Ferula communis,fr_wiki,Ferula communis,Ferula communis,842235-1,842235-1,Species
+238,Galega officinalis,fr_wiki,Galega officinalis,Galega officinalis,495681-1,495681-1,Species
+239,Gaultheria procumbens,fr_wiki,Gaultheria procumbens,Gaultheria procumbens,330655-1,330655-1,Species
+240,Gelsemium elegans,fr_wiki,Gelsemium elegans,Gelsemium elegans,546348-1,546348-1,Species
+241,Ginkgo biloba,fr_wiki,Ginkgo biloba,Ginkgo biloba,262125-1,262125-1,Species
+242,Glyceria maxima,fr_wiki,Glyceria maxima,Glyceria maxima,404141-1,404141-1,Species
+243,Gratiola officinalis,fr_wiki,Gratiola officinalis,Gratiola officinalis,803505-1,803505-1,Species
+244,Helleborus sp.,fr_wiki,Helleborus,,,33158-1,Genus
+245,Iris foetidissima,fr_wiki,Iris foetidissima,Iris foetidissima,438606-1,438606-1,Species
+246,Iris pseudacorus,fr_wiki,Iris pseudacorus,Iris pseudacorus,438992-1,438992-1,Species
+247,Juniperus sabina,fr_wiki:hu_wiki,Juniperus sabina,Juniperus sabina,30166980-2,30166980-2,Species
+248,Ledum palustre,fr_wiki,Rhododendron tomentosum,Rhododendron tomentosum,961622-1,961622-1,Species
+249,Leucojum vernum sp.,fr_wiki,Leucojum vernum,Leucojum vernum,65769-1,65769-1,Species
+250,Ligustrum vulgare,fr_wiki:hu_wiki,Ligustrum vulgare,Ligustrum vulgare,610130-1,610130-1,Species
+251,Lonicera caprifolium,fr_wiki,Lonicera caprifolium,Lonicera caprifolium,148670-1,148670-1,Species
+252,Lonicera xylosteum,fr_wiki,Lonicera xylosteum,Lonicera xylosteum,149194-1,149194-1,Species
+253,Lupinus sp.,fr_wiki,Lupinus,,,60436956-2,Genus
+254,Lycium europaeum,fr_wiki,Lycium europaeum,Lycium europaeum,816435-1,816435-1,Species
+255,Lycium barbarum,fr_wiki,Lycium barbarum,Lycium barbarum,816356-1,816356-1,Species
+256,Maianthemum bifolium,fr_wiki,Maianthemum bifolium,Maianthemum bifolium,30042358-2,30042358-2,Species
+257,Momordica charantia,fr_wiki,Momordica charantia,Momordica charantia,293413-1,293413-1,Species
+258,Monstera deliciosa,fr_wiki,Monstera deliciosa,Monstera deliciosa,87478-1,87478-1,Species
+259,Narcissus pseudonarcissus,fr_wiki,Narcissus pseudonarcissus,Narcissus pseudonarcissus,66177-1,66177-1,Species
+260,Nicandra physaloides,fr_wiki,,,,,
+261,Ornithogalum umbellatum,fr_wiki,Ornithogalum umbellatum,Ornithogalum umbellatum,539600-1,539600-1,Species
+262,Papaver somniferum,fr_wiki:hu_wiki,Papaver somniferum,Papaver somniferum,673724-1,673724-1,Species
+263,Parthenocissus quinquefolia,fr_wiki,Parthenocissus quinquefolia,Parthenocissus quinquefolia,184091-2,184091-2,Species
+264,Philodendron sp.,fr_wiki,Philodendron,,,326132-2,Genus
+265,Physalis alkekengi,fr_wiki,Physalis lagascae,Physalis lagascae,817449-1,817449-1,Species
+266,Phytolacca americana syn.esculenta,fr_wiki,Phytolacca americana,Phytolacca americana,323290-2,323290-2,Species
+267,Pinus ponderosa,fr_wiki,Pinus ponderosa,Pinus ponderosa,307165-2,307165-2,Species
+268,Polygonatum odoratum,fr_wiki,Polygonatum odoratum,Polygonatum odoratum,540195-1,540195-1,Species
+269,Polygonatum verticillatum,fr_wiki,Polygonatum verticillatum,Polygonatum verticillatum,540250-1,540250-1,Species
+270,Pyracantha sp.,fr_wiki,Pyracantha,,,30154448-2,Genus
+271,Ranunculus sp.,fr_wiki,Ranunculus,,,30002060-2,Genus
+272,Rauwolfia sp.,fr_wiki,Citharexylum,,,330592-2,Genus
+273,Rhamnus frangula (ou Frangula alnus),fr_wiki,Frangula alnus,Frangula alnus,717344-1,717344-1,Species
+274,Rheum sp.,fr_wiki,,,,,
+275,Rhododendron sp.,fr_wiki,Rhododendron,,,327085-2,Genus
+276,Robinia pseudoacacia,fr_wiki:hu_wiki,Robinia pseudoacacia,Robinia pseudoacacia,30034699-2,30034699-2,Species
+277,Rosa canina,fr_wiki,Rosa canina,Rosa canina,731955-1,731955-1,Species
+278,Ruscus aculeatus,fr_wiki,Ruscus aculeatus,Ruscus aculeatus,540443-1,540443-1,Species
+279,Ruta graveolens,fr_wiki:hu_wiki,Ruta graveolens,Ruta graveolens,775099-1,775099-1,Species
+280,Sambucus ebulus,fr_wiki:hu_wiki,Sambucus ebulus,Sambucus ebulus,149315-1,149315-1,Species
+281,Sambucus nigra,fr_wiki,Sambucus nigra,Sambucus nigra,30122169-2,30122169-2,Species
+282,Sambucus racemosa,fr_wiki,Sambucus racemosa,Sambucus racemosa,30056767-2,30056767-2,Species
+283,Saponaria officinalis,fr_wiki,Saponaria officinalis,Saponaria officinalis,156627-1,156627-1,Species
+284,Senecio inaequidens,fr_wiki,Senecio inaequidens,Senecio inaequidens,245637-1,245637-1,Species
+285,Senecio jacobaea,fr_wiki,Jacobaea maritima subsp. maritima,Jacobaea maritima,77075194-1,77180722-1,Subspecies
+286,Senecio vulgaris,fr_wiki,Senecio vulgaris,Senecio vulgaris,248251-1,248251-1,Species
+287,Skimmia japonica,fr_wiki,Skimmia japonica,Skimmia japonica,775237-1,775237-1,Species
+288,Solanum villosum,fr_wiki,Solanum villosum,Solanum villosum,285344-2,285344-2,Species
+289,Sorbus aucuparia,fr_wiki,Sorbus aucuparia,Sorbus aucuparia,741641-1,741641-1,Species
+290,Sorghum bicolor,fr_wiki,Sorghum bicolor,Sorghum bicolor,422090-1,422090-1,Species
+291,Spartium junceum,fr_wiki,Spartium junceum,Spartium junceum,519057-1,519057-1,Species
+292,Streptopus amplexifolius,fr_wiki,Streptopus amplexifolius,Streptopus amplexifolius,1160363-2,1160363-2,Species
+293,Strophanthus sp.,fr_wiki,Strophanthus,,,2582-1,Genus
+294,Strophanthus kombe,fr_wiki,Strophanthus kombe,Strophanthus kombe,81909-1,81909-1,Species
+295,Symphoricarpos albus,fr_wiki,Symphoricarpos albus,Symphoricarpos albus,149485-1,149485-1,Species
+296,Taxus cuspidata,fr_wiki,Taxus cuspidata,Taxus cuspidata,324379-2,324379-2,Species
+297,Teucrium chamaedrys,fr_wiki,Teucrium chamaedrys,Teucrium chamaedrys,460310-1,460310-1,Species
+298,Thuja occidentalis,fr_wiki:hu_wiki,Thuja occidentalis,Thuja occidentalis,263956-1,263956-1,Species
+299,Toxicodendron radicans,fr_wiki,Toxicodendron radicans,Toxicodendron radicans,255769-2,255769-2,Species
+300,Trichosanthes kirilowii,fr_wiki,Trichosanthes kirilowii,Trichosanthes kirilowii,294222-1,294222-1,Species
+301,Tulipa sp.,fr_wiki,Tulipa,,,24874-1,Genus
+302,Urginea maritima,fr_wiki,Drimia maritima,Drimia maritima,534538-1,534538-1,Species
+303,Viburnum lantana,fr_wiki,Viburnum lantana,Viburnum lantana,326265-2,326265-2,Species
+304,Viburnum opulus,fr_wiki,Viburnum opulus,Viburnum opulus,326268-2,326268-2,Species
+305,Viburnum rhytidophyllum,fr_wiki,Viburnum rhytidophyllum,Viburnum rhytidophyllum,149902-1,149902-1,Species
+306,Viburnum tinus,fr_wiki,Viburnum tinus,Viburnum tinus,326271-2,326271-2,Species
+307,Vinca minor,fr_wiki,Vinca minor,Vinca minor,82701-1,82701-1,Species
+308,Viscum album,fr_wiki:hu_wiki,Viscum album,Viscum album,300881-2,300881-2,Species
+309,Cascabela thevetia (Thevetia peruviana ),hr_wiki,Cascabela thevetia,Cascabela thevetia,47927-2,47927-2,Species
+310,Heracleum spp.,hr_wiki,Heracleum,,,30054087-2,Genus
 311,Tanacetum vulgare,hr_wiki,Tanacetum vulgare,Tanacetum vulgare,252568-1,252568-1,Species
 312,Senecio sp.,hu_wiki,Senecio,,,325904-2,Genus
 313,Phytolacca americana,hu_wiki,Phytolacca americana,Phytolacca americana,323290-2,323290-2,Species
