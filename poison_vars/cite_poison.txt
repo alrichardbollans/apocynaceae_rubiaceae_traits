@@ -1,7 +1,8 @@
 Plants of the World Online (2022). Facilitated by the Royal Botanic Gardens, Kew. Published on the
 Internet; http://www.plantsoftheworldonline.org/
-Accessed 25/02/2022
+Accessed 16/09/2022
 Search terms: 'poison', 'poisonous', 'toxic', 'deadly'
+Filters: 'species', 'infraspecies', 'genera'
 Source abv.: POWO
 
 Diazgranados, Mauricio, Bob Allkin, Nicholas Black, Rodrigo Cámara-Leret, Cátia Canteiro, Julia Carretero, Ruth Eastwood, et al.
@@ -17,12 +18,16 @@ Wikipedia, The Free Encyclopedia
 https://en.wikipedia.org/
 Accessed 08/06/2022
 Source abv.: [language]_wiki
-
+Notes: Uses plants listed under https://en.wikipedia.org/wiki/List_of_poisonous_plants
+and those plants listed in corresponding wikipedia pages in other languages.
+(See wikipedia_searches package in mining_trait_data library)
 
 Cornell College of Agriculture and Life Sciences
 http://poisonousplants.ansci.cornell.edu
 Accessed 22/02/2022
 Source abv.: Cornell CALS
+Notes: Downloaded HTML from http://poisonousplants.ansci.cornell.edu/php/plants.php?action=display.
+Used any plants listed, in particular including plants poisonous to non-human species.
 
 California Poison Control System
 https://calpoison.org/topics/plant
@@ -33,20 +38,29 @@ University of California Safe and Poisonous Garden Plants
 https://ucanr.edu/sites/poisonous_safe_plants/
 Accessed 22/02/2022
 Source abv.: UCANR
+Notes: HTML downloads (toxic: https://ucanr.edu/sites/poisonous_safe_plants/Toxic_Plants_by_Scientific_Name_685/
+nontoxic: https://ucanr.edu/sites/poisonous_safe_plants/Safe_Plants_by_Scientific_Name/)
 
 U.S. Department of Agriculture, Agricultural Research Service. 1992-2016.
 Dr. Duke's Phytochemical and Ethnobotanical Databases. Home Page, http://phytochem.nal.usda.gov/
 http://dx.doi.org/10.15482/USDA.ADC/1239279
 Accessed 22/02/2022
 Source abv.: USDA(Duke)
+Notes: Used plants listed as Toxic.
+CSV downloaded from https://phytochem.nal.usda.gov/phytochem/activities/show/1481?qlookup=toxic&offset=0&max=20&et=A
 
 Günthardt, B.F., Hollender, J., Hungerbühler, K., Scheringer, M., Bucheli, T.D.* 2018: Comprehensive Toxic Plants–Phytotoxins Database and Its Application in Assessing Aquatic Micropollution Potential. J. Agric. Food Chem.
 doi/10.1021/acs.jafc.8b01639
 https://www.agroscope.admin.ch/agroscope/en/home/publications/apps/tppt.html
 Accessed 22/02/2022
 Source abv.: TPPT
+Notes: Used any plant listed as having a human toxicity i.e. those labelled with the following: 'weak toxic', 'very strong toxic (only wild growing plants)', 'very strong toxic',
+             'toxic (unknown strength)', 'toxic', 'strong toxic (only wild growing plants)', 'strong toxic'
 
 CliniPharm CliniTox
 https://www.vetpharm.uzh.ch/perldocs/toxsyqry.htm
 Accessed 23/02/2022
 Source abv.: CliniTox
+Notes: Respective HTMLs downloaded from https://www.vetpharm.uzh.ch/giftdb/indextox.htm
+For poisonous plants, used plants listed as 'toxic', 'highly toxic' and 'very highly toxic'
+For nonpoisonous plants used 'non-toxic'
