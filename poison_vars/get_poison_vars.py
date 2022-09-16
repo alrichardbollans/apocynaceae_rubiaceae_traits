@@ -1,10 +1,9 @@
 import os
 
 import pandas as pd
-from pkg_resources import resource_filename
-
+from automatchnames import get_accepted_info_from_names_in_column
 from cleaning import compile_hits, output_summary_of_hit_csv
-from automatchnames import clean_urn_ids, get_accepted_info_from_names_in_column
+from pkg_resources import resource_filename
 
 ### Inputs
 
@@ -94,7 +93,12 @@ def prepare_usda_data():
 
 def prepare_TPPT_data():
     toxic_db = pd.read_csv(tppt_toxic_file)
-    toxic_db = toxic_db[~(toxic_db['Human_toxicity'] == 'unknown')]
+    toxic_db = toxic_db[
+        (toxic_db['Human_toxicity'].isin(
+            ['weak toxic', 'very strong toxic (only wild growing plants)', 'very strong toxic',
+             'toxic (unknown strength)', 'toxic',
+             'strong toxic (only wild growing plants)', 'strong toxic'
+             ]))]
     acc_toxic = get_accepted_info_from_names_in_column(toxic_db, 'Latin_plant_name',
                                                        families_of_interest=toxic_db['Plant_family'].unique().tolist())
     acc_toxic['Source'] = 'TPPT'
@@ -154,15 +158,6 @@ def prepare_useful_plants_poisons() -> pd.DataFrame:
     useful_db = pd.read_csv(_useful_plants_file, encoding='latin_1', sep='\t')
 
     useful_db = useful_db[useful_db['Poisons'] == 1]
-    #
-    # useful_db.rename(
-    #     columns={'acc_ipniid': 'Accepted_ID', 'binomial_acc_name': 'Accepted_Name'},
-    #     inplace=True)
-    # useful_db['Accepted_Rank'] = 'Species'
-    # useful_db['Accepted_Species'] = useful_db['Accepted_Name']
-    # useful_db['Accepted_Species_ID'] = useful_db['Accepted_ID']
-    #
-    # useful_db.dropna(subset=['Accepted_ID'], inplace=True)
 
     # Drop columns containing 'Source' as this gets confused when compiling all data
     cs = [c for c in useful_db.columns if 'Source' in c]
@@ -188,7 +183,7 @@ def get_powo_poisons():
     from powo_searches import search_powo
     search_powo(['poison', 'poisonous', 'toxic', 'deadly'],
                 _powo_search_temp_output_accepted_csv,
-                filters=['species', 'infraspecies']
+                filters=['species', 'infraspecies', 'genera']
                 )
 
 
@@ -219,8 +214,6 @@ def get_nonpoison_hits():
     compile_hits([CPCS_hits, ucanr_hits, clinitox_hits], output_nonpoison_csv)
 
 
-
-
 def get_poison_hits():
     if not os.path.isdir(_temp_outputs_path):
         os.mkdir(_temp_outputs_path)
@@ -249,7 +242,6 @@ def get_poison_hits():
     powo_hits['powo_name_Snippet'] = powo_hits['name']
     littox_hits = pd.read_csv(_littox_temp_output_accepted_csv)
     useful_hits = pd.read_csv(_useful_temp_output_accepted_csv)
-    useful_hits['Accepted_Species_ID'] = useful_hits['Accepted_ID']
     compile_hits(
         [useful_hits, powo_hits, littox_hits, wiki_hits, cornell_hits, CPCS_hits, ucanr_hits, usda_hits, tppt_hits,
          clinitox_hits],
@@ -259,8 +251,13 @@ def get_poison_hits():
 def output_source_summaries():
     output_summary_of_hit_csv(
         output_poison_csv,
-        os.path.join(_output_path, 'source_summaries', 'poison_source_summary'),
+        os.path.join(_output_path, 'source_summaries', 'poison_species_source_summary'),
         source_translations={'Wiki': '_wiki', 'POWO': 'POWO pages'}, ranks=['Species'])
+
+    output_summary_of_hit_csv(
+        output_poison_csv,
+        os.path.join(_output_path, 'source_summaries', 'poison_source_summary'),
+        source_translations={'Wiki': '_wiki', 'POWO': 'POWO pages'})
 
     output_summary_of_hit_csv(
         output_nonpoison_csv,
@@ -270,3 +267,4 @@ def output_source_summaries():
 if __name__ == '__main__':
     get_poison_hits()
     get_nonpoison_hits()
+    output_source_summaries()
