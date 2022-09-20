@@ -25,7 +25,7 @@ NEW_HEADINGS = [
     "Ref_Alks",
     "Alkaloids",
     "Alkaloid_mainclass",
-    "Alkaloid_class",
+    "Alkaloid_otherclasses",
     "Alkaloid_class_notes",
     "Antimalarial_Use",
     "Ref_H_Mal",

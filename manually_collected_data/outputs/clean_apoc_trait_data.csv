@@ -1,4 +1,4 @@
-Name,Any_info,Genus,Species,Tested_for_Alkaloids,Ref_Alks,Alkaloids,Alkaloid_mainclass,Alkaloid_class,Alkaloid_class_notes,Antimalarial_Use,Ref_H_Mal,History_Fever,Ref_H_Fever,Tested_Antimalarial,Extraction_Method,Type_of_Test,Activity_Antimalarial,Authors_Activity_Label,Positive_Control_Used,Given_Activities,Ref_Activity,General_notes,MPNS_notes,Details,Cardenolides,Cardenolides_details,Cardenolides_Ref,Steroids,Steroids_details,Steroids_Ref,General_Phytochem_notes,Family
+Name,Any_info,Genus,Species,Tested_for_Alkaloids,Ref_Alks,Alkaloids,Alkaloid_mainclass,Alkaloid_otherclasses,Alkaloid_class_notes,Antimalarial_Use,Ref_H_Mal,History_Fever,Ref_H_Fever,Tested_Antimalarial,Extraction_Method,Type_of_Test,Activity_Antimalarial,Authors_Activity_Label,Positive_Control_Used,Given_Activities,Ref_Activity,General_notes,MPNS_notes,Details,Cardenolides,Cardenolides_details,Cardenolides_Ref,Steroids,Steroids_details,Steroids_Ref,General_Phytochem_notes,Family
 Acokanthera oppositifolia (Lam.) Codd,spp. listed (2/5),Acokanthera,oppositifolia (Lam.) Codd,,,,,,,,,,,,,,,,,,,,,,Yes,"Cardenolide glycosides (seeds, stems & twigs)","C2, C3",,,,"Species listed as Acokanthera longiflora (synonym), C3",Apocynaceae
 Acokanthera schimperi (A. DC.) Schweinf.,,Acokanthera,schimperi (A. DC.) Schweinf.,,,,,,,Yes,[68],,,Yes,Extraction,Vivo,Active,Active,No,"34.8%, 600 mg/kg, 4 days, mice (MeOH L, P. berghei, ANKA)",67,in vivo,,,Yes,Cardenolide glycosides (seeds),C1,,,,,Apocynaceae
 Adenium boehmianum Schinz,spp. listed (2/6),Adenium,boehmianum Schinz,,,,,,,,,,,,,,,,,,,,,,Yes,Cardenolide glycosides (whole plant),C6,,,,,Apocynaceae
@@ -42,7 +42,7 @@ Amalocalyx microlobus Pierre ex Spire,spp listed (1/1),Amalocalyx,microlobus Pie
 Ambelania acida Aubl.,spp. listed (1/3),Ambelania,acida Aubl.,Yes,65,"Detected (Dragendorff's), S",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Amphineurion marginatum (Roxb.) D. J. Middleton,All spp. listed (1/1),Amphineurion,marginatum (Roxb.) D. J. Middleton,Yes,72,"Isolated, R",pyrrolizidine,pyrrolizidine,,Yes,"SB, S [70]",Yes,[79],Yes,Extraction,Vitro,Inactive,Inactive,Yes,"IC50 = 45.2 & 50 μg/mL (DCM B, W2 & THP1)",70,,,,,,,,,,,Apocynaceae
 Amsonia elliptica (Thunb.) Roem. & Schult.,spp. listed (3/16),Amsonia,elliptica (Thunb.) Roem. & Schult.,Yes,76,"Isolated, R",MIA,Indole,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Amsonia tabernaemontana Walter,,Amsonia,tabernaemontana Walter,Yes,"KN, 74","Isolated, U [KN] Isolated, R [74]",MIA [KN]; bisindole [74],MIA [KN] bisindole [74],,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Amsonia tabernaemontana Walter,,Amsonia,tabernaemontana Walter,Yes,"KN, 74","Isolated, U [KN] Isolated, R [74]",MIA [KN]; bisindole [74],MIA [KN]; bisindole [74],,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Amsonia tomentosa var. tomentosa,,Amsonia,tomentosa var. tomentosa,Yes,75,"Isolated, Wp",MIA,Indole; Piperidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Anisopus mannii N. E. Br.,spp. listed (1/2),Anisopus,mannii N. E. Br.,Yes,77,"Isolated, B",quinoline,quinoline,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Anodendron affine (Hook. & Arn.) Druve,spp. listed (1/17),Anodendron,affine (Hook. & Arn.) Druve,Yes,78,"Isolated, L & S",pyrrolizidine,pyrrolizidine,,,,,,,,,,,,,,,,,Yes,"Cardenolides, cardenolide glycosides (bark, leaves, seeds, stems)","C10, C11, C12, C13, C14, C15",,,,"Alkaloids (leaves, stems) co-occur in this species, C235",Apocynaceae
@@ -270,7 +270,7 @@ Macoubea guianensis Aubl.,spp. listed (1/3),Macoubea,guianensis Aubl.,Yes,202,"I
 "Macropharynx isthmica (Woodson) J. F. Morales, M. E. Endress & Liede",spp. listed (2/15),Macropharynx,"isthmica (Woodson) J. F. Morales, M. E. Endress & Liede",Yes,144,"Detected (LC-MS), L",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 "Macropharynx peltata (Vell.) J. F. Morales, M. E. Endress & Liede",,Macropharynx,"peltata (Vell.) J. F. Morales, M. E. Endress & Liede",Yes,144,"Detected (LC-MS), L",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Malouetia arborea (Vell.) Miers,spp. listed (4/31),Malouetia,arborea (Vell.) Miers,Yes,203,"Isolated, U",steroidal,steroidal; pyrrolidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Malouetia bequaertiana Woodson,,Malouetia,bequaertiana Woodson,Yes,203,"Isolated, U",steroidal,steroidal; quarternary amine; pyrrolidine; ,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Malouetia bequaertiana Woodson,,Malouetia,bequaertiana Woodson,Yes,203,"Isolated, U",steroidal,steroidal; quaternary amine; pyrrolidine; ,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Malouetia glandulifera Miers,,Malouetia,glandulifera Miers,Yes,203,"Detected (unclear), U",steroidal,steroidal; simple amine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Malouetia tamaquarina (Aubl.) A. DC.,,Malouetia,tamaquarina (Aubl.) A. DC.,Yes,203,"Isolated, U",steroidal,steroidal; pyrrolidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Mandevilla boliviensis (J. J. Veitch),spp. listed (1/179),Mandevilla,boliviensis (J. J. Veitch),Yes,144,"Detected (tentative LC-MS), L",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
@@ -296,7 +296,7 @@ Marsdenia tinctoria R. Br.,,Marsdenia,tinctoria R. Br.,Yes,"144, C134","Detected
 Marsdenia tomentosa C. Morren & Decne.,,Marsdenia,tomentosa C. Morren & Decne.,Yes,"C126, C131","Isolated [C126, C131]","steroidal [C126, C131]",,,,,,,,,,,,,,,,,,,,,Yes,"Steroids, steroid glycosides, steroidal esters of nicotinic acid (leaves, stems (caules))","C126, C131","Steroid ester alkaloids (leaves, stems (caules)), C126, C131",Apocynaceae
 Melodinus acutiflorus F. Muell.,spp. listed (11/24),Melodinus,acutiflorus F. Muell.,Yes,211,"Isolated, L",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Melodinus aeneus Baill.,,Melodinus,aeneus Baill.,Yes,210,"Isolated, U",MIA; pyridine; ,indole; indolizidine; pyridine; oxazole,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Melodinus australis (F. Muell.) Pierre,,Melodinus,australis (F. Muell.) Pierre,Yes,210,"Isolated, U",MIA; indolizidine,indole; quarternary amine; quinolizidine; indolizidine,"unusual azabicyclononane structure, also 9-membered heterocycle",,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Melodinus australis (F. Muell.) Pierre,,Melodinus,australis (F. Muell.) Pierre,Yes,210,"Isolated, U",MIA; indolizidine,indole; quaternary amine; quinolizidine; indolizidine,"unusual azabicyclononane structure, also 9-membered heterocycle",,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Melodinus axillaris W. T. Wang,,Melodinus,axillaris W. T. Wang,Yes,210,"Isolated, U",MIA; pyridine;,indole; indolizidine; quinolizidine; piperidine; pyridine; oxazole,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Melodinus balansae Baill.,,Melodinus,balansae Baill.,Yes,212,"Isolated, SB & A",MIA,indole; indolizidine; quinolizidine; ,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Melodinus cochinchinensis (Lour.) Merr.,,Melodinus,cochinchinensis (Lour.) Merr.,Yes,150,"Isolated, U",MIA,monoterpene; indole; indolizidine; peptide,"peptide essentially has carbonyl instead of connecting bond to complete an indole ring, unusual N atom in ring junction between 6 membered and 7 membered rings",,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
@@ -316,15 +316,15 @@ Nerium oleander L.,All spp. listed (1/1),Nerium,oleander L.,Yes,116,"Detected (D
 Ochrosia acuminata Trimen ex Valeton,spp. listed (14/44),Ochrosia,acuminata Trimen ex Valeton,Yes,219,"Isolated, R",MIA; indole;,indole; quinolizidine; isoquinoline,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia alyxioides Guillaumin,,Ochrosia,alyxioides Guillaumin,Yes,225,"Isolated, L",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia borbonica J. F. Gmel.,,Ochrosia,borbonica J. F. Gmel.,Yes,217,"Isolated, S & L",MIA,indole; quinolizidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Ochrosia compta K. Schum.,,Ochrosia,compta K. Schum.,Yes,222,"Isolated, TrB & RB",MIA,indole; indolizidine; quarternary amine; ,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Ochrosia compta K. Schum.,,Ochrosia,compta K. Schum.,Yes,222,"Isolated, TrB & RB",MIA,indole; indolizidine; quaternary amine; ,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia elliptica Labill.,,Ochrosia,elliptica Labill.,Yes,216,"Isolated, cell suspension culture",MIA; indole,indole; quinolizidine,8-membered ring w/ N atom (with 2 atom bridge - N atom as rin-junction),,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia glomerata (Blume) F. Muell,,Ochrosia,glomerata (Blume) F. Muell,,,,,,,,,,,Yes,Extraction,Vitro,Active,Active,Yes,"IC50 = 2.7 & 7.1 μg/mL (MeOH R, D6 & W2)",215,,,,,,,,,,,Apocynaceae
 Ochrosia lifuana Guillaumin,,Ochrosia,lifuana Guillaumin,Yes,KN,"Isolated, U",bisindole,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia miana Baill. ex Guillaumin,,Ochrosia,miana Baill. ex Guillaumin,Yes,"KN, 220","Isolated, U [KN] Isolated, B [220]",bisindole [KN]; MIA,indole; quinolizidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia moorei (F. Muell.) Benth.,,Ochrosia,moorei (F. Muell.) Benth.,Yes,226,"Isolated, S & L",MIA; indole,indole; pyridine; isoquinoline,,,,,,Yes,Isolation,Vitro,Active,,,"IC50 = 0.007 μM (aspidocarpine, MDR K1) [IC50 = 0.0 μg/mL]",258,Compound only tested,,,,,,,,,,Apocynaceae
 Ochrosia mulsantii Montrouz.,,Ochrosia,mulsantii Montrouz.,Yes,218,"Isolated, L",indole; MIA,indole; quinolizidine; isoquinoline,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Ochrosia nakaiana (Koidz.) Koidz. ex H. Hara,,Ochrosia,nakaiana (Koidz.) Koidz. ex H. Hara,Yes,224,"Isolated, B",MIA; ,indole; piperidine; quinolizidine; monoterpenoid; quarternary amine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Ochrosia oppositifolia (Lam.) K. Schum.,,Ochrosia,oppositifolia (Lam.) K. Schum.,Yes,201,"Isolated, B",beta carboline?,indole; pyridine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Ochrosia nakaiana (Koidz.) Koidz. ex H. Hara,,Ochrosia,nakaiana (Koidz.) Koidz. ex H. Hara,Yes,224,"Isolated, B",MIA; ,indole; piperidine; quinolizidine; monoterpenoid; quaternary amine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Ochrosia oppositifolia (Lam.) K. Schum.,,Ochrosia,oppositifolia (Lam.) K. Schum.,Yes,201,"Isolated, B",beta-carboline?,indole; pyridine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia poweri F. M. Bailey,,Ochrosia,poweri F. M. Bailey,Yes,"KN, 223","Isolated, L",MIA,indole; quinolizidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Ochrosia silvatica Däniker,,Ochrosia,silvatica Däniker,Yes,221,"Isolated, TrB",indole; MIA,indole; isoquinoline; quinolizidine,8-membered ring w/ N atom (with 2 atom bridge - N atom as rin-junction),,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Oncinotis nitida Benth.,spp. listed (2/7),Oncinotis,nitida Benth.,Yes,228,"Isolated, SB & RB",spermidine,spermidine,seventeen membered lactam ring; ,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
@@ -407,7 +407,7 @@ Rauvolfia sevenetii Boiteau,,Rauvolfia,sevenetii Boiteau,Yes,KN,"Isolated, U",MI
 Rauvolfia spathulata Boiteau,,Rauvolfia,spathulata Boiteau,Yes,KN,"Isolated, U",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Rauvolfia sprucei Müll. Arg.,,Rauvolfia,sprucei Müll. Arg.,Yes,"KN, 65","Isolated, U [KN] Detected (Dragendorff's), A [142]",MIA,MIA,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Rauvolfia sumatrana Jack,,Rauvolfia,sumatrana Jack,Yes,"KN, 142","Isolated, U [KN] Isolated, B [142]",bisindole [KN]; MIA,indole; quinolizidine,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
-Rauvolfia tetraphylla L.,,Rauvolfia,tetraphylla L.,Yes,63,"Isolated, A",MIA,indole; quinolizidine; pyridine; quarternary amine,tropane-like structure but 8 membered ring instead of 7,Yes,"L, R [79]",Yes,"L, R [79]",,,,,,,,,,,,,,,,,,,Apocynaceae
+Rauvolfia tetraphylla L.,,Rauvolfia,tetraphylla L.,Yes,63,"Isolated, A",MIA,indole; quinolizidine; pyridine; quaternary amine,tropane-like structure but 8 membered ring instead of 7,Yes,"L, R [79]",Yes,"L, R [79]",,,,,,,,,,,,,,,,,,,Apocynaceae
 Rauvolfia verticillata (Lour.) Baill.,,Rauvolfia,verticillata (Lour.) Baill.,Yes,"KN, 201","Isolated, U [KN] Isolated, R & Rh [201]",MIA; bisindole [KN]; quinoline,,Unsure whether to put piperidine or quinoline,Yes,[79],,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Rauvolfia viridis Roem. & Schult.,,Rauvolfia,viridis Roem. & Schult.,Yes,KN,"Isolated, U",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Rauvolfia volkensii (K.Schum.) Stapf,,Rauvolfia,volkensii (K.Schum.) Stapf,Yes,KN,"Isolated, U",MIA,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
@@ -516,7 +516,7 @@ Vinca minor L.,,Vinca,minor L.,Yes,264,"Isolated, A",MIA,indole; monoterpenoid; 
 Vincetoxicum amplexicaule Siebold & Zucc.,,Vincetoxicum,amplexicaule Siebold & Zucc.,,,,,,,,,,,,,,,,,,,,,,,,,Yes,Steroid glycoside derivatives (roots),C58,"Species listed as Cynanchum amplexicaule (synonym), C58",Apocynaceae
 Vincetoxicum ascyrifolium Franch. & Sav.,,Vincetoxicum,ascyrifolium Franch. & Sav.,,,,,,,,,,,,,,,,,,,,,,,,,Yes,Steroid glycoside derivatives (roots),C65,"Species listed as Cynanchum ascyrifolium (synonym), C65",Apocynaceae
 Vincetoxicum atratum (Bung) C. Morren,spp. listed (12/250),Vincetoxicum,atratum (Bung) C. Morren,,,,,,,Yes,[135],,,,,,,,,,,,,,,,,Yes,Steroid glycoside derivatives (roots),"C60, C61","Species listed as Cynanchum atratum (synonym), C60, C61",Apocynaceae
-Vincetoxicum auriculatum (Royle ex Wight) Kuntze,,Vincetoxicum,auriculatum (Royle ex Wight) Kuntze,Yes,137,"Isolated, U",Nicotinic acid ester on steroid,steroidal (w/ nicotinic acid ester); ,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
+Vincetoxicum auriculatum (Royle ex Wight) Kuntze,,Vincetoxicum,auriculatum (Royle ex Wight) Kuntze,Yes,137,"Isolated, U",steroidal [(w/ nicotinic acid ester)],steroidal [(w/ nicotinic acid ester)],,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae
 Vincetoxicum chekiangense (M.Cheng) C.Y.Wu & D.Z.Li,,Vincetoxicum,chekiangense (M.Cheng) C.Y.Wu & D.Z.Li,,,,,,,,,,,,,,,,,,,,,,,,,Yes,Steroid glycoside derivatives (roots),C66,"Species listed as Cynanchum chekiangense (synonym), C66",Apocynaceae
 Vincetoxicum chinense S.Moore,,Vincetoxicum,chinense S.Moore,,,,,,,,,,,,,,,,,,,,,,,,,Yes,Steroid glycoside derivatives (roots),C63,"Species listed as Cynanchum mooreanum, C63",Apocynaceae
 Vincetoxicum dalzellii (Hook. f.) Kuntze,,Vincetoxicum,dalzellii (Hook. f.) Kuntze,Yes,289,"Detected (phytochemical screening), U",,,,,,,,,,,,,,,,,,,,,,,,,,Apocynaceae

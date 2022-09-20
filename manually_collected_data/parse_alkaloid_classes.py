@@ -7,7 +7,8 @@ from manually_collected_data import trait_parsing_output_path, encoded_traits_cs
 
 parsed_alkaloid_classes_csv = os.path.join(trait_parsing_output_path, 'parsed_alkaloid_classes.csv')
 
-_alk_class_column = 'Alkaloid_mainclass'
+_alk_class_columns = ['Alkaloid_mainclass', 'Alkaloid_otherclasses']
+_alk_class_column = 'Alkaloid_classes'
 
 
 def remove_whitespace_at_beginning_and_end(value: str):
@@ -28,6 +29,13 @@ def lower_case_string(val: str):
     return val.lower()
 
 
+def rmv_multiplication_from_string(val: str):
+    ints_used = ['2', '3', '4', '5', '6']
+    for i in ints_used:
+        if i+'x' in val:
+            val = val.replace(i+'x','')
+    return val
+
 def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
     import numpy as np
     # OHE alks
@@ -44,11 +52,14 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
             raise ValueError
         else:
             out_list = list(map(remove_reference_in_string, alk_list))
+            out_list = list(map(rmv_multiplication_from_string, out_list))
             out_list = list(map(remove_whitespace_at_beginning_and_end, out_list))
 
             out_list = list(map(lower_case_string, out_list))
 
             return out_list
+
+    df[_alk_class_column] = df[_alk_class_columns].apply(lambda x: ';'.join(x), axis=1)
 
     df[_alk_class_column] = df[_alk_class_column].apply(convert_alks_to_lists)
 
@@ -62,7 +73,7 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
 def parse_alkaloid_data():
     trait_df = pd.read_csv(encoded_traits_csv, index_col=0)
 
-    input_alks = trait_df.dropna(subset=[_alk_class_column])
+    input_alks = trait_df.dropna(subset=_alk_class_columns)
 
     # OHE
     encoded = OHE_alks(input_alks)
