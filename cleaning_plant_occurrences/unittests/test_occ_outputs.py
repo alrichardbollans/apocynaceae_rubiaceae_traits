@@ -190,6 +190,13 @@ class MyTestCase(unittest.TestCase):
     def test_more_with_introduced(self):
         self.assertGreaterEqual(_final_cleaned_output_df.shape[0], _native_cleaned_output_df.shape[0])
 
+    def test_no_duplicates(self):
+
+        duplicates = _final_cleaned_output_df.duplicated(subset=['gbifID'])
+        self.assertEqual(len(duplicates), 0)
+        duplicates = _native_cleaned_output_df.duplicated(subset=['gbifID'])
+        self.assertEqual(len(duplicates), 0)
+
 
 if __name__ == '__main__':
     unittest.main()
