@@ -40,8 +40,8 @@ _cleaned_MPNS_accepted_csv = os.path.join(_temp_outputs_path, 'MPNS Data_cleaned
 wiersema_temp_output_accepted = os.path.join(_temp_outputs_path, 'WEP (Wiersema 2013)_accepted.csv')
 
 ### Outputs
-output_path = resource_filename(__name__, 'outputs')
-output_common_names_csv = os.path.join(output_path, 'list_of_plants_with_common_names.csv')
+common_name_output_path = resource_filename(__name__, 'outputs')
+output_common_names_csv = os.path.join(common_name_output_path, 'list_of_plants_with_common_names.csv')
 
 
 def prepare_usda_common_names(families_of_interest=None):
@@ -272,7 +272,7 @@ def prepare_data():
 def output_source_summaries():
     output_summary_of_hit_csv(
         output_common_names_csv,
-        os.path.join(output_path, 'source_summaries', 'commonname_source_summary'),
+        os.path.join(common_name_output_path, 'source_summaries', 'commonname_source_summary'),
         families=['Apocynaceae', 'Rubiaceae'], source_translations={'Wiki': 'Wiki (', 'POWO': 'POWO pages'},
         ranks=['Species'])
 
@@ -280,8 +280,8 @@ def output_source_summaries():
 def main():
     if not os.path.isdir(_temp_outputs_path):
         os.mkdir(_temp_outputs_path)
-    if not os.path.isdir(output_path):
-        os.mkdir(output_path)
+    if not os.path.isdir(common_name_output_path):
+        os.mkdir(common_name_output_path)
 
     prepare_data()
 
