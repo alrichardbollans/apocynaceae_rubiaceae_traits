@@ -7,10 +7,15 @@ land surface areas. EnviDat. https://doi.org/10.16904/envidat.228.v2.1
 
 Poggio, L., de Sousa, L. M., Batjes, N. H., Heuvelink, G. B. M., Kempen, B., Ribeiro, E., and Rossiter, D.:
 SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty, SOIL, 7, 217–240, 2021. DOI
+Variables: ocs, ph, nitrogen, soc
 
 Hengl, T., Mendes de Jesus, J., Heuvelink, G. B.M., Ruiperez Gonzalez, M., Kilibarda, M. et al. (2017)
 SoilGrids250m: global gridded soil information based on Machine Learning. PLOS One, PLoS ONE 12(2): e0169748. doi:10.1371/journal.pone.0169748
+Variables: depth to bedrock and water capacity
 
 Beck, H.E., Zimmermann, N.E., McVicar, T.R., Vergopolan, N., Berg, A., Wood, E.F., 2018.
 Present and future Köppen-Geiger climate classification maps at 1-km resolution. Scientific data 5, 1–12.
 
+Jeffrey J Danielson and Dean B Gesch, Global Multi-Resolution Terrain Elevation Data 2010 (GMTED2010)
+(US Department of the Interior, US Geological Survey Washington, DC, USA, 2011).
+https://topotools.cr.usgs.gov/gmted_viewer/gmted2010_global_grids.php

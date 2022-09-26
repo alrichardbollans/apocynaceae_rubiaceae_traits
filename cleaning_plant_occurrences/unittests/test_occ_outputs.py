@@ -62,7 +62,9 @@ class MyTestCase(unittest.TestCase):
         native_cleaned = clean_occurrences_by_tdwg_regions(good_records_with_acc_info, distributions_csv,
                                                            priority='native',
                                                            output_csv=os.path.join(test_output_dir,
-                                                                                   'native_native.csv'))
+                                                                                   'native_native.csv'),
+                                                           remove_duplicate_records=False,
+                                                           remove_duplicated_lat_long_at_rank='none')
         diff = good_native_records[~good_native_records['gbifID'].isin(native_cleaned['gbifID'])]
         print(diff['gbifID'])
         self.assertEqual(len(diff.index), 0)
@@ -70,13 +72,17 @@ class MyTestCase(unittest.TestCase):
         native_cleaned = clean_occurrences_by_tdwg_regions(good_records_with_acc_info, distributions_csv,
                                                            priority='both',
                                                            output_csv=os.path.join(test_output_dir,
-                                                                                   'native_both.csv'))
+                                                                                   'native_both.csv'),
+                                                           remove_duplicate_records=False,
+                                                           remove_duplicated_lat_long_at_rank='none')
         self.assertEqual(len(native_cleaned.index), len(good_native_records.index))
 
         native_cleaned = clean_occurrences_by_tdwg_regions(good_records_with_acc_info, distributions_csv,
                                                            priority='native_then_introduced',
                                                            output_csv=os.path.join(test_output_dir,
-                                                                                   'native_native_then_introduced.csv'))
+                                                                                   'native_native_then_introduced.csv'),
+                                                           remove_duplicate_records=False,
+                                                           remove_duplicated_lat_long_at_rank='none')
         self.assertEqual(len(native_cleaned.index), len(good_native_records.index))
 
     def test_clean_output_for_standard_criteria(self):
@@ -191,11 +197,25 @@ class MyTestCase(unittest.TestCase):
         self.assertGreaterEqual(_final_cleaned_output_df.shape[0], _native_cleaned_output_df.shape[0])
 
     def test_no_duplicates(self):
+        def test_columns(cols):
 
-        duplicates = _final_cleaned_output_df.duplicated(subset=['gbifID'])
-        self.assertEqual(len(duplicates), 0)
-        duplicates = _native_cleaned_output_df.duplicated(subset=['gbifID'])
-        self.assertEqual(len(duplicates), 0)
+            duplicates = _final_cleaned_output_df[_final_cleaned_output_df.duplicated(subset=cols)]
+
+            if len(duplicates) > 0:
+                duplicates.head(1000).to_csv(os.path.join(test_output_dir, 'dupsall.csv'))
+            self.assertEqual(len(duplicates), 0)
+            duplicates = _native_cleaned_output_df[_native_cleaned_output_df.duplicated(subset=cols)]
+
+            if len(duplicates) > 0:
+                duplicates.head(1000).to_csv(os.path.join(test_output_dir, 'dupsnative.csv'))
+            self.assertEqual(len(duplicates), 0)
+
+        test_columns(['gbifID'])
+
+        # Autocorrelation
+        test_columns(['Accepted_Name', 'decimalLongitude', 'decimalLatitude'])
+        # Species autocorrelation
+        # test_columns(['Accepted_Species', 'decimalLongitude', 'decimalLatitude'])
 
 
 if __name__ == '__main__':
