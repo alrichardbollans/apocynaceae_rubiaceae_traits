@@ -7,7 +7,7 @@ from taxa_lists import get_all_taxa
 
 from metabolite_searches import get_metabolites_for_taxa, output_alkaloids_from_metabolites, get_compound_hits_for_taxa, \
     get_antibac_metabolite_hits_for_taxa, recheck_taxa, output_steroids_from_metabolites, \
-    output_cardenolides_from_metabolites
+    output_cardenolides_from_metabolites, get_antimalarial_metabolite_hits_for_taxa
 from cleaning import compile_hits, output_summary_of_hit_csv
 
 from manually_collected_data import rub_apoc_steroid_hits_manual_output_csv, \
@@ -33,6 +33,7 @@ rub_apoc_steroid_hits_output_csv = os.path.join(_output_path, 'rub_apocs_steroid
 rub_apoc_cardenolide_hits_output_csv = os.path.join(_output_path, 'rub_apocs_cardenolides_hits.csv')
 
 rub_apoc_antibac_metabolite_hits_output_csv = os.path.join(_output_path, 'rub_apocs_antibac_metabolites_hits.csv')
+rub_apoc_antimal_metabolite_hits_output_csv = os.path.join(_output_path, 'rub_apocs_antimalarial_metabolites_hits.csv')
 _check_output_csv = os.path.join(_output_path, 'rechecked_taxa.csv')
 
 
@@ -104,6 +105,10 @@ def get_rub_apoc_antibac_metabolite_hits():
     get_antibac_metabolite_hits_for_taxa(all_metas_data, rub_apoc_antibac_metabolite_hits_output_csv,
                                          fams=['Rubiaceae', 'Apocynaceae'])
 
+def get_rub_apoc_antimal_metabolite_hits():
+    all_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
+    get_antimalarial_metabolite_hits_for_taxa(all_metas_data, rub_apoc_antimal_metabolite_hits_output_csv,
+                                         fams=['Rubiaceae', 'Apocynaceae'])
 
 def get_steroid_card_hits():
     get_rub_apoc_knapsack_steroid_hits()
@@ -138,8 +143,9 @@ def output_source_summaries():
         source_translations={'POWO': 'POWO pages'}, ranks=['Species'])
 def main():
     get_rub_apoc_metabolites()
-    # # # # recheck_taxa(_check_output_csv)
+    # # # recheck_taxa(_check_output_csv)
     summarise_metabolites()
+    get_rub_apoc_antimal_metabolite_hits()
     get_rub_apoc_antibac_metabolite_hits()
     get_rub_apoc_alkaloid_hits()
 
