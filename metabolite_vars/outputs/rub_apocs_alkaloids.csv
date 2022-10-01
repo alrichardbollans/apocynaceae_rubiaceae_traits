@@ -1,0 +1,795 @@
+,alks,Reason,Source
+0,Affinisine,Contains Nitrogen and ine at end of word,KNApSAcK
+1,(+)-Quebrachidine,Contains Nitrogen and ine at end of word,KNApSAcK
+2,(-)-Vincamajine,Contains Nitrogen and ine at end of word,KNApSAcK
+3,Normacusine B,Contains Nitrogen and ine at end of word,KNApSAcK
+4,"16R,19E-Isositsirikine",Contains Nitrogen and ine at end of word,KNApSAcK
+5,Norfluorocurarine,Contains Nitrogen and ine at end of word,KNApSAcK
+6,Talcarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+7,Alstonisine,Contains Nitrogen and ine at end of word,KNApSAcK
+8,10-Methoxyaffinisine,Contains Nitrogen and ine at end of word,KNApSAcK
+9,Isoalstonisine,Contains Nitrogen and ine at end of word,KNApSAcK
+10,Macrogentine,Contains Nitrogen and ine at end of word,KNApSAcK
+11,Alstonoxine A,Contains Nitrogen and ine at end of word,KNApSAcK
+12,Alstonoxine B,Contains Nitrogen and ine at end of word,KNApSAcK
+13,Alstofoline,Contains Nitrogen and ine at end of word,KNApSAcK
+14,Affinisine oxindole,Contains Nitrogen and ine at end of word,KNApSAcK
+15,Lagumicine,Contains Nitrogen and ine at end of word,KNApSAcK
+16,Alstonerine,Contains Nitrogen and ine at end of word,KNApSAcK
+17,Alstophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+18,"N(4)-Methyl-N(4),21-seco-talpinine",Contains Nitrogen and ine at end of word,KNApSAcK
+19,10-O-Methylsarpagine,Contains Nitrogen and ine at end of word,KNApSAcK
+20,Alstoumerine,Contains Nitrogen and ine at end of word,KNApSAcK
+21,Cathafoline,Contains Nitrogen and ine at end of word,KNApSAcK
+22,Cathafoline N(4)-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+23,11-Hydroxystrictamine,Contains Nitrogen and ine at end of word,KNApSAcK
+24,11-Methoxystrictamine,Contains Nitrogen and ine at end of word,KNApSAcK
+25,Vincorine,Contains Nitrogen and ine at end of word,KNApSAcK
+26,10-Methoxyvincamajine,Contains Nitrogen and ine at end of word,KNApSAcK
+27,Sitsirikine,Contains Nitrogen and ine at end of word,KNApSAcK
+28,11-Methoxyakuammicine,Contains Nitrogen and ine at end of word,KNApSAcK
+29,Alstovine,Contains Nitrogen and ine at end of word,KNApSAcK
+30,"19,20-Didehydro-10-methoxytalcarpine",Contains Nitrogen and ine at end of word,KNApSAcK
+31,Villalstonine,Contains Nitrogen and ine at end of word,KNApSAcK
+32,10-Methoxycathafoline,Contains Nitrogen and ine at end of word,KNApSAcK
+33,Strictamine,Contains Nitrogen and ine at end of word,KNApSAcK
+34,Condylocarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+35,Stemmadenine,Kegg Brite,KNApSAcK
+36,Angustilocine,Contains Nitrogen and ine at end of word,KNApSAcK
+37,Strictosidine,Kegg Brite,KNApSAcK
+38,"4,21-Dehydrogeissoschizine",Kegg Brite,KNApSAcK
+39,(E)-Geissoschizine,Contains Nitrogen and ine at end of word,KNApSAcK
+40,Echitamine,Contains Nitrogen and ine at end of word,KNApSAcK
+41,Echitamidine,Contains Nitrogen and ine at end of word,KNApSAcK
+42,Alstonine,Kegg Brite,KNApSAcK
+43,(-)-Vincamedine,Contains Nitrogen and ine at end of word,KNApSAcK
+44,"(-)-17-O-(3',4',5'-Trimethoxycinnamoyl)vincamajine",Contains Nitrogen and ine at end of word,KNApSAcK
+45,Lochnericine,Kegg Brite,KNApSAcK
+46,Akuammiline,Contains Nitrogen and ine at end of word,KNApSAcK
+47,Picraline,Contains Nitrogen and ine at end of word,KNApSAcK
+48,Vincamajine 17-O-veratrate,Contains Nitrogen and ine at end of word,KNApSAcK
+49,"19-Hydroxy-19,20-Dihydrovincamajine",Contains Nitrogen and ine at end of word,KNApSAcK
+50,(+)-Alstomacroline,Contains Nitrogen and ine at end of word,KNApSAcK
+51,Alstomicine,Contains Nitrogen and ine at end of word,KNApSAcK
+52,6-Oxoalstophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+53,Macrodasine A,Contains Nitrogen and ine at end of word,KNApSAcK
+54,Macrodasine B,Contains Nitrogen and ine at end of word,KNApSAcK
+55,Macrocarpine A,Contains Nitrogen and ine at end of word,KNApSAcK
+56,Macrocarpine B,Contains Nitrogen and ine at end of word,KNApSAcK
+57,N1-Demethylalstophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+58,Perhentinine,Contains Nitrogen and ine at end of word,KNApSAcK
+59,Alstomaline,Contains Nitrogen and ine at end of word,KNApSAcK
+60,"10,11-Dimethoxynareline",Contains Nitrogen and ine at end of word,KNApSAcK
+61,Alstohentine,Contains Nitrogen and ine at end of word,KNApSAcK
+62,Vincoridine,Contains Nitrogen and ine at end of word,KNApSAcK
+63,Quaternine,Contains Nitrogen and ine at end of word,KNApSAcK
+64,Volkensine,Contains Nitrogen and ine at end of word,KNApSAcK
+65,"10,11-Dimethoxy-1-methyldeacetylpicraline-3',4',5'-trimethoxy-benzoate",Contains Nitrogen and ine at end of word,KNApSAcK
+66,6-Methoxy-4-methylquinoline,Contains Nitrogen and ine at end of word,KNApSAcK
+67,Alstiphyllanine A,Contains Nitrogen and ine at end of word,KNApSAcK
+68,Alstiphyllanine B,Contains Nitrogen and ine at end of word,KNApSAcK
+69,Alstiphyllanine C,Contains Nitrogen and ine at end of word,KNApSAcK
+70,Alstiphyllanine D,Contains Nitrogen and ine at end of word,KNApSAcK
+71,Sarpagine,Kegg Brite,KNApSAcK
+72,Skimmianine,Kegg Brite,KNApSAcK
+73,Tetrahydroalstonine,Kegg Brite,KNApSAcK
+74,Quaternatine,Contains Nitrogen and ine at end of word,KNApSAcK
+75,(-)-Akuammicine:Akuammicine,Contains Nitrogen and ine at end of word,KNApSAcK
+76,Akuammidine,Contains Nitrogen and ine at end of word,KNApSAcK
+77,Salutaridine,Kegg Brite,KNApSAcK
+78,Cantleyine,Contains Nitrogen and ine at end of word,KNApSAcK
+79,Leuconoxine,Contains Nitrogen and ine at end of word,KNApSAcK
+80,"Hydroxy-19,20-dihydroakuammicine",Contains Nitrogen and ine at end of word,KNApSAcK
+81,N(4)-Demethylechitamine,Contains Nitrogen and ine at end of word,KNApSAcK
+82,Picrinine,Contains Nitrogen and ine at end of word,KNApSAcK
+83,Pseudoakuammigine,Contains Nitrogen and ine at end of word,KNApSAcK
+84,Tubotaiwine,Contains Nitrogen and ine at end of word,KNApSAcK
+85,(+)-Dicentrine,Contains Nitrogen and ine at end of word,KNApSAcK
+86,Vallesamine,Contains Nitrogen and ine at end of word,KNApSAcK
+87,Vallesiachotamine,Contains Nitrogen and ine at end of word,KNApSAcK
+88,(-)-Discretamine,Contains Nitrogen and ine at end of word,KNApSAcK
+89,Corypalmine,Contains Nitrogen and ine at end of word,KNApSAcK
+90,Deacetylakuammiline,Contains Nitrogen and ine at end of word,KNApSAcK
+91,"6,7-seco-Angustilobine B",Contains Nitrogen and ine at end of word,KNApSAcK
+92,Manilamine,Contains Nitrogen and ine at end of word,KNApSAcK
+93,Akuammicine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+94,Echitamidine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+95,Echitamidine-N-oxide 19-O-beta-D-glucopyranoside,Contains Nitrogen and ine at end of word,KNApSAcK
+96,Nb-Demethylalstogustine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+97,Isogentialutine,Contains Nitrogen and ine at end of word,KNApSAcK
+98,(-)-10-Methoxyvincamedine,Contains Nitrogen and ine at end of word,KNApSAcK
+99,(-)-10-Methoxyvincamedine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+100,(+)-Raucaffrinoline,Contains Nitrogen and ine at end of word,KNApSAcK
+101,(-)-Echitoveniline,Contains Nitrogen and ine at end of word,KNApSAcK
+102,(-)-Kopsinine,Contains Nitrogen and ine at end of word,KNApSAcK
+103,19-Epi-(+)-echitoveniline,Contains Nitrogen and ine at end of word,KNApSAcK
+104,Alstovenine,Contains Nitrogen and ine at end of word,KNApSAcK
+105,Venenatine,Contains Nitrogen and ine at end of word,KNApSAcK
+106,Venoxidine,Contains Nitrogen and ine at end of word,KNApSAcK
+107,Reserpine,Kegg Brite,KNApSAcK
+108,Tabersonine,Kegg Brite,KNApSAcK
+109,(+)-Perakine,Contains Nitrogen and ine at end of word,KNApSAcK
+110,(-)-Vinorine,Contains Nitrogen and ine at end of word,KNApSAcK
+111,(-)-Hazuntine,Contains Nitrogen and ine at end of word,KNApSAcK
+112,11-Methoxytabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+113,19R-Hydroxy-11-methoxy-tabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+114,19-Epiajmalicine,Contains Nitrogen and ine at end of word,KNApSAcK
+115,Compactinervine,Contains Nitrogen and ine at end of word,KNApSAcK
+116,Vellosimine,Kegg Brite,KNApSAcK
+117,19-Acetoxy-11-methoxytabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+118,Alstoyunine A,Contains Nitrogen and ine at end of word,KNApSAcK
+119,Alstoyunine B,Contains Nitrogen and ine at end of word,KNApSAcK
+120,Alstoyunine C,Contains Nitrogen and ine at end of word,KNApSAcK
+121,Alstoyunine D,Contains Nitrogen and ine at end of word,KNApSAcK
+122,Alstoyunine E,Contains Nitrogen and ine at end of word,KNApSAcK
+123,Alstoyunine F,Contains Nitrogen and ine at end of word,KNApSAcK
+124,Alstoyunine G,Contains Nitrogen and ine at end of word,KNApSAcK
+125,Alstoyunine H,Contains Nitrogen and ine at end of word,KNApSAcK
+126,Echitoserpidine,Contains Nitrogen and ine at end of word,KNApSAcK
+127,3-Oxotabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+128,Tabersonine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+129,"(+)-14,15-Dehydro-16-epivincamine",Contains Nitrogen and ine at end of word,KNApSAcK
+130,(-)-Eburnamine,Contains Nitrogen and ine at end of word,KNApSAcK
+131,Vincadine,Contains Nitrogen and ine at end of word,KNApSAcK
+132,Rostratamine,Contains Nitrogen and ine at end of word,KNApSAcK
+133,Nicotine,Kegg Brite,KNApSAcK
+134,(+)-Aspidospermidine,Contains Nitrogen and ine at end of word,KNApSAcK
+135,(+)-Fendlerine,Contains Nitrogen and ine at end of word,KNApSAcK
+136,Alalakine,Contains Nitrogen and ine at end of word,KNApSAcK
+137,Aspidolimidine,Contains Nitrogen and ine at end of word,KNApSAcK
+138,Limaspermine,Contains Nitrogen and ine at end of word,KNApSAcK
+139,N-Acetylaspidospermidine,Contains Nitrogen and ine at end of word,KNApSAcK
+140,Carapanaubine,Contains Nitrogen and ine at end of word,KNApSAcK
+141,Cylindrocarpidine,Contains Nitrogen and ine at end of word,KNApSAcK
+142,Isoreserpiline,Contains Nitrogen and ine at end of word,KNApSAcK
+143,(-)-Apparicine,Contains Nitrogen and ine at end of word,KNApSAcK
+144,Excelsinine,Contains Nitrogen and ine at end of word,KNApSAcK
+145,O-Acetylyohimbine,Contains Nitrogen and ine at end of word,KNApSAcK
+146,Aspidocarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+147,Olivacine,Kegg Brite,KNApSAcK
+148,10-Methoxy-17-epi-alloyohimbine,Contains Nitrogen and ine at end of word,KNApSAcK
+149,10-Methoxy-alpha-yohimbine,Contains Nitrogen and ine at end of word,KNApSAcK
+150,10-Methoxy-beta-yohimbine,Contains Nitrogen and ine at end of word,KNApSAcK
+151,17-Epialloyohimbine,Contains Nitrogen and ine at end of word,KNApSAcK
+152,"19,20-Dehydro-alpha-yohimbine",Contains Nitrogen and ine at end of word,KNApSAcK
+153,"3,4-Dehydro-beta-yohimbine",Contains Nitrogen and ine at end of word,KNApSAcK
+154,beta-Yohimbine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+155,Polyneuridine,Kegg Brite,KNApSAcK
+156,(-)-Aspidospermine,Contains Nitrogen and ine at end of word,KNApSAcK
+157,(-)-Quebrachamine,Contains Nitrogen and ine at end of word,KNApSAcK
+158,Aspidochibine,Contains Nitrogen and ine at end of word,KNApSAcK
+159,(+)-Eburnamenine,Contains Nitrogen and ine at end of word,KNApSAcK
+160,Aspidospermatine,Contains Nitrogen and ine at end of word,KNApSAcK
+161,Rhazidigenine Nb-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+162,Rhazidigenine,Contains Nitrogen and ine at end of word,KNApSAcK
+163,beta-Yohimbine,Contains Nitrogen and ine at end of word,KNApSAcK
+164,Ramiflorine A,Contains Nitrogen and ine at end of word,KNApSAcK
+165,Ramiflorine B,Contains Nitrogen and ine at end of word,KNApSAcK
+166,Ellipticine,Kegg Brite,KNApSAcK
+167,(+/-)-Epiuleine,Contains Nitrogen and ine at end of word,KNApSAcK
+168,Callichiline,Contains Nitrogen and ine at end of word,KNApSAcK
+169,Leurosine,Kegg Brite,KNApSAcK
+170,Cathovaline,Contains Nitrogen and ine at end of word,KNApSAcK
+171,Antirhine,Contains Nitrogen and ine at end of word,KNApSAcK
+172,Vindoline,Kegg Brite,KNApSAcK
+173,Vindolinine,Contains Nitrogen and ine at end of word,KNApSAcK
+174,(-)-Venalstonidine,Contains Nitrogen and ine at end of word,KNApSAcK
+175,(-)-Venalstonine,Contains Nitrogen and ine at end of word,KNApSAcK
+176,14-Hydroxycathovaline,Contains Nitrogen and ine at end of word,KNApSAcK
+177,19-Epivindolinine,Contains Nitrogen and ine at end of word,KNApSAcK
+178,19R-Hydroxytabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+179,19S-Hydroxytabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+180,Cathovalinine,Contains Nitrogen and ine at end of word,KNApSAcK
+181,Deacetylcathovaline,Contains Nitrogen and ine at end of word,KNApSAcK
+182,Kitraline,Contains Nitrogen and ine at end of word,KNApSAcK
+183,Kitramine,Contains Nitrogen and ine at end of word,KNApSAcK
+184,Vindorosine,Contains Nitrogen and ine at end of word,KNApSAcK
+185,L-Phenylalanine,Contains Nitrogen and ine at end of word,KNApSAcK
+186,Indole,Kegg Brite,KNApSAcK
+187,Tryptamine,Kegg Brite,KNApSAcK
+188,Ajmalicine,Kegg Brite,KNApSAcK
+189,Catharanthine,Kegg Brite,KNApSAcK
+190,(-)-Coronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+191,Ibogamine,Kegg Brite,KNApSAcK
+192,Leurosidine,Kegg Brite,KNApSAcK
+193,Mitraphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+194,Serpentine,Kegg Brite,KNApSAcK
+195,Vinblastine,Kegg Brite,KNApSAcK
+196,Vincamine,Kegg Brite,KNApSAcK
+197,Vincristine,Kegg Brite,KNApSAcK
+198,(+)-Minovincinine,Contains Nitrogen and ine at end of word,KNApSAcK
+199,(-)-Vincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+200,11-Hydroxytabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+201,"14,15-Didehydro-epivincadine",Contains Nitrogen and ine at end of word,KNApSAcK
+202,19-Epivindolinine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+203,Bannucine,Contains Nitrogen and ine at end of word,KNApSAcK
+204,Deacetylvindoline,Kegg Brite,KNApSAcK
+205,Vincoline,Contains Nitrogen and ine at end of word,KNApSAcK
+206,Vindolinine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+207,Voacangine,Contains Nitrogen and ine at end of word,KNApSAcK
+208,Pericyclivine,Contains Nitrogen and ine at end of word,KNApSAcK
+209,Perivine,Contains Nitrogen and ine at end of word,KNApSAcK
+210,Pleiocarpamine,Contains Nitrogen and ine at end of word,KNApSAcK
+211,Isoleurosine,Contains Nitrogen and ine at end of word,KNApSAcK
+212,Lochneridine,Contains Nitrogen and ine at end of word,KNApSAcK
+213,"16-Methoxy-2,3-dihydro-3hydro-3-hydroxytabersoine",Contains Nitrogen and ine at end of word,KNApSAcK
+214,Minovincinine,Kegg Brite,KNApSAcK
+215,"3',4'-Anhydrovinblastine",Kegg Brite,KNApSAcK
+216,Cathenamine,Kegg Brite,KNApSAcK
+217,Desacetoxyvindoline,Kegg Brite,KNApSAcK
+218,Epicathenamine,Contains Nitrogen and ine at end of word,KNApSAcK
+219,(16R)-Z-Isositsirikine,Contains Nitrogen and ine at end of word,KNApSAcK
+220,Echitovenine,Kegg Brite,KNApSAcK
+221,Vinorelbine,Contains Nitrogen and ine at end of word,KNApSAcK
+222,hoerhammericine,Contains Nitrogen and ine at end of word,KNApSAcK
+223,Trichophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+224,(-)-Craspidospermine,Contains Nitrogen and ine at end of word,KNApSAcK
+225,(+)-Andrangine,Contains Nitrogen and ine at end of word,KNApSAcK
+226,"14,15-Dehydro-16-epi-vincine",Contains Nitrogen and ine at end of word,KNApSAcK
+227,(-)-Criocerine,Contains Nitrogen and ine at end of word,KNApSAcK
+228,"14,15-Dehydro-12-methoxyvincamine",Contains Nitrogen and ine at end of word,KNApSAcK
+229,Cryptolepine,Contains Nitrogen and ine at end of word,KNApSAcK
+230,"5-Methyl-5H-indolo[2,3-b]quinoline",Contains Nitrogen and ine at end of word,KNApSAcK
+231,Isocryptolepine,Contains Nitrogen and ine at end of word,KNApSAcK
+232,11-Isopropylcryptolepine,Contains Nitrogen and ine at end of word,KNApSAcK
+233,Cryptomisrine,Contains Nitrogen and ine at end of word,KNApSAcK
+234,Biscryptolepine,Contains Nitrogen and ine at end of word,KNApSAcK
+235,11-Hydroxycryptolepine,Contains Nitrogen and ine at end of word,KNApSAcK
+236,Cryptoheptine,Contains Nitrogen and ine at end of word,KNApSAcK
+237,Cryptospirolepine,Contains Nitrogen and ine at end of word,KNApSAcK
+238,Ochrolifuanine A,Contains Nitrogen and ine at end of word,KNApSAcK
+239,Funtumine,Kegg Brite,KNApSAcK
+240,Irehine,Kegg Brite,KNApSAcK
+241,Geissoschizoline,Contains Nitrogen and ine at end of word,KNApSAcK
+242,Geissospermine,Contains Nitrogen and ine at end of word,KNApSAcK
+243,Flavopereirine,Contains Nitrogen and ine at end of word,KNApSAcK
+244,Geissoschizoline N4-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+245,Rhazidine,Contains Nitrogen and ine at end of word,KNApSAcK
+246,Goniomitine,Contains Nitrogen and ine at end of word,KNApSAcK
+247,Cimicidine,Contains Nitrogen and ine at end of word,KNApSAcK
+248,Cimicine,Contains Nitrogen and ine at end of word,KNApSAcK
+249,Haplocidine,Contains Nitrogen and ine at end of word,KNApSAcK
+250,(-)-O-Methyleburnamine,Contains Nitrogen and ine at end of word,KNApSAcK
+251,(+)-Isoeburnamine,Contains Nitrogen and ine at end of word,KNApSAcK
+252,Haplophytine,Contains Nitrogen and ine at end of word,KNApSAcK
+253,Yohimbine,Kegg Brite,KNApSAcK
+254,Crooksidine,Contains Nitrogen and ine at end of word,KNApSAcK
+255,10-Methoxy-Na-methylpericyclivine,Contains Nitrogen and ine at end of word,KNApSAcK
+256,16-Decarbomethoxyvinervinine,Contains Nitrogen and ine at end of word,KNApSAcK
+257,"19alpha,20alpha-Epoxyakuammicine",Contains Nitrogen and ine at end of word,KNApSAcK
+258,Crooksiine,Contains Nitrogen and ine at end of word,KNApSAcK
+259,Lanceomigine,Contains Nitrogen and ine at end of word,KNApSAcK
+260,Heteromine D,Contains Nitrogen and ine at end of word,KNApSAcK
+261,Heteromine E,Contains Nitrogen and ine at end of word,KNApSAcK
+262,Heteromine F,Contains Nitrogen and ine at end of word,KNApSAcK
+263,Heteromine G,Contains Nitrogen and ine at end of word,KNApSAcK
+264,Heteromine H,Contains Nitrogen and ine at end of word,KNApSAcK
+265,Conessine,Kegg Brite,KNApSAcK
+266,Kisantamine,Contains Nitrogen and ine at end of word,KNApSAcK
+267,Holacurtine,Contains Nitrogen and ine at end of word,KNApSAcK
+268,15alpha-Hydroxyholamine,Contains Nitrogen and ine at end of word,KNApSAcK
+269,17-epi-holacurtine,Contains Nitrogen and ine at end of word,KNApSAcK
+270,Holamine,Contains Nitrogen and ine at end of word,KNApSAcK
+271,N-Demethylholacurtine,Contains Nitrogen and ine at end of word,KNApSAcK
+272,Holadienine,Contains Nitrogen and ine at end of word,KNApSAcK
+273,Holaline,Contains Nitrogen and ine at end of word,KNApSAcK
+274,Holaphyllidine,Contains Nitrogen and ine at end of word,KNApSAcK
+275,Holaromine,Contains Nitrogen and ine at end of word,KNApSAcK
+276,Holarrheline,Contains Nitrogen and ine at end of word,KNApSAcK
+277,Holarrhesine,Contains Nitrogen and ine at end of word,KNApSAcK
+278,Mitiphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+279,N-Demethylmitiphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+280,Kurchessine,Kegg Brite,KNApSAcK
+281,Isoconessimine,Contains Nitrogen and ine at end of word,KNApSAcK
+282,(-)-Umbellamine,Contains Nitrogen and ine at end of word,KNApSAcK
+283,Vobasine,Contains Nitrogen and ine at end of word,KNApSAcK
+284,Tuboxenine,Contains Nitrogen and ine at end of word,KNApSAcK
+285,(-)-Norpleiomutine,Contains Nitrogen and ine at end of word,KNApSAcK
+286,Bisnicalaterine A,Contains Nitrogen and ine at end of word,KNApSAcK
+287,Gitingensine,Contains Nitrogen and ine at end of word,KNApSAcK
+288,Lanitine,Contains Nitrogen and ine at end of word,KNApSAcK
+289,Mersicarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+290,Prunifoline D,Contains Nitrogen and ine at end of word,KNApSAcK
+291,Prunifoline F,Contains Nitrogen and ine at end of word,KNApSAcK
+292,19(R)-Methoxytubotaiwine,Contains Nitrogen and ine at end of word,KNApSAcK
+293,19(S)-Methoxytubotaiwine,Contains Nitrogen and ine at end of word,KNApSAcK
+294,Arboflorine,Contains Nitrogen and ine at end of word,KNApSAcK
+295,Arboloscine,Contains Nitrogen and ine at end of word,KNApSAcK
+296,Arbophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+297,Arboricine,Contains Nitrogen and ine at end of word,KNApSAcK
+298,Arboricinine,Contains Nitrogen and ine at end of word,KNApSAcK
+299,Kopsamidine A,Contains Nitrogen and ine at end of word,KNApSAcK
+300,Kopsamidine B,Contains Nitrogen and ine at end of word,KNApSAcK
+301,Kopsinidine A,Contains Nitrogen and ine at end of word,KNApSAcK
+302,Kopsinidine B,Contains Nitrogen and ine at end of word,KNApSAcK
+303,Paucidactine C,Contains Nitrogen and ine at end of word,KNApSAcK
+304,Pericine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+305,Rhazinaline,Contains Nitrogen and ine at end of word,KNApSAcK
+306,Valparicine,Contains Nitrogen and ine at end of word,KNApSAcK
+307,Kopsiyunnanine C1,Contains Nitrogen and ine at end of word,KNApSAcK
+308,Kopsiyunnanine C2,Contains Nitrogen and ine at end of word,KNApSAcK
+309,Kopsiyunnanine C3,Contains Nitrogen and ine at end of word,KNApSAcK
+310,Kopsiyunnanine D,Contains Nitrogen and ine at end of word,KNApSAcK
+311,Kopsirachine,Contains Nitrogen and ine at end of word,KNApSAcK
+312,Kopsamine,Contains Nitrogen and ine at end of word,KNApSAcK
+313,Kopsidasine,Contains Nitrogen and ine at end of word,KNApSAcK
+314,Kopsidasine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+315,Kopsidasinine,Contains Nitrogen and ine at end of word,KNApSAcK
+316,Paucidactine B,Contains Nitrogen and ine at end of word,KNApSAcK
+317,Pleiocarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+318,(+)-Eburnamonine,Contains Nitrogen and ine at end of word,KNApSAcK
+319,Kopsilongine,Contains Nitrogen and ine at end of word,KNApSAcK
+320,(-)-Demethylnorpleiomutine,Contains Nitrogen and ine at end of word,KNApSAcK
+321,"11,12-Methylenedioxykopsine",Contains Nitrogen and ine at end of word,KNApSAcK
+322,11-Methoxykopsilongine N(4)-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+323,12-Methoxypleiocarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+324,Danuphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+325,Dasyrachine,Contains Nitrogen and ine at end of word,KNApSAcK
+326,Decarbomethoxykopsifine,Contains Nitrogen and ine at end of word,KNApSAcK
+327,Kinabalurine G,Contains Nitrogen and ine at end of word,KNApSAcK
+328,Kopsifine,Contains Nitrogen and ine at end of word,KNApSAcK
+329,Kopsiflorine,Contains Nitrogen and ine at end of word,KNApSAcK
+330,Kopsiflorine N(4)-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+331,Kopsinarine,Contains Nitrogen and ine at end of word,KNApSAcK
+332,Kopsine,Contains Nitrogen and ine at end of word,KNApSAcK
+333,16-Epideacetylakuammiline,Contains Nitrogen and ine at end of word,KNApSAcK
+334,Fruticosine,Contains Nitrogen and ine at end of word,KNApSAcK
+335,Kopsifoline A,Contains Nitrogen and ine at end of word,KNApSAcK
+336,Kopsifoline B,Contains Nitrogen and ine at end of word,KNApSAcK
+337,Kopsifoline C,Contains Nitrogen and ine at end of word,KNApSAcK
+338,Kopsifoline D,Contains Nitrogen and ine at end of word,KNApSAcK
+339,Kopsifoline E,Contains Nitrogen and ine at end of word,KNApSAcK
+340,Kopsifoline F,Contains Nitrogen and ine at end of word,KNApSAcK
+341,Kopsorinine,Contains Nitrogen and ine at end of word,KNApSAcK
+342,Lonicerine,Contains Nitrogen and ine at end of word,KNApSAcK
+343,(+)-Harmicine,Contains Nitrogen and ine at end of word,KNApSAcK
+344,12-Methoxy-10-demethoxy-kopsidasinine,Contains Nitrogen and ine at end of word,KNApSAcK
+345,16-epi-Deacetylakuammiline N(4)-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+346,Akuammiline N(4)-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+347,Kopsinoline,Contains Nitrogen and ine at end of word,KNApSAcK
+348,(+)-Kopsoffine,Contains Nitrogen and ine at end of word,KNApSAcK
+349,(-)-Lapidilectine A,Contains Nitrogen and ine at end of word,KNApSAcK
+350,(+)-Lapidilectine B,Contains Nitrogen and ine at end of word,KNApSAcK
+351,Dregamine,Contains Nitrogen and ine at end of word,KNApSAcK
+352,Tabernaemontanine,Contains Nitrogen and ine at end of word,KNApSAcK
+353,"(-)-11,12-Dimethoxy-N-methoxycarbonyl-kopsinaline",Contains Nitrogen and ine at end of word,KNApSAcK
+354,Kopsamine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+355,Paucidactine A,Contains Nitrogen and ine at end of word,KNApSAcK
+356,Pauciflorine A,Contains Nitrogen and ine at end of word,KNApSAcK
+357,Pauciflorine B,Contains Nitrogen and ine at end of word,KNApSAcK
+358,(+)-19-Oxoeburnamine,Contains Nitrogen and ine at end of word,KNApSAcK
+359,Kinabalurine A,Contains Nitrogen and ine at end of word,KNApSAcK
+360,Kinabalurine B,Contains Nitrogen and ine at end of word,KNApSAcK
+361,Kinabalurine C,Contains Nitrogen and ine at end of word,KNApSAcK
+362,Kinabalurine D,Contains Nitrogen and ine at end of word,KNApSAcK
+363,Kinabalurine E,Contains Nitrogen and ine at end of word,KNApSAcK
+364,Kinabalurine F,Contains Nitrogen and ine at end of word,KNApSAcK
+365,"11,12-(Methylenedioxy)kopsaporine",Contains Nitrogen and ine at end of word,KNApSAcK
+366,Kopsingine,Contains Nitrogen and ine at end of word,KNApSAcK
+367,Singapurensine A,Contains Nitrogen and ine at end of word,KNApSAcK
+368,Singapurensine B,Contains Nitrogen and ine at end of word,KNApSAcK
+369,Singapurensine C,Contains Nitrogen and ine at end of word,KNApSAcK
+370,Singapurensine D,Contains Nitrogen and ine at end of word,KNApSAcK
+371,16-Epikopsinine,Contains Nitrogen and ine at end of word,KNApSAcK
+372,Aspidophylline A,Contains Nitrogen and ine at end of word,KNApSAcK
+373,Kopsilongine-N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+374,Kopsiloscine A,Contains Nitrogen and ine at end of word,KNApSAcK
+375,Kopsiloscine B,Contains Nitrogen and ine at end of word,KNApSAcK
+376,Kopsiloscine C,Contains Nitrogen and ine at end of word,KNApSAcK
+377,Kopsiloscine D,Contains Nitrogen and ine at end of word,KNApSAcK
+378,Kopsiloscine E,Contains Nitrogen and ine at end of word,KNApSAcK
+379,Kopsiloscine H,Contains Nitrogen and ine at end of word,KNApSAcK
+380,Kopsiloscine I,Contains Nitrogen and ine at end of word,KNApSAcK
+381,Kopsiloscine J,Contains Nitrogen and ine at end of word,KNApSAcK
+382,Kopsimaline A,Contains Nitrogen and ine at end of word,KNApSAcK
+383,Kopsimaline B,Contains Nitrogen and ine at end of word,KNApSAcK
+384,Kopsimaline C,Contains Nitrogen and ine at end of word,KNApSAcK
+385,Kopsimaline D,Contains Nitrogen and ine at end of word,KNApSAcK
+386,Kopsimaline E,Contains Nitrogen and ine at end of word,KNApSAcK
+387,Kopsinicine,Contains Nitrogen and ine at end of word,KNApSAcK
+388,Vincophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+389,Lundurine A,Contains Nitrogen and ine at end of word,KNApSAcK
+390,Lundurine B,Contains Nitrogen and ine at end of word,KNApSAcK
+391,Lundurine C,Contains Nitrogen and ine at end of word,KNApSAcK
+392,Tenuisine A,Contains Nitrogen and ine at end of word,KNApSAcK
+393,Tenuisine B,Contains Nitrogen and ine at end of word,KNApSAcK
+394,Tenuisine C,Contains Nitrogen and ine at end of word,KNApSAcK
+395,Kopsaporine,Contains Nitrogen and ine at end of word,KNApSAcK
+396,Kopsidine A,Contains Nitrogen and ine at end of word,KNApSAcK
+397,Kopsidine B,Contains Nitrogen and ine at end of word,KNApSAcK
+398,Kopsidine C,Contains Nitrogen and ine at end of word,KNApSAcK
+399,Kopsinginine,Contains Nitrogen and ine at end of word,KNApSAcK
+400,Kopsinitarine A,Contains Nitrogen and ine at end of word,KNApSAcK
+401,Kopsinitarine B,Contains Nitrogen and ine at end of word,KNApSAcK
+402,Kopsinitarine C,Contains Nitrogen and ine at end of word,KNApSAcK
+403,Kopsinitarine D,Contains Nitrogen and ine at end of word,KNApSAcK
+404,Mersingine A,Contains Nitrogen and ine at end of word,KNApSAcK
+405,Mersingine B,Contains Nitrogen and ine at end of word,KNApSAcK
+406,(+)-O-methylisoeburnamine,Contains Nitrogen and ine at end of word,KNApSAcK
+407,(+)-Ajmaline,Contains Nitrogen and ine at end of word,KNApSAcK
+408,Paucivenine,Contains Nitrogen and ine at end of word,KNApSAcK
+409,(+)-Scandine,Contains Nitrogen and ine at end of word,KNApSAcK
+410,10-Hydroxyscandine,Contains Nitrogen and ine at end of word,KNApSAcK
+411,"11,19R-Dihydroxytabersonine",Contains Nitrogen and ine at end of word,KNApSAcK
+412,"11-Hydroxy-14,15-epoxytabersonine",Contains Nitrogen and ine at end of word,KNApSAcK
+413,Scandine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+414,19beta-Hydroxyvenalstonidine,Contains Nitrogen and ine at end of word,KNApSAcK
+415,19beta-Hydroxyvenalstonine,Contains Nitrogen and ine at end of word,KNApSAcK
+416,3-Oxovenalstonidine,Contains Nitrogen and ine at end of word,KNApSAcK
+417,19S-Acetoxy-3-oxotabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+418,19S-Acetoxytabersonine,Contains Nitrogen and ine at end of word,KNApSAcK
+419,Meloscandonine,Contains Nitrogen and ine at end of word,KNApSAcK
+420,Meloscine,Contains Nitrogen and ine at end of word,KNApSAcK
+421,(+)-Tenuicausine,Contains Nitrogen and ine at end of word,KNApSAcK
+422,12-O-Methylanomaline,Contains Nitrogen and ine at end of word,KNApSAcK
+423,Demethoxyanomaline,Contains Nitrogen and ine at end of word,KNApSAcK
+424,Reserpiline,Contains Nitrogen and ine at end of word,KNApSAcK
+425,Polyneuridine-N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+426,Strictosamide,Kegg Brite,KNApSAcK
+427,9-Methoxyellipticine,Contains Nitrogen and ine at end of word,KNApSAcK
+428,Voachalotine,Contains Nitrogen and ine at end of word,KNApSAcK
+429,Desoxycordifoline,Contains Nitrogen and ine at end of word,KNApSAcK
+430,Ochrosamine A,Contains Nitrogen and ine at end of word,KNApSAcK
+431,Ochrosamine B,Contains Nitrogen and ine at end of word,KNApSAcK
+432,Poweridine,Contains Nitrogen and ine at end of word,KNApSAcK
+433,Powerine,Contains Nitrogen and ine at end of word,KNApSAcK
+434,Homospermidine,Contains Nitrogen and ine at end of word,KNApSAcK
+435,Lycopsamine,Kegg Brite,KNApSAcK
+436,Parsonsine,Kegg Brite,KNApSAcK
+437,19R-Hydroxypachysiphine,Contains Nitrogen and ine at end of word,KNApSAcK
+438,Petchicine,Contains Nitrogen and ine at end of word,KNApSAcK
+439,(-)-Pleiomutine,Contains Nitrogen and ine at end of word,KNApSAcK
+440,"N,N-Dimethyltryptamine",Kegg Brite,KNApSAcK
+441,(+)-Purpeline,Contains Nitrogen and ine at end of word,KNApSAcK
+442,(+/-)-Norpurpeline,Contains Nitrogen and ine at end of word,KNApSAcK
+443,(+)-Seredamine,Contains Nitrogen and ine at end of word,KNApSAcK
+444,(+)-12-methoxyaffinisine,Contains Nitrogen and ine at end of word,KNApSAcK
+445,12-Methoxy-Na-methylvellosimine,Contains Nitrogen and ine at end of word,KNApSAcK
+446,12-Methoxy-vellosimine,Contains Nitrogen and ine at end of word,KNApSAcK
+447,Demethoxypurpeline,Contains Nitrogen and ine at end of word,KNApSAcK
+448,"19,20-Dihydrovomilenine",Contains Nitrogen and ine at end of word,KNApSAcK
+449,Vomilenine,Kegg Brite,KNApSAcK
+450,"17,21-O,O-Diacetylajmaline",Contains Nitrogen and ine at end of word,KNApSAcK
+451,17-O-Acetylajmaline,Contains Nitrogen and ine at end of word,KNApSAcK
+452,Raucaffricine,Kegg Brite,KNApSAcK
+453,Raucaffriline,Contains Nitrogen and ine at end of word,KNApSAcK
+454,Deserpidine,Kegg Brite,KNApSAcK
+455,(+)-Sandwicine,Contains Nitrogen and ine at end of word,KNApSAcK
+456,Darcyribeirine,Contains Nitrogen and ine at end of word,KNApSAcK
+457,(+)-Mauiensine,Contains Nitrogen and ine at end of word,KNApSAcK
+458,(+)-12-Hydroxymauiensine,Contains Nitrogen and ine at end of word,KNApSAcK
+459,Endolobine,Contains Nitrogen and ine at end of word,KNApSAcK
+460,Nortetraphyllicine,Contains Nitrogen and ine at end of word,KNApSAcK
+461,(+)-Vomalidine,Contains Nitrogen and ine at end of word,KNApSAcK
+462,Rescinnamine,Kegg Brite,KNApSAcK
+463,(+)-Norajmaline,Contains Nitrogen and ine at end of word,KNApSAcK
+464,(+)-17-O-Acetylnortetraphyllicine,Contains Nitrogen and ine at end of word,KNApSAcK
+465,Rauniticine,Contains Nitrogen and ine at end of word,KNApSAcK
+466,(+)-Isoajmaline,Contains Nitrogen and ine at end of word,KNApSAcK
+467,(+)-Isosandwicine,Contains Nitrogen and ine at end of word,KNApSAcK
+468,Papaverine,Kegg Brite,KNApSAcK
+469,Ajmalimine,Contains Nitrogen and ine at end of word,KNApSAcK
+470,(+)-Sandwicolidine,Contains Nitrogen and ine at end of word,KNApSAcK
+471,Ajmalinimine,Contains Nitrogen and ine at end of word,KNApSAcK
+472,Rescinnamidine,Contains Nitrogen and ine at end of word,KNApSAcK
+473,"3,4,5,6-Tetradehydroyohimbine",Contains Nitrogen and ine at end of word,KNApSAcK
+474,12-Hydroxyajmaline,Contains Nitrogen and ine at end of word,KNApSAcK
+475,Acetylnorajmaline,Kegg Brite,KNApSAcK
+476,16-Epivellosimine,Kegg Brite,KNApSAcK
+477,Polyneuridine aldehyde,Kegg Brite,KNApSAcK
+478,Norajamaline,Contains Nitrogen and ine at end of word,KNApSAcK
+479,(+)-Norseredamine,Contains Nitrogen and ine at end of word,KNApSAcK
+480,(-)-Flexicorine,Contains Nitrogen and ine at end of word,KNApSAcK
+481,Macrospegatrine,Contains Nitrogen and ine at end of word,KNApSAcK
+482,7-Hydroxynoracronycine,Contains Nitrogen and ine at end of word,KNApSAcK
+483,17-O-Acetyltetraphyllicine,Contains Nitrogen and ine at end of word,KNApSAcK
+484,(+)-Mitoridine,Contains Nitrogen and ine at end of word,KNApSAcK
+485,Vincamajoreine,Contains Nitrogen and ine at end of word,KNApSAcK
+486,10-Hydroxynortetraphyllicine,Contains Nitrogen and ine at end of word,KNApSAcK
+487,Norrauvomitine,Contains Nitrogen and ine at end of word,KNApSAcK
+488,(-)-Rauvomitine,Contains Nitrogen and ine at end of word,KNApSAcK
+489,(+)-Vincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+490,5alpha-Carboxystrictosidine,Contains Nitrogen and ine at end of word,KNApSAcK
+491,beta-Skytanthine,Contains Nitrogen and ine at end of word,KNApSAcK
+492,Hordenine,Kegg Brite,KNApSAcK
+493,Tyramine,Kegg Brite,KNApSAcK
+494,Aspidosine,Contains Nitrogen and ine at end of word,KNApSAcK
+495,Vallesine,Contains Nitrogen and ine at end of word,KNApSAcK
+496,(-)-Strempeliopine,Contains Nitrogen and ine at end of word,KNApSAcK
+497,(-)-Vallesamidine,Contains Nitrogen and ine at end of word,KNApSAcK
+498,(+)-Strempeliopidine,Contains Nitrogen and ine at end of word,KNApSAcK
+499,Homocylindrocarpidine,Contains Nitrogen and ine at end of word,KNApSAcK
+500,O-Demethylpalosine,Contains Nitrogen and ine at end of word,KNApSAcK
+501,Apodine,Kegg Brite,KNApSAcK
+502,Apodinine,Contains Nitrogen and ine at end of word,KNApSAcK
+503,Heyneanine,Contains Nitrogen and ine at end of word,KNApSAcK
+504,Voacangine hydroxyindolenine,Contains Nitrogen and ine at end of word,KNApSAcK
+505,Voacangine pseudoindoxyl,Contains Nitrogen and ine at end of word,KNApSAcK
+506,Voacristine,Contains Nitrogen and ine at end of word,KNApSAcK
+507,Voacristine hydroxyindolenine,Contains Nitrogen and ine at end of word,KNApSAcK
+508,Montanine,Contains Nitrogen and ine at end of word,KNApSAcK
+509,Ibogaine hydroxyindolenine,Contains Nitrogen and ine at end of word,KNApSAcK
+510,Isovoacangine,Contains Nitrogen and ine at end of word,KNApSAcK
+511,Voacamine,Contains Nitrogen and ine at end of word,KNApSAcK
+512,19-Epivoacorine,Contains Nitrogen and ine at end of word,KNApSAcK
+513,Coronaridine hydroxyindolenine,Contains Nitrogen and ine at end of word,KNApSAcK
+514,10-Hydroxyheyneanine,Contains Nitrogen and ine at end of word,KNApSAcK
+515,11-Hydroxycoronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+516,11-Hydroxyheyneanine,Contains Nitrogen and ine at end of word,KNApSAcK
+517,19-Epiheyneanine,Contains Nitrogen and ine at end of word,KNApSAcK
+518,Conopharyngine,Contains Nitrogen and ine at end of word,KNApSAcK
+519,Conopharyngine hydroxyindolenine,Contains Nitrogen and ine at end of word,KNApSAcK
+520,Ibophyllidine,Contains Nitrogen and ine at end of word,KNApSAcK
+521,Ibogaine,Kegg Brite,KNApSAcK
+522,Ibogaline,Contains Nitrogen and ine at end of word,KNApSAcK
+523,Isovoacristine,Contains Nitrogen and ine at end of word,KNApSAcK
+524,(-)-Mehranine,Contains Nitrogen and ine at end of word,KNApSAcK
+525,Tabernaebovine,Contains Nitrogen and ine at end of word,KNApSAcK
+526,20-Hydroxyconopharyngine,Contains Nitrogen and ine at end of word,KNApSAcK
+527,3-Oxomehranine,Contains Nitrogen and ine at end of word,KNApSAcK
+528,Hecubine,Contains Nitrogen and ine at end of word,KNApSAcK
+529,Pedunculine,Contains Nitrogen and ine at end of word,KNApSAcK
+530,Voacorine,Contains Nitrogen and ine at end of word,KNApSAcK
+531,3-Oxocoronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+532,Ervahanine A,Contains Nitrogen and ine at end of word,KNApSAcK
+533,Ervahanine B,Contains Nitrogen and ine at end of word,KNApSAcK
+534,Ervahanine C,Contains Nitrogen and ine at end of word,KNApSAcK
+535,20-Epipandoline,Contains Nitrogen and ine at end of word,KNApSAcK
+536,Pandine,Contains Nitrogen and ine at end of word,KNApSAcK
+537,Pandoline,Contains Nitrogen and ine at end of word,KNApSAcK
+538,(20R)-Pseudovincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+539,19-Epivoacristine,Contains Nitrogen and ine at end of word,KNApSAcK
+540,Silicine,Contains Nitrogen and ine at end of word,KNApSAcK
+541,19-epi-Heyneanine,Contains Nitrogen and ine at end of word,KNApSAcK
+542,"14,15-Anhydrocapuronidine",Contains Nitrogen and ine at end of word,KNApSAcK
+543,Capuronidine,Contains Nitrogen and ine at end of word,KNApSAcK
+544,Capuronine,Contains Nitrogen and ine at end of word,KNApSAcK
+545,Capuvosine,Contains Nitrogen and ine at end of word,KNApSAcK
+546,3-Oxovoacangine,Contains Nitrogen and ine at end of word,KNApSAcK
+547,"14,15-Dihydroxyvincadifformine",Contains Nitrogen and ine at end of word,KNApSAcK
+548,Voaphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+549,Voacarpine,Contains Nitrogen and ine at end of word,KNApSAcK
+550,(19R)-19-Hydroxytabernaelegantine A,Contains Nitrogen and ine at end of word,KNApSAcK
+551,"(20'S)-19',20'-Dihydrotabernamine",Contains Nitrogen and ine at end of word,KNApSAcK
+552,20-Episilicine,Contains Nitrogen and ine at end of word,KNApSAcK
+553,"3,14-Dihydroellipticine",Contains Nitrogen and ine at end of word,KNApSAcK
+554,6-Oxo-16-episilicine,Contains Nitrogen and ine at end of word,KNApSAcK
+555,6-Oxomethuenine,Contains Nitrogen and ine at end of word,KNApSAcK
+556,6-Oxosilicine,Contains Nitrogen and ine at end of word,KNApSAcK
+557,Hazuntinine,Contains Nitrogen and ine at end of word,KNApSAcK
+558,Isomethuenine,Contains Nitrogen and ine at end of word,KNApSAcK
+559,Methuenine,Contains Nitrogen and ine at end of word,KNApSAcK
+560,Tabernaelegantine A,Contains Nitrogen and ine at end of word,KNApSAcK
+561,(+)-Tetraphyllicine,Contains Nitrogen and ine at end of word,KNApSAcK
+562,Vincanidine,Contains Nitrogen and ine at end of word,KNApSAcK
+563,Jerantinine A,Contains Nitrogen and ine at end of word,KNApSAcK
+564,Jerantinine B,Contains Nitrogen and ine at end of word,KNApSAcK
+565,Jerantinine C,Contains Nitrogen and ine at end of word,KNApSAcK
+566,Jerantinine D,Contains Nitrogen and ine at end of word,KNApSAcK
+567,Jerantinine E,Contains Nitrogen and ine at end of word,KNApSAcK
+568,Jerantinine F,Contains Nitrogen and ine at end of word,KNApSAcK
+569,Jerantinine G,Contains Nitrogen and ine at end of word,KNApSAcK
+570,19(S)-Hydroxyibogamine,Contains Nitrogen and ine at end of word,KNApSAcK
+571,19-epi-Isovoacristine,Contains Nitrogen and ine at end of word,KNApSAcK
+572,Isovoacryptine,Contains Nitrogen and ine at end of word,KNApSAcK
+573,Jerantinine H,Contains Nitrogen and ine at end of word,KNApSAcK
+574,Jerantiphylline A,Contains Nitrogen and ine at end of word,KNApSAcK
+575,Jerantiphylline B,Contains Nitrogen and ine at end of word,KNApSAcK
+576,19-Hydroxyconopharyngine,Contains Nitrogen and ine at end of word,KNApSAcK
+577,5-Oxocoronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+578,Conoduramine,Contains Nitrogen and ine at end of word,KNApSAcK
+579,Crassanine,Contains Nitrogen and ine at end of word,KNApSAcK
+580,12-Methoxyvoaphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+581,Voaphylline hydroxyindolenine,Contains Nitrogen and ine at end of word,KNApSAcK
+582,Dichomine,Contains Nitrogen and ine at end of word,KNApSAcK
+583,19-Epiiboxygaine,Contains Nitrogen and ine at end of word,KNApSAcK
+584,O-Acetylvallesamine,Contains Nitrogen and ine at end of word,KNApSAcK
+585,Pachysiphine,Contains Nitrogen and ine at end of word,KNApSAcK
+586,Voaharine,Contains Nitrogen and ine at end of word,KNApSAcK
+587,5-Hydroxy-6-oxocoronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+588,6-Oxocoronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+589,Voafinine,Contains Nitrogen and ine at end of word,KNApSAcK
+590,(16R)-Descarbomethoxytacamine,Contains Nitrogen and ine at end of word,KNApSAcK
+591,(16S)-Descarbomethoxytacamine,Contains Nitrogen and ine at end of word,KNApSAcK
+592,(19S)-Hydroxytacamine,Contains Nitrogen and ine at end of word,KNApSAcK
+593,"16,17-Anhydrotacamine",Contains Nitrogen and ine at end of word,KNApSAcK
+594,16-Epitacamine,Contains Nitrogen and ine at end of word,KNApSAcK
+595,Tacamine,Contains Nitrogen and ine at end of word,KNApSAcK
+596,Tacamonine,Contains Nitrogen and ine at end of word,KNApSAcK
+597,(+)-20R-Pseudovincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+598,20S-Pseudovincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+599,"(20R)-15,20-Dihydrocleavamine",Contains Nitrogen and ine at end of word,KNApSAcK
+600,"(20S)-Hydroxy-1,2-dehydropseudoaspidospermidine",Contains Nitrogen and ine at end of word,KNApSAcK
+601,"(20S)-15,20-Dihydrocleavamine",Contains Nitrogen and ine at end of word,KNApSAcK
+602,17-Hydroxytacamonine,Contains Nitrogen and ine at end of word,KNApSAcK
+603,3-Hydroxycoronaridine,Contains Nitrogen and ine at end of word,KNApSAcK
+604,Tabernine A,Contains Nitrogen and ine at end of word,KNApSAcK
+605,Tabernine B,Contains Nitrogen and ine at end of word,KNApSAcK
+606,Tabernine C,Contains Nitrogen and ine at end of word,KNApSAcK
+607,Ibophyllidine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+608,12-Demethoxytabernulosine,Contains Nitrogen and ine at end of word,KNApSAcK
+609,Iboluteine,Contains Nitrogen and ine at end of word,KNApSAcK
+610,Ervitsine,Contains Nitrogen and ine at end of word,KNApSAcK
+611,Gabunine,Contains Nitrogen and ine at end of word,KNApSAcK
+612,11-Demethylconoduramine,Contains Nitrogen and ine at end of word,KNApSAcK
+613,16-Epiaffinine,Contains Nitrogen and ine at end of word,KNApSAcK
+614,16-Epiisositsirikine,Contains Nitrogen and ine at end of word,KNApSAcK
+615,Conopharyngine pseudoindoxyl,Contains Nitrogen and ine at end of word,KNApSAcK
+616,19S-Hydroxyconopharyngine,Contains Nitrogen and ine at end of word,KNApSAcK
+617,20-Epilochneridine,Contains Nitrogen and ine at end of word,KNApSAcK
+618,3-Epiervafolidine,Contains Nitrogen and ine at end of word,KNApSAcK
+619,Ervafolidine,Contains Nitrogen and ine at end of word,KNApSAcK
+620,Ervafoline,Contains Nitrogen and ine at end of word,KNApSAcK
+621,Isovallesiachotamine,Contains Nitrogen and ine at end of word,KNApSAcK
+622,6-Hydroxy-3-oxoisovoacangine,Contains Nitrogen and ine at end of word,KNApSAcK
+623,(-)-12-Hydroxyvincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+624,Bonafousine,Contains Nitrogen and ine at end of word,KNApSAcK
+625,Isobonafousine,Contains Nitrogen and ine at end of word,KNApSAcK
+626,Tetrastachynine,Contains Nitrogen and ine at end of word,KNApSAcK
+627,Tabernanthine,Kegg Brite,KNApSAcK
+628,1-Acetylaspidoalbidine,Kegg Brite,KNApSAcK
+629,18-Oxohaplocidine,Contains Nitrogen and ine at end of word,KNApSAcK
+630,Akuammine,Contains Nitrogen and ine at end of word,KNApSAcK
+631,Apovincamine,Kegg Brite,KNApSAcK
+632,(+)-Vincarine,Contains Nitrogen and ine at end of word,KNApSAcK
+633,(-)-Majoridine,Contains Nitrogen and ine at end of word,KNApSAcK
+634,(+)-10-Methoxyvinorine,Contains Nitrogen and ine at end of word,KNApSAcK
+635,Dihydrovindolinine,Contains Nitrogen and ine at end of word,KNApSAcK
+636,11-Methoxyvincadifformine,Contains Nitrogen and ine at end of word,KNApSAcK
+637,Isomajdine,Contains Nitrogen and ine at end of word,KNApSAcK
+638,10-Methoxyvomilenine,Contains Nitrogen and ine at end of word,KNApSAcK
+639,(-)-Vincamajinine,Contains Nitrogen and ine at end of word,KNApSAcK
+640,(-)-10-Methoxyperakine,Contains Nitrogen and ine at end of word,KNApSAcK
+641,(-)-Vincawajine,Contains Nitrogen and ine at end of word,KNApSAcK
+642,Majdine,Contains Nitrogen and ine at end of word,KNApSAcK
+643,Eburnamonine,Kegg Brite,KNApSAcK
+644,(-)-11-Methoxyeburnamonine,Contains Nitrogen and ine at end of word,KNApSAcK
+645,(-)-16-Epivincamine,Contains Nitrogen and ine at end of word,KNApSAcK
+646,(+)-Vincaminine,Contains Nitrogen and ine at end of word,KNApSAcK
+647,(+)-Vincinine,Contains Nitrogen and ine at end of word,KNApSAcK
+648,Minovincine,Contains Nitrogen and ine at end of word,KNApSAcK
+649,Vobtusine,Contains Nitrogen and ine at end of word,KNApSAcK
+650,Voacamidine,Contains Nitrogen and ine at end of word,KNApSAcK
+651,(-)-Cuanzine,Contains Nitrogen and ine at end of word,KNApSAcK
+652,(-)-Decarbomethoxycuanzine,Contains Nitrogen and ine at end of word,KNApSAcK
+653,(+)-Dehydrovoachalotine,Contains Nitrogen and ine at end of word,KNApSAcK
+654,Tryptanthrin,Kegg Brite,KNApSAcK
+655,Adifoline,Contains Nitrogen and ine at end of word,KNApSAcK
+656,Cadambine,Contains Nitrogen and ine at end of word,KNApSAcK
+657,Cordifoline,Contains Nitrogen and ine at end of word,KNApSAcK
+658,Dopamine,Kegg Brite,KNApSAcK
+659,Cephaeline,Kegg Brite,KNApSAcK
+660,Emetine,Kegg Brite,KNApSAcK
+661,Ipecoside,Kegg Brite,KNApSAcK
+662,Protoemetine,Kegg Brite,KNApSAcK
+663,7'-O-Demethylcephaeline,Contains Nitrogen and ine at end of word,KNApSAcK
+664,Turbinatine,Contains Nitrogen and ine at end of word,KNApSAcK
+665,Cinchonidine,Kegg Brite,KNApSAcK
+666,Hydroquinidine,Kegg Brite,KNApSAcK
+667,Quinine,Contains Nitrogen and ine at end of word,KNApSAcK
+668,Quinidine,Kegg Brite,KNApSAcK
+669,Cinchonine,Kegg Brite,KNApSAcK
+670,10-Methoxycinchonamine,Contains Nitrogen and ine at end of word,KNApSAcK
+671,Adenine,Contains Nitrogen and ine at end of word,KNApSAcK
+672,Caffeine,Kegg Brite,KNApSAcK
+673,Theophylline,Kegg Brite,KNApSAcK
+674,Xanthosine,Kegg Brite,KNApSAcK
+675,7-Methylxanthine,Kegg Brite,KNApSAcK
+676,Xanthosine 5'-monophosphate,Contains Nitrogen and ine at end of word,KNApSAcK
+677,Adenosine,Contains Nitrogen and ine at end of word,KNApSAcK
+678,7-Methylxanthosine,Kegg Brite,KNApSAcK
+679,Paraxanthine,Contains Nitrogen and ine at end of word,KNApSAcK
+680,3-Methylxanthine,Kegg Brite,KNApSAcK
+681,Melatonin,Kegg Brite,KNApSAcK
+682,"2,3-Dimethylpyrazine",Contains Nitrogen and ine at end of word,KNApSAcK
+683,"2,5-Dimethylpyrazine",Contains Nitrogen and ine at end of word,KNApSAcK
+684,"2,6-Dimethylpyrazine",Contains Nitrogen and ine at end of word,KNApSAcK
+685,2-Acetylpyridine,Contains Nitrogen and ine at end of word,KNApSAcK
+686,2-Ethyl-6-methylpyrazine,Contains Nitrogen and ine at end of word,KNApSAcK
+687,2-Methoxy-3-isobutylpyrazine,Contains Nitrogen and ine at end of word,KNApSAcK
+688,2-Methoxypyridine,Contains Nitrogen and ine at end of word,KNApSAcK
+689,2-Methylpyrazine,Contains Nitrogen and ine at end of word,KNApSAcK
+690,Pyridine,Contains Nitrogen and ine at end of word,KNApSAcK
+691,Theobromine,Kegg Brite,KNApSAcK
+692,Theacrine,Contains Nitrogen and ine at end of word,KNApSAcK
+693,Methylliberine,Contains Nitrogen and ine at end of word,KNApSAcK
+694,"1,3,7-Trimethyluric acid",Kegg Brite,KNApSAcK
+695,Liberine,Contains Nitrogen and ine at end of word,KNApSAcK
+696,Vasicinone,Kegg Brite,KNApSAcK
+697,Guettardine,Contains Nitrogen and ine at end of word,KNApSAcK
+698,L-Ephedrine,Contains Nitrogen and ine at end of word,KNApSAcK
+699,Apodihydrocinchonamine,Contains Nitrogen and ine at end of word,KNApSAcK
+700,Dihydroquinamine,Contains Nitrogen and ine at end of word,KNApSAcK
+701,Tetrahydroharmine,Kegg Brite,KNApSAcK
+702,Rhynchophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+703,Angustoline,Contains Nitrogen and ine at end of word,KNApSAcK
+704,Hirsuteine,Contains Nitrogen and ine at end of word,KNApSAcK
+705,Hirsutine,Contains Nitrogen and ine at end of word,KNApSAcK
+706,Isomitraphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+707,Isorhynchophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+708,Mitrajavine,Contains Nitrogen and ine at end of word,KNApSAcK
+709,Uncarine C,Contains Nitrogen and ine at end of word,KNApSAcK
+710,Speciophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+711,Isopteropodine,Contains Nitrogen and ine at end of word,KNApSAcK
+712,Uncarine F,Contains Nitrogen and ine at end of word,KNApSAcK
+713,Isomitraphylline N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+714,"16,17-Dihydro-17beta-hydroxymitraphylline",Contains Nitrogen and ine at end of word,KNApSAcK
+715,Mitrafoline,Contains Nitrogen and ine at end of word,KNApSAcK
+716,Mitragynine,Contains Nitrogen and ine at end of word,KNApSAcK
+717,3-Isoajmalicine,Contains Nitrogen and ine at end of word,KNApSAcK
+718,Ciliaphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+719,Corynantheidine,Contains Nitrogen and ine at end of word,KNApSAcK
+720,Corynoxeine,Contains Nitrogen and ine at end of word,KNApSAcK
+721,Corynoxine,Contains Nitrogen and ine at end of word,KNApSAcK
+722,Corynoxine B,Contains Nitrogen and ine at end of word,KNApSAcK
+723,Isocorynantheidine,Contains Nitrogen and ine at end of word,KNApSAcK
+724,Isomitrafoline,Contains Nitrogen and ine at end of word,KNApSAcK
+725,Isopaynantheine,Contains Nitrogen and ine at end of word,KNApSAcK
+726,Javaphylline,Contains Nitrogen and ine at end of word,KNApSAcK
+727,Mitragynine oxindole A,Contains Nitrogen and ine at end of word,KNApSAcK
+728,Mitragynine oxindole B,Contains Nitrogen and ine at end of word,KNApSAcK
+729,Paynantheine,Contains Nitrogen and ine at end of word,KNApSAcK
+730,Rhynchociline,Contains Nitrogen and ine at end of word,KNApSAcK
+731,Speciociliatine,Contains Nitrogen and ine at end of word,KNApSAcK
+732,Speciofoline,Contains Nitrogen and ine at end of word,KNApSAcK
+733,Speciogynine,Contains Nitrogen and ine at end of word,KNApSAcK
+734,Specionoxeine,Contains Nitrogen and ine at end of word,KNApSAcK
+735,Corynantheidaline,Contains Nitrogen and ine at end of word,KNApSAcK
+736,Isocorynoxeine,Contains Nitrogen and ine at end of word,KNApSAcK
+737,Mitragynaline,Contains Nitrogen and ine at end of word,KNApSAcK
+738,Mitralactonine,Contains Nitrogen and ine at end of word,KNApSAcK
+739,Mitrasulgynine,Contains Nitrogen and ine at end of word,KNApSAcK
+740,7alpha-Hydroxy-7H-mitragynine,Contains Nitrogen and ine at end of word,KNApSAcK
+741,9-Methoxymitralactonine,Contains Nitrogen and ine at end of word,KNApSAcK
+742,Cytidine,Contains Nitrogen and ine at end of word,KNApSAcK
+743,Methyl beta-Carboline-1-carboxylate,Contains Nitrogen and ine at end of word,KNApSAcK
+744,"18,19-Dihydroangustine",Contains Nitrogen and ine at end of word,KNApSAcK
+745,Decarbomethoxy naucl echine,Contains Nitrogen and ine at end of word,KNApSAcK
+746,Naucleofficine A,Contains Nitrogen and ine at end of word,KNApSAcK
+747,Naucleofficine B,Contains Nitrogen and ine at end of word,KNApSAcK
+748,Naucleofficine C,Contains Nitrogen and ine at end of word,KNApSAcK
+749,Naucleofficine D,Contains Nitrogen and ine at end of word,KNApSAcK
+750,Naucleofficine E,Contains Nitrogen and ine at end of word,KNApSAcK
+751,Nauclealine A,Contains Nitrogen and ine at end of word,KNApSAcK
+752,Nauclealine B,Contains Nitrogen and ine at end of word,KNApSAcK
+753,Blumeanine,Contains Nitrogen and ine at end of word,KNApSAcK
+754,Ophiorrhizine-12-carboxylate,Contains Nitrogen and ine at end of word,KNApSAcK
+755,Camptothecin,Kegg Brite,KNApSAcK
+756,Ophiorine A,Contains Nitrogen and ine at end of word,KNApSAcK
+757,Ophiorine A methyl ester,Contains Nitrogen and ine at end of word,KNApSAcK
+758,Ophiorine B,Contains Nitrogen and ine at end of word,KNApSAcK
+759,Ophiorine B methyl ester,Contains Nitrogen and ine at end of word,KNApSAcK
+760,(+)-Calycanthine,Contains Nitrogen and ine at end of word,KNApSAcK
+761,Croceaine A,Contains Nitrogen and ine at end of word,KNApSAcK
+762,Croceaine B,Contains Nitrogen and ine at end of word,KNApSAcK
+763,Tubulosine,Kegg Brite,KNApSAcK
+764,Psychotrine,Kegg Brite,KNApSAcK
+765,"1',2',3',4'-Tetradehydrotubulosine",Contains Nitrogen and ine at end of word,KNApSAcK
+766,Angustine,Kegg Brite,KNApSAcK
+767,Brachycerine,Contains Nitrogen and ine at end of word,KNApSAcK
+768,Hodgkinsine,Kegg Brite,KNApSAcK
+769,Harmaline,Kegg Brite,KNApSAcK
+770,Harmine,Kegg Brite,KNApSAcK
+771,Dihydrocupreine,Contains Nitrogen and ine at end of word,KNApSAcK
+772,14alpha-Hydroxy-3-isorauniticine,Contains Nitrogen and ine at end of word,KNApSAcK
+773,Uncarine B,Contains Nitrogen and ine at end of word,KNApSAcK
+774,Isogambirine,Contains Nitrogen and ine at end of word,KNApSAcK
+775,14beta-Hydroxy-3-isorauniticine,Contains Nitrogen and ine at end of word,KNApSAcK
+776,19-Epi-3-isoajmalicine,Contains Nitrogen and ine at end of word,KNApSAcK
+777,3-Isorauniticine,Contains Nitrogen and ine at end of word,KNApSAcK
+778,3-Isorauniticine pseudoindoxyl,Contains Nitrogen and ine at end of word,KNApSAcK
+779,Akuammigine pseudoindoxyl,Contains Nitrogen and ine at end of word,KNApSAcK
+780,Rauniticine oxindole A,Contains Nitrogen and ine at end of word,KNApSAcK
+781,Rauniticine pseudoindoxyl,Contains Nitrogen and ine at end of word,KNApSAcK
+782,Tetrahydroalstonine N-oxide,Contains Nitrogen and ine at end of word,KNApSAcK
+783,Uncarine A,Contains Nitrogen and ine at end of word,KNApSAcK
+784,Roxburghine B,Contains Nitrogen and ine at end of word,KNApSAcK
+785,Dihydrocorynantheine,Contains Nitrogen and ine at end of word,KNApSAcK
+786,Isorhyncophylline,Contains Nitrogen and ine at end of word,KNApSAcK
+787,5-Hydroxytryptamine,Contains Nitrogen and ine at end of word,KNApSAcK
+788,3alpha-Dihydrocadambine,Contains Nitrogen and ine at end of word,KNApSAcK
+789,Angustidine,Contains Nitrogen and ine at end of word,KNApSAcK
+790,5-Methoxytryptamine,Contains Nitrogen and ine at end of word,KNApSAcK
+791,3beta-Isodihydrocadambine,Contains Nitrogen and ine at end of word,KNApSAcK
+792,Isoformosanine,Contains Nitrogen and ine at end of word,KNApSAcK
+793,5(S)-5-Carboxystrictosidine,Contains Nitrogen and ine at end of word,KNApSAcK
