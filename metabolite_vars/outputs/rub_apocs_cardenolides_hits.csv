@@ -1,9 +1,9 @@
 ,Accepted_ID,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_Rank,knapsack_snippet,Compiled_Sources
 0,76349-1,Acokanthera oppositifolia,Acokanthera oppositifolia,76349-1,Species,,['Manual']
-1,60447729-2,Acokanthera schimperi,Acokanthera schimperi,60447729-2,Species,,['Manual']
+1,60447729-2,Acokanthera schimperi,Acokanthera schimperi,60447729-2,Species,"""['Ouabain']""","['Manual', 'KNApSAcK']"
 2,76360-1,Adenium boehmianum,Adenium boehmianum,76360-1,Species,,['Manual']
 3,76366-1,Adenium multiflorum,Adenium multiflorum,76366-1,Species,,['Manual']
-4,76369-1,Adenium obesum,Adenium obesum,76369-1,Species,,['Manual']
+4,76369-1,Adenium obesum,Adenium obesum,76369-1,Species,"""['Digitalin']""","['Manual', 'KNApSAcK']"
 5,2180-1,Alafia,nan,nan,Genus,,['Manual']
 6,77061-1,Anodendron affine,Anodendron affine,77061-1,Species,,['Manual']
 7,16527-2,Apocynum cannabinum,Apocynum cannabinum,16527-2,Species,,['Manual']
@@ -17,7 +17,7 @@
 15,77548-1,Beaumontia murtonii,Beaumontia murtonii,77548-1,Species,,['Manual']
 16,95173-1,Calotropis gigantea,Calotropis gigantea,95173-1,Species,"""['Calactin', 'Calotropin']""","['Manual', 'KNApSAcK']"
 17,1004515-2,Calotropis procera,Calotropis procera,1004515-2,Species,"""['Calactin', 'Calotropin', 'Uscharidin']""","['Manual', 'KNApSAcK']"
-18,47927-2,Cascabela thevetia,Cascabela thevetia,47927-2,Species,,['Manual']
+18,47927-2,Cascabela thevetia,Cascabela thevetia,47927-2,Species,"""['Thevetin A']""","['Manual', 'KNApSAcK']"
 19,77906-1,Cerbera manghas,Cerbera manghas,77906-1,Species,"""['Cerberin']""","['Manual', 'KNApSAcK']"
 20,77913-1,Cerbera odollam,Cerbera odollam,77913-1,Species,"""['Thevetin A']""","['Manual', 'KNApSAcK']"
 21,77931-1,Cerberiopsis candelabra,Cerberiopsis candelabra,77931-1,Species,,['Manual']
@@ -25,7 +25,7 @@
 23,95962-1,Cryptostegia grandiflora,Cryptostegia grandiflora,95962-1,Species,"""['Digitalin']""","['Manual', 'KNApSAcK']"
 24,95963-1,Cryptostegia madagascariensis,Cryptostegia madagascariensis,95963-1,Species,,['Manual']
 25,97547-1,Glossostelma carsonii,Glossostelma carsonii,97547-1,Species,,['Manual']
-26,97610-1,Gomphocarpus fruticosus,Gomphocarpus fruticosus,97610-1,Species,,['Manual']
+26,97610-1,Gomphocarpus fruticosus,Gomphocarpus fruticosus,97610-1,Species,"""['Asclepin', 'Calactin', 'Uscharidin']""","['Manual', 'KNApSAcK']"
 27,97698-1,Gomphocarpus sinaicus,Gomphocarpus sinaicus,97698-1,Species,,['Manual']
 28,79297-1,Holarrhena curtisii,Holarrhena curtisii,79297-1,Species,,['Manual']
 29,79311-1,Holarrhena mitis,Holarrhena mitis,79311-1,Species,,['Manual']
@@ -33,7 +33,7 @@
 31,152033-2,Mandevilla pentlandiana,Mandevilla pentlandiana,152033-2,Species,,['Manual']
 32,99158-1,Marsdenia gazensis,Marsdenia gazensis,99158-1,Species,,['Manual']
 33,99829-1,Myriopteron extensum,Myriopteron extensum,99829-1,Species,,['Manual']
-34,80460-1,Nerium oleander,Nerium oleander,80460-1,Species,"""['Adynerin']""","['Manual', 'KNApSAcK']"
+34,80460-1,Nerium oleander,Nerium oleander,80460-1,Species,"""['Adynerin', 'Digitoxigenin']""","['Manual', 'KNApSAcK']"
 35,60458242-2,Oxystelma esculentum,Oxystelma esculentum,60458242-2,Species,,['Manual']
 36,100226-1,Pachycarpus distinctus,Pachycarpus distinctus,100226-1,Species,,['Manual']
 37,100257-1,Pachycarpus schinzianus,Pachycarpus schinzianus,100257-1,Species,,['Manual']
@@ -68,3 +68,5 @@
 66,94654-1,Asclepias speciosa,Asclepias speciosa,94654-1,Species,"""['Aspecioside']""",['KNApSAcK']
 67,319076-2,Asclepias syriaca,Asclepias syriaca,319076-2,Species,"""['Aspecioside']""",['KNApSAcK']
 68,77893-1,Cerbera floribunda,Cerbera floribunda,77893-1,Species,"""['Cerbertin']""",['KNApSAcK']
+69,77899-1,Cerbera inflata,Cerbera inflata,77899-1,Species,"""['Cerbertin']""",['KNApSAcK']
+70,77158572-1,Cryptolepis nigrescens,Cryptolepis nigrescens,77158572-1,Species,"""['Strophanthidin']""",['KNApSAcK']

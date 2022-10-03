@@ -1,14 +1,19 @@
 import os
+
+import numpy as np
 import pandas as pd
 
 from pkg_resources import resource_filename
 from powo_searches import search_powo
 from taxa_lists import get_all_taxa
+from automatchnames import COL_NAMES
 
 from metabolite_searches import get_metabolites_for_taxa, output_alkaloids_from_metabolites, get_compound_hits_for_taxa, \
     get_antibac_metabolite_hits_for_taxa, recheck_taxa, output_steroids_from_metabolites, \
-    output_cardenolides_from_metabolites, get_antimalarial_metabolite_hits_for_taxa
+    output_cardenolides_from_metabolites, get_antimalarial_metabolite_hits_for_taxa, \
+    get_inactive_antimalarial_metabolite_hits_for_taxa
 from cleaning import compile_hits, output_summary_of_hit_csv
+from tqdm import tqdm
 
 from manually_collected_data import rub_apoc_steroid_hits_manual_output_csv, \
     rub_apoc_cardenolide_hits_manual_output_csv, rub_apoc_alk_hits_manual_output_csv
@@ -24,6 +29,8 @@ _powo_search_alks_temp_output_accepted_csv = os.path.join(_temp_output_path, 'po
 _output_path = resource_filename(__name__, 'outputs')
 
 rubiaceae_apocynaceae_metabolites_output_csv = os.path.join(_output_path, 'rub_apocs_metabolites.csv')
+accepted_metabolites_output_csv = os.path.join(_output_path, 'accepted_metabolites.csv')
+unaccepted_metabolites_output_csv = os.path.join(_output_path, 'unaccepted_metabolites.csv')
 _rubiaceae_apocynaceae_alks_output_csv = os.path.join(_output_path, 'rub_apocs_alkaloids.csv')
 _rubiaceae_apocynaceae_steroid_output_csv = os.path.join(_output_path, 'rub_apocs_steroids.csv')
 _rubiaceae_apocynaceae_cardenolide_output_csv = os.path.join(_output_path, 'rub_apocs_cardenolides.csv')
@@ -34,19 +41,56 @@ rub_apoc_cardenolide_hits_output_csv = os.path.join(_output_path, 'rub_apocs_car
 
 rub_apoc_antibac_metabolite_hits_output_csv = os.path.join(_output_path, 'rub_apocs_antibac_metabolites_hits.csv')
 rub_apoc_antimal_metabolite_hits_output_csv = os.path.join(_output_path, 'rub_apocs_antimalarial_metabolites_hits.csv')
+rub_apoc_inactive_antimal_metabolite_hits_output_csv = os.path.join(_output_path,
+                                                                    'rub_apocs_inactive_antimalarial_metabolites_hits.csv')
 _check_output_csv = os.path.join(_output_path, 'rechecked_taxa.csv')
 
 
 def get_rub_apoc_metabolites():
-    data = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'], accepted=True)
+    wcvp_data = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'],
+                             ranks=["Species", "Variety", "Subspecies"])
+    accepted_data = wcvp_data[wcvp_data['taxonomic_status'] == 'Accepted']
+    accepted_metabolites_df = get_metabolites_for_taxa(accepted_data["taxon_name"].values,
+                                                         output_csv=accepted_metabolites_output_csv)
 
-    ranks_to_use = ["Species", "Variety", "Subspecies"]
+    unaccepted_data = wcvp_data[wcvp_data['taxonomic_status'] != 'Accepted']
 
-    taxa = data.loc[data["rank"].isin(ranks_to_use)]
+    unaccepted_metabolites_df = get_metabolites_for_taxa(unaccepted_data["taxon_name"].values,
+                                                       output_csv=unaccepted_metabolites_output_csv)
 
-    taxa_list = taxa["taxon_name"].values
+    # accepted_metabolites_df = pd.read_csv(accepted_metabolites_output_csv, index_col=0)
+    # unaccepted_metabolites_df = pd.read_csv(unaccepted_metabolites_output_csv, index_col=0)
+    # Add new columns
+    out_df = accepted_metabolites_df.copy()
+    lower_cols = [x.lower() for x in out_df.columns]
+    for c in unaccepted_metabolites_df.columns:
+        if c.lower() not in lower_cols:
+            out_df[c] = 0
 
-    get_metabolites_for_taxa(taxa_list, output_csv=rubiaceae_apocynaceae_metabolites_output_csv)
+    for i in tqdm(range(len(unaccepted_metabolites_df['Accepted_Name'].tolist())), desc="testing", ascii=False,
+                  ncols=72):
+        acc_name = unaccepted_metabolites_df['Accepted_Name'].tolist()[i]
+        # print(acc_name)
+        taxa_df = unaccepted_metabolites_df[unaccepted_metabolites_df['Accepted_Name'] == acc_name]
+        for c in unaccepted_metabolites_df.columns:
+
+            if c not in ['taxa'] + list(COL_NAMES.values()):
+                x = taxa_df[c].max()
+                if c not in out_df.columns:
+                    # rename c to match out_df
+                    # this is an issue caused by capitals in knapsack data.
+                    # In future best to resolve this by lower casing all strings on import.
+                    c = [x for x in out_df.columns if x.lower() == c.lower()][0]
+
+                if c not in out_df.columns:
+                    print(c)
+                    raise ValueError
+
+                if x == 1:
+                    out_df.loc[out_df['Accepted_Name'] == acc_name, c] = 1
+
+    out_df = out_df.fillna(0)
+    out_df.to_csv(rubiaceae_apocynaceae_metabolites_output_csv)
 
 
 def get_rub_apoc_alkaloid_hits():
@@ -108,7 +152,15 @@ def get_rub_apoc_antibac_metabolite_hits():
 def get_rub_apoc_antimal_metabolite_hits():
     all_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
     get_antimalarial_metabolite_hits_for_taxa(all_metas_data, rub_apoc_antimal_metabolite_hits_output_csv,
-                                         fams=['Rubiaceae', 'Apocynaceae'])
+                                              fams=['Rubiaceae', 'Apocynaceae'])
+
+
+def get_rub_apoc_inactive_antimal_metabolite_hits():
+    all_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
+    get_inactive_antimalarial_metabolite_hits_for_taxa(all_metas_data,
+                                                       rub_apoc_inactive_antimal_metabolite_hits_output_csv,
+                                                       fams=['Rubiaceae', 'Apocynaceae'])
+
 
 def get_steroid_card_hits():
     get_rub_apoc_knapsack_steroid_hits()
@@ -143,9 +195,10 @@ def output_source_summaries():
         source_translations={'POWO': 'POWO pages'}, ranks=['Species'])
 def main():
     get_rub_apoc_metabolites()
-    # # # recheck_taxa(_check_output_csv)
+    # recheck_taxa(_check_output_csv)
     summarise_metabolites()
     get_rub_apoc_antimal_metabolite_hits()
+    get_rub_apoc_inactive_antimal_metabolite_hits()
     get_rub_apoc_antibac_metabolite_hits()
     get_rub_apoc_alkaloid_hits()
 
@@ -153,5 +206,4 @@ def main():
     output_source_summaries()
 
 if __name__ == '__main__':
-
     main()
