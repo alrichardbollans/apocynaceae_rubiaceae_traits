@@ -1,4 +1,5 @@
 import os.path
+import re
 
 import numpy as np
 import pandas as pd
@@ -92,9 +93,19 @@ def clean_alkaloids(given_value: str) -> int:
     absence_names = ["not detected"]
     try:
         if any(x in given_value for x in absence_names):
-            if given_value not in absence_alk_strings:
-                absence_alk_strings.append(given_value)
-            return 0
+            number_of_nots = len(re.findall('(?=not)', given_value))
+            number_of_detecteds = len(re.findall('(?=detected)', given_value))
+            number_of_isolateds = len(re.findall('(?=isolated)', given_value))
+
+            number_of_presences = number_of_isolateds + number_of_detecteds
+            if number_of_nots>=number_of_presences:
+                if given_value not in absence_alk_strings:
+                    absence_alk_strings.append(given_value)
+                return 0
+            else:
+                if given_value not in presence_alk_strings:
+                    presence_alk_strings.append(given_value)
+                return 1
         elif any(x in given_value for x in presence_names):
             if given_value not in presence_alk_strings:
                 presence_alk_strings.append(given_value)
