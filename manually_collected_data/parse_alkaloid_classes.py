@@ -1,14 +1,16 @@
 import os
 from typing import List
 
+import numpy as np
 import pandas as pd
 
 from manually_collected_data import trait_parsing_output_path, encoded_traits_csv
 
 parsed_alkaloid_classes_csv = os.path.join(trait_parsing_output_path, 'parsed_alkaloid_classes.csv')
 
-_alk_class_columns = ['Alkaloid_mainclass', 'Alkaloid_otherclasses']
-_alk_class_column = 'Alkaloid_classes'
+_conal_alk_class_columns = ['Alkaloid_mainclass(conal)', 'Alkaloid_otherclasses']
+_alk_class_presence_column = 'Alkaloid_classes'
+_alk_class_absence_column = 'Alkaloid_class_absences'
 
 
 def remove_whitespace_at_beginning_and_end(value: str):
@@ -29,41 +31,31 @@ def lower_case_string(val: str):
     return val.lower()
 
 
-def rmv_multiplication_from_string(val: str):
-    ints_used = ['2', '3', '4', '5', '6']
-    for i in ints_used:
-        if i+'x' in val:
-            val = val.replace(i+'x','')
-    return val
-
-def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
-    import numpy as np
-    # OHE alks
-    def convert_alks_to_lists(hab: str) -> List[str]:
-
-        if hab == '?':
-            raise ValueError
-        try:
-            if ';' not in hab:
-                alk_list = [hab]
-            else:
-                alk_list = hab.split(';')
-        except TypeError:
-            raise ValueError
+def convert_alks_in_cols_to_lists(hab: str) -> List[str]:
+    if hab == '?':
+        raise ValueError
+    try:
+        if ';' not in hab:
+            alk_list = [hab]
         else:
-            out_list = list(map(remove_reference_in_string, alk_list))
-            out_list = list(map(rmv_multiplication_from_string, out_list))
-            out_list = list(map(remove_whitespace_at_beginning_and_end, out_list))
+            alk_list = hab.split(';')
+    except TypeError:
+        raise ValueError
+    else:
+        out_list = list(map(remove_reference_in_string, alk_list))
+        out_list = list(map(remove_whitespace_at_beginning_and_end, out_list))
 
-            out_list = list(map(lower_case_string, out_list))
+        out_list = list(map(lower_case_string, out_list))
 
-            return out_list
+        return out_list
 
-    df[_alk_class_column] = df[_alk_class_columns].apply(lambda x: ';'.join(x), axis=1)
 
-    df[_alk_class_column] = df[_alk_class_column].apply(convert_alks_to_lists)
+def OHE_alks(df: pd.DataFrame, class_col: str) -> pd.DataFrame:
+    # OHE alks
 
-    multilabels = df[_alk_class_column].str.join('|').str.get_dummies()
+    df[class_col] = df[class_col].apply(convert_alks_in_cols_to_lists)
+
+    multilabels = df[class_col].str.join('|').str.get_dummies()
     multilabels = multilabels.add_prefix('alk_')
     df = df.join(multilabels)
 
@@ -71,17 +63,30 @@ def OHE_alks(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def parse_alkaloid_data():
+    name_cols_to_use = ['Genus', 'Accepted_Name', 'Accepted_ID', 'Accepted_Species', 'Accepted_Species_ID',
+                        'Accepted_Rank']
     trait_df = pd.read_csv(encoded_traits_csv, index_col=0)
 
-    input_alks = trait_df.dropna(subset=_alk_class_columns)
+    # OHE presence
+    input_presence_alks = trait_df.dropna(subset=_alk_class_presence_column)
+    presence_encoded = OHE_alks(input_presence_alks, _alk_class_presence_column)
 
-    # OHE
-    encoded = OHE_alks(input_alks)
-    alk_cols_to_use = [c for c in encoded.columns.tolist() if 'alk_' in c]
-    encoded = encoded[['Accepted_Name', 'Genus', 'Accepted_ID'] + alk_cols_to_use]
+    alk_cols_to_use = [c for c in presence_encoded.columns.tolist() if 'alk_' in c]
+    presence_encoded = presence_encoded[name_cols_to_use + alk_cols_to_use]
+
+    # OHE absence
+    input_absence_alks = trait_df.dropna(subset=_alk_class_absence_column)
+    absence_encoded = OHE_alks(input_absence_alks, _alk_class_absence_column)
+
+    absence_alk_cols_to_use = [c for c in absence_encoded.columns.tolist() if 'alk_' in c]
+    absence_encoded = absence_encoded[name_cols_to_use + absence_alk_cols_to_use]
+    absence_encoded = absence_encoded.replace(0, np.nan)
+    absence_encoded = absence_encoded.replace(1, 0)
+
+    encoded = pd.merge(presence_encoded, absence_encoded, how='outer')
 
     # Add zero entries
-    zero_alks = trait_df[trait_df['Alkaloids'] == 0][['Accepted_Name', 'Genus', 'Accepted_ID']]
+    zero_alks = trait_df[trait_df['Alkaloids'] == 0][name_cols_to_use]
     for alk_col in alk_cols_to_use:
         zero_alks[alk_col] = 0
 
@@ -97,7 +102,7 @@ def parse_alkaloid_data():
         return out
 
     cols_to_use = list(map(rmv_prefix, cols))
-
+    print(cols_to_use)
     pd.DataFrame(cols_to_use).to_csv('alks_to_parse.csv')
 
 

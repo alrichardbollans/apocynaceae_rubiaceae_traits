@@ -1,12 +1,8 @@
-import os.path
-
-from automatchnames import get_accepted_info_from_names_in_column, remove_whitespace_at_beginning_and_end
-
 import os
 
 import pandas as pd
+from automatchnames import get_accepted_info_from_names_in_column, remove_whitespace_at_beginning_and_end
 from pkg_resources import resource_filename
-from taxa_lists import get_all_taxa
 
 _inputs_path = resource_filename(__name__, 'inputs')
 
@@ -18,13 +14,15 @@ if not os.path.isdir(trait_parsing_output_path):
     os.mkdir(trait_parsing_output_path)
 
 NEW_HEADINGS = [
-    "Any_info",
     "Genus",
     "Species",
     "Tested_for_Alkaloids",
     "Ref_Alks",
+    "Alkaloids_test_notes",
     "Alkaloids",
-    "Alkaloid_mainclass",
+    "Alkaloid_classes",
+    "Alkaloid_class_absences",
+    "Alkaloid_mainclass(conal)",
     "Alkaloid_otherclasses",
     "Alkaloid_class_notes",
     "Antimalarial_Use",
