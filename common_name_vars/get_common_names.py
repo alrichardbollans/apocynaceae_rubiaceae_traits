@@ -242,18 +242,17 @@ def prepare_wiersema_data():
 
 
 def prepare_data():
-    accepted_data = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'], accepted=True)
+    taxa_data = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'], accepted=False,
+                             ranks=["Species", "Variety", "Subspecies"])
 
-    ranks_to_use = ["Species", "Variety", "Subspecies"]
-
-    accepted_taxa_df = accepted_data.loc[accepted_data["rank"].isin(ranks_to_use)]
-
-    accepted_taxa = accepted_taxa_df["taxon_name"].values
-    accepted_taxa_ids = accepted_taxa_df["kew_id"].values
+    taxa = taxa_data["taxon_name"].values
 
     # Get lists
-    get_wiki_common_names(accepted_taxa, families_of_interest=['Apocynaceae', 'Rubiaceae'])
-    # # print('Finished getting wiki names')
+    get_wiki_common_names(taxa, families_of_interest=['Apocynaceae', 'Rubiaceae'])
+
+    accepted_taxa_df = taxa_data[taxa_data['taxonomic_status'] == 'Accepted']
+    accepted_taxa = accepted_taxa_df["taxon_name"].values
+    accepted_taxa_ids = accepted_taxa_df["kew_id"].values
     get_powo_common_names(accepted_taxa, accepted_taxa_ids, families_of_interest=['Apocynaceae', 'Rubiaceae'])
 
     prepare_usda_common_names(families_of_interest=['Apocynaceae', 'Rubiaceae'])
