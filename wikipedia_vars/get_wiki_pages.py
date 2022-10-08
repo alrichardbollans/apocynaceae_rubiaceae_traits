@@ -15,19 +15,14 @@ more_checked_taxa_csv = os.path.join(_output_path, 'initially_missed_taxa.csv')
 
 
 def main():
-    data = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'], accepted=True)
+    data = get_all_taxa(families_of_interest=['Apocynaceae', 'Rubiaceae'], accepted=False,
+                        ranks=["Species", "Subspecies", "Variety"])
 
-    ranks_to_use = ["Species", "Variety", "Subspecies"]
+    taxa = data["taxa"].unique()
 
-    taxa = data.loc[data["rank"].isin(ranks_to_use)]
-
-    species_list = taxa["taxon_name"].values
-
-    wikipedia_searches.make_wiki_hit_df(species_list, output_wiki_csv, force_new_search=True)
-    # taxa_to_recheck = pd.read_csv(os.path.join(_output_path,'taxa_to_recheck.csv'))
-    wikipedia_searches.make_pageview_df(species_list,output_wiki_views_csv)
+    wikipedia_searches.make_wiki_hit_df(taxa, os.path.join(_output_path, output_wiki_csv),
+                                        force_new_search=True)
 
 
 if __name__ == '__main__':
     main()
-    # wikipedia_searches.make_wiki_hit_df(['Hoya crassipetiolata','Hoya crassipetiolata'], more_checked_taxa_csv)
