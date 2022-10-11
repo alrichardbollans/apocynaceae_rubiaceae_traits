@@ -9,6 +9,7 @@ Accessed 03/05/2022
 # Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
 # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
 # Uruguay: https://doi.org/10.1093/ae/46.4.238 (Malaria Vector Heterogeneity in South America)
+# Trinidad (and Tobago): Dave D Chadee, Ashton LeMaitre, and Clive C Tilluckdharry, “An Epidemic Outbreak of Plasmodium Vivax Malaria in Trinidad-Abstract,” West Indian Med. j, 1993, 45–46.
 
 CDC
 https://www.cdc.gov/malaria/about/distribution.html

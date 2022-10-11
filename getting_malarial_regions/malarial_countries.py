@@ -124,12 +124,12 @@ def get_WHO_codes():
                         'Democratic Republic of the Congo': ['CON'],
                         "Lao People's Democratic Republic": ['LAO'],
                         "Republic of Korea": ['KOR'],
-                        'Côte d’Ivoire':['IVO'],
-                        'United Republic of Tanzania':['TAN'],
-                        'Gambia':['GAM'],
-                        'Congo':['CON'],
-                        'Iran (Islamic Republic of)':['IRN'],
-                        'Kyrgyzstan':['KGZ']
+                        'Côte d’Ivoire': ['IVO'],
+                        'United Republic of Tanzania': ['TAN'],
+                        'Gambia': ['GAM'],
+                        'Congo': ['CON'],
+                        'Iran (Islamic Republic of)': ['IRN'],
+                        'Kyrgyzstan': ['KGZ']
                         }
     name_code_parser.update(additional_codes)
     region_codes = []
@@ -137,7 +137,6 @@ def get_WHO_codes():
     for location in malarial_regions['Location'].tolist():
         for v in name_code_parser[location]:
             region_codes.append(v)
-
 
     return region_codes
 
@@ -206,13 +205,14 @@ def get_tdwg3_codes():
     # Libya: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
     # Tunisia: https://doi.org/10.1016/B978-0-12-394303-3.00010-4 (The Changing Limits and Incidence of Malaria in Africa)
     # Uruguay: https://doi.org/10.1093/ae/46.4.238 (Malaria Vector Heterogeneity in South America)
-    codes_from_literature = ['NTA', 'WAU', 'QLD', 'REU', 'LBY', 'TUN']
+    # Trinidad (and Tobago): Dave D Chadee, Ashton LeMaitre, and Clive C Tilluckdharry, “An Epidemic Outbreak of Plasmodium Vivax Malaria in Trinidad-Abstract,” West Indian Med. j, 1993, 45–46.
+    codes_from_literature = ['NTA', 'WAU', 'QLD', 'REU', 'LBY', 'TUN', 'TRT']
     # From https://www.cdc.gov/malaria/about/distribution.html
     # ['Western Sahara', 'Kiribati', 'French Guiana'] Zaire, Cabinda
     # Accessed: 12/05/2022
     codes_from_CDC = ['WSA', 'LIN', 'FRG', 'ZAI', 'CAB']
 
-    iso_3_codes = manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC + who_codes
+    iso_3_codes = who_codes + manual_additions + codes_from_literature + world_bank_codes + codes_from_CDC
     iso_3_codes = sorted(iso_3_codes)
     code_df = pd.DataFrame({'tdwg3_codes': iso_3_codes})
     code_df.drop_duplicates(subset=['tdwg3_codes'], inplace=True)
