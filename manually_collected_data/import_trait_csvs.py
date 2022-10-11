@@ -20,6 +20,7 @@ NEW_HEADINGS = [
     "Ref_Alks",
     "Alkaloids_test_notes",
     "Alkaloids",
+    "Alk_classes_tested_for",
     "Alkaloid_classes",
     "Alkaloid_class_absences",
     "Alkaloid_mainclass(conal)",
@@ -55,17 +56,18 @@ ACCEPTED_NAME_COLUMN = "Accepted_Name"
 
 
 class Family:
-    # xlsx files are saved as csv files first
-    def __init__(self, name, tag):
+    def __init__(self, name, tag, unclean_trait_csv):
         self.name = name
         self.tag = tag
-        self.unclean_trait_csv = os.path.join(_inputs_path, tag + "_trait_data.csv")
+        self.unclean_trait_csv = unclean_trait_csv
         self.clean_trait_csv = os.path.join(trait_parsing_output_path, "clean_" + tag + "_trait_data.csv")
         self.species_name_list = os.path.join(trait_parsing_output_path, tag + "_species_names.txt")
 
 
-RUB = Family("Rubiaceae", "rub")
-APOC = Family("Apocynaceae", "apoc")
+RUB = Family("Rubiaceae", "rub",
+             os.path.join(_inputs_path, 'Rubiaceae, alkaloids, steroids and antimalarial activity.xlsx'))
+APOC = Family("Apocynaceae", "apoc",
+              os.path.join(_inputs_path, 'Apocynaceae, alkaloids, steroids and antimalarial activity.xlsx'))
 
 
 def strip_leading_trailing_whitespace(df: pd.DataFrame, column: str) -> pd.DataFrame:
@@ -97,7 +99,7 @@ def rename_headings(df: pd.DataFrame):
 
 def do_initial_clean(fam: Family):
     # Load family traits into dataframe
-    trait_df = pd.read_csv(fam.unclean_trait_csv)
+    trait_df = pd.read_excel(fam.unclean_trait_csv, sheet_name='Data')
     rename_headings(trait_df)
 
     # Remove empty genus or species
