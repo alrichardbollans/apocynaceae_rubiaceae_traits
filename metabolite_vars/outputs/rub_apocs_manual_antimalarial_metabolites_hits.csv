@@ -1,5 +1,5 @@
 ,taxa,knapsack_snippet,Source,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_ID,Accepted_Rank
-0,Aspidosperma excelsum,"""['Aspidocarpine', 'Hydroquinidine']""",KNApSAcK,Aspidosperma excelsum,Aspidosperma excelsum,77367-1,77367-1,Species
+0,Aspidosperma excelsum,"""['Aspidocarpine']""",KNApSAcK,Aspidosperma excelsum,Aspidosperma excelsum,77367-1,77367-1,Species
 1,Aspidosperma megalocarpon,"""['Aspidocarpine']""",KNApSAcK,Aspidosperma megalocarpon,Aspidosperma megalocarpon,77405-1,77405-1,Species
 2,Aspidosperma subincanum,"""['Ellipticine']""",KNApSAcK,Aspidosperma subincanum,Aspidosperma subincanum,77465-1,77465-1,Species
 3,Callichilia barteri,"""['Voacamine']""",KNApSAcK,Callichilia barteri,Callichilia barteri,77635-1,77635-1,Species
@@ -24,9 +24,9 @@
 22,Carapichea affinis,"""['Cephaeline', 'Emetine']""",KNApSAcK,Carapichea affinis,Carapichea affinis,1214821-2,1214821-2,Species
 23,Carapichea ipecacuanha,"""['Cephaeline', 'Emetine', 'Tubulosine']""",KNApSAcK,Carapichea ipecacuanha,Carapichea ipecacuanha,1214950-2,1214950-2,Species
 24,Carapichea klugii,"""['Cephaeline', 'Emetine', 'Klugine']""",KNApSAcK,Carapichea klugii,Carapichea klugii,77132654-1,77132654-1,Species
-25,Ciliosemina pedunculata,"""['Hydroquinidine', 'Quinine']""",KNApSAcK,Ciliosemina pedunculata,Ciliosemina pedunculata,77065717-1,77065717-1,Species
-26,Cinchona calisaya,"""['Cinchonidine', 'Quinine']""",KNApSAcK,Cinchona calisaya,Cinchona calisaya,746718-1,746718-1,Species
-27,Cinchona officinalis,"""['Cinchonidine', 'Hydroquinidine', 'Quinine']""",KNApSAcK,Cinchona officinalis,Cinchona officinalis,58723-2,58723-2,Species
-28,Cinchona pubescens,"""['Cinchonidine', 'Quinine']""",KNApSAcK,Cinchona pubescens,Cinchona pubescens,746872-1,746872-1,Species
+25,Ciliosemina pedunculata,"""['Quinine']""",KNApSAcK,Ciliosemina pedunculata,Ciliosemina pedunculata,77065717-1,77065717-1,Species
+26,Cinchona calisaya,"""['Quinine']""",KNApSAcK,Cinchona calisaya,Cinchona calisaya,746718-1,746718-1,Species
+27,Cinchona officinalis,"""['Quinine']""",KNApSAcK,Cinchona officinalis,Cinchona officinalis,58723-2,58723-2,Species
+28,Cinchona pubescens,"""['Quinine']""",KNApSAcK,Cinchona pubescens,Cinchona pubescens,746872-1,746872-1,Species
 29,Pogonopus speciosus,"""['Tubulosine']""",KNApSAcK,Pogonopus speciosus,Pogonopus speciosus,204802-2,204802-2,Species
 30,Pogonopus tubulosus,"""['Tubulosine']""",KNApSAcK,Pogonopus tubulosus,Pogonopus tubulosus,204805-2,204805-2,Species

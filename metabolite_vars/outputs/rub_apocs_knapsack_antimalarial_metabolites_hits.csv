@@ -1,0 +1,6 @@
+,taxa,knapsack_snippet,Source,Accepted_Name,Accepted_Species,Accepted_Species_ID,Accepted_ID,Accepted_Rank
+0,Aspidosperma excelsum,"""['Hydroquinidine']""",KNApSAcK,Aspidosperma excelsum,Aspidosperma excelsum,77367-1,77367-1,Species
+1,Ciliosemina pedunculata,"""['Hydroquinidine', 'Quinine']""",KNApSAcK,Ciliosemina pedunculata,Ciliosemina pedunculata,77065717-1,77065717-1,Species
+2,Cinchona calisaya,"""['Cinchonidine', 'Quinine']""",KNApSAcK,Cinchona calisaya,Cinchona calisaya,746718-1,746718-1,Species
+3,Cinchona officinalis,"""['Cinchonidine', 'Hydroquinidine', 'Quinine']""",KNApSAcK,Cinchona officinalis,Cinchona officinalis,58723-2,58723-2,Species
+4,Cinchona pubescens,"""['Cinchonidine', 'Quinine']""",KNApSAcK,Cinchona pubescens,Cinchona pubescens,746872-1,746872-1,Species
