@@ -44,7 +44,7 @@ def prepare_manually_collected_data():
 
 def main():
     prepare_manually_collected_data()
-    # prepare_habits()
+    prepare_habits()
 
 
 if __name__ == '__main__':
