@@ -145,10 +145,7 @@ def summarise_metabolites():
     print(worthwhile_metabolites)
 
 
-def get_rub_apoc_antibac_metabolite_hits():
-    all_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
-    get_antibac_metabolite_hits_for_taxa(all_metas_data, rub_apoc_antibac_metabolite_hits_output_csv,
-                                         fams=['Rubiaceae', 'Apocynaceae'])
+
 
 def get_rub_apoc_knapsack_antimal_metabolite_hits():
     all_metas_data = pd.read_csv(rubiaceae_apocynaceae_metabolites_output_csv)
@@ -183,15 +180,6 @@ def get_steroid_card_hits():
 
 
 def output_source_summaries():
-    output_summary_of_hit_csv(
-        rub_apoc_steroid_hits_output_csv,
-        os.path.join(_output_path, 'source_summaries', 'steroid_source_summary'),
-        families=['Apocynaceae', 'Rubiaceae'], ranks=['Species'])
-
-    output_summary_of_hit_csv(
-        rub_apoc_cardenolide_hits_output_csv,
-        os.path.join(_output_path, 'source_summaries', 'cardenolide_source_summary'),
-        families=['Apocynaceae', 'Rubiaceae'], ranks=['Species'])
 
     output_summary_of_hit_csv(
         rub_apoc_alkaloid_hits_output_csv,
@@ -205,10 +193,7 @@ def main():
     get_rub_apoc_knapsack_antimal_metabolite_hits()
     get_rub_apoc_manual_antimal_metabolite_hits()
     get_rub_apoc_inactive_antimal_metabolite_hits()
-    get_rub_apoc_antibac_metabolite_hits()
     get_rub_apoc_alkaloid_hits()
-
-    get_steroid_card_hits()
     output_source_summaries()
 
 if __name__ == '__main__':

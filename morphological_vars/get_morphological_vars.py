@@ -19,10 +19,6 @@ spines_output_csv = os.path.join(output_path, 'spines_hits.csv')
 no_spines_output_csv = os.path.join(output_path, 'no_spines_hits.csv')
 
 hairy_output_csv = os.path.join(output_path, 'hairy_hits.csv')
-non_coloured_latex_output_csv = os.path.join(output_path, 'non_coloured_latex.csv')
-coloured_latex_output_csv = os.path.join(output_path, 'coloured_latex.csv')
-left_corollas_latex_output_csv = os.path.join(output_path, 'left_corollas.csv')
-right_corollas_latex_output_csv = os.path.join(output_path, 'right_corollas.csv')
 habits_output_csv = os.path.join(output_path, 'habits.csv')
 
 
@@ -88,28 +84,6 @@ def output_compiled_data():
 
     all_hair_hits = [powo_hair_hits, try_hair_hits]
     compile_hits(all_hair_hits, hairy_output_csv)
-
-    # Latex
-
-    non_coloured_latex = acc_manual_data[
-        (acc_manual_data['latex'].isin(['w', 'c']))].copy()
-    non_coloured_latex['Manual_snippet'] = non_coloured_latex['latex']
-    compile_hits([non_coloured_latex], non_coloured_latex_output_csv)
-
-    coloured_latex = acc_manual_data[
-        acc_manual_data['latex'].isin(['w/y', 'w/r', 'r/y/w', 'r/o/y'])].copy()
-    coloured_latex['Manual_snippet'] = coloured_latex['latex']
-    compile_hits([coloured_latex], coloured_latex_output_csv)
-
-    # Corollas
-    left_corollas = acc_manual_data[
-        (acc_manual_data['corolla'].isin(['l']))].copy()
-    left_corollas['Manual_snippet'] = left_corollas['corolla']
-    compile_hits([left_corollas], left_corollas_latex_output_csv)
-    right_corollas = acc_manual_data[
-        acc_manual_data['corolla'].isin(['r'])].copy()
-    right_corollas['Manual_snippet'] = right_corollas['corolla']
-    compile_hits([right_corollas], right_corollas_latex_output_csv)
 
     # Habit
     habits = pd.read_csv(manual_habit_data_output)

@@ -11,7 +11,7 @@ input_occurrences_with_clim_vars_csv = os.path.join(_inputs_path, 'occ_with_clim
 
 _output_path = resource_filename(__name__, 'outputs')
 compiled_climate_vars_csv = os.path.join(_output_path, 'compiled_climate_vars.csv')
-mean_regional_bioclimatic_vars_csv = os.path.join(_output_path, 'mean_regional_bioclimatic_vars.csv')
+# mean_regional_bioclimatic_vars_csv = os.path.join(_output_path, 'mean_regional_bioclimatic_vars.csv')
 
 if not os.path.isdir(_output_path):
     os.mkdir(_output_path)

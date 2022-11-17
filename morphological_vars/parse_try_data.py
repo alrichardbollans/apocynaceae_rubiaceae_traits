@@ -1,17 +1,15 @@
 import os
-
-import pandas as pd
-from pkg_resources import resource_filename
 from typing import List
 
+import pandas as pd
 from automatchnames import get_accepted_info_from_names_in_column
-from cleaning import COL_NAMES, single_source_col
+from cleaning import single_source_col
+from pkg_resources import resource_filename
 
 inputs_path = resource_filename(__name__, 'inputs')
 _try_morph_input_csv = os.path.join(inputs_path, '18455.txt')
 _try_emergence_input_csv = os.path.join(inputs_path, 'emergence_data.csv')
-_try_latex_input_csv = os.path.join(inputs_path, 'latex_data.csv')
-_try_corolla_input_csv = os.path.join(inputs_path, 'corolla_data.csv')
+
 
 ### Temp outputs
 
@@ -78,21 +76,13 @@ def clean_try_db():
     morph_data = morph_data.drop(columns=cols_to_drop)
 
     emergence_db = morph_data[morph_data['TraitName'].str.contains('emergence')]
-    latex_db = morph_data[morph_data['TraitName'].str.contains('latex')]
-    corolla_db = morph_data[morph_data['TraitName'].str.contains('corolla')]
+
 
     emergence_db = emergence_db.dropna(axis=1, how='all')
-    latex_db = latex_db.dropna(axis=1, how='all')
-    corolla_db = corolla_db.dropna(axis=1, how='all')
+
 
     emergence_db.to_csv(_try_emergence_input_csv)
-    latex_db.to_csv(_try_latex_input_csv)
-    corolla_db.to_csv(_try_corolla_input_csv)
 
-    # Check
-    x = len(emergence_db.index) + len(latex_db.index) + len(corolla_db.index)
-    if x != len(morph_data.index):
-        raise ValueError('Some items have been lost')
 
 
 def get_accepted_info_try_hair_hits():
