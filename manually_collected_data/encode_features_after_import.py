@@ -44,7 +44,7 @@ def clean_activities(given_activity: str) -> str:
 
 def encode_activity(df: pd.DataFrame):
     # If activity is empty, take authors decision
-    df[TARGET_COLUMN] = df[TARGET_COLUMN].fillna(df.Authors_Activity_Label)
+    # df[TARGET_COLUMN] = df[TARGET_COLUMN].fillna(df.Authors_Activity_Label)
     # Standardise activity column
     df[TARGET_COLUMN] = df[TARGET_COLUMN].apply(clean_activities)
     df[TARGET_COLUMN] = df[TARGET_COLUMN].apply(ordinal_encode)
@@ -68,8 +68,8 @@ def encode_features(df: pd.DataFrame) -> pd.DataFrame:
     encode_activity(df)
     replace_yes_no_in_column(df, 'Antimalarial_Use')
     replace_yes_no_in_column(df, 'History_Fever')
-    replace_yes_no_in_column(df, 'Cardenolides')
-    replace_yes_no_in_column(df, 'Steroids')
+    replace_yes_no_in_column(df, 'Tested_for_Alkaloids')
+
 
     return df
 
@@ -80,13 +80,6 @@ def main():
     trait_df.reset_index(inplace=True, drop=True)
 
     out_df = encode_features(trait_df)
-
-    # Ensure all tested samples are labelled
-    problem_df = out_df[(out_df['Activity_Antimalarial'].isna() & ~out_df['Given_Activities'].isna())]
-
-    if len(problem_df.index) > 0:
-        print(problem_df)
-        raise ValueError
 
     # Add source info
     out_df['Source'] = 'Manual'
