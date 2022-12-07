@@ -23,6 +23,10 @@ setup(
         "common_name_vars": ["temp_outputs/WEP (Wiersema 2013)_accepted.csv"]
 
     },
+    install_requires=[
+        "miningtraitdata == 0.1",
+        "automatchnames==0.1"
+    ],
     # *strongly* suggested for sharing
     version='0.1',
     license='MIT',
