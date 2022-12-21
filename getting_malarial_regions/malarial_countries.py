@@ -189,6 +189,9 @@ def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     # change the fontsize
 
     plt.savefig(output_path, dpi=50, bbox_inches='tight')
+    plt.close()
+    plt.cla()
+    plt.clf()
 
 
 def get_tdwg3_codes():
