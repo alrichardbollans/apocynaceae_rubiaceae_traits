@@ -4,7 +4,7 @@
 2,Adenium boehmianum Schinz,Adenium,boehmianum Schinz,,,,,,,,,,Apocynaceae,Adenium boehmianum,Adenium boehmianum,76360-1,76360-1,Species
 3,Adenium multiflorum Klotzsch,Adenium,multiflorum Klotzsch,Yes,Yes,69,,,,,,,Apocynaceae,Adenium multiflorum,Adenium multiflorum,76366-1,76366-1,Species
 4,Adenium obesum (Forssk.) Roem. & Schult.,Adenium,obesum (Forssk.) Roem. & Schult.,,,,,,,,Inactive,91,Apocynaceae,Adenium obesum,Adenium obesum,76369-1,76369-1,Species
-5,Aganosma cymosa (Roxb.) G. Don,Aganosma,cymosa (Roxb.) G. Don,Yes,,143,,,,,,,Apocynaceae,Aganosma cymosa,Aganosma cymosa,76388-1,76388-1,Species
+5,Aganosma cymosa (Roxb.) G. Don,Aganosma,cymosa (Roxb.) G. Don,,,,,,,,,,Apocynaceae,Aganosma cymosa,Aganosma cymosa,76388-1,76388-1,Species
 6,Aganosma heynei (Spreng.) I. M. Turner,Aganosma,heynei (Spreng.) I. M. Turner,Yes,Yes,292,,,Yes,[79],,,Apocynaceae,Aganosma heynei,Aganosma heynei,77125846-1,77125846-1,Species
 7,Alafia barteri Oliv.,Alafia,barteri Oliv.,Yes,Yes,71,Yes,"L, R [71]",,,Active,71,Apocynaceae,Alafia barteri,Alafia barteri,76417-1,76417-1,Species
 8,Alafia caudata Stapf,Alafia,caudata Stapf,Yes,Yes,72,,,,,,,Apocynaceae,Alafia caudata,Alafia caudata,76422-1,76422-1,Species
@@ -47,8 +47,8 @@
 45,Amsonia tomentosa var. tomentosa,Amsonia,tomentosa var. tomentosa,Yes,Yes,75,,,,,,,Apocynaceae,Amsonia tomentosa var. tomentosa,Amsonia tomentosa,76934-1,77167486-1,Variety
 46,Anisopus mannii N. E. Br.,Anisopus,mannii N. E. Br.,Yes,Yes,77,,,,,,,Apocynaceae,Anisopus mannii,Anisopus mannii,93986-1,93986-1,Species
 47,Anodendron affine (Hook. & Arn.) Druve,Anodendron,affine (Hook. & Arn.) Druve,Yes,Yes,"78, 143",,,,,,,Apocynaceae,Anodendron affine,Anodendron affine,77061-1,77061-1,Species
-48,Anodendron oblongifolium Hemsl.,Anodendron,oblongifolium Hemsl.,Yes,,143,,,,,,,Apocynaceae,Anodendron oblongifolium,Anodendron oblongifolium,77077-1,77077-1,Species
-49,Apocynum cannabinum L.,Apocynum,cannabinum L.,Yes,,143,,,,,,,Apocynaceae,Apocynum cannabinum,Apocynum cannabinum,16527-2,16527-2,Species
+48,Anodendron oblongifolium Hemsl.,Anodendron,oblongifolium Hemsl.,,,,,,,,,,Apocynaceae,Anodendron oblongifolium,Anodendron oblongifolium,77077-1,77077-1,Species
+49,Apocynum cannabinum L.,Apocynum,cannabinum L.,,,,,,,,,,Apocynaceae,Apocynum cannabinum,Apocynum cannabinum,16527-2,16527-2,Species
 50,Apocynum venetum subsp. basikurumon (H.Hara) ined.,Apocynum,venetum subsp. basikurumon (H.Hara) ined.,,,,,,,,,,Apocynaceae,Apocynum venetum subsp. basikurumon,Apocynum venetum,77279-1,77190069-1,Subspecies
 51,Apteranthes europaea (Guss.) Murb.,Apteranthes,europaea (Guss.) Murb.,Yes,Yes,96,,,,,,,Apocynaceae,Apteranthes europaea,Apteranthes europaea,94041-1,94041-1,Species
 52,Apteranthes europaea var. judaica (Zohary) Plowes,Apteranthes,europaea var. judaica (Zohary) Plowes,,,,,,,,,,Apocynaceae,Apteranthes europaea var. judaica,Apteranthes europaea,94041-1,986798-1,Variety
@@ -178,8 +178,8 @@
 176,Dyera costulata (Miq.) Hook. F.,Dyera,costulata (Miq.) Hook. F.,Yes,Yes,"KN, 90",,,,,"Active [90, 336]",90/KN/336,Apocynaceae,Dyera costulata,Dyera costulata,78323-1,78323-1,Species
 177,Echites panduratus,Echites,panduratus,Yes,Yes,"143, 282",,,,,,,Apocynaceae,Echites panduratus,Echites panduratus,88698-2,88698-2,Species
 178,Echites umbellatus Jacq.,Echites,umbellatus Jacq.,Yes,Yes,"143, 144, 330",,,,,,,Apocynaceae,Echites umbellatus,Echites umbellatus,78821-1,78821-1,Species
-179,Echites yucatanensis Millsp. ex Standl.,Echites,yucatanensis Millsp. ex Standl.,Yes,,143,,,,,,,Apocynaceae,Echites yucatanensis,Echites yucatanensis,88766-2,88766-2,Species
-180,Epigynum auritum (C.K.Schneid.) Tsiang & P.T.Li,Epigynum,auritum (C.K.Schneid.) Tsiang & P.T.Li,Yes,,143,,,,,,,Apocynaceae,Epigynum auritum,Epigynum auritum,78866-1,78866-1,Species
+179,Echites yucatanensis Millsp. ex Standl.,Echites,yucatanensis Millsp. ex Standl.,,,,,,,,,,Apocynaceae,Echites yucatanensis,Echites yucatanensis,88766-2,88766-2,Species
+180,Epigynum auritum (C.K.Schneid.) Tsiang & P.T.Li,Epigynum,auritum (C.K.Schneid.) Tsiang & P.T.Li,,,,,,,,,,Apocynaceae,Epigynum auritum,Epigynum auritum,78866-1,78866-1,Species
 181,Epigynum cochinchinensis (Pierre) D.J.Middleton,Epigynum,cochinchinensis (Pierre) D.J.Middleton,,,,,,,,,,Apocynaceae,Epigynum cochinchinensis,Epigynum cochinchinensis,977405-1,977405-1,Species
 182,Eucorymbia alba Stapf,Eucorymbia,alba Stapf,Yes,Yes,144,,,,,,,Apocynaceae,Eucorymbia alba,Eucorymbia alba,78988-1,78988-1,Species
 183,Fischeria stellata (Vell.) E. Fourn.,Fischeria,stellata (Vell.) E. Fourn.,Yes,Yes,53,Yes,L [316],,,,,Apocynaceae,Fischeria stellata,Fischeria stellata,97427-1,97427-1,Species
@@ -261,7 +261,7 @@
 259,Landolphia owariensis P. Beauv.,Landolphia,owariensis P. Beauv.,Yes,Yes,190,Yes,L [190],,,Active,190,Apocynaceae,Landolphia owariensis,Landolphia owariensis,79672-1,79672-1,Species
 260,Landolphia uniflora (Stapf) Pichon,Landolphia,uniflora (Stapf) Pichon,Yes,Yes,195,,,,,,,Apocynaceae,Landolphia uniflora,Landolphia uniflora,79721-1,79721-1,Species
 261,Laubertia boissieri A. DC.,Laubertia,boissieri A. DC.,Yes,Yes,144,,,,,,,Apocynaceae,Laubertia boissieri,Laubertia boissieri,324863-2,324863-2,Species
-262,Laubertia contorta (M. Martens & Galeotti) Woodson,Laubertia,contorta (M. Martens & Galeotti) Woodson,Yes,,143,,,,,,,Apocynaceae,Laubertia contorta,Laubertia contorta,1170906-2,1170906-2,Species
+262,Laubertia contorta (M. Martens & Galeotti) Woodson,Laubertia,contorta (M. Martens & Galeotti) Woodson,,,,,,,,,,Apocynaceae,Laubertia contorta,Laubertia contorta,1170906-2,1170906-2,Species
 263,Leptadenia lanceolata (Poir.) Goyder,Leptadenia,lanceolata (Poir.) Goyder,Yes,Yes,"198, 339",Yes,"R, RB [106]",,,,,Apocynaceae,Leptadenia lanceolata,Leptadenia lanceolata,77143808-1,77143808-1,Species
 264,Leptadenia lanceolata var. lanceolata,Leptadenia,lanceolata var. lanceolata,,,,,,,,,,Apocynaceae,Leptadenia lanceolata subsp. lanceolata,Leptadenia lanceolata,77143808-1,77173519-1,Subspecies
 265,Leptadenia madagascariensis Decne.,Leptadenia,madagascariensis Decne.,,,,Yes,A [196],,,Active,196,Apocynaceae,Leptadenia madagascariensis,Leptadenia madagascariensis,98978-1,98978-1,Species
@@ -280,7 +280,7 @@
 278,Mandevilla illustris (Vell.) Woodson,Mandevilla,illustris (Vell.) Woodson,,,,,,,,,,Apocynaceae,Mandevilla illustris,Mandevilla illustris,151981-2,151981-2,Species
 279,Mandevilla pentlandiana (DC.) Woodson,Mandevilla,pentlandiana (DC.) Woodson,,,,,,,,,,Apocynaceae,Mandevilla pentlandiana,Mandevilla pentlandiana,152033-2,152033-2,Species
 280,Mandevilla pohliana (Stadelm.) A.H.Gentry,Mandevilla,pohliana (Stadelm.) A.H.Gentry,,,,,,,,,,Apocynaceae,Mandevilla pohliana,Mandevilla pohliana,280388-2,280388-2,Species
-281,Mandevilla sanderi (Hemsl.),Mandevilla,sanderi (Hemsl.),Yes,,143,,,,,,,Apocynaceae,Mandevilla sanderi,Mandevilla sanderi,152049-2,152049-2,Species
+281,Mandevilla sanderi (Hemsl.),Mandevilla,sanderi (Hemsl.),,,,,,,,,,Apocynaceae,Mandevilla sanderi,Mandevilla sanderi,152049-2,152049-2,Species
 282,Marsdenia cundurango Rchb. f.,Marsdenia,cundurango Rchb. f.,Yes,Yes,205,,,,,,,Apocynaceae,Marsdenia cundurango,Marsdenia cundurango,99126-1,99126-1,Species
 283,Marsdenia edulis S. Watson,Marsdenia,edulis S. Watson,Yes,Yes,154,,,,,,,Apocynaceae,Marsdenia edulis,Marsdenia edulis,153556-2,153556-2,Species
 284,Marsdenia flavescens A.Cunn. ex Hook.,Marsdenia,flavescens A.Cunn. ex Hook.,,,,,,,,,,Apocynaceae,Marsdenia flavescens,Marsdenia flavescens,99150-1,99150-1,Species
@@ -300,7 +300,7 @@
 298,Marsdenia tomentosa C. Morren & Decne.,Marsdenia,tomentosa C. Morren & Decne.,Yes,Yes,"340, 341",,,,,,,Apocynaceae,Marsdenia tomentosa,Marsdenia tomentosa,99328-1,99328-1,Species
 299,Melodinus acutiflorus F. Muell.,Melodinus,acutiflorus F. Muell.,Yes,Yes,211,,,,,,,Apocynaceae,Melodinus acutiflorus,Melodinus acutiflorus,80158-1,80158-1,Species
 300,Melodinus aeneus Baill.,Melodinus,aeneus Baill.,Yes,Yes,210,,,,,,,Apocynaceae,Melodinus aeneus,Melodinus aeneus,80160-1,80160-1,Species
-301,Melodinus angustifolius Hayata,Melodinus,angustifolius Hayata,Yes,,143,,,,,,,Apocynaceae,Melodinus angustifolius,Melodinus angustifolius,80161-1,80161-1,Species
+301,Melodinus angustifolius Hayata,Melodinus,angustifolius Hayata,,,,,,,,,,Apocynaceae,Melodinus angustifolius,Melodinus angustifolius,80161-1,80161-1,Species
 302,Melodinus australis (F. Muell.) Pierre,Melodinus,australis (F. Muell.) Pierre,Yes,Yes,210,,,,,,,Apocynaceae,Melodinus australis,Melodinus australis,80164-1,80164-1,Species
 303,Melodinus axillaris W. T. Wang,Melodinus,axillaris W. T. Wang,Yes,Yes,210,,,,,,,Apocynaceae,Melodinus axillaris,Melodinus axillaris,80166-1,80166-1,Species
 304,Melodinus balansae Baill.,Melodinus,balansae Baill.,Yes,Yes,212,,,,,,,Apocynaceae,Melodinus balansae,Melodinus balansae,80169-1,80169-1,Species
@@ -321,7 +321,7 @@
 319,Ochrosia acuminata Trimen ex Valeton,Ochrosia,acuminata Trimen ex Valeton,Yes,Yes,219,,,,,Active [300],KN/300,Apocynaceae,Ochrosia acuminata,Ochrosia acuminata,80487-1,80487-1,Species
 320,Ochrosia alyxioides Guillaumin,Ochrosia,alyxioides Guillaumin,Yes,Yes,225,,,,,,,Apocynaceae,Ochrosia alyxioides,Ochrosia alyxioides,80488-1,80488-1,Species
 321,Ochrosia borbonica J. F. Gmel.,Ochrosia,borbonica J. F. Gmel.,Yes,Yes,217,,,,,,,Apocynaceae,Ochrosia borbonica,Ochrosia borbonica,80491-1,80491-1,Species
-322,Ochrosia coccinea (Teijsm. & Binn.) Miq.,Ochrosia,coccinea (Teijsm. & Binn.) Miq.,Yes,,143,,,,,,,Apocynaceae,Ochrosia coccinea,Ochrosia coccinea,80495-1,80495-1,Species
+322,Ochrosia coccinea (Teijsm. & Binn.) Miq.,Ochrosia,coccinea (Teijsm. & Binn.) Miq.,,,,,,,,,,Apocynaceae,Ochrosia coccinea,Ochrosia coccinea,80495-1,80495-1,Species
 323,Ochrosia compta K. Schum.,Ochrosia,compta K. Schum.,Yes,Yes,222,,,,,,,Apocynaceae,Ochrosia compta,Ochrosia compta,80497-1,80497-1,Species
 324,Ochrosia elliptica Labill.,Ochrosia,elliptica Labill.,Yes,Yes,216,,,,,Active [300],KN/300,Apocynaceae,Ochrosia elliptica,Ochrosia elliptica,80500-1,80500-1,Species
 325,Ochrosia glomerata (Blume) F. Muell,Ochrosia,glomerata (Blume) F. Muell,,,,,,,,Active,215,Apocynaceae,Ochrosia glomerata,Ochrosia glomerata,77177054-1,77177054-1,Species
@@ -354,7 +354,7 @@
 352,Parsonsia straminea (R. Br.) F. Muell,Parsonsia,straminea (R. Br.) F. Muell,Yes,Yes,"KN, 143, 331",,,,,,,Apocynaceae,Parsonsia straminea,Parsonsia straminea,50061-3,50061-3,Species
 353,Pattalias palustris (Pursh) Fishbein,Pattalias,palustris (Pursh) Fishbein,Yes,Yes,144,,,,,,,Apocynaceae,Pattalias palustris,Pattalias palustris,77174448-1,77174448-1,Species
 354,Pentalinon andrieuxii (Müll. Arg.) B. F. Hansen & Wunderlin,Pentalinon,andrieuxii (Müll. Arg.) B. F. Hansen & Wunderlin,,,,,,,,Inactive,231,Apocynaceae,Pentalinon andrieuxii,Pentalinon andrieuxii,942488-1,942488-1,Species
-355,Pentalinon luteum (L.) B.F.Hansen & Wunderlin,Pentalinon,luteum (L.) B.F.Hansen & Wunderlin,Yes,,143,,,,,,,Apocynaceae,Pentalinon luteum,Pentalinon luteum,942487-1,942487-1,Species
+355,Pentalinon luteum (L.) B.F.Hansen & Wunderlin,Pentalinon,luteum (L.) B.F.Hansen & Wunderlin,,,,,,,,,,Apocynaceae,Pentalinon luteum,Pentalinon luteum,942487-1,942487-1,Species
 356,Pentatropis capensis (L. f.) Bullock,Pentatropis,capensis (L. f.) Bullock,Yes,Yes,119,,,,,,,Apocynaceae,Pentatropis capensis,Pentatropis capensis,100315-1,100315-1,Species
 357,Pentopetia albicans (Jum. & H. Perrier) Klack.,Pentopetia,albicans (Jum. & H. Perrier) Klack.,Yes,No,284,,,,,,,Apocynaceae,Pentopetia albicans,Pentopetia albicans,1011612-1,1011612-1,Species
 358,Pentopetia androsaemifolia Decne.,Pentopetia,androsaemifolia Decne.,,,,,,,,,,Apocynaceae,Pentopetia androsaemifolia,Pentopetia androsaemifolia,100332-1,100332-1,Species
@@ -513,9 +513,9 @@
 511,Thevetia ahouai (L.) Vahl,Thevetia,ahouai (L.) Vahl,,,,,,,,,,Apocynaceae,Thevetia ahouai,Thevetia ahouai,82440-1,82440-1,Species
 512,Trachelospermum asiaticum (Siebold & Zucc.) Nakai,Trachelospermum,asiaticum (Siebold & Zucc.) Nakai,,,,,,Yes,"L, S, R [320]",,,Apocynaceae,Trachelospermum asiaticum,Trachelospermum asiaticum,82528-1,82528-1,Species
 513,Trachelospermum jasminoides (Lindl.) Lem.,Trachelospermum,jasminoides (Lindl.) Lem.,Yes,Yes,262,,,,,,,Apocynaceae,Trachelospermum jasminoides,Trachelospermum jasminoides,82553-1,82553-1,Species
-514,Urceola lucida (Wall. ex Don) Kurz,Urceola,lucida (Wall. ex Don) Kurz,Yes,,143,,,,,,,Apocynaceae,Urceola lucida,Urceola lucida,82592-1,82592-1,Species
+514,Urceola lucida (Wall. ex Don) Kurz,Urceola,lucida (Wall. ex Don) Kurz,,,,,,,,,,Apocynaceae,Urceola lucida,Urceola lucida,82592-1,82592-1,Species
 515,Urceola polymorpha (Pierre ex Spire) D. J. Middleton & Livsh.,Urceola,polymorpha (Pierre ex Spire) D. J. Middleton & Livsh.,Yes,Yes,141,,,,,,,Apocynaceae,Urceola polymorpha,Urceola polymorpha,77186121-1,77186121-1,Species
-516,Urceola rosea (Hook. & Arn.) D.J.,Urceola,rosea (Hook. & Arn.) D.J.,Yes,,143,,,,,,,Apocynaceae,Urceola rosea,Urceola rosea,977799-1,977799-1,Species
+516,Urceola rosea (Hook. & Arn.) D.J.,Urceola,rosea (Hook. & Arn.) D.J.,,,,,,,,,,Apocynaceae,Urceola rosea,Urceola rosea,977799-1,977799-1,Species
 517,Vallaris glabra (L.) Kuntze,Vallaris,glabra (L.) Kuntze,Yes,Yes,90,,,,,Active,90,Apocynaceae,Vallaris glabra,Vallaris glabra,82646-1,82646-1,Species
 518,Vallaris solanacea (Roth) Kuntze,Vallaris,solanacea (Roth) Kuntze,Yes,Yes,263,,,,,,,Apocynaceae,Vallaris solanacea,Vallaris solanacea,82660-1,82660-1,Species
 519,Vallesia glabra (Cav.) Link,Vallesia,glabra (Cav.) Link,Yes,Yes,"KN, 32",Yes,329,,,Active,33,Apocynaceae,Vallesia glabra,Vallesia glabra,82668-1,82668-1,Species
@@ -533,7 +533,7 @@
 531,Vincetoxicum dalzellii (Hook. f.) Kuntze,Vincetoxicum,dalzellii (Hook. f.) Kuntze,Yes,Yes,289,,,,,,,Apocynaceae,Vincetoxicum dalzellii,Vincetoxicum dalzellii,102744-1,102744-1,Species
 532,Vincetoxicum forrestii (Schltr.) C. Y. Wu & D. Z. Li,Vincetoxicum,forrestii (Schltr.) C. Y. Wu & D. Z. Li,Yes,Yes,133,,,,,,,Apocynaceae,Vincetoxicum forrestii,Vincetoxicum forrestii,946558-1,946558-1,Species
 533,Vincetoxicum glaucescens (Decne.) C.Y.Wu & D.Z.Li,Vincetoxicum,glaucescens (Decne.) C.Y.Wu & D.Z.Li,,,,,,,,,,Apocynaceae,Vincetoxicum glaucescens,Vincetoxicum glaucescens,946566-1,946566-1,Species
-534,Vincetoxicum hirsutum (Wall.) Kuntze,Vincetoxicum,hirsutum (Wall.) Kuntze,Yes,,143,,,,,,,Apocynaceae,Vincetoxicum hirsutum,Vincetoxicum hirsutum,102807-1,102807-1,Species
+534,Vincetoxicum hirsutum (Wall.) Kuntze,Vincetoxicum,hirsutum (Wall.) Kuntze,,,,,,,,,,Apocynaceae,Vincetoxicum hirsutum,Vincetoxicum hirsutum,102807-1,102807-1,Species
 535,Vincetoxicum hirundinaria Medik.,Vincetoxicum,hirundinaria Medik.,Yes,Yes,80,,,,,,,Apocynaceae,Vincetoxicum hirundinaria,Vincetoxicum hirundinaria,102810-1,102810-1,Species
 536,Vincetoxicum mongolicum Maxim.,Vincetoxicum,mongolicum Maxim.,Yes,Yes,129,,,,,,,Apocynaceae,Vincetoxicum mongolicum,Vincetoxicum mongolicum,102881-1,102881-1,Species
 537,Vincetoxicum mukdenense Kitag.,Vincetoxicum,mukdenense Kitag.,Yes,Yes,130,Yes,[136],,,,,Apocynaceae,Vincetoxicum mukdenense,Vincetoxicum mukdenense,102886-1,102886-1,Species
