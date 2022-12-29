@@ -23,9 +23,11 @@ if not os.path.isdir(_output_path):
 world_bank_parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Angola': ['ANG'],
                                'Argentina': ['AGE', 'AGS', 'AGW'],
                                'Armenia': ['TCS'],
-                               'Azerbaijan': ['TCS'], 'Bangladesh': ['BAN'], 'Belize': ['BLZ'], 'Benin': ['BEN'],
+                               'Azerbaijan': ['TCS'], 'Bangladesh': ['BAN'], 'Belize': ['BLZ'],
+                               'Benin': ['BEN'],
                                'Bhutan': ['EHM'],
-                               'Bolivia': ['BOL'], 'Botswana': ['BOT'], 'Brazil': ['BZC', 'BZE', 'BZL', 'BZN', 'BZS'],
+                               'Bolivia': ['BOL'], 'Botswana': ['BOT'],
+                               'Brazil': ['BZC', 'BZE', 'BZL', 'BZN', 'BZS'],
                                'Burkina Faso': ['BKN'], 'Burundi': ['BUR'],
                                'Cabo Verde': ['CVI'], 'Cambodia': ['CBD'], 'Cameroon': ['CMN'],
                                'Central African Republic': ['CAF'],
@@ -52,12 +54,14 @@ world_bank_parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Ango
                                'Malawi': ['MLW'], 'Malaysia': ['MLY'], 'Mali': ['MLI'], 'Mauritania': ['MTN'],
                                'Mexico': ['MXC', 'MXE', 'MXG', 'MXI', 'MXN', 'MXS', 'MXT'],
                                'Morocco': ['MOR'],
-                               'Mozambique': ['MOZ'], 'Myanmar': ['MYA'], 'Namibia': ['NAM'], 'Nepal': ['NEP'],
+                               'Mozambique': ['MOZ'], 'Myanmar': ['MYA'], 'Namibia': ['NAM'],
+                               'Nepal': ['NEP'],
                                'Nicaragua': ['NIC'],
                                'Niger': ['NGR'],
                                'Nigeria': ['NGA'], 'Oman': ['OMA'], 'Pakistan': ['PAK'], 'Panama': ['PAN'],
                                'Papua New Guinea': ['NWG'],
-                               'Paraguay': ['PAR'], 'Peru': ['PER'], 'Philippines': ['PHI'], 'Rwanda': ['RWA'],
+                               'Paraguay': ['PAR'], 'Peru': ['PER'], 'Philippines': ['PHI'],
+                               'Rwanda': ['RWA'],
                                'Sao Tome and Principe': ['GGI'],
                                'Saudi Arabia': ['SAU'], 'Senegal': ['SEN'], 'Sierra Leone': ['SIE'],
                                'Solomon Islands': ['SOL'],
@@ -68,9 +72,11 @@ world_bank_parsed_code_dict = {'Afghanistan': ['AFG'], 'Algeria': ['ALG'], 'Ango
                                'Suriname': ['SUR'],
                                'Syrian Arab Republic': ['LBS'], 'Tajikistan': ['TZK'], 'Tanzania': ['TAN'],
                                'Thailand': ['THA'],
-                               'Timor-Leste': ['LSI'], 'Togo': ['TOG'], 'Turkey': ['TUR'], 'Turkmenistan': ['TKM'],
+                               'Timor-Leste': ['LSI'], 'Togo': ['TOG'], 'Turkey': ['TUR'],
+                               'Turkmenistan': ['TKM'],
                                'Uganda': ['UGA'],
-                               'Uzbekistan': ['UZB'], 'Vanuatu': ['VAN'], 'Venezuela, RB': ['VEN'], 'Vietnam': ['VIE'],
+                               'Uzbekistan': ['UZB'], 'Vanuatu': ['VAN'], 'Venezuela, RB': ['VEN'],
+                               'Vietnam': ['VIE'],
                                'Yemen, Rep.': ['YEM'],
                                'Zambia': ['ZAM'], 'Zimbabwe': ['ZIM'], 'Kazakhstan': ['KAZ'],
                                'United Arab Emirates': ['GST']}
@@ -188,7 +194,7 @@ def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
     plt.tight_layout()
     # change the fontsize
 
-    plt.savefig(output_path, dpi=50, bbox_inches='tight')
+    plt.savefig(output_path, dpi=400, bbox_inches='tight')
     plt.close()
     plt.cla()
     plt.clf()
