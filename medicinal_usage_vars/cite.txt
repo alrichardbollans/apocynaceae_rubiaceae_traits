@@ -7,6 +7,5 @@ Internet; http://www.plantsoftheworldonline.org/
 Accessed 07/02/2022
 
 POWO Search terms.
-Medicinal: 'medicinal', 'medication', 'medicine', 'therapeutic', 'healing', 'cure', 'drug', 'antibiotic', 'antiviral',
-'antibacterial'
+Medicinal: 'medicinal', 'medication', 'medicine'
 Antimalarial: 'antimalarial', 'malaria'
