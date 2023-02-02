@@ -97,7 +97,6 @@ def prepare_MPNS_common_names(families_of_interest: List[str] = None) -> pd.Data
 
     mpns_df['non_sci_name'] = mpns_df.groupby(['taxon_name'])['non_sci_name'].transform(lambda x: ':'.join(x))
     mpns_df = mpns_df.drop_duplicates()
-    mpns_df.rename(columns={'non_sci_name': 'MPNS_Snippet'}, inplace=True)
 
     accepted_mpns_df = get_accepted_info_from_names_in_column(mpns_df, 'taxon_name',
                                                               families_of_interest=families_of_interest)

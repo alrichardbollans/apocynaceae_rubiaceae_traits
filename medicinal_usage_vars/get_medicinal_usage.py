@@ -52,7 +52,6 @@ def prepare_MPNS_data(families_of_interest=None) -> pd.DataFrame:
 
     accepted_mpns_df = accepted_mpns_df.dropna(subset=['Accepted_Name'])
     accepted_mpns_df['Source'] = 'MPNS'
-    accepted_mpns_df['MPNS_snippet'] = accepted_mpns_df['taxon_name'].astype(str)
     accepted_mpns_df.to_csv(_cleaned_MPNS_accepted_csv)
 
     return accepted_mpns_df
