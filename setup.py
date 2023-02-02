@@ -20,6 +20,7 @@ setup(
     package_data={
         "": ["outputs/*"],
         "morphological_vars": ["temp_outputs/*"],
+        "large_file_storage": ["temp_outputs/*"],
         "common_name_vars": ["temp_outputs/WEP (Wiersema 2013)_accepted.csv"]
 
     },
