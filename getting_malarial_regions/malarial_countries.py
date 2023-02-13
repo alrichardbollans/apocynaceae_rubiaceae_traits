@@ -147,59 +147,6 @@ def get_WHO_codes():
     return region_codes
 
 
-def plot_countries(tdwg3_region_codes: List[str], title: str, output_path: str):
-    import matplotlib.pyplot as plt
-    import cartopy.crs as ccrs
-    import cartopy.feature as cfeature
-    import cartopy.io.shapereader as shpreader
-
-    tdwg3_shp = shpreader.Reader(
-        os.path.join(_inputs_path, 'wgsrpd-master', 'level3', 'level3.shp'))
-
-    print('plotting countries')
-
-    plt.figure(figsize=(40, 25))
-    # plt.xlim(-210, 210)
-    # plt.ylim(-70, 90)
-    # plt.xticks(fontsize=30)
-    # plt.yticks(fontsize=30)
-    # plt.title(title, fontsize=40)
-    ax = plt.axes(projection=ccrs.PlateCarree())
-    ax.coastlines(resolution='10m')
-    ax.add_feature(cfeature.BORDERS, linewidth=5)
-    for country in tdwg3_shp.records():
-        tdwg_code = country.attributes['LEVEL3_COD']
-        if tdwg_code in tdwg3_region_codes:
-
-            # print(country.attributes['name_long'], next(earth_colors))
-            ax.add_geometries([country.geometry], ccrs.PlateCarree(),
-                              facecolor='orange',
-                              label=tdwg_code)
-
-            x = country.geometry.centroid.x
-            y = country.geometry.centroid.y
-
-            ax.text(x, y, tdwg_code, color='black', size=10, ha='center', va='center',
-                    transform=ccrs.PlateCarree())
-        else:
-            # print(f"code not in given malarial isocodes: {tdwg_code}")
-            ax.add_geometries([country.geometry], ccrs.PlateCarree(),
-                              facecolor='white',
-                              label=tdwg_code)
-
-    all_map_isos = [country.attributes['LEVEL3_COD'] for country in tdwg3_shp.records()]
-    missed_names = [x for x in tdwg3_region_codes if x not in all_map_isos]
-    print(f'iso codes not plotted on map: {missed_names}')
-    # plt.show()
-    plt.tight_layout()
-    # change the fontsize
-
-    plt.savefig(output_path, dpi=400, bbox_inches='tight')
-    plt.close()
-    plt.cla()
-    plt.clf()
-
-
 def get_tdwg3_codes():
     world_bank_codes = get_world_bank_tdwg_codes()
 
@@ -229,10 +176,3 @@ def get_tdwg3_codes():
     code_df.to_csv(malaria_country_codes_csv)
 
     return iso_3_codes
-
-
-if __name__ == '__main__':
-    # get_WHO_codes()
-    # print_world_bank_countries()
-    codes = get_tdwg3_codes()
-    plot_countries(codes, 'Historical Malarial Regions', os.path.join(_output_path, 'malarial_countries.png'))
